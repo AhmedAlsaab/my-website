@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_001",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_001_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_001_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_001_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What is your dream job?",
+				"id": "a1_paper_001_pi_q_1"
+			},
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_001_pi_q_2"
+			},
+			{
+				"text": "What do you do when it rains?",
+				"id": "a1_paper_001_pi_q_3"
+			},
+			{
+				"text": "What is your favorite thing to do in nature?",
+				"id": "a1_paper_001_pi_q_4"
+			},
+			{
+				"text": "What do you like to eat?",
+				"id": "a1_paper_001_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You are in a clothing shop. You see a shirt.",
+				"id": "a1_paper_001_s_resp_1"
+			},
+			{
+				"role_context": "Shop assistant",
+				"starter_line": "Do you need help finding something?",
+				"description": "You are in a shop.",
+				"id": "a1_paper_001_s_resp_2"
+			},
+			{
+				"role_context": "Friend",
+				"starter_line": "Happy birthday! Are you having a party?",
+				"description": "You meet your friend on their birthday.",
+				"id": "a1_paper_001_s_resp_3"
+			},
+			{
+				"role_context": "café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. You can choose a drink.",
+				"id": "a1_paper_001_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are in class. You want to ask your teacher a question. ..",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_001_s_ask_1"
+			},
+			{
+				"instruction": "You are at school. Ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_001_s_ask_2"
+			},
+			{
+				"instruction": "You are at a store. Ask the cashier for the price of a toy.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_001_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_001_ls",
+		"text": "I go to the beach. The sun is bright. I swim in the sea. I build sandcastles. I like to relax on the sand.",
+		"questions": [
+			{
+				"question": "What do you do at the beach?",
+				"answer": "I swim and build sandcastles.",
+				"id": "a1_paper_001_ls_q_1"
+			},
+			{
+				"question": "When do you go to the beach?",
+				"answer": "In the summer.",
+				"id": "a1_paper_001_ls_q_2"
+			},
+			{
+				"question": "Where do you go?",
+				"answer": "I go to the beach.",
+				"id": "a1_paper_001_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_001_mono",
+		"topic": "Talk about your dinner",
+		"follow_up_questions": [
+			{
+				"question": "What did you eat for dinner?",
+				"id": "a1_paper_001_mono_q_1"
+			},
+			{
+				"question": "When do you usually eat dinner?",
+				"id": "a1_paper_001_mono_q_2"
+			},
+			{
+				"question": "Where do you eat dinner?",
+				"id": "a1_paper_001_mono_q_3"
+			},
+			{
+				"question": "Do you cook dinner yourself?",
+				"id": "a1_paper_001_mono_q_4"
+			}
+		]
+	},
+	"uuid": "89c75fd0-5dbf-4776-8993-e96286a02aa0"
+}

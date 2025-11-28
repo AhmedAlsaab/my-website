@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_062",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_062_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_062_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_062_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What do you like to do on a cold day?",
+				"id": "a1_paper_062_pi_q_1"
+			},
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_062_pi_q_2"
+			},
+			{
+				"text": "Can you ride a bike?",
+				"id": "a1_paper_062_pi_q_3"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_062_pi_q_4"
+			},
+			{
+				"text": "Do you like to play video games?",
+				"id": "a1_paper_062_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Friend",
+				"starter_line": "What is your favorite game?",
+				"description": "You are talking about games.",
+				"id": "a1_paper_062_s_resp_1"
+			},
+			{
+				"role_context": "At a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You are in a shop. You see a shirt and ask the price.",
+				"id": "a1_paper_062_s_resp_2"
+			},
+			{
+				"role_context": "At a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. The server asks you for your drink.",
+				"id": "a1_paper_062_s_resp_3"
+			},
+			{
+				"role_context": "Parent",
+				"starter_line": "What do you want to watch?",
+				"description": "You are at home.",
+				"id": "a1_paper_062_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are shopping. Ask the shopkeeper for the price of a shirt.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_062_s_ask_1"
+			},
+			{
+				"instruction": "You are at school. Ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_062_s_ask_2"
+			},
+			{
+				"instruction": "You want to ask about a movie. You ask your friend. ..",
+				"expected_function": "asking_for_information",
+				"id": "a1_paper_062_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_062_ls",
+		"text": "I cook simple food. I like to make rice. I also make eggs. Cooking is fun. I cook every day.",
+		"questions": [
+			{
+				"question": "What do you cook?",
+				"answer": "simple food",
+				"id": "a1_paper_062_ls_q_1"
+			},
+			{
+				"question": "When do you cook?",
+				"answer": "every day",
+				"id": "a1_paper_062_ls_q_2"
+			},
+			{
+				"question": "Who likes to cook?",
+				"answer": "I",
+				"id": "a1_paper_062_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_062_mono",
+		"topic": "Talk about your favourite music",
+		"follow_up_questions": [
+			{
+				"question": "What is your favorite song?",
+				"id": "a1_paper_062_mono_q_1"
+			},
+			{
+				"question": "When do you listen to music?",
+				"id": "a1_paper_062_mono_q_2"
+			},
+			{
+				"question": "Where do you listen to music?",
+				"id": "a1_paper_062_mono_q_3"
+			},
+			{
+				"question": "Who is your favorite singer?",
+				"id": "a1_paper_062_mono_q_4"
+			}
+		]
+	},
+	"uuid": "17870b44-12ad-4e4a-b1f2-bb11eac01fd2"
+}

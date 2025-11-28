@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_022",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_022_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_022_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_022_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "Where do you play with your friends?",
+				"id": "a1_paper_022_pi_q_1"
+			},
+			{
+				"text": "Do you have brothers or sisters?",
+				"id": "a1_paper_022_pi_q_2"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_022_pi_q_3"
+			},
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_022_pi_q_4"
+			},
+			{
+				"text": "What is your favorite family activity?",
+				"id": "a1_paper_022_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Café staff",
+				"starter_line": "What would you like to drink?",
+				"description": "You are at a café.",
+				"id": "a1_paper_022_s_resp_1"
+			},
+			{
+				"role_context": "Bus driver",
+				"starter_line": "Next stop is the park.",
+				"description": "You are on the bus.",
+				"id": "a1_paper_022_s_resp_2"
+			},
+			{
+				"role_context": "At a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You are in a clothing store. You see a shirt you like.",
+				"id": "a1_paper_022_s_resp_3"
+			},
+			{
+				"role_context": "In a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. You need to order a drink.",
+				"id": "a1_paper_022_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are at a park. You want to ask someone to take a photo. ..",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_022_s_ask_1"
+			},
+			{
+				"instruction": "You are at school. Ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_022_s_ask_2"
+			},
+			{
+				"instruction": "You are shopping. Ask the shopkeeper for the price of a shirt.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_022_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_022_ls",
+		"text": "I like to go swimming. I swim in the pool. The water is cool. I go with my friends. We have fun together.",
+		"questions": [
+			{
+				"question": "What do I like?",
+				"answer": "Swimming",
+				"id": "a1_paper_022_ls_q_1"
+			},
+			{
+				"question": "When do I go swimming?",
+				"answer": "With my friends",
+				"id": "a1_paper_022_ls_q_2"
+			},
+			{
+				"question": "Where do I swim?",
+				"answer": "In the pool",
+				"id": "a1_paper_022_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_022_mono",
+		"topic": "Talk about your town or city",
+		"follow_up_questions": [
+			{
+				"question": "What is the name of your town?",
+				"id": "a1_paper_022_mono_q_1"
+			},
+			{
+				"question": "Where is your town located?",
+				"id": "a1_paper_022_mono_q_2"
+			},
+			{
+				"question": "What do you like about your town?",
+				"id": "a1_paper_022_mono_q_3"
+			},
+			{
+				"question": "Who do you live with in your town?",
+				"id": "a1_paper_022_mono_q_4"
+			}
+		]
+	},
+	"uuid": "0459d030-91c0-4462-9996-159bbed2e6fe"
+}

@@ -1,0 +1,140 @@
+{
+	"id": "a1_paper_087",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_087_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_087_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_087_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What do you wear to school?",
+				"id": "a1_paper_087_pi_q_1"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_087_pi_q_2"
+			},
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_087_pi_q_3"
+			},
+			{
+				"text": "Who do you admire?",
+				"id": "a1_paper_087_pi_q_4"
+			},
+			{
+				"text": "Tell me about your family.",
+				"id": "a1_paper_087_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. The server asks you.",
+				"id": "a1_paper_087_s_resp_1"
+			},
+			{
+				"role_context": "Friend",
+				"starter_line": "What is your favorite game?",
+				"description": "You are talking about games.",
+				"id": "a1_paper_087_s_resp_2"
+			},
+			{
+				"role_context": "Friend",
+				"starter_line": "Do you want to watch a movie?",
+				"description": "You are at home together.",
+				"id": "a1_paper_087_s_resp_3"
+			},
+			{
+				"role_context": "shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You are in a clothing shop. A customer asks you.",
+				"id": "a1_paper_087_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You want to buy a toy. Ask the shopkeeper where the toys are.",
+				"expected_function": "asking_for_directions",
+				"id": "a1_paper_087_s_ask_1"
+			},
+			{
+				"instruction": "You see your friend with a big book. Ask your friend about the book.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_087_s_ask_2"
+			},
+			{
+				"instruction": "You want to ask about a school trip. You ask your teacher. ..",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_087_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_087_ls",
+		"text": "I walk in the park. The park is green. There are many trees. I see birds and flowers. I feel happy.",
+		"questions": [
+			{
+				"question": "What do I do in the park?",
+				"answer": "I walk",
+				"id": "a1_paper_087_ls_q_1"
+			},
+			{
+				"question": "When do I walk?",
+				"answer": "In the park",
+				"id": "a1_paper_087_ls_q_2"
+			},
+			{
+				"question": "Where are the trees?",
+				"answer": "In the park",
+				"id": "a1_paper_087_ls_q_3"
+			},
+			{
+				"question": "Why do I feel happy?",
+				"answer": "It is nice",
+				"id": "a1_paper_087_ls_q_4"
+			},
+			{
+				"question": "Who sees birds?",
+				"answer": "I",
+				"id": "a1_paper_087_ls_q_5"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_087_mono",
+		"topic": "Talk about things you do with friends",
+		"follow_up_questions": [
+			{
+				"question": "What do you like to do with friends?",
+				"id": "a1_paper_087_mono_q_1"
+			},
+			{
+				"question": "Where do you go with your friends?",
+				"id": "a1_paper_087_mono_q_2"
+			},
+			{
+				"question": "When do you see your friends?",
+				"id": "a1_paper_087_mono_q_3"
+			},
+			{
+				"question": "Who is your best friend?",
+				"id": "a1_paper_087_mono_q_4"
+			}
+		]
+	},
+	"uuid": "8895c364-a4ff-4a00-a88a-57eb3b0da6ea"
+}

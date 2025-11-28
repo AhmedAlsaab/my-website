@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_010",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_010_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_010_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_010_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What do you wear in winter?",
+				"id": "a1_paper_010_pi_q_1"
+			},
+			{
+				"text": "Do you like animals?",
+				"id": "a1_paper_010_pi_q_2"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_010_pi_q_3"
+			},
+			{
+				"text": "What is your favorite breakfast food?",
+				"id": "a1_paper_010_pi_q_4"
+			},
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_010_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You are in a shop. You want to ask about a shirt.",
+				"id": "a1_paper_010_s_resp_1"
+			},
+			{
+				"role_context": "café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. You need to order a drink.",
+				"id": "a1_paper_010_s_resp_2"
+			},
+			{
+				"role_context": "Teacher",
+				"starter_line": "What is your homework?",
+				"description": "You are in class.",
+				"id": "a1_paper_010_s_resp_3"
+			},
+			{
+				"role_context": "Café staff",
+				"starter_line": "Would you like coffee or tea?",
+				"description": "You are ordering drinks.",
+				"id": "a1_paper_010_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are at school. Ask a friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_010_s_ask_1"
+			},
+			{
+				"instruction": "You want to ask a stranger for the time. ..",
+				"expected_function": "asking_for_information",
+				"id": "a1_paper_010_s_ask_2"
+			},
+			{
+				"instruction": "You are shopping. Ask the shopkeeper for the price of a shirt.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_010_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_010_ls",
+		"text": "I go to the doctor. I feel sick. The doctor helps me. I tell the doctor my problems. I take medicine to feel better.",
+		"questions": [
+			{
+				"question": "What do I do?",
+				"answer": "I go to the doctor.",
+				"id": "a1_paper_010_ls_q_1"
+			},
+			{
+				"question": "When do I go?",
+				"answer": "When I feel sick.",
+				"id": "a1_paper_010_ls_q_2"
+			},
+			{
+				"question": "Who helps me?",
+				"answer": "The doctor.",
+				"id": "a1_paper_010_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_010_mono",
+		"topic": "Talk about your pets",
+		"follow_up_questions": [
+			{
+				"question": "What is your pet's name?",
+				"id": "a1_paper_010_mono_q_1"
+			},
+			{
+				"question": "How old is your pet?",
+				"id": "a1_paper_010_mono_q_2"
+			},
+			{
+				"question": "Where does your pet sleep?",
+				"id": "a1_paper_010_mono_q_3"
+			},
+			{
+				"question": "Do you play with your pet?",
+				"id": "a1_paper_010_mono_q_4"
+			}
+		]
+	},
+	"uuid": "616edf63-1dbd-46d7-8e30-2142876ac49c"
+}

@@ -1,0 +1,140 @@
+{
+	"id": "a1_paper_045",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_045_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_045_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_045_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What do you wish to learn in school?",
+				"id": "a1_paper_045_pi_q_1"
+			},
+			{
+				"text": "What do you like to do with your friends?",
+				"id": "a1_paper_045_pi_q_2"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_045_pi_q_3"
+			},
+			{
+				"text": "What is your favorite breakfast food?",
+				"id": "a1_paper_045_pi_q_4"
+			},
+			{
+				"text": "Where do you go to school?",
+				"id": "a1_paper_045_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You are at a shop. Ask about a shirt.",
+				"id": "a1_paper_045_s_resp_1"
+			},
+			{
+				"role_context": "Shop assistant",
+				"starter_line": "Is that all?",
+				"description": "You are paying for items.",
+				"id": "a1_paper_045_s_resp_2"
+			},
+			{
+				"role_context": "Café staff",
+				"starter_line": "What would you like to drink?",
+				"description": "You are at a café.",
+				"id": "a1_paper_045_s_resp_3"
+			},
+			{
+				"role_context": "a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. Choose a drink.",
+				"id": "a1_paper_045_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are at a store. Ask the clerk for the price of a shirt.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_045_s_ask_1"
+			},
+			{
+				"instruction": "You are at school. Ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_045_s_ask_2"
+			},
+			{
+				"instruction": "You want to ask a friend about their favorite food. ..",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_045_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_045_ls",
+		"text": "I play video games. I play with friends. We play on the weekend. My favorite game is soccer. It is fun and exciting.",
+		"questions": [
+			{
+				"question": "What do I play?",
+				"answer": "video games",
+				"id": "a1_paper_045_ls_q_1"
+			},
+			{
+				"question": "When do I play?",
+				"answer": "on the weekend",
+				"id": "a1_paper_045_ls_q_2"
+			},
+			{
+				"question": "Who do I play with?",
+				"answer": "friends",
+				"id": "a1_paper_045_ls_q_3"
+			},
+			{
+				"question": "What is my favorite game?",
+				"answer": "soccer",
+				"id": "a1_paper_045_ls_q_4"
+			},
+			{
+				"question": "How is it?",
+				"answer": "fun and exciting",
+				"id": "a1_paper_045_ls_q_5"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_045_mono",
+		"topic": "Talk about your favourite subject at school",
+		"follow_up_questions": [
+			{
+				"question": "What is your favorite subject?",
+				"id": "a1_paper_045_mono_q_1"
+			},
+			{
+				"question": "Why do you like this subject?",
+				"id": "a1_paper_045_mono_q_2"
+			},
+			{
+				"question": "Who is your teacher for this subject?",
+				"id": "a1_paper_045_mono_q_3"
+			},
+			{
+				"question": "When do you have this subject?",
+				"id": "a1_paper_045_mono_q_4"
+			}
+		]
+	},
+	"uuid": "c1a6b7c0-4de5-40d9-a18e-55dee69553c5"
+}

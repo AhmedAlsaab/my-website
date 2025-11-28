@@ -1,0 +1,140 @@
+{
+	"id": "a1_paper_069",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_069_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_069_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_069_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_069_pi_q_1"
+			},
+			{
+				"text": "Who do you admire?",
+				"id": "a1_paper_069_pi_q_2"
+			},
+			{
+				"text": "What sport do you play?",
+				"id": "a1_paper_069_pi_q_3"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_069_pi_q_4"
+			},
+			{
+				"text": "What is your favorite subject in school?",
+				"id": "a1_paper_069_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Library staff",
+				"starter_line": "What book do you want?",
+				"description": "You are in a library.",
+				"id": "a1_paper_069_s_resp_1"
+			},
+			{
+				"role_context": "At a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You are in a clothing shop. You want to buy a shirt.",
+				"id": "a1_paper_069_s_resp_2"
+			},
+			{
+				"role_context": "Friend",
+				"starter_line": "What is your favorite game?",
+				"description": "You are talking about games.",
+				"id": "a1_paper_069_s_resp_3"
+			},
+			{
+				"role_context": "In a café",
+				"starter_line": "What would you like to drink?",
+				"description": "You are at a café. The waiter asks for your order.",
+				"id": "a1_paper_069_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are shopping. Ask the shopkeeper for the price of a shirt.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_069_s_ask_1"
+			},
+			{
+				"instruction": "You are at school. Ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_069_s_ask_2"
+			},
+			{
+				"instruction": "You want to ask about a school trip. You ask your teacher. ..",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_069_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_069_ls",
+		"text": "I go to the beach. The sun is bright. I swim in the sea. I build sandcastles. I eat ice cream. It is fun.",
+		"questions": [
+			{
+				"question": "What do you do at the beach?",
+				"answer": "Swim in the sea",
+				"id": "a1_paper_069_ls_q_1"
+			},
+			{
+				"question": "When do you go to the beach?",
+				"answer": "In summer",
+				"id": "a1_paper_069_ls_q_2"
+			},
+			{
+				"question": "Where do you swim?",
+				"answer": "In the sea",
+				"id": "a1_paper_069_ls_q_3"
+			},
+			{
+				"question": "Why is it fun?",
+				"answer": "It is sunny",
+				"id": "a1_paper_069_ls_q_4"
+			},
+			{
+				"question": "Who goes to the beach?",
+				"answer": "I go",
+				"id": "a1_paper_069_ls_q_5"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_069_mono",
+		"topic": "Talk about how you travel to school",
+		"follow_up_questions": [
+			{
+				"question": "How do you go to school?",
+				"id": "a1_paper_069_mono_q_1"
+			},
+			{
+				"question": "What time do you leave home?",
+				"id": "a1_paper_069_mono_q_2"
+			},
+			{
+				"question": "Where is your school?",
+				"id": "a1_paper_069_mono_q_3"
+			},
+			{
+				"question": "Do you walk or take a bus?",
+				"id": "a1_paper_069_mono_q_4"
+			}
+		]
+	},
+	"uuid": "7875d93f-4a67-4b30-a544-31f5b142b7e9"
+}

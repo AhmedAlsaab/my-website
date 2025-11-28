@@ -1,0 +1,135 @@
+{
+	"id": "a1_paper_090",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_090_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_090_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_090_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What do you do with your family?",
+				"id": "a1_paper_090_pi_q_1"
+			},
+			{
+				"text": "Who is in your family?",
+				"id": "a1_paper_090_pi_q_2"
+			},
+			{
+				"text": "What is your favorite restaurant?",
+				"id": "a1_paper_090_pi_q_3"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_090_pi_q_4"
+			},
+			{
+				"text": "Can you swim?",
+				"id": "a1_paper_090_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You are in a shop. You see a shirt.",
+				"id": "a1_paper_090_s_resp_1"
+			},
+			{
+				"role_context": "Shop assistant",
+				"starter_line": "Do you need help finding something?",
+				"description": "You are in a shop.",
+				"id": "a1_paper_090_s_resp_2"
+			},
+			{
+				"role_context": "a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. You choose a drink.",
+				"id": "a1_paper_090_s_resp_3"
+			},
+			{
+				"role_context": "Friend",
+				"starter_line": "What is your favorite game?",
+				"description": "You are talking about games.",
+				"id": "a1_paper_090_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are in a shop. Ask the shopkeeper for the price of a toy.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_090_s_ask_1"
+			},
+			{
+				"instruction": "You are at a friend's house. You want to ask for a snack. ..",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_090_s_ask_2"
+			},
+			{
+				"instruction": "You are at school. Ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_090_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_090_ls",
+		"text": "I do my homework after school. It is important for learning. I sit at my desk. I use a pencil and paper. I ask my teacher if I need help.",
+		"questions": [
+			{
+				"question": "What do I do after school?",
+				"answer": "I do my homework.",
+				"id": "a1_paper_090_ls_q_1"
+			},
+			{
+				"question": "Why is homework important?",
+				"answer": "For learning.",
+				"id": "a1_paper_090_ls_q_2"
+			},
+			{
+				"question": "Where do I sit?",
+				"answer": "At my desk.",
+				"id": "a1_paper_090_ls_q_3"
+			},
+			{
+				"question": "Who do I ask for help?",
+				"answer": "My teacher.",
+				"id": "a1_paper_090_ls_q_4"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_090_mono",
+		"topic": "Talk about your town or city",
+		"follow_up_questions": [
+			{
+				"question": "What is the name of your town?",
+				"id": "a1_paper_090_mono_q_1"
+			},
+			{
+				"question": "Where is your town located?",
+				"id": "a1_paper_090_mono_q_2"
+			},
+			{
+				"question": "What do you like about your town?",
+				"id": "a1_paper_090_mono_q_3"
+			},
+			{
+				"question": "Do you have friends in your town?",
+				"id": "a1_paper_090_mono_q_4"
+			}
+		]
+	},
+	"uuid": "2c50807f-bd8e-4d72-b527-32b7107ce25c"
+}

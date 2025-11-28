@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_098",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_098_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_098_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_098_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What is your favorite way to spend time with family?",
+				"id": "a1_paper_098_pi_q_1"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_098_pi_q_2"
+			},
+			{
+				"text": "What music do you like?",
+				"id": "a1_paper_098_pi_q_3"
+			},
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_098_pi_q_4"
+			},
+			{
+				"text": "Where do you want to go this year?",
+				"id": "a1_paper_098_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Teacher",
+				"starter_line": "What is your favorite subject?",
+				"description": "You are in class.",
+				"id": "a1_paper_098_s_resp_1"
+			},
+			{
+				"role_context": "Café staff",
+				"starter_line": "What do you want to eat?",
+				"description": "You are ordering food.",
+				"id": "a1_paper_098_s_resp_2"
+			},
+			{
+				"role_context": "At a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You are buying a shirt. You want to know the price.",
+				"id": "a1_paper_098_s_resp_3"
+			},
+			{
+				"role_context": "In a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are in a café. You can choose a drink.",
+				"id": "a1_paper_098_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "At a store, ask the cashier for the price of an item.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_098_s_ask_1"
+			},
+			{
+				"instruction": "At school, ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_098_s_ask_2"
+			},
+			{
+				"instruction": "You want to invite your friends to a birthday party. ..",
+				"expected_function": "making_suggestion",
+				"id": "a1_paper_098_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_098_ls",
+		"text": "I take photos with my phone. I like to take selfies. I also take pictures of my friends. We smile and have fun. Photos help us remember nice times.",
+		"questions": [
+			{
+				"question": "What do I take photos with?",
+				"answer": "My phone",
+				"id": "a1_paper_098_ls_q_1"
+			},
+			{
+				"question": "When do I take selfies?",
+				"answer": "When I am happy",
+				"id": "a1_paper_098_ls_q_2"
+			},
+			{
+				"question": "Who do I take pictures of?",
+				"answer": "My friends",
+				"id": "a1_paper_098_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_098_mono",
+		"topic": "Talk about your favourite room",
+		"follow_up_questions": [
+			{
+				"question": "What is your favourite room?",
+				"id": "a1_paper_098_mono_q_1"
+			},
+			{
+				"question": "Why do you like this room?",
+				"id": "a1_paper_098_mono_q_2"
+			},
+			{
+				"question": "Where is this room in your house?",
+				"id": "a1_paper_098_mono_q_3"
+			},
+			{
+				"question": "How do you feel in this room?",
+				"id": "a1_paper_098_mono_q_4"
+			}
+		]
+	},
+	"uuid": "363fb5ab-1179-4993-bbbb-84143457b97a"
+}

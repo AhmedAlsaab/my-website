@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_017",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_017_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_017_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_017_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What is your favorite drink?",
+				"id": "a1_paper_017_pi_q_1"
+			},
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_017_pi_q_2"
+			},
+			{
+				"text": "What do you do when you are bored?",
+				"id": "a1_paper_017_pi_q_3"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_017_pi_q_4"
+			},
+			{
+				"text": "What subjects do you like?",
+				"id": "a1_paper_017_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Waiter",
+				"starter_line": "What is your order?",
+				"description": "You are at a restaurant.",
+				"id": "a1_paper_017_s_resp_1"
+			},
+			{
+				"role_context": "In a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. You need to order a drink.",
+				"id": "a1_paper_017_s_resp_2"
+			},
+			{
+				"role_context": "At a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You see a shirt in a shop. You want to know the price.",
+				"id": "a1_paper_017_s_resp_3"
+			},
+			{
+				"role_context": "Stranger",
+				"starter_line": "Can you help me?",
+				"description": "You are lost.",
+				"id": "a1_paper_017_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are at school. Ask a friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_017_s_ask_1"
+			},
+			{
+				"instruction": "You want to ask about homework. You ask your teacher. ..",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_017_s_ask_2"
+			},
+			{
+				"instruction": "You are shopping. Ask the shopkeeper for the price of a shirt.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_017_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_017_ls",
+		"text": "I wash the dishes at home. I use soap and water. I clean the plates and cups. Washing dishes is easy. I feel happy after washing.",
+		"questions": [
+			{
+				"question": "What do I wash?",
+				"answer": "The dishes",
+				"id": "a1_paper_017_ls_q_1"
+			},
+			{
+				"question": "When do I wash the dishes?",
+				"answer": "At home",
+				"id": "a1_paper_017_ls_q_2"
+			},
+			{
+				"question": "Why do I wash dishes?",
+				"answer": "To clean them",
+				"id": "a1_paper_017_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_017_mono",
+		"topic": "Talk about your dream job",
+		"follow_up_questions": [
+			{
+				"question": "What is your dream job?",
+				"id": "a1_paper_017_mono_q_1"
+			},
+			{
+				"question": "Why do you want this job?",
+				"id": "a1_paper_017_mono_q_2"
+			},
+			{
+				"question": "Where do you want to work?",
+				"id": "a1_paper_017_mono_q_3"
+			},
+			{
+				"question": "How can you get this job?",
+				"id": "a1_paper_017_mono_q_4"
+			}
+		]
+	},
+	"uuid": "68cb306e-d2c1-4444-8422-127234596fea"
+}

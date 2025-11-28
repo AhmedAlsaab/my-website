@@ -1,0 +1,140 @@
+{
+	"id": "a1_paper_040",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_040_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_040_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_040_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_040_pi_q_1"
+			},
+			{
+				"text": "What is your favorite memory?",
+				"id": "a1_paper_040_pi_q_2"
+			},
+			{
+				"text": "Where do you go to school?",
+				"id": "a1_paper_040_pi_q_3"
+			},
+			{
+				"text": "What is your favorite game?",
+				"id": "a1_paper_040_pi_q_4"
+			},
+			{
+				"text": "Can you cook?",
+				"id": "a1_paper_040_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "at a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You are in a clothing shop. You want to buy a shirt.",
+				"id": "a1_paper_040_s_resp_1"
+			},
+			{
+				"role_context": "Waiter",
+				"starter_line": "Do you want dessert?",
+				"description": "You are at a restaurant.",
+				"id": "a1_paper_040_s_resp_2"
+			},
+			{
+				"role_context": "at a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. You see drinks on the menu.",
+				"id": "a1_paper_040_s_resp_3"
+			},
+			{
+				"role_context": "Shop assistant",
+				"starter_line": "Do you need a bag?",
+				"description": "You are buying things.",
+				"id": "a1_paper_040_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You want to invite your friend to the park. ..",
+				"expected_function": "making_suggestion",
+				"id": "a1_paper_040_s_ask_1"
+			},
+			{
+				"instruction": "You are at school. Ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_040_s_ask_2"
+			},
+			{
+				"instruction": "You are shopping. Ask the shopkeeper about the price of a shirt.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_040_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_040_ls",
+		"text": "Eating fruit is healthy. Apples are red and sweet. Bananas are yellow and soft. I like oranges too. Fruit is tasty and good for you.",
+		"questions": [
+			{
+				"question": "What is healthy?",
+				"answer": "Eating fruit",
+				"id": "a1_paper_040_ls_q_1"
+			},
+			{
+				"question": "What color are apples?",
+				"answer": "Red",
+				"id": "a1_paper_040_ls_q_2"
+			},
+			{
+				"question": "What color are bananas?",
+				"answer": "Yellow",
+				"id": "a1_paper_040_ls_q_3"
+			},
+			{
+				"question": "Why is fruit good?",
+				"answer": "It is tasty",
+				"id": "a1_paper_040_ls_q_4"
+			},
+			{
+				"question": "Who likes oranges?",
+				"answer": "I",
+				"id": "a1_paper_040_ls_q_5"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_040_mono",
+		"topic": "Talk about your favourite drink",
+		"follow_up_questions": [
+			{
+				"question": "What is your favorite drink?",
+				"id": "a1_paper_040_mono_q_1"
+			},
+			{
+				"question": "When do you drink it?",
+				"id": "a1_paper_040_mono_q_2"
+			},
+			{
+				"question": "Where do you buy it?",
+				"id": "a1_paper_040_mono_q_3"
+			},
+			{
+				"question": "Why do you like this drink?",
+				"id": "a1_paper_040_mono_q_4"
+			}
+		]
+	},
+	"uuid": "59a50af0-2641-4738-a169-d8cce16923fc"
+}

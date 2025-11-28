@@ -1,0 +1,140 @@
+{
+	"id": "a1_paper_033",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_033_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_033_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_033_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "How do you celebrate your birthday?",
+				"id": "a1_paper_033_pi_q_1"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_033_pi_q_2"
+			},
+			{
+				"text": "Do you have brothers or sisters?",
+				"id": "a1_paper_033_pi_q_3"
+			},
+			{
+				"text": "What is your favorite outdoor place?",
+				"id": "a1_paper_033_pi_q_4"
+			},
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_033_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Shop assistant",
+				"starter_line": "What do you want to buy?",
+				"description": "You are in a shop.",
+				"id": "a1_paper_033_s_resp_1"
+			},
+			{
+				"role_context": "Shop assistant",
+				"starter_line": "Is that all?",
+				"description": "You are paying for items.",
+				"id": "a1_paper_033_s_resp_2"
+			},
+			{
+				"role_context": "in a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. You need to order a drink.",
+				"id": "a1_paper_033_s_resp_3"
+			},
+			{
+				"role_context": "at a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You see a shirt in a shop. You want to know the price.",
+				"id": "a1_paper_033_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "At school, the candidate asks a friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_033_s_ask_1"
+			},
+			{
+				"instruction": "You want to ask about a movie. You ask your friend. ..",
+				"expected_function": "asking_for_information",
+				"id": "a1_paper_033_s_ask_2"
+			},
+			{
+				"instruction": "At the store, the candidate asks a worker for the price of an item.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_033_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_033_ls",
+		"text": "I help my parents at home. I wash the dishes. I clean my room. I take out the trash. I help cook dinner.",
+		"questions": [
+			{
+				"question": "What do you do?",
+				"answer": "I help my parents.",
+				"id": "a1_paper_033_ls_q_1"
+			},
+			{
+				"question": "When do you wash the dishes?",
+				"answer": "At home.",
+				"id": "a1_paper_033_ls_q_2"
+			},
+			{
+				"question": "Where do you clean?",
+				"answer": "My room.",
+				"id": "a1_paper_033_ls_q_3"
+			},
+			{
+				"question": "Why do you help?",
+				"answer": "To help my parents.",
+				"id": "a1_paper_033_ls_q_4"
+			},
+			{
+				"question": "Who cooks dinner?",
+				"answer": "I help cook.",
+				"id": "a1_paper_033_ls_q_5"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_033_mono",
+		"topic": "Talk about your lunch break",
+		"follow_up_questions": [
+			{
+				"question": "What do you eat for lunch?",
+				"id": "a1_paper_033_mono_q_1"
+			},
+			{
+				"question": "When do you have your lunch break?",
+				"id": "a1_paper_033_mono_q_2"
+			},
+			{
+				"question": "Where do you go for lunch?",
+				"id": "a1_paper_033_mono_q_3"
+			},
+			{
+				"question": "Do you eat with friends or alone?",
+				"id": "a1_paper_033_mono_q_4"
+			}
+		]
+	},
+	"uuid": "9787501a-05eb-4f95-8389-ae82f9cfb310"
+}

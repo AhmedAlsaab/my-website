@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_078",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_078_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_078_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_078_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "Do you like animals?",
+				"id": "a1_paper_078_pi_q_1"
+			},
+			{
+				"text": "What is your favorite thing about summer?",
+				"id": "a1_paper_078_pi_q_2"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_078_pi_q_3"
+			},
+			{
+				"text": "What is your favorite thing about your culture?",
+				"id": "a1_paper_078_pi_q_4"
+			},
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_078_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Parent",
+				"starter_line": "How was your day?",
+				"description": "You are at home.",
+				"id": "a1_paper_078_s_resp_1"
+			},
+			{
+				"role_context": "Parent",
+				"starter_line": "Did you finish your homework?",
+				"description": "You are at home.",
+				"id": "a1_paper_078_s_resp_2"
+			},
+			{
+				"role_context": "café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. You choose a drink.",
+				"id": "a1_paper_078_s_resp_3"
+			},
+			{
+				"role_context": "shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You are in a clothing store. You ask about a shirt.",
+				"id": "a1_paper_078_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "Ask a shopkeeper for the price of a toy.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_078_s_ask_1"
+			},
+			{
+				"instruction": "You are with your friend. You want help with your bag. ..",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_078_s_ask_2"
+			},
+			{
+				"instruction": "Ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_078_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_078_ls",
+		"text": "I have maths homework today. It is very easy. I like maths. I need my book and pencil. I will finish it after school.",
+		"questions": [
+			{
+				"question": "What homework do you have?",
+				"answer": "maths homework",
+				"id": "a1_paper_078_ls_q_1"
+			},
+			{
+				"question": "When will you finish it?",
+				"answer": "after school",
+				"id": "a1_paper_078_ls_q_2"
+			},
+			{
+				"question": "Why do you like maths?",
+				"answer": "it is very easy",
+				"id": "a1_paper_078_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_078_mono",
+		"topic": "Talk about your favourite animal",
+		"follow_up_questions": [
+			{
+				"question": "What is your favorite animal?",
+				"id": "a1_paper_078_mono_q_1"
+			},
+			{
+				"question": "Where do you see this animal?",
+				"id": "a1_paper_078_mono_q_2"
+			},
+			{
+				"question": "Why do you like this animal?",
+				"id": "a1_paper_078_mono_q_3"
+			},
+			{
+				"question": "Do you have a pet animal?",
+				"id": "a1_paper_078_mono_q_4"
+			}
+		]
+	},
+	"uuid": "92961478-394b-4648-b19c-7aee174219c6"
+}

@@ -1,0 +1,140 @@
+{
+	"id": "a1_paper_096",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_096_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_096_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_096_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "Can you play sports at school?",
+				"id": "a1_paper_096_pi_q_1"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_096_pi_q_2"
+			},
+			{
+				"text": "How do you stay in touch with friends?",
+				"id": "a1_paper_096_pi_q_3"
+			},
+			{
+				"text": "What do you like to do in the spring?",
+				"id": "a1_paper_096_pi_q_4"
+			},
+			{
+				"text": "Can you tell me about your family?",
+				"id": "a1_paper_096_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "At a café",
+				"starter_line": "What do you want to drink?",
+				"description": "The examiner is the café worker. You are a customer.",
+				"id": "a1_paper_096_s_resp_1"
+			},
+			{
+				"role_context": "Café staff",
+				"starter_line": "What do you want to eat?",
+				"description": "You are ordering food.",
+				"id": "a1_paper_096_s_resp_2"
+			},
+			{
+				"role_context": "Library staff",
+				"starter_line": "What book do you want?",
+				"description": "You are in a library.",
+				"id": "a1_paper_096_s_resp_3"
+			},
+			{
+				"role_context": "At a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "The examiner is the shop assistant. You are a shopper.",
+				"id": "a1_paper_096_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You want to borrow a book from a classmate. ..",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_096_s_ask_1"
+			},
+			{
+				"instruction": "While shopping, ask a shopkeeper for the price of a toy.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_096_s_ask_2"
+			},
+			{
+				"instruction": "At school, ask a friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_096_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_096_ls",
+		"text": "I love singing songs. Songs make me happy. I sing in the car. I sing with friends. Music is fun to share.",
+		"questions": [
+			{
+				"question": "What do I love?",
+				"answer": "singing songs",
+				"id": "a1_paper_096_ls_q_1"
+			},
+			{
+				"question": "When do I sing?",
+				"answer": "in the car",
+				"id": "a1_paper_096_ls_q_2"
+			},
+			{
+				"question": "Why do songs make me happy?",
+				"answer": "they are fun",
+				"id": "a1_paper_096_ls_q_3"
+			},
+			{
+				"question": "Who do I sing with?",
+				"answer": "friends",
+				"id": "a1_paper_096_ls_q_4"
+			},
+			{
+				"question": "What is fun to share?",
+				"answer": "music",
+				"id": "a1_paper_096_ls_q_5"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_096_mono",
+		"topic": "Talk about your school uniform",
+		"follow_up_questions": [
+			{
+				"question": "What color is your school uniform?",
+				"id": "a1_paper_096_mono_q_1"
+			},
+			{
+				"question": "When do you wear your uniform?",
+				"id": "a1_paper_096_mono_q_2"
+			},
+			{
+				"question": "Do you like your school uniform?",
+				"id": "a1_paper_096_mono_q_3"
+			},
+			{
+				"question": "How do you feel in your uniform?",
+				"id": "a1_paper_096_mono_q_4"
+			}
+		]
+	},
+	"uuid": "8577645b-b0a3-4497-b0bf-99222457a042"
+}

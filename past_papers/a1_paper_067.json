@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_067",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_067_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_067_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_067_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_067_pi_q_1"
+			},
+			{
+				"text": "What do you want to achieve this year?",
+				"id": "a1_paper_067_pi_q_2"
+			},
+			{
+				"text": "What do you do in the morning?",
+				"id": "a1_paper_067_pi_q_3"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_067_pi_q_4"
+			},
+			{
+				"text": "What do you want to learn?",
+				"id": "a1_paper_067_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "In a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. The waiter asks you.",
+				"id": "a1_paper_067_s_resp_1"
+			},
+			{
+				"role_context": "In a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You are in a clothing shop. A customer asks you.",
+				"id": "a1_paper_067_s_resp_2"
+			},
+			{
+				"role_context": "Library staff",
+				"starter_line": "Return your books here.",
+				"description": "You are in the library.",
+				"id": "a1_paper_067_s_resp_3"
+			},
+			{
+				"role_context": "Teacher",
+				"starter_line": "What did you learn today?",
+				"description": "You are in class.",
+				"id": "a1_paper_067_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are at school. Ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_067_s_ask_1"
+			},
+			{
+				"instruction": "You want to help a friend with something. ..",
+				"expected_function": "offering_help",
+				"id": "a1_paper_067_s_ask_2"
+			},
+			{
+				"instruction": "You are in a shop. Ask for the price of a shirt.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_067_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_067_ls",
+		"text": "I need help with my homework. Can you help me? I do not understand this part. It is very hard for me. Thank you for your help.",
+		"questions": [
+			{
+				"question": "What do I need help with?",
+				"answer": "my homework",
+				"id": "a1_paper_067_ls_q_1"
+			},
+			{
+				"question": "Why do I need help?",
+				"answer": "it is very hard",
+				"id": "a1_paper_067_ls_q_2"
+			},
+			{
+				"question": "Who can help me?",
+				"answer": "you",
+				"id": "a1_paper_067_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_067_mono",
+		"topic": "Talk about things you do with friends",
+		"follow_up_questions": [
+			{
+				"question": "What do you like to do with your friends?",
+				"id": "a1_paper_067_mono_q_1"
+			},
+			{
+				"question": "Where do you go with your friends?",
+				"id": "a1_paper_067_mono_q_2"
+			},
+			{
+				"question": "When do you meet your friends?",
+				"id": "a1_paper_067_mono_q_3"
+			},
+			{
+				"question": "Why is it fun to be with friends?",
+				"id": "a1_paper_067_mono_q_4"
+			}
+		]
+	},
+	"uuid": "cfda35e8-21ce-4508-8b21-afb75dec1869"
+}

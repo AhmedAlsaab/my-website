@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_043",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_043_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_043_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_043_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_043_pi_q_1"
+			},
+			{
+				"text": "Do you prefer to stay home or go out?",
+				"id": "a1_paper_043_pi_q_2"
+			},
+			{
+				"text": "What is your favorite fruit?",
+				"id": "a1_paper_043_pi_q_3"
+			},
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_043_pi_q_4"
+			},
+			{
+				"text": "What do you wear to school?",
+				"id": "a1_paper_043_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You are in a shop. You see a shirt and ask about the price.",
+				"id": "a1_paper_043_s_resp_1"
+			},
+			{
+				"role_context": "Café staff",
+				"starter_line": "What do you want to eat?",
+				"description": "You are ordering food.",
+				"id": "a1_paper_043_s_resp_2"
+			},
+			{
+				"role_context": "a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are in a café. You want to order a drink.",
+				"id": "a1_paper_043_s_resp_3"
+			},
+			{
+				"role_context": "Stranger",
+				"starter_line": "Excuse me, where's the cinema?",
+				"description": "You are lost in the street.",
+				"id": "a1_paper_043_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are at school. Ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_043_s_ask_1"
+			},
+			{
+				"instruction": "You want to ask your teacher about the test. ..",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_043_s_ask_2"
+			},
+			{
+				"instruction": "You are shopping. Ask the shopkeeper about the price of a shirt.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_043_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_043_ls",
+		"text": "I go shopping for food. I need fruits and vegetables. I buy bread and milk. The store is near my home. I like apples and bananas.",
+		"questions": [
+			{
+				"question": "What do you buy?",
+				"answer": "Fruits and vegetables",
+				"id": "a1_paper_043_ls_q_1"
+			},
+			{
+				"question": "When do you go shopping?",
+				"answer": "I go shopping",
+				"id": "a1_paper_043_ls_q_2"
+			},
+			{
+				"question": "Where is the store?",
+				"answer": "Near my home",
+				"id": "a1_paper_043_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_043_mono",
+		"topic": "Talk about your last holiday",
+		"follow_up_questions": [
+			{
+				"question": "Where did you go on your last holiday?",
+				"id": "a1_paper_043_mono_q_1"
+			},
+			{
+				"question": "What did you do there?",
+				"id": "a1_paper_043_mono_q_2"
+			},
+			{
+				"question": "Who did you go with?",
+				"id": "a1_paper_043_mono_q_3"
+			},
+			{
+				"question": "When was your last holiday?",
+				"id": "a1_paper_043_mono_q_4"
+			}
+		]
+	},
+	"uuid": "f2cbd1b9-599c-4c3f-b2ee-359abc4c01ea"
+}

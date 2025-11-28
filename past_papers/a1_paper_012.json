@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_012",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_012_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_012_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_012_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What is your favorite color?",
+				"id": "a1_paper_012_pi_q_1"
+			},
+			{
+				"text": "What do you do to stay healthy?",
+				"id": "a1_paper_012_pi_q_2"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_012_pi_q_3"
+			},
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_012_pi_q_4"
+			},
+			{
+				"text": "What is your favorite way to relax?",
+				"id": "a1_paper_012_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Waiter",
+				"starter_line": "What is your order?",
+				"description": "You are at a restaurant.",
+				"id": "a1_paper_012_s_resp_1"
+			},
+			{
+				"role_context": "Friend",
+				"starter_line": "Do you want to play outside?",
+				"description": "You are talking to a friend.",
+				"id": "a1_paper_012_s_resp_2"
+			},
+			{
+				"role_context": "in a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. You can choose coffee or tea.",
+				"id": "a1_paper_012_s_resp_3"
+			},
+			{
+				"role_context": "at a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You see a shirt in a shop. You want to ask the price.",
+				"id": "a1_paper_012_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You want to invite your friend to the park. ..",
+				"expected_function": "making_suggestion",
+				"id": "a1_paper_012_s_ask_1"
+			},
+			{
+				"instruction": "You are shopping. Ask the shopkeeper for the price of a shirt.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_012_s_ask_2"
+			},
+			{
+				"instruction": "You are at school. Ask a friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_012_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_012_ls",
+		"text": "I wash the dishes. I use soap and water. The dishes are clean. I dry them with a towel. It is an easy job.",
+		"questions": [
+			{
+				"question": "What do you wash?",
+				"answer": "Dishes",
+				"id": "a1_paper_012_ls_q_1"
+			},
+			{
+				"question": "When do you wash the dishes?",
+				"answer": "After meals",
+				"id": "a1_paper_012_ls_q_2"
+			},
+			{
+				"question": "How do you wash the dishes?",
+				"answer": "With soap and water",
+				"id": "a1_paper_012_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_012_mono",
+		"topic": "Talk about your English class",
+		"follow_up_questions": [
+			{
+				"question": "What do you like about your English class?",
+				"id": "a1_paper_012_mono_q_1"
+			},
+			{
+				"question": "When do you have English class?",
+				"id": "a1_paper_012_mono_q_2"
+			},
+			{
+				"question": "Where is your English class held?",
+				"id": "a1_paper_012_mono_q_3"
+			},
+			{
+				"question": "Who is your English teacher?",
+				"id": "a1_paper_012_mono_q_4"
+			}
+		]
+	},
+	"uuid": "be57f567-7f9d-4326-a593-c0494b149eab"
+}

@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_084",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_084_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_084_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_084_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What do you want to learn this year?",
+				"id": "a1_paper_084_pi_q_1"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_084_pi_q_2"
+			},
+			{
+				"text": "Do you prefer tea or coffee?",
+				"id": "a1_paper_084_pi_q_3"
+			},
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_084_pi_q_4"
+			},
+			{
+				"text": "What do you do after school?",
+				"id": "a1_paper_084_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "In a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. The waiter asks you about your drink.",
+				"id": "a1_paper_084_s_resp_1"
+			},
+			{
+				"role_context": "At a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You are in a clothing shop. A customer asks about a shirt.",
+				"id": "a1_paper_084_s_resp_2"
+			},
+			{
+				"role_context": "Stranger",
+				"starter_line": "Do you speak English?",
+				"description": "You are meeting someone new.",
+				"id": "a1_paper_084_s_resp_3"
+			},
+			{
+				"role_context": "Friend",
+				"starter_line": "What do you like to do?",
+				"description": "You are having a conversation.",
+				"id": "a1_paper_084_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are at a store. You want to ask for a product. ..",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_084_s_ask_1"
+			},
+			{
+				"instruction": "You are at school. Ask a friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_084_s_ask_2"
+			},
+			{
+				"instruction": "You are shopping. Ask the shopkeeper for the price of a shirt.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_084_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_084_ls",
+		"text": "I play in the sun. I swim in the pool. I eat ice cream. I go to the park. I read books.",
+		"questions": [
+			{
+				"question": "What do you eat?",
+				"answer": "Ice cream",
+				"id": "a1_paper_084_ls_q_1"
+			},
+			{
+				"question": "When do you swim?",
+				"answer": "In the pool",
+				"id": "a1_paper_084_ls_q_2"
+			},
+			{
+				"question": "Where do you play?",
+				"answer": "In the sun",
+				"id": "a1_paper_084_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_084_mono",
+		"topic": "Talk about your neighbor",
+		"follow_up_questions": [
+			{
+				"question": "Who is your neighbor?",
+				"id": "a1_paper_084_mono_q_1"
+			},
+			{
+				"question": "What does your neighbor do?",
+				"id": "a1_paper_084_mono_q_2"
+			},
+			{
+				"question": "When do you see your neighbor?",
+				"id": "a1_paper_084_mono_q_3"
+			},
+			{
+				"question": "How do you talk to your neighbor?",
+				"id": "a1_paper_084_mono_q_4"
+			}
+		]
+	},
+	"uuid": "c03c32d1-88a5-4bb7-b19c-40be6785a988"
+}

@@ -1,0 +1,140 @@
+{
+	"id": "a1_paper_077",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_077_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_077_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_077_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "Do you like to play video games?",
+				"id": "a1_paper_077_pi_q_1"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_077_pi_q_2"
+			},
+			{
+				"text": "What is your favorite book genre?",
+				"id": "a1_paper_077_pi_q_3"
+			},
+			{
+				"text": "How do you feel today?",
+				"id": "a1_paper_077_pi_q_4"
+			},
+			{
+				"text": "Who is in your family?",
+				"id": "a1_paper_077_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Waiter",
+				"starter_line": "Do you want dessert?",
+				"description": "You are at a restaurant.",
+				"id": "a1_paper_077_s_resp_1"
+			},
+			{
+				"role_context": "shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You are in a clothing shop. A friend asks about a shirt price.",
+				"id": "a1_paper_077_s_resp_2"
+			},
+			{
+				"role_context": "café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. The waiter asks for your drink.",
+				"id": "a1_paper_077_s_resp_3"
+			},
+			{
+				"role_context": "Parent",
+				"starter_line": "Do you have any homework?",
+				"description": "You are at home.",
+				"id": "a1_paper_077_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are at a shop. Ask the seller for a price of a book.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_077_s_ask_1"
+			},
+			{
+				"instruction": "You are at a park. You want to ask someone to take a photo. ..",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_077_s_ask_2"
+			},
+			{
+				"instruction": "You are at school. Ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_077_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_077_ls",
+		"text": "I go to school at 8 AM. I have math and English classes. I eat lunch at 12 PM. I play with friends after school. I go home at 3 PM.",
+		"questions": [
+			{
+				"question": "What time do you go to school?",
+				"answer": "8 AM",
+				"id": "a1_paper_077_ls_q_1"
+			},
+			{
+				"question": "What classes do you have?",
+				"answer": "Math and English",
+				"id": "a1_paper_077_ls_q_2"
+			},
+			{
+				"question": "When do you eat lunch?",
+				"answer": "12 PM",
+				"id": "a1_paper_077_ls_q_3"
+			},
+			{
+				"question": "Who do you play with?",
+				"answer": "Friends",
+				"id": "a1_paper_077_ls_q_4"
+			},
+			{
+				"question": "What time do you go home?",
+				"answer": "3 PM",
+				"id": "a1_paper_077_ls_q_5"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_077_mono",
+		"topic": "Talk about your dinner",
+		"follow_up_questions": [
+			{
+				"question": "What do you eat for dinner?",
+				"id": "a1_paper_077_mono_q_1"
+			},
+			{
+				"question": "When do you eat dinner?",
+				"id": "a1_paper_077_mono_q_2"
+			},
+			{
+				"question": "Where do you eat dinner?",
+				"id": "a1_paper_077_mono_q_3"
+			},
+			{
+				"question": "Why do you like this dinner?",
+				"id": "a1_paper_077_mono_q_4"
+			}
+		]
+	},
+	"uuid": "9bbeeb37-62af-4087-a3c5-75a637d89a0d"
+}

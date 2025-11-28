@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_007",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_007_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_007_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_007_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_007_pi_q_1"
+			},
+			{
+				"text": "Where do you go to school?",
+				"id": "a1_paper_007_pi_q_2"
+			},
+			{
+				"text": "What is your favorite school memory?",
+				"id": "a1_paper_007_pi_q_3"
+			},
+			{
+				"text": "What is your favorite city to visit?",
+				"id": "a1_paper_007_pi_q_4"
+			},
+			{
+				"text": "Tell me about your family.",
+				"id": "a1_paper_007_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Bus driver",
+				"starter_line": "Please show me your ticket.",
+				"description": "You are on a bus.",
+				"id": "a1_paper_007_s_resp_1"
+			},
+			{
+				"role_context": "At a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You see a shirt in a shop. You want to know the price.",
+				"id": "a1_paper_007_s_resp_2"
+			},
+			{
+				"role_context": "Teacher",
+				"starter_line": "What did you learn today?",
+				"description": "You are in class.",
+				"id": "a1_paper_007_s_resp_3"
+			},
+			{
+				"role_context": "In a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. You can choose a drink.",
+				"id": "a1_paper_007_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are at a café with a friend. You want to order food. ..",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_007_s_ask_1"
+			},
+			{
+				"instruction": "You are at the store. Ask the clerk for the price of an item.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_007_s_ask_2"
+			},
+			{
+				"instruction": "You are at school. Ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_007_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_007_ls",
+		"text": "I take the bus to school. The bus is big and yellow. I wait at the bus stop. The bus comes at 8 AM. I sit with my friends on the bus.",
+		"questions": [
+			{
+				"question": "What do you take to school?",
+				"answer": "The bus",
+				"id": "a1_paper_007_ls_q_1"
+			},
+			{
+				"question": "When does the bus come?",
+				"answer": "At 8 AM",
+				"id": "a1_paper_007_ls_q_2"
+			},
+			{
+				"question": "Where do you wait?",
+				"answer": "At the bus stop",
+				"id": "a1_paper_007_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_007_mono",
+		"topic": "Talk about things you can do well",
+		"follow_up_questions": [
+			{
+				"question": "What can you do well?",
+				"id": "a1_paper_007_mono_q_1"
+			},
+			{
+				"question": "When do you do this?",
+				"id": "a1_paper_007_mono_q_2"
+			},
+			{
+				"question": "Why do you like this skill?",
+				"id": "a1_paper_007_mono_q_3"
+			},
+			{
+				"question": "How did you learn to do this?",
+				"id": "a1_paper_007_mono_q_4"
+			}
+		]
+	},
+	"uuid": "9e1dcfe9-c617-4492-81b7-2b54942e3211"
+}

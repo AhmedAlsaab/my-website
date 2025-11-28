@@ -1,0 +1,140 @@
+{
+	"id": "a1_paper_003",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_003_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_003_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_003_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_003_pi_q_1"
+			},
+			{
+				"text": "What do you like to do with your family?",
+				"id": "a1_paper_003_pi_q_2"
+			},
+			{
+				"text": "What is your favorite sport team?",
+				"id": "a1_paper_003_pi_q_3"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_003_pi_q_4"
+			},
+			{
+				"text": "Where do you go with friends?",
+				"id": "a1_paper_003_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Teacher",
+				"starter_line": "What is your favorite subject?",
+				"description": "You are in class.",
+				"id": "a1_paper_003_s_resp_1"
+			},
+			{
+				"role_context": "In a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. You see drinks on the menu.",
+				"id": "a1_paper_003_s_resp_2"
+			},
+			{
+				"role_context": "Friend",
+				"starter_line": "Happy birthday! Are you having a party?",
+				"description": "You meet your friend on their birthday.",
+				"id": "a1_paper_003_s_resp_3"
+			},
+			{
+				"role_context": "At a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You are in a shop. You see a shirt you like.",
+				"id": "a1_paper_003_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are at school. Ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_003_s_ask_1"
+			},
+			{
+				"instruction": "You want to ask your parent if you can go out. ..",
+				"expected_function": "asking_permission",
+				"id": "a1_paper_003_s_ask_2"
+			},
+			{
+				"instruction": "You are shopping. Ask the shopkeeper for the price of a shirt.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_003_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_003_ls",
+		"text": "It is my birthday today. I have a party at home. My friends come at 4 PM. We eat cake and play games. I am very happy.",
+		"questions": [
+			{
+				"question": "What is today?",
+				"answer": "My birthday",
+				"id": "a1_paper_003_ls_q_1"
+			},
+			{
+				"question": "When do friends come?",
+				"answer": "At 4 PM",
+				"id": "a1_paper_003_ls_q_2"
+			},
+			{
+				"question": "Where is the party?",
+				"answer": "At home",
+				"id": "a1_paper_003_ls_q_3"
+			},
+			{
+				"question": "Why is the party?",
+				"answer": "It is my birthday",
+				"id": "a1_paper_003_ls_q_4"
+			},
+			{
+				"question": "Who is coming?",
+				"answer": "My friends",
+				"id": "a1_paper_003_ls_q_5"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_003_mono",
+		"topic": "Talk about your next holiday",
+		"follow_up_questions": [
+			{
+				"question": "Where will you go on holiday?",
+				"id": "a1_paper_003_mono_q_1"
+			},
+			{
+				"question": "When is your holiday?",
+				"id": "a1_paper_003_mono_q_2"
+			},
+			{
+				"question": "Who will you go with?",
+				"id": "a1_paper_003_mono_q_3"
+			},
+			{
+				"question": "What will you do there?",
+				"id": "a1_paper_003_mono_q_4"
+			}
+		]
+	},
+	"uuid": "f736cd88-3764-4be6-ac9b-86d388cc370e"
+}

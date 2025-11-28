@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_006",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_006_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_006_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_006_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What do you like to eat?",
+				"id": "a1_paper_006_pi_q_1"
+			},
+			{
+				"text": "What is your favorite childhood game?",
+				"id": "a1_paper_006_pi_q_2"
+			},
+			{
+				"text": "What is your favorite treat?",
+				"id": "a1_paper_006_pi_q_3"
+			},
+			{
+				"text": "What do you wish to learn in school?",
+				"id": "a1_paper_006_pi_q_4"
+			},
+			{
+				"text": "Where is your school?",
+				"id": "a1_paper_006_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Teacher",
+				"starter_line": "Can you tell me your name?",
+				"description": "You are in class.",
+				"id": "a1_paper_006_s_resp_1"
+			},
+			{
+				"role_context": "Shop",
+				"starter_line": "What do you want to buy?",
+				"description": "You are in a shop. You want to buy apples.",
+				"id": "a1_paper_006_s_resp_2"
+			},
+			{
+				"role_context": "Shop assistant",
+				"starter_line": "What do you want to buy?",
+				"description": "You are in a shop.",
+				"id": "a1_paper_006_s_resp_3"
+			},
+			{
+				"role_context": "Café",
+				"starter_line": "Do you want tea or coffee?",
+				"description": "You are in a café. You need to choose a drink.",
+				"id": "a1_paper_006_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are at school. Ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_006_s_ask_1"
+			},
+			{
+				"instruction": "You want to invite your friends to a birthday party. ..",
+				"expected_function": "making_suggestion",
+				"id": "a1_paper_006_s_ask_2"
+			},
+			{
+				"instruction": "You are at a shop. Ask the clerk for the price of a shirt.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_006_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_006_ls",
+		"text": "First, take two slices of bread. Then, add some cheese. Next, put on lettuce. You can add tomato if you like. Finally, close the sandwich.",
+		"questions": [
+			{
+				"question": "What do you take first?",
+				"answer": "Two slices of bread",
+				"id": "a1_paper_006_ls_q_1"
+			},
+			{
+				"question": "What do you add after cheese?",
+				"answer": "Lettuce",
+				"id": "a1_paper_006_ls_q_2"
+			},
+			{
+				"question": "When do you close the sandwich?",
+				"answer": "Finally",
+				"id": "a1_paper_006_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_006_mono",
+		"topic": "Talk about a fun day out",
+		"follow_up_questions": [
+			{
+				"question": "What did you do on your fun day out?",
+				"id": "a1_paper_006_mono_q_1"
+			},
+			{
+				"question": "Where did you go for your fun day?",
+				"id": "a1_paper_006_mono_q_2"
+			},
+			{
+				"question": "Who were you with on this day?",
+				"id": "a1_paper_006_mono_q_3"
+			},
+			{
+				"question": "Why was it a fun day for you?",
+				"id": "a1_paper_006_mono_q_4"
+			}
+		]
+	},
+	"uuid": "47eb7002-20b9-4e2a-974c-4434f3485049"
+}

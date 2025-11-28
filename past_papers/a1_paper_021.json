@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_021",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_021_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_021_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_021_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "Do you have brothers or sisters?",
+				"id": "a1_paper_021_pi_q_1"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_021_pi_q_2"
+			},
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_021_pi_q_3"
+			},
+			{
+				"text": "Do you like to sing?",
+				"id": "a1_paper_021_pi_q_4"
+			},
+			{
+				"text": "Do you like the beach?",
+				"id": "a1_paper_021_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Stranger",
+				"starter_line": "Excuse me, where's the cinema?",
+				"description": "You are lost in the street.",
+				"id": "a1_paper_021_s_resp_1"
+			},
+			{
+				"role_context": "at a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You see a shirt. You want to ask the price.",
+				"id": "a1_paper_021_s_resp_2"
+			},
+			{
+				"role_context": "Parent",
+				"starter_line": "What do you want to watch?",
+				"description": "You are at home.",
+				"id": "a1_paper_021_s_resp_3"
+			},
+			{
+				"role_context": "at a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. You can choose a drink.",
+				"id": "a1_paper_021_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are shopping. Ask the shopkeeper for the price of a shirt.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_021_s_ask_1"
+			},
+			{
+				"instruction": "You want to ask your parent if you can go out. ..",
+				"expected_function": "asking_permission",
+				"id": "a1_paper_021_s_ask_2"
+			},
+			{
+				"instruction": "You are at school. Ask a friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_021_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_021_ls",
+		"text": "I walk in the park. The park is big and green. I see trees and flowers. I hear birds singing. Many people walk here.",
+		"questions": [
+			{
+				"question": "What do I see?",
+				"answer": "Trees and flowers",
+				"id": "a1_paper_021_ls_q_1"
+			},
+			{
+				"question": "When do I walk?",
+				"answer": "In the park",
+				"id": "a1_paper_021_ls_q_2"
+			},
+			{
+				"question": "Where do many people walk?",
+				"answer": "In the park",
+				"id": "a1_paper_021_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_021_mono",
+		"topic": "Talk about your after-school activities",
+		"follow_up_questions": [
+			{
+				"question": "What do you do after school?",
+				"id": "a1_paper_021_mono_q_1"
+			},
+			{
+				"question": "When do you have your activities?",
+				"id": "a1_paper_021_mono_q_2"
+			},
+			{
+				"question": "Where do you go for these activities?",
+				"id": "a1_paper_021_mono_q_3"
+			},
+			{
+				"question": "Who do you do these activities with?",
+				"id": "a1_paper_021_mono_q_4"
+			}
+		]
+	},
+	"uuid": "2d2f45bb-8779-4cc2-9019-b29d14a624c4"
+}

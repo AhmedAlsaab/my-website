@@ -1,0 +1,140 @@
+{
+	"id": "a1_paper_092",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_092_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_092_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_092_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_092_pi_q_1"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_092_pi_q_2"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_092_pi_q_3"
+			},
+			{
+				"text": "What do you like to do in winter?",
+				"id": "a1_paper_092_pi_q_4"
+			},
+			{
+				"text": "What do you wish you could do?",
+				"id": "a1_paper_092_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Bus driver",
+				"starter_line": "Where do you want to go?",
+				"description": "You are at a bus stop.",
+				"id": "a1_paper_092_s_resp_1"
+			},
+			{
+				"role_context": "a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You see a shirt in a shop. You want to ask the price.",
+				"id": "a1_paper_092_s_resp_2"
+			},
+			{
+				"role_context": "a café",
+				"starter_line": "What would you like to drink?",
+				"description": "You are at a café. You can choose a drink.",
+				"id": "a1_paper_092_s_resp_3"
+			},
+			{
+				"role_context": "Friend",
+				"starter_line": "Do you want to watch a movie?",
+				"description": "You are at home together.",
+				"id": "a1_paper_092_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are at school. Ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_092_s_ask_1"
+			},
+			{
+				"instruction": "You want to ask a classmate for help. ..",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_092_s_ask_2"
+			},
+			{
+				"instruction": "You are shopping. Ask the shopkeeper for the price of a shirt.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_092_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_092_ls",
+		"text": "I do my homework every day. I sit at my desk. I use my books and pencil. Homework is important for school. I finish my homework before dinner.",
+		"questions": [
+			{
+				"question": "What do you do every day?",
+				"answer": "Homework",
+				"id": "a1_paper_092_ls_q_1"
+			},
+			{
+				"question": "When do you finish your homework?",
+				"answer": "Before dinner",
+				"id": "a1_paper_092_ls_q_2"
+			},
+			{
+				"question": "Where do you sit?",
+				"answer": "At my desk",
+				"id": "a1_paper_092_ls_q_3"
+			},
+			{
+				"question": "Why is homework important?",
+				"answer": "For school",
+				"id": "a1_paper_092_ls_q_4"
+			},
+			{
+				"question": "Who uses books and pencil?",
+				"answer": "I",
+				"id": "a1_paper_092_ls_q_5"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_092_mono",
+		"topic": "Talk about your favourite TV show",
+		"follow_up_questions": [
+			{
+				"question": "What is your favorite character in the show?",
+				"id": "a1_paper_092_mono_q_1"
+			},
+			{
+				"question": "When do you watch this TV show?",
+				"id": "a1_paper_092_mono_q_2"
+			},
+			{
+				"question": "Where do you watch it?",
+				"id": "a1_paper_092_mono_q_3"
+			},
+			{
+				"question": "Why do you like this TV show?",
+				"id": "a1_paper_092_mono_q_4"
+			}
+		]
+	},
+	"uuid": "e7853f26-bf30-46cf-af06-837664fe9fb7"
+}

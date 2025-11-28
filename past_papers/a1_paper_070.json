@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_070",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_070_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_070_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_070_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_070_pi_q_1"
+			},
+			{
+				"text": "What language do you speak at home?",
+				"id": "a1_paper_070_pi_q_2"
+			},
+			{
+				"text": "What subjects do you like?",
+				"id": "a1_paper_070_pi_q_3"
+			},
+			{
+				"text": "What is your favorite thing about your school?",
+				"id": "a1_paper_070_pi_q_4"
+			},
+			{
+				"text": "Can you tell me about your family?",
+				"id": "a1_paper_070_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Friend",
+				"starter_line": "Happy birthday! Are you having a party?",
+				"description": "You meet your friend on their birthday.",
+				"id": "a1_paper_070_s_resp_1"
+			},
+			{
+				"role_context": "At the park",
+				"starter_line": "How is the weather today?",
+				"description": "You are at the park. You talk about the weather.",
+				"id": "a1_paper_070_s_resp_2"
+			},
+			{
+				"role_context": "In a café",
+				"starter_line": "What would you like to drink?",
+				"description": "You are at a café. You want to order a drink.",
+				"id": "a1_paper_070_s_resp_3"
+			},
+			{
+				"role_context": "Parent",
+				"starter_line": "Do you have any homework?",
+				"description": "You are at home.",
+				"id": "a1_paper_070_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are at school. You need help with your homework. Ask your friend for help.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_070_s_ask_1"
+			},
+			{
+				"instruction": "You are at a store. You want to buy apples. Ask the shopkeeper for the price.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_070_s_ask_2"
+			},
+			{
+				"instruction": "You want to help a friend with something. ..",
+				"expected_function": "offering_help",
+				"id": "a1_paper_070_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_070_ls",
+		"text": "Today is our teacher's birthday. We sing a song. We eat cake. We give her a gift. She is very happy.",
+		"questions": [
+			{
+				"question": "What do we eat?",
+				"answer": "Cake",
+				"id": "a1_paper_070_ls_q_1"
+			},
+			{
+				"question": "When is the teacher's birthday?",
+				"answer": "Today",
+				"id": "a1_paper_070_ls_q_2"
+			},
+			{
+				"question": "Who is happy?",
+				"answer": "Our teacher",
+				"id": "a1_paper_070_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_070_mono",
+		"topic": "Talk about your favourite sport",
+		"follow_up_questions": [
+			{
+				"question": "What is your favorite sport?",
+				"id": "a1_paper_070_mono_q_1"
+			},
+			{
+				"question": "When do you play this sport?",
+				"id": "a1_paper_070_mono_q_2"
+			},
+			{
+				"question": "Where do you play your favorite sport?",
+				"id": "a1_paper_070_mono_q_3"
+			},
+			{
+				"question": "Why do you like this sport?",
+				"id": "a1_paper_070_mono_q_4"
+			}
+		]
+	},
+	"uuid": "d6ca0483-c96b-449a-a4f2-207601dc672f"
+}

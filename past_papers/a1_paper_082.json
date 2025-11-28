@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_082",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_082_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_082_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_082_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "When is your birthday?",
+				"id": "a1_paper_082_pi_q_1"
+			},
+			{
+				"text": "Can you play a musical instrument?",
+				"id": "a1_paper_082_pi_q_2"
+			},
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_082_pi_q_3"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_082_pi_q_4"
+			},
+			{
+				"text": "What is your favorite thing to wear?",
+				"id": "a1_paper_082_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. Choose a drink.",
+				"id": "a1_paper_082_s_resp_1"
+			},
+			{
+				"role_context": "a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You see a shirt in a shop. Ask about the price.",
+				"id": "a1_paper_082_s_resp_2"
+			},
+			{
+				"role_context": "Stranger",
+				"starter_line": "Can you help me?",
+				"description": "You are lost.",
+				"id": "a1_paper_082_s_resp_3"
+			},
+			{
+				"role_context": "Teacher",
+				"starter_line": "Can you read this?",
+				"description": "You are in class.",
+				"id": "a1_paper_082_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You want to ask a friend about their favorite food. ..",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_082_s_ask_1"
+			},
+			{
+				"instruction": "You need directions to the bus station. Ask a stranger.",
+				"expected_function": "asking_for_directions",
+				"id": "a1_paper_082_s_ask_2"
+			},
+			{
+				"instruction": "You want help with your homework. Ask your friend.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_082_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_082_ls",
+		"text": "I brush my teeth every day. I use a toothbrush and toothpaste. Brushing teeth is important. It makes my mouth clean. I brush for two minutes.",
+		"questions": [
+			{
+				"question": "What do I use?",
+				"answer": "Toothbrush and toothpaste",
+				"id": "a1_paper_082_ls_q_1"
+			},
+			{
+				"question": "When do I brush my teeth?",
+				"answer": "Every day",
+				"id": "a1_paper_082_ls_q_2"
+			},
+			{
+				"question": "Why is brushing teeth important?",
+				"answer": "It makes my mouth clean",
+				"id": "a1_paper_082_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_082_mono",
+		"topic": "Talk about your garden or balcony",
+		"follow_up_questions": [
+			{
+				"question": "What plants are in your garden or balcony?",
+				"id": "a1_paper_082_mono_q_1"
+			},
+			{
+				"question": "When do you water your plants?",
+				"id": "a1_paper_082_mono_q_2"
+			},
+			{
+				"question": "Where do you buy your plants?",
+				"id": "a1_paper_082_mono_q_3"
+			},
+			{
+				"question": "Why do you like your garden or balcony?",
+				"id": "a1_paper_082_mono_q_4"
+			}
+		]
+	},
+	"uuid": "49033cfb-5058-48e2-aade-a9ed3aae0ba6"
+}

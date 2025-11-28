@@ -1,159 +1,950 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabarak</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+<html lang="en" data-theme="dark">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>A1 Language Certification Paper</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+		<style>
+			:root {
+				--primary: #4a90e2;
+				--primary-hover: #357abd;
+				--primary-focus: rgba(74, 144, 226, 0.125);
+			}
 
-        body {
-            background-color: #000;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            gap: 2rem;
-            padding: 1rem;
-        }
+			body {
+				background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #7e22ce 100%);
+				background-attachment: fixed;
+				position: relative;
+				overflow-x: hidden;
+			}
 
-        #image-circle {
-            width: min(300px, 80vw);
-            height: min(300px, 80vw);
-            border-radius: 50%;
-            overflow: hidden;
-            position: relative;
-            box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
-        }
+			/* Sparkly effect */
+			body::before {
+				content: "";
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background-image: radial-gradient(circle, rgba(255, 255, 255, 0.8) 1px, transparent 1px),
+					radial-gradient(circle, rgba(255, 255, 255, 0.6) 1px, transparent 1px),
+					radial-gradient(circle, rgba(255, 255, 255, 0.4) 2px, transparent 2px);
+				background-size: 300px 300px, 200px 200px, 400px 400px;
+				background-position: 0 0, 50px 50px, 100px 100px;
+				animation: sparkle 20s linear infinite;
+				pointer-events: none;
+				z-index: 0;
+			}
 
-        #image-circle img {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            opacity: 0;
-            transition: opacity 1s ease-in-out;
-        }
+			@keyframes sparkle {
+				0% {
+					opacity: 0.3;
+					transform: translateY(0);
+				}
+				50% {
+					opacity: 0.6;
+				}
+				100% {
+					opacity: 0.3;
+					transform: translateY(-100px);
+				}
+			}
 
-        #image-circle img.active {
-            opacity: 1;
-        }
+			.container {
+				position: relative;
+				z-index: 1;
+				max-width: 1200px;
+				margin: 0 auto;
+				padding: 2rem 1rem;
+			}
 
-        #text {
-            color: #fff;
-            font-size: clamp(2.5rem, 10vw, 8rem);
-            display: flex;
-            gap: 0.5rem;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
+			header {
+				text-align: center;
+				margin-bottom: 3rem;
+				padding: 2rem 0;
+			}
 
-        .word {
-            display: inline-block;
-            opacity: 0;
-            transform: scale(0) translateY(30px);
-        }
+			.total-time {
+				margin-top: 1rem;
+				color: rgba(255, 255, 255, 0.9);
+				font-size: clamp(1rem, 2vw, 1.2rem);
+				display: inline-flex;
+				align-items: center;
+				gap: 0.5rem;
+				background: rgba(255, 255, 255, 0.1);
+				padding: 0.5rem 1.5rem;
+				border-radius: 0.5rem;
+			}
 
-        .word.animate {
-            animation: buildIn 0.8s forwards;
-        }
+			h1 {
+				font-size: clamp(2.5rem, 5vw, 4rem);
+				margin-bottom: 0.5rem;
+				background: linear-gradient(135deg, #ffffff 0%, #a0c4ff 100%);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+				background-clip: text;
+				font-weight: 700;
+			}
 
-        .heart {
-            color: #ff0000;
-        }
+			.random-button {
+				margin-top: 1.5rem;
+				font-size: clamp(1rem, 2vw, 1.2rem);
+				padding: 0.75rem 2rem;
+				background: #ffffff;
+				border: 2px solid #ffffff;
+				color: #1e3c72;
+				border-radius: 0.5rem;
+				cursor: pointer;
+				transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+				font-weight: 600;
+			}
 
-        .heart.beating {
-            animation: buildIn 0.8s forwards, pound 1s infinite 1s;
-        }
+			.random-button:hover {
+				transform: translateY(-2px);
+				box-shadow: 0 5px 20px rgba(255, 255, 255, 0.5);
+				background: #f0f7ff;
+			}
 
-        @keyframes buildIn {
-            0% {
-                opacity: 0;
-                transform: scale(0) translateY(30px);
-            }
-            60% {
-                transform: scale(1.2) translateY(-5px);
-            }
-            100% {
-                opacity: 1;
-                transform: scale(1) translateY(0);
-            }
-        }
+			.random-button:active {
+				transform: translateY(0);
+			}
 
-        @keyframes pound {
-            0%, 100% {
-                transform: scale(1);
-            }
-            25% {
-                transform: scale(1.3);
-            }
-            50% {
-                transform: scale(1);
-            }
-            75% {
-                transform: scale(1.15);
-            }
-        }
-    </style>
-</head>
-<body>
-    <div id="image-circle">
-        <img src="tie.png" alt="Tie">
-        <img src="flowers.png" alt="Flowers">
-        <img src="rings.png" alt="Rings">
-        <img src="shoes.png" alt="Shoes">
-    </div>
-    <div id="text"></div>
+			.current-paper {
+				color: rgba(255, 255, 255, 0.9);
+				font-size: clamp(0.9rem, 1.5vw, 1.1rem);
+				margin-top: 0.5rem;
+			}
 
-    <script>
-        // Image rotation
-        const images = document.querySelectorAll('#image-circle img');
-        let currentIndex = 0;
-        
-        images[currentIndex].classList.add('active');
-        
-        setInterval(() => {
-            images[currentIndex].classList.remove('active');
-            currentIndex = (currentIndex + 1) % images.length;
-            images[currentIndex].classList.add('active');
-        }, 3000); // Change image every 3 seconds
+			.section {
+				background: rgba(255, 255, 255, 0.95);
+				border-radius: 1rem;
+				padding: 2.5rem;
+				margin-bottom: 2rem;
+				box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+				backdrop-filter: blur(10px);
+			}
 
-        // Text animation
-        const textElement = document.getElementById('text');
-        
-        const firstNameSpan = document.createElement('span');
-        firstNameSpan.textContent = 'أحمد';
-        firstNameSpan.className = 'word';
-        textElement.appendChild(firstNameSpan);
+			.section h2 {
+				color: #1e3c72;
+				font-size: clamp(1.8rem, 3vw, 2.5rem);
+				margin-bottom: 0.5rem;
+				border-bottom: 3px solid #4a90e2;
+				padding-bottom: 0.5rem;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				flex-wrap: wrap;
+				gap: 1rem;
+			}
 
-        const heartSpan = document.createElement('span');
-        heartSpan.textContent = '❤️';
-        heartSpan.className = 'word heart';
-        textElement.appendChild(heartSpan);
+			.section-timestamp {
+				display: inline-flex;
+				align-items: center;
+				gap: 0.5rem;
+				background: rgba(74, 144, 226, 0.1);
+				padding: 0.5rem 1rem;
+				border-radius: 0.5rem;
+				font-size: clamp(1rem, 2vw, 1.2rem);
+				color: #1e3c72;
+				font-weight: 600;
+				white-space: nowrap;
+			}
 
-        const secondNameSpan = document.createElement('span');
-        secondNameSpan.textContent = 'تبارك';
-        secondNameSpan.className = 'word';
-        textElement.appendChild(secondNameSpan);
+			.timer-button {
+				background: transparent;
+				border: none;
+				padding: 0;
+				font-size: clamp(1rem, 2vw, 1.2rem);
+				cursor: pointer;
+				transition: opacity 0.2s;
+				color: #1e3c72;
+				font-weight: 600;
+				line-height: 1;
+			}
 
-        setTimeout(() => {
-            firstNameSpan.classList.add('animate');
-        }, 100);
+			.timer-button:hover {
+				opacity: 0.7;
+			}
 
-        setTimeout(() => {
-            heartSpan.classList.add('animate', 'beating');
-        }, 600);
+			.timer-display {
+				font-size: clamp(1rem, 2vw, 1.2rem);
+				min-width: 3.5rem;
+				text-align: center;
+			}
 
-        setTimeout(() => {
-            secondNameSpan.classList.add('animate');
-        }, 1100);
-    </script>
-</body>
+			.timer-running {
+				color: #e65100;
+			}
+
+			.section-subtitle {
+				color: #555;
+				font-size: clamp(1rem, 2vw, 1.2rem);
+				margin-bottom: 2rem;
+				font-style: italic;
+			}
+
+			.arabic-text {
+				direction: rtl;
+				text-align: left;
+				font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+			}
+
+			.section h2 .arabic-text {
+				direction: rtl;
+				text-align: left;
+			}
+
+			.question-item,
+			.situation-item {
+				background: rgba(74, 144, 226, 0.08);
+				padding: 1.5rem;
+				margin-bottom: 1rem;
+				border-radius: 0.5rem;
+				border-left: 4px solid #4a90e2;
+				position: relative;
+			}
+
+			.tts-button {
+				position: absolute;
+				top: 0.75rem;
+				right: 0.75rem;
+				background: rgba(74, 144, 226, 0.85);
+				border: none;
+				border-radius: 50%;
+				width: 2rem;
+				height: 2rem;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				cursor: pointer;
+				transition: all 0.2s;
+				font-size: 0.9rem;
+				box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+				z-index: 10;
+			}
+
+			.tts-button:hover {
+				background: rgba(74, 144, 226, 1);
+				transform: scale(1.1);
+				box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+			}
+
+			.tts-button.playing {
+				background: rgba(74, 144, 226, 1);
+				animation: pulse 1.5s ease-in-out infinite;
+			}
+
+			.situation-item .tts-button {
+				top: 1rem;
+				right: 1rem;
+			}
+
+			@keyframes pulse {
+				0%,
+				100% {
+					opacity: 1;
+				}
+				50% {
+					opacity: 0.6;
+				}
+			}
+
+			.question-text,
+			.situation-text {
+				font-size: clamp(1.1rem, 2vw, 1.3rem);
+				color: #1a1a1a;
+				margin: 0;
+				font-weight: 500;
+			}
+
+			.subsection-title {
+				color: #2a5298;
+				font-size: clamp(1.3rem, 2.5vw, 1.6rem);
+				margin-top: 2rem;
+				margin-bottom: 0.5rem;
+				font-weight: 600;
+			}
+
+			.subsection-subtitle {
+				color: #666;
+				font-size: clamp(0.9rem, 1.8vw, 1.1rem);
+				margin-bottom: 1.5rem;
+				font-style: italic;
+			}
+
+			.listening-text {
+				background: #f0f7ff;
+				padding: 2rem;
+				border-radius: 0.5rem;
+				font-size: clamp(1.1rem, 2vw, 1.3rem);
+				line-height: 1.8;
+				color: #1a1a1a;
+				margin-bottom: 2rem;
+				border: 2px solid #4a90e2;
+			}
+
+			.question-answer {
+				background: rgba(126, 34, 206, 0.08);
+				padding: 1.5rem;
+				margin-bottom: 1rem;
+				border-radius: 0.5rem;
+				border-left: 4px solid #7e22ce;
+			}
+
+			.answer {
+				color: #7e22ce;
+				font-weight: 600;
+				font-size: clamp(1rem, 2vw, 1.2rem);
+				margin-top: 0.5rem;
+			}
+
+			.role-context {
+				background: #fff3e0;
+				padding: 0.75rem 1rem;
+				border-radius: 0.25rem;
+				margin-bottom: 0.75rem;
+				font-size: clamp(0.95rem, 1.8vw, 1.1rem);
+				color: #e65100;
+				font-weight: 500;
+			}
+
+			.starter-line {
+				font-style: italic;
+				color: #2a5298;
+				font-size: clamp(1rem, 2vw, 1.2rem);
+				margin-top: 0.5rem;
+			}
+
+			.instruction {
+				color: #2a5298;
+				font-size: clamp(1.1rem, 2vw, 1.3rem);
+				font-weight: 500;
+			}
+
+			.monologue-topic {
+				background: linear-gradient(135deg, #4a90e2 0%, #7e22ce 100%);
+				color: white;
+				padding: 2rem;
+				border-radius: 0.5rem;
+				font-size: clamp(1.3rem, 2.5vw, 1.8rem);
+				text-align: center;
+				margin-bottom: 2rem;
+				font-weight: 600;
+			}
+
+			@media (max-width: 768px) {
+				.section {
+					padding: 1.5rem;
+				}
+
+				.section h2 {
+					flex-direction: column;
+					align-items: flex-start;
+					gap: 0.5rem;
+				}
+
+				.section-timestamp {
+					align-self: flex-end;
+				}
+
+				.tts-button {
+					width: 1.75rem;
+					height: 1.75rem;
+					font-size: 0.8rem;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<h1>A1 Language Certification Paper</h1>
+				<button class="random-button" id="randomButton" onclick="loadRandomPaper()">
+					🔄 <span class="arabic-text">تحميل ورقة عشوائية</span>
+				</button>
+				<p class="current-paper" id="currentPaper"></p>
+				<p class="total-time">
+					<span class="clock-icon">⏱️</span>
+					<strong class="arabic-text">الوقت الإجمالي: 8–9 دقائق</strong>
+				</p>
+			</header>
+
+			<main id="content">
+				<p style="text-align: center; color: white; font-size: 1.2rem">Loading content...</p>
+			</main>
+		</div>
+
+		<script>
+			// Cache for available papers
+			let availablePapers = [];
+			const PAST_PAPERS_DIR = "past_papers/";
+
+			// Function to load the papers index
+			async function loadPapersIndex() {
+				if (availablePapers.length > 0) {
+					return availablePapers; // Already loaded
+				}
+
+				try {
+					// Try to load index.json from past_papers directory first
+					const indexPath = `${PAST_PAPERS_DIR}index.json`;
+					const response = await fetch(indexPath);
+
+					if (response.ok) {
+						const index = await response.json();
+						// Index can be an array of filenames or an object with a 'papers' property
+						if (Array.isArray(index)) {
+							availablePapers = index.map((file) =>
+								file.startsWith(PAST_PAPERS_DIR) ? file : `${PAST_PAPERS_DIR}${file}`
+							);
+						} else if (index.papers && Array.isArray(index.papers)) {
+							availablePapers = index.papers.map((file) =>
+								file.startsWith(PAST_PAPERS_DIR) ? file : `${PAST_PAPERS_DIR}${file}`
+							);
+						}
+					} else {
+						// Fallback: try root directory
+						const rootResponse = await fetch("index.json");
+						if (rootResponse.ok) {
+							const index = await rootResponse.json();
+							if (Array.isArray(index)) {
+								availablePapers = index.map((file) =>
+									file.startsWith(PAST_PAPERS_DIR) ? file : `${PAST_PAPERS_DIR}${file}`
+								);
+							} else if (index.papers && Array.isArray(index.papers)) {
+								availablePapers = index.papers.map((file) =>
+									file.startsWith(PAST_PAPERS_DIR) ? file : `${PAST_PAPERS_DIR}${file}`
+								);
+							}
+						} else {
+							throw new Error("No index.json found");
+						}
+					}
+
+					console.log(`Loaded ${availablePapers.length} papers from index`);
+					return availablePapers;
+				} catch (error) {
+					console.error("Error loading papers index:", error);
+					// Fallback: try pattern-based discovery
+					return await discoverPapersByPattern();
+				}
+			}
+
+			// Fallback: discover papers by trying common patterns
+			async function discoverPapersByPattern() {
+				const discovered = [];
+				const promises = [];
+
+				// Try papers from 001 to 100
+				for (let i = 1; i <= 100; i++) {
+					const num = i.toString().padStart(3, "0");
+					const filename = `${PAST_PAPERS_DIR}a1_paper_${num}.json`;
+
+					promises.push(
+						fetch(filename, { method: "HEAD" })
+							.then((response) => {
+								if (response.ok) {
+									discovered.push(filename);
+								}
+							})
+							.catch(() => {})
+					);
+				}
+
+				await Promise.allSettled(promises);
+				availablePapers = discovered.sort();
+				console.log(`Discovered ${availablePapers.length} papers by pattern`);
+				return availablePapers;
+			}
+
+			// Function to get a random paper filename
+			function getRandomPaper() {
+				if (availablePapers.length === 0) {
+					return `${PAST_PAPERS_DIR}a1_paper_001.json`; // fallback
+				}
+				const randomIndex = Math.floor(Math.random() * availablePapers.length);
+				return availablePapers[randomIndex];
+			}
+
+			// Timer functionality (defined early so it can be used by loadPaper)
+			const timers = {
+				personal: { interval: null, remaining: 90, total: 90, running: false },
+				situations: { interval: null, remaining: 90, total: 90, running: false },
+				listening: { interval: null, remaining: 120, total: 120, running: false },
+				monologue: { interval: null, remaining: 120, total: 120, running: false },
+			};
+
+			function formatTime(seconds) {
+				const mins = Math.floor(seconds / 60);
+				const secs = seconds % 60;
+				return `${mins}:${secs.toString().padStart(2, "0")}`;
+			}
+
+			function updateTimerDisplay(section) {
+				const timer = timers[section];
+				const display = document.getElementById(`timer-${section}`);
+				const button = document.getElementById(`timer-btn-${section}`);
+				if (display) {
+					display.textContent = formatTime(timer.remaining);
+					if (timer.running) {
+						display.classList.add("timer-running");
+					} else {
+						display.classList.remove("timer-running");
+					}
+				}
+				if (button) {
+					button.textContent = timer.running ? "⏸" : "▶";
+				}
+			}
+
+			function resetAllTimers() {
+				Object.keys(timers).forEach((section) => {
+					const timer = timers[section];
+					if (timer.interval) {
+						clearInterval(timer.interval);
+					}
+					timer.remaining = timer.total;
+					timer.running = false;
+					updateTimerDisplay(section);
+				});
+			}
+
+			// Function to load a specific paper
+			function loadPaper(filename) {
+				// Reset all timers when loading new paper
+				resetAllTimers();
+
+				document.getElementById("content").innerHTML =
+					'<p style="text-align: center; color: white; font-size: 1.2rem;">Loading content...</p>';
+
+				fetch(filename)
+					.then((response) => {
+						if (!response.ok) {
+							throw new Error(`Failed to load ${filename}`);
+						}
+						return response.json();
+					})
+					.then((data) => {
+						displayContent(data);
+						document.getElementById("currentPaper").textContent = `Current: ${data.id || filename}`;
+					})
+					.catch((error) => {
+						document.getElementById(
+							"content"
+						).innerHTML = `<p style="color: #ff6b6b; text-align: center;">Error loading ${filename}. Please ensure the file exists.</p>`;
+						console.error("Error:", error);
+						document.getElementById("currentPaper").textContent = "";
+					});
+			}
+
+			// Function to load a random paper
+			async function loadRandomPaper() {
+				// Ensure papers are loaded
+				if (availablePapers.length === 0) {
+					document.getElementById("content").innerHTML =
+						'<p style="text-align: center; color: white; font-size: 1.2rem;">Loading available papers...</p>';
+					await loadPapersIndex();
+				}
+
+				const currentPaper = document.getElementById("currentPaper").textContent;
+				let randomPaper;
+
+				// If there's only one paper, just reload it
+				if (availablePapers.length <= 1) {
+					randomPaper = availablePapers[0] || `${PAST_PAPERS_DIR}a1_paper_001.json`;
+				} else {
+					// Get a different random paper (avoid loading the same one if possible)
+					do {
+						randomPaper = getRandomPaper();
+					} while (
+						availablePapers.length > 1 &&
+						currentPaper.includes(randomPaper.replace(".json", "").replace(PAST_PAPERS_DIR, ""))
+					);
+				}
+
+				// Scroll to top and load the paper
+				window.scrollTo({ top: 0, behavior: "smooth" });
+				loadPaper(randomPaper);
+			}
+
+			// Make function globally accessible
+			window.loadRandomPaper = loadRandomPaper;
+
+			// Load initial paper on page load
+			(async function () {
+				await loadPapersIndex();
+				if (availablePapers.length > 0) {
+					loadPaper(availablePapers[0]);
+				} else {
+					// Fallback if no papers found
+					loadPaper(`${PAST_PAPERS_DIR}a1_paper_001.json`);
+				}
+			})();
+
+			// Also attach event listener as backup (in addition to onclick)
+			document.addEventListener("DOMContentLoaded", function () {
+				const button = document.getElementById("randomButton");
+				if (button) {
+					button.addEventListener("click", function (e) {
+						e.preventDefault();
+						loadRandomPaper();
+					});
+				}
+			});
+
+			function displayContent(data) {
+				const content = document.getElementById("content");
+				let html = "";
+
+				// Personal Information Section
+				html += `
+                <section class="section">
+                    <h2>
+                        <span class="arabic-text">المعلومات الشخصية</span>
+                        <span class="section-timestamp">
+                            <button class="timer-button" onclick="toggleTimer('personal', 90)" id="timer-btn-personal">▶</button>
+                            <span class="timer-display" id="timer-personal">1:30</span>
+                        </span>
+                    </h2>
+                    <p class="section-subtitle arabic-text">أسئلة تمهيدية وعامة للتعرف على المرشح</p>
+                    
+                    <h3 class="subsection-title arabic-text">أسئلة تمهيدية</h3>
+                    <p class="subsection-subtitle arabic-text">أسئلة عامة عنك.</p>
+                    ${data.personal_information.intro_questions
+											.map(
+												(q) => `
+                        <div class="question-item">
+                            <button class="tts-button" onclick="speakText('${q.text.replace(
+															/'/g,
+															"\\'"
+														)}', this)" title="Read aloud">🔊</button>
+                            <p class="question-text">${q.text}</p>
+                        </div>
+                    `
+											)
+											.join("")}
+                    
+                    <h3 class="subsection-title arabic-text">الأسئلة الرئيسية</h3>
+                    <p class="subsection-subtitle arabic-text">أسئلة محددة عنك، هواياتك، تفضيلاتك، إلخ.</p>
+                    ${data.personal_information.main_questions
+											.map(
+												(q) => `
+                        <div class="question-item">
+                            <button class="tts-button" onclick="speakText('${q.text.replace(
+															/'/g,
+															"\\'"
+														)}', this)" title="Read aloud">🔊</button>
+                            <p class="question-text">${q.text}</p>
+                        </div>
+                    `
+											)
+											.join("")}
+                </section>
+            `;
+
+				// Situations Section
+				html += `
+                <section class="section">
+                    <h2>
+                        <span class="arabic-text">المواقف</span>
+                        <span class="section-timestamp">
+                            <button class="timer-button" onclick="toggleTimer('situations', 90)" id="timer-btn-situations">▶</button>
+                            <span class="timer-display" id="timer-situations">1:30</span>
+                        </span>
+                    </h2>
+                    <p class="section-subtitle arabic-text">سيناريوهات تفاعلية للمرشح للرد عليها أو بدئها</p>
+                    
+                    <h3 class="subsection-title arabic-text">مواقف الرد</h3>
+                    <p class="subsection-subtitle arabic-text">كيف ترد في السيناريوهات التالية؟</p>
+                    ${data.situations.respond_situations
+											.map(
+												(s) => `
+                        <div class="situation-item">
+                            <button class="tts-button" onclick="speakText('${(
+															s.role_context +
+															" " +
+															s.starter_line
+														).replace(/'/g, "\\'")}', this)" title="Read aloud">🔊</button>
+                            <div class="role-context">${s.role_context}</div>
+                            <p class="starter-line">"${s.starter_line}"</p>
+                        </div>
+                    `
+											)
+											.join("")}
+                    
+                    <h3 class="subsection-title arabic-text">مواقف السؤال</h3>
+                    <p class="subsection-subtitle arabic-text">ماذا تسأل في السيناريوهات التالية؟</p>
+                    ${data.situations.ask_situations
+											.map(
+												(s) => `
+                        <div class="situation-item">
+                            <button class="tts-button" onclick="speakText('${s.instruction.replace(
+															/'/g,
+															"\\'"
+														)}', this)" title="Read aloud">🔊</button>
+                            <div class="role-context">${s.instruction}</div>
+                            <p class="starter-line">...?</p>
+                        </div>
+                    `
+											)
+											.join("")}
+                </section>
+            `;
+
+				// Listening Script Section
+				html += `
+                <section class="section">
+                    <h2>
+                        <span class="arabic-text">نص الاستماع</span>
+                        <span class="section-timestamp">
+                            <button class="timer-button" onclick="toggleTimer('listening', 120)" id="timer-btn-listening">▶</button>
+                            <span class="timer-display" id="timer-listening">2:00</span>
+                        </span>
+                    </h2>
+                    <p class="section-subtitle arabic-text">نص قصير متبوع بأسئلة الفهم</p>
+                    
+                    <div class="listening-text" style="position: relative;">
+                        <button class="tts-button" onclick="speakText('${data.listening_script.text.replace(
+													/'/g,
+													"\\'"
+												)}', this)" title="Read aloud" style="position: absolute; top: 1rem; right: 1rem;">🔊</button>
+                        ${data.listening_script.text}
+                    </div>
+                    
+                    <h3 class="subsection-title arabic-text">الأسئلة</h3>
+                    <p class="subsection-subtitle arabic-text">أجب على الأسئلة التالية بناءً على النص أعلاه.</p>
+                    ${data.listening_script.questions
+											.map(
+												(q) => `
+                        <div class="question-answer" style="position: relative;">
+                            <button class="tts-button" onclick="speakText('${q.question.replace(
+															/'/g,
+															"\\'"
+														)}', this)" title="Read aloud" style="position: absolute; top: 0.75rem; right: 0.75rem;">🔊</button>
+                            <p class="question-text">${q.question}</p>
+                        </div>
+                    `
+											)
+											.join("")}
+                </section>
+            `;
+
+				// Monologue Section
+				html += `
+                <section class="section">
+                    <h2>
+                        <span class="arabic-text">الحديث المنفرد</span>
+                        <span class="section-timestamp">
+                            <button class="timer-button" onclick="toggleTimer('monologue', 120)" id="timer-btn-monologue">▶</button>
+                            <span class="timer-display" id="timer-monologue">2:00</span>
+                        </span>
+                    </h2>
+                    <p class="section-subtitle arabic-text">موضوع للمرشح للتحدث عنه، مع أسئلة متابعة</p>
+                    
+                    <div class="monologue-topic" style="position: relative;">
+                        <button class="tts-button" onclick="speakText('${(
+													data.monologue.topic + " for 30 seconds"
+												).replace(
+													/'/g,
+													"\\'"
+												)}', this)" title="Read aloud" style="position: absolute; top: 1rem; right: 1rem; background: rgba(255, 255, 255, 0.3); border-color: white;">🔊</button>
+                        ${data.monologue.topic} for 30 seconds
+                    </div>
+                    
+                    <h3 class="subsection-title arabic-text">أسئلة المتابعة</h3>
+                    <p class="subsection-subtitle arabic-text">كن مستعدًا للإجابة على هذه الأسئلة حول موضوعك.</p>
+                    ${data.monologue.follow_up_questions
+											.map(
+												(q) => `
+                        <div class="question-item">
+                            <button class="tts-button" onclick="speakText('${q.question.replace(
+															/'/g,
+															"\\'"
+														)}')" title="Read aloud">🔊</button>
+                            <p class="question-text">${q.question}</p>
+                        </div>
+                    `
+											)
+											.join("")}
+                </section>
+            `;
+
+				content.innerHTML = html;
+			}
+
+			// TTS functionality using Web Speech API
+			let currentUtterance = null;
+			let currentButton = null;
+
+			function speakText(text, buttonElement) {
+				// Stop any currently playing speech
+				if (window.speechSynthesis.speaking) {
+					window.speechSynthesis.cancel();
+					if (currentButton) {
+						currentButton.classList.remove("playing");
+					}
+				}
+
+				// Create new utterance
+				const utterance = new SpeechSynthesisUtterance(text);
+
+				// Configure voice settings for quality English TTS
+				utterance.lang = "en-US";
+				utterance.rate = 0.9; // Slightly slower for clarity
+				utterance.pitch = 1;
+				utterance.volume = 1;
+
+				// Try to use a high-quality female voice if available
+				function setVoice() {
+					const voices = window.speechSynthesis.getVoices();
+
+					// Prefer female voices - common female voice names
+					const femaleVoiceNames = [
+						"Samantha",
+						"Victoria",
+						"Karen",
+						"Fiona",
+						"Tessa",
+						"Zira",
+						"Hazel",
+						"Susan",
+						"Linda",
+						"Female",
+						"Google UK English Female",
+						"Microsoft Zira",
+					];
+
+					// First try to find a preferred female voice
+					const preferredFemaleVoices = voices.filter(
+						(voice) =>
+							voice.lang.startsWith("en") &&
+							femaleVoiceNames.some((name) => voice.name.includes(name))
+					);
+
+					if (preferredFemaleVoices.length > 0) {
+						utterance.voice = preferredFemaleVoices[0];
+					} else {
+						// Try any female voice (check if voice name suggests female)
+						const anyFemaleVoices = voices.filter(
+							(voice) =>
+								voice.lang.startsWith("en") &&
+								(voice.name.toLowerCase().includes("female") ||
+									voice.name.toLowerCase().includes("samantha") ||
+									voice.name.toLowerCase().includes("zira") ||
+									voice.name.toLowerCase().includes("victoria") ||
+									voice.name.toLowerCase().includes("karen"))
+						);
+
+						if (anyFemaleVoices.length > 0) {
+							utterance.voice = anyFemaleVoices[0];
+						} else {
+							// Fallback to any high-quality voice
+							const preferredVoices = voices.filter(
+								(voice) =>
+									voice.lang.startsWith("en") &&
+									(voice.name.includes("Google") ||
+										voice.name.includes("Microsoft") ||
+										voice.name.includes("Samantha") ||
+										voice.name.includes("Alex"))
+							);
+
+							if (preferredVoices.length > 0) {
+								utterance.voice = preferredVoices[0];
+							} else {
+								// Final fallback to first English voice
+								const englishVoices = voices.filter((voice) => voice.lang.startsWith("en"));
+								if (englishVoices.length > 0) {
+									utterance.voice = englishVoices[0];
+								}
+							}
+						}
+					}
+				}
+
+				// Set voice (may need to wait for voices to load)
+				setVoice();
+				if (window.speechSynthesis.getVoices().length === 0) {
+					window.speechSynthesis.onvoiceschanged = setVoice;
+				}
+
+				// Get button element from event
+				currentButton = buttonElement || (window.event ? window.event.target : null);
+
+				// Add visual feedback
+				if (currentButton) {
+					currentButton.classList.add("playing");
+				}
+
+				// Handle speech end
+				utterance.onend = function () {
+					if (currentButton) {
+						currentButton.classList.remove("playing");
+					}
+					currentUtterance = null;
+					currentButton = null;
+				};
+
+				utterance.onerror = function () {
+					if (currentButton) {
+						currentButton.classList.remove("playing");
+					}
+					currentUtterance = null;
+					currentButton = null;
+				};
+
+				currentUtterance = utterance;
+				window.speechSynthesis.speak(utterance);
+			}
+
+			// Load voices when available (some browsers need this)
+			if (window.speechSynthesis.onvoiceschanged !== undefined) {
+				window.speechSynthesis.onvoiceschanged = function () {
+					// Voices loaded
+				};
+			}
+
+			function toggleTimer(section, totalSeconds) {
+				const timer = timers[section];
+				const button = event.target;
+
+				if (timer.running) {
+					// Pause
+					clearInterval(timer.interval);
+					timer.running = false;
+					button.textContent = "▶";
+					button.title = "Resume timer";
+				} else {
+					// Start/Resume
+					timer.running = true;
+					button.textContent = "⏸";
+					button.title = "Pause timer";
+
+					timer.interval = setInterval(() => {
+						timer.remaining--;
+						updateTimerDisplay(section);
+
+						// Stop when reaching 0
+						if (timer.remaining <= 0) {
+							clearInterval(timer.interval);
+							timer.running = false;
+							timer.remaining = 0;
+							button.textContent = "▶";
+							button.title = "Start timer";
+							updateTimerDisplay(section);
+
+							// Optional: Play a sound or show notification
+							if (window.speechSynthesis) {
+								const utterance = new SpeechSynthesisUtterance("Time is up");
+								utterance.volume = 0.5;
+								window.speechSynthesis.speak(utterance);
+							}
+						}
+					}, 1000);
+				}
+
+				updateTimerDisplay(section);
+			}
+		</script>
+	</body>
 </html>
-

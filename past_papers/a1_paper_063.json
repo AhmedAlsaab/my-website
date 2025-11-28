@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_063",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_063_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_063_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_063_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "Where do you live?",
+				"id": "a1_paper_063_pi_q_1"
+			},
+			{
+				"text": "How do you feel today?",
+				"id": "a1_paper_063_pi_q_2"
+			},
+			{
+				"text": "What do you want to achieve this year?",
+				"id": "a1_paper_063_pi_q_3"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_063_pi_q_4"
+			},
+			{
+				"text": "Who is in your family?",
+				"id": "a1_paper_063_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Stranger",
+				"starter_line": "Can you help me?",
+				"description": "You are lost.",
+				"id": "a1_paper_063_s_resp_1"
+			},
+			{
+				"role_context": "Shop assistant",
+				"starter_line": "Can I help you?",
+				"description": "You are in a shop. You want to buy something.",
+				"id": "a1_paper_063_s_resp_2"
+			},
+			{
+				"role_context": "shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You are in a shop. You ask about a shirt.",
+				"id": "a1_paper_063_s_resp_3"
+			},
+			{
+				"role_context": "café",
+				"starter_line": "What would you like to drink?",
+				"description": "You are at a café. You choose a drink.",
+				"id": "a1_paper_063_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are in a store. Ask the clerk for the price of an item.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_063_s_ask_1"
+			},
+			{
+				"instruction": "You want to ask your teacher about the test. ..",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_063_s_ask_2"
+			},
+			{
+				"instruction": "You see your friend. Ask for help with your homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_063_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_063_ls",
+		"text": "Learning English is fun. It helps us talk to others. We can read books in English. We can watch movies too. Practice is very important.",
+		"questions": [
+			{
+				"question": "What is fun?",
+				"answer": "Learning English",
+				"id": "a1_paper_063_ls_q_1"
+			},
+			{
+				"question": "What helps us talk?",
+				"answer": "Learning English",
+				"id": "a1_paper_063_ls_q_2"
+			},
+			{
+				"question": "Why is practice important?",
+				"answer": "To learn better",
+				"id": "a1_paper_063_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_063_mono",
+		"topic": "Talk about your favourite shop",
+		"follow_up_questions": [
+			{
+				"question": "What do you buy in your favorite shop?",
+				"id": "a1_paper_063_mono_q_1"
+			},
+			{
+				"question": "Where is your favorite shop?",
+				"id": "a1_paper_063_mono_q_2"
+			},
+			{
+				"question": "When do you go to your favorite shop?",
+				"id": "a1_paper_063_mono_q_3"
+			},
+			{
+				"question": "Why do you like this shop?",
+				"id": "a1_paper_063_mono_q_4"
+			}
+		]
+	},
+	"uuid": "ed041861-f6ff-48ab-8dff-6a2a012dc88b"
+}

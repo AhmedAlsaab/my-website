@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_046",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_046_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_046_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_046_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_046_pi_q_1"
+			},
+			{
+				"text": "Where do you go with friends?",
+				"id": "a1_paper_046_pi_q_2"
+			},
+			{
+				"text": "Who is in your family?",
+				"id": "a1_paper_046_pi_q_3"
+			},
+			{
+				"text": "Where do you go to school?",
+				"id": "a1_paper_046_pi_q_4"
+			},
+			{
+				"text": "What is your favorite family recipe?",
+				"id": "a1_paper_046_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Parent",
+				"starter_line": "Did you finish your homework?",
+				"description": "You are at home.",
+				"id": "a1_paper_046_s_resp_1"
+			},
+			{
+				"role_context": "shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You are in a clothing shop. A customer asks you about a shirt.",
+				"id": "a1_paper_046_s_resp_2"
+			},
+			{
+				"role_context": "Bus driver",
+				"starter_line": "Next stop is the park.",
+				"description": "You are on the bus.",
+				"id": "a1_paper_046_s_resp_3"
+			},
+			{
+				"role_context": "café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. The waiter asks you about your drink.",
+				"id": "a1_paper_046_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You need help with your homework. Ask your friend for help.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_046_s_ask_1"
+			},
+			{
+				"instruction": "You are at a friend's house. You want to ask for a snack. ..",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_046_s_ask_2"
+			},
+			{
+				"instruction": "You want to buy a drink. Ask the shopkeeper for the price.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_046_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_046_ls",
+		"text": "I send messages to my friends. I use my phone. Messages are fun and quick. I like to chat. We talk every day.",
+		"questions": [
+			{
+				"question": "What do I send?",
+				"answer": "Messages",
+				"id": "a1_paper_046_ls_q_1"
+			},
+			{
+				"question": "When do I chat?",
+				"answer": "Every day",
+				"id": "a1_paper_046_ls_q_2"
+			},
+			{
+				"question": "Who do I send messages to?",
+				"answer": "My friends",
+				"id": "a1_paper_046_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_046_mono",
+		"topic": "Talk about your sports kit",
+		"follow_up_questions": [
+			{
+				"question": "What is in your sports kit?",
+				"id": "a1_paper_046_mono_q_1"
+			},
+			{
+				"question": "When do you use your sports kit?",
+				"id": "a1_paper_046_mono_q_2"
+			},
+			{
+				"question": "Where do you keep your sports kit?",
+				"id": "a1_paper_046_mono_q_3"
+			},
+			{
+				"question": "How do you feel about your sports kit?",
+				"id": "a1_paper_046_mono_q_4"
+			}
+		]
+	},
+	"uuid": "91c521e8-79d4-456a-8de8-f1539716c3a4"
+}

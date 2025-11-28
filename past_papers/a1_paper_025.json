@@ -1,0 +1,140 @@
+{
+	"id": "a1_paper_025",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_025_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_025_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_025_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_025_pi_q_1"
+			},
+			{
+				"text": "What is your favorite winter activity?",
+				"id": "a1_paper_025_pi_q_2"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_025_pi_q_3"
+			},
+			{
+				"text": "What is your favorite breakfast cereal?",
+				"id": "a1_paper_025_pi_q_4"
+			},
+			{
+				"text": "Where do you want to travel?",
+				"id": "a1_paper_025_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Teacher",
+				"starter_line": "What is your favorite subject?",
+				"description": "You are in class.",
+				"id": "a1_paper_025_s_resp_1"
+			},
+			{
+				"role_context": "café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. You need to choose a drink.",
+				"id": "a1_paper_025_s_resp_2"
+			},
+			{
+				"role_context": "Bus driver",
+				"starter_line": "Where do you want to go?",
+				"description": "You are at a bus stop.",
+				"id": "a1_paper_025_s_resp_3"
+			},
+			{
+				"role_context": "shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You are in a clothing shop. You want to know the price.",
+				"id": "a1_paper_025_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are at school. Ask a friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_025_s_ask_1"
+			},
+			{
+				"instruction": "You are shopping. Ask the shopkeeper for the price of a shirt.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_025_s_ask_2"
+			},
+			{
+				"instruction": "You want to ask your friend about a subject. ..",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_025_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_025_ls",
+		"text": "I make a lunch box. I put rice in it. I add some chicken. I include an apple. I close the box tightly.",
+		"questions": [
+			{
+				"question": "What do I make?",
+				"answer": "a lunch box",
+				"id": "a1_paper_025_ls_q_1"
+			},
+			{
+				"question": "What do I put in it?",
+				"answer": "rice",
+				"id": "a1_paper_025_ls_q_2"
+			},
+			{
+				"question": "When do I close the box?",
+				"answer": "after I add food",
+				"id": "a1_paper_025_ls_q_3"
+			},
+			{
+				"question": "Who prepares the lunch box?",
+				"answer": "I",
+				"id": "a1_paper_025_ls_q_4"
+			},
+			{
+				"question": "Why do I make a lunch box?",
+				"answer": "for lunch",
+				"id": "a1_paper_025_ls_q_5"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_025_mono",
+		"topic": "Talk about your toys",
+		"follow_up_questions": [
+			{
+				"question": "What is your favorite toy?",
+				"id": "a1_paper_025_mono_q_1"
+			},
+			{
+				"question": "Where do you keep your toys?",
+				"id": "a1_paper_025_mono_q_2"
+			},
+			{
+				"question": "When do you play with your toys?",
+				"id": "a1_paper_025_mono_q_3"
+			},
+			{
+				"question": "How do you take care of your toys?",
+				"id": "a1_paper_025_mono_q_4"
+			}
+		]
+	},
+	"uuid": "4775cddd-3b21-4dcf-bfbe-35620780a8ab"
+}

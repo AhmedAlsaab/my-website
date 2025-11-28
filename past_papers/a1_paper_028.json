@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_028",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_028_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_028_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_028_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What is your favorite color?",
+				"id": "a1_paper_028_pi_q_1"
+			},
+			{
+				"text": "What is your favorite treat?",
+				"id": "a1_paper_028_pi_q_2"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_028_pi_q_3"
+			},
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_028_pi_q_4"
+			},
+			{
+				"text": "Can you ride a bike?",
+				"id": "a1_paper_028_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Friend",
+				"starter_line": "What is your favorite game?",
+				"description": "You are talking about games.",
+				"id": "a1_paper_028_s_resp_1"
+			},
+			{
+				"role_context": "Café staff",
+				"starter_line": "What would you like to drink?",
+				"description": "You are at a café.",
+				"id": "a1_paper_028_s_resp_2"
+			},
+			{
+				"role_context": "In a café",
+				"starter_line": "What do you want to drink?",
+				"description": "The examiner asks you about your drink order.",
+				"id": "a1_paper_028_s_resp_3"
+			},
+			{
+				"role_context": "At a shop",
+				"starter_line": "Do you need help?",
+				"description": "The examiner offers help while you look at clothes.",
+				"id": "a1_paper_028_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are with your friend. Ask for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_028_s_ask_1"
+			},
+			{
+				"instruction": "You are at a store. Ask where the milk is.",
+				"expected_function": "asking_for_directions",
+				"id": "a1_paper_028_s_ask_2"
+			},
+			{
+				"instruction": "You are at a restaurant. You want to ask for the menu. ..",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_028_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_028_ls",
+		"text": "I study for tests at home. I use my books and notes. My friend helps me. We study together after school. It is good to practice.",
+		"questions": [
+			{
+				"question": "What do I use?",
+				"answer": "My books and notes",
+				"id": "a1_paper_028_ls_q_1"
+			},
+			{
+				"question": "When do we study?",
+				"answer": "After school",
+				"id": "a1_paper_028_ls_q_2"
+			},
+			{
+				"question": "Who helps me?",
+				"answer": "My friend",
+				"id": "a1_paper_028_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_028_mono",
+		"topic": "Talk about things you do alone",
+		"follow_up_questions": [
+			{
+				"question": "What do you like to do alone?",
+				"id": "a1_paper_028_mono_q_1"
+			},
+			{
+				"question": "When do you do these things alone?",
+				"id": "a1_paper_028_mono_q_2"
+			},
+			{
+				"question": "Where do you go when you are alone?",
+				"id": "a1_paper_028_mono_q_3"
+			},
+			{
+				"question": "How does it feel to be alone?",
+				"id": "a1_paper_028_mono_q_4"
+			}
+		]
+	},
+	"uuid": "adcc645e-7b69-4a1f-818c-2dbabfd0438b"
+}

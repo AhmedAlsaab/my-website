@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_013",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_013_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_013_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_013_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What do you do on weekends?",
+				"id": "a1_paper_013_pi_q_1"
+			},
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_013_pi_q_2"
+			},
+			{
+				"text": "What is your favorite way to relax?",
+				"id": "a1_paper_013_pi_q_3"
+			},
+			{
+				"text": "What do you like to do with your family?",
+				"id": "a1_paper_013_pi_q_4"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_013_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "at a shop",
+				"starter_line": "Do you need help?",
+				"description": "You are in a shop. The shopkeeper offers help.",
+				"id": "a1_paper_013_s_resp_1"
+			},
+			{
+				"role_context": "Stranger",
+				"starter_line": "Can you help me?",
+				"description": "You are lost.",
+				"id": "a1_paper_013_s_resp_2"
+			},
+			{
+				"role_context": "Library staff",
+				"starter_line": "Return your books here.",
+				"description": "You are in the library.",
+				"id": "a1_paper_013_s_resp_3"
+			},
+			{
+				"role_context": "in a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. The waiter asks about your drink.",
+				"id": "a1_paper_013_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are shopping. Ask the shopkeeper where the toys are.",
+				"expected_function": "asking_for_directions",
+				"id": "a1_paper_013_s_ask_1"
+			},
+			{
+				"instruction": "You are at school. Ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_013_s_ask_2"
+			},
+			{
+				"instruction": "You want to ask about a movie. You ask your friend. ..",
+				"expected_function": "asking_for_information",
+				"id": "a1_paper_013_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_013_ls",
+		"text": "It is a sunny day. The sky is blue. People are outside. They play and smile. Children fly kites.",
+		"questions": [
+			{
+				"question": "What day is it?",
+				"answer": "Sunny day",
+				"id": "a1_paper_013_ls_q_1"
+			},
+			{
+				"question": "When is it sunny?",
+				"answer": "Today",
+				"id": "a1_paper_013_ls_q_2"
+			},
+			{
+				"question": "Where are the people?",
+				"answer": "Outside",
+				"id": "a1_paper_013_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_013_mono",
+		"topic": "Talk about your favourite game",
+		"follow_up_questions": [
+			{
+				"question": "What is your favourite game?",
+				"id": "a1_paper_013_mono_q_1"
+			},
+			{
+				"question": "When do you play this game?",
+				"id": "a1_paper_013_mono_q_2"
+			},
+			{
+				"question": "Where do you play it?",
+				"id": "a1_paper_013_mono_q_3"
+			},
+			{
+				"question": "Why do you like this game?",
+				"id": "a1_paper_013_mono_q_4"
+			}
+		]
+	},
+	"uuid": "edc7c666-5908-4f5f-bdca-f7641df7065c"
+}

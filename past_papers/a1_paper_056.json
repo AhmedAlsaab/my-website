@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_056",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_056_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_056_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_056_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_056_pi_q_1"
+			},
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_056_pi_q_2"
+			},
+			{
+				"text": "What do you do on your birthday?",
+				"id": "a1_paper_056_pi_q_3"
+			},
+			{
+				"text": "What is your favorite type of food?",
+				"id": "a1_paper_056_pi_q_4"
+			},
+			{
+				"text": "What language do you speak at home?",
+				"id": "a1_paper_056_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "In a café",
+				"starter_line": "What would you like to drink?",
+				"description": "You are at a café. You can choose a drink.",
+				"id": "a1_paper_056_s_resp_1"
+			},
+			{
+				"role_context": "Waiter",
+				"starter_line": "Do you want dessert?",
+				"description": "You are at a restaurant.",
+				"id": "a1_paper_056_s_resp_2"
+			},
+			{
+				"role_context": "Parent",
+				"starter_line": "What do you want for dinner?",
+				"description": "You are at home.",
+				"id": "a1_paper_056_s_resp_3"
+			},
+			{
+				"role_context": "At the park",
+				"starter_line": "Do you like this park?",
+				"description": "You are at a park with trees and flowers.",
+				"id": "a1_paper_056_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are at school. Ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_056_s_ask_1"
+			},
+			{
+				"instruction": "You are at a friend's house. You want to ask for a snack. ..",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_056_s_ask_2"
+			},
+			{
+				"instruction": "You are at a store. Ask the shopkeeper for the price of a shirt.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_056_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_056_ls",
+		"text": "I help my mother cook dinner. We wash the vegetables. I cut the carrots. She cooks the rice. We eat together at the table.",
+		"questions": [
+			{
+				"question": "What do you wash?",
+				"answer": "The vegetables",
+				"id": "a1_paper_056_ls_q_1"
+			},
+			{
+				"question": "When do you eat?",
+				"answer": "At dinner",
+				"id": "a1_paper_056_ls_q_2"
+			},
+			{
+				"question": "Who helps cook?",
+				"answer": "I help my mother",
+				"id": "a1_paper_056_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_056_mono",
+		"topic": "Talk about winter activities",
+		"follow_up_questions": [
+			{
+				"question": "What do you like to do in winter?",
+				"id": "a1_paper_056_mono_q_1"
+			},
+			{
+				"question": "When is winter in your country?",
+				"id": "a1_paper_056_mono_q_2"
+			},
+			{
+				"question": "Where do you go for winter activities?",
+				"id": "a1_paper_056_mono_q_3"
+			},
+			{
+				"question": "How do you feel about winter sports?",
+				"id": "a1_paper_056_mono_q_4"
+			}
+		]
+	},
+	"uuid": "3348d84c-b340-4043-852e-b621bc8641d4"
+}

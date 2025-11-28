@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_051",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_051_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_051_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_051_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_051_pi_q_1"
+			},
+			{
+				"text": "Who is in your family?",
+				"id": "a1_paper_051_pi_q_2"
+			},
+			{
+				"text": "Do you watch TV?",
+				"id": "a1_paper_051_pi_q_3"
+			},
+			{
+				"text": "What is your favorite app on your phone?",
+				"id": "a1_paper_051_pi_q_4"
+			},
+			{
+				"text": "Where do you enjoy spending time?",
+				"id": "a1_paper_051_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Friend",
+				"starter_line": "What do you like to do?",
+				"description": "You are having a conversation.",
+				"id": "a1_paper_051_s_resp_1"
+			},
+			{
+				"role_context": "At a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You see a shirt in a shop. You want to ask the price.",
+				"id": "a1_paper_051_s_resp_2"
+			},
+			{
+				"role_context": "In a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. You can choose a drink.",
+				"id": "a1_paper_051_s_resp_3"
+			},
+			{
+				"role_context": "Café staff",
+				"starter_line": "Would you like coffee or tea?",
+				"description": "You are ordering drinks.",
+				"id": "a1_paper_051_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "At school, the candidate asks a friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_051_s_ask_1"
+			},
+			{
+				"instruction": "You want to ask about a movie. You ask your friend. ..",
+				"expected_function": "asking_for_information",
+				"id": "a1_paper_051_s_ask_2"
+			},
+			{
+				"instruction": "At a shop, the candidate asks for the price of a shirt.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_051_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_051_ls",
+		"text": "You need to brush your teeth. Brush twice a day. Use a soft brush. Put on toothpaste. Rinse your mouth after brushing.",
+		"questions": [
+			{
+				"question": "What do you need to brush?",
+				"answer": "Your teeth",
+				"id": "a1_paper_051_ls_q_1"
+			},
+			{
+				"question": "When do you brush?",
+				"answer": "Twice a day",
+				"id": "a1_paper_051_ls_q_2"
+			},
+			{
+				"question": "Why do you brush?",
+				"answer": "To keep teeth clean",
+				"id": "a1_paper_051_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_051_mono",
+		"topic": "Talk about your home",
+		"follow_up_questions": [
+			{
+				"question": "What is your favorite room in your home?",
+				"id": "a1_paper_051_mono_q_1"
+			},
+			{
+				"question": "Where is your home located?",
+				"id": "a1_paper_051_mono_q_2"
+			},
+			{
+				"question": "Who do you live with at home?",
+				"id": "a1_paper_051_mono_q_3"
+			},
+			{
+				"question": "How do you feel in your home?",
+				"id": "a1_paper_051_mono_q_4"
+			}
+		]
+	},
+	"uuid": "4b9fe8ed-dbad-4305-a092-e94052aa8483"
+}

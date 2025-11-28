@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_094",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_094_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_094_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_094_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "Who is in your family?",
+				"id": "a1_paper_094_pi_q_1"
+			},
+			{
+				"text": "Do you like reading books?",
+				"id": "a1_paper_094_pi_q_2"
+			},
+			{
+				"text": "What do you want to learn?",
+				"id": "a1_paper_094_pi_q_3"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_094_pi_q_4"
+			},
+			{
+				"text": "What is your favorite time of day?",
+				"id": "a1_paper_094_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Bus driver",
+				"starter_line": "Please show me your ticket.",
+				"description": "You are on a bus.",
+				"id": "a1_paper_094_s_resp_1"
+			},
+			{
+				"role_context": "At the shop",
+				"starter_line": "How much is this apple?",
+				"description": "You are at a shop. A customer asks the price of an apple.",
+				"id": "a1_paper_094_s_resp_2"
+			},
+			{
+				"role_context": "In a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. The waiter asks about your drink.",
+				"id": "a1_paper_094_s_resp_3"
+			},
+			{
+				"role_context": "Library staff",
+				"starter_line": "Return your books here.",
+				"description": "You are in the library.",
+				"id": "a1_paper_094_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are with a friend. Ask them for help with your homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_094_s_ask_1"
+			},
+			{
+				"instruction": "You are at a store. Ask the shopkeeper about the price of a shirt.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_094_s_ask_2"
+			},
+			{
+				"instruction": "You are at a friend's house. You want to ask for a snack. ..",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_094_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_094_ls",
+		"text": "I have a big family. My mother is a teacher. My father is a doctor. I have two brothers. We play games together.",
+		"questions": [
+			{
+				"question": "Who is a teacher?",
+				"answer": "My mother",
+				"id": "a1_paper_094_ls_q_1"
+			},
+			{
+				"question": "How many brothers do you have?",
+				"answer": "Two brothers",
+				"id": "a1_paper_094_ls_q_2"
+			},
+			{
+				"question": "What do you do together?",
+				"answer": "Play games",
+				"id": "a1_paper_094_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_094_mono",
+		"topic": "Talk about your evening routine",
+		"follow_up_questions": [
+			{
+				"question": "What do you do after dinner?",
+				"id": "a1_paper_094_mono_q_1"
+			},
+			{
+				"question": "When do you go to sleep?",
+				"id": "a1_paper_094_mono_q_2"
+			},
+			{
+				"question": "Where do you relax in the evening?",
+				"id": "a1_paper_094_mono_q_3"
+			},
+			{
+				"question": "Do you watch TV in the evening?",
+				"id": "a1_paper_094_mono_q_4"
+			}
+		]
+	},
+	"uuid": "0cb46619-dfae-44de-8940-538f498b98c4"
+}
