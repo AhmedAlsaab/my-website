@@ -434,6 +434,13 @@
 		>
 			تذكيرات أساسية للامتحان
 		</a>
+		    
+		<a
+			href="/crossword.html"
+			class="nav-link"
+		>
+			ربط الجمل
+		</a>
 		
 	</div>
 
@@ -474,6 +481,13 @@
 				class="mobile-nav-link"
 			>
 				تذكيرات أساسية للامتحان
+			</a>
+			    
+			<a
+				href="/crossword.html"
+				class="mobile-nav-link"
+			>
+				ربط الجمل
 			</a>
 			
 		</div>
@@ -712,13 +726,8 @@
 			}
 			questionBank = await response.json();
 			
-			// Flatten all questions into a single array
-			allQuestions = [];
-			Object.keys(questionBank).forEach(category => {
-				questionBank[category].forEach(question => {
-					allQuestions.push(question);
-				});
-			});
+			// Use the flattened questions array directly
+			allQuestions = questionBank.questions || [];
 
 			console.log(`Loaded ${allQuestions.length} questions from question bank`);
 			return questionBank;

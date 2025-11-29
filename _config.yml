@@ -13,6 +13,8 @@ navigation:
     url: /keywords.html
   - title: تذكيرات أساسية للامتحان
     url: /reminders.html
+  - title: ربط الجمل
+    url: /crossword.html
 
 # Jekyll settings
 plugins:
@@ -31,3 +33,4 @@ include:
   - simple_question_bank
   - keywords_in_arabic
   - key_reminders
+  - crossword

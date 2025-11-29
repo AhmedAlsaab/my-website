@@ -38,13 +38,8 @@ title: أسئلة عشوائية
 			}
 			questionBank = await response.json();
 			
-			// Flatten all questions into a single array
-			allQuestions = [];
-			Object.keys(questionBank).forEach(category => {
-				questionBank[category].forEach(question => {
-					allQuestions.push(question);
-				});
-			});
+			// Use the flattened questions array directly
+			allQuestions = questionBank.questions || [];
 
 			console.log(`Loaded ${allQuestions.length} questions from question bank`);
 			return questionBank;

@@ -1,0 +1,507 @@
+[
+	{
+		"id": 1,
+		"left": "I am",
+		"right": "very tired today."
+	},
+	{
+		"id": 2,
+		"left": "I am",
+		"right": "at home now."
+	},
+	{
+		"id": 3,
+		"left": "I am",
+		"right": "a student."
+	},
+	{
+		"id": 4,
+		"left": "I am",
+		"right": "not busy today."
+	},
+	{
+		"id": 5,
+		"left": "I am",
+		"right": "from Iraq."
+	},
+	{
+		"id": 6,
+		"left": "I am",
+		"right": "thirty years old."
+	},
+	{
+		"id": 7,
+		"left": "You are",
+		"right": "my best friend."
+	},
+	{
+		"id": 8,
+		"left": "You are",
+		"right": "very kind."
+	},
+	{
+		"id": 9,
+		"left": "You are",
+		"right": "not late."
+	},
+	{
+		"id": 10,
+		"left": "He is",
+		"right": "my brother."
+	},
+	{
+		"id": 11,
+		"left": "He is",
+		"right": "at the supermarket."
+	},
+	{
+		"id": 12,
+		"left": "He is",
+		"right": "a good doctor."
+	},
+	{
+		"id": 13,
+		"left": "She is",
+		"right": "my teacher."
+	},
+	{
+		"id": 14,
+		"left": "She is",
+		"right": "very happy."
+	},
+	{
+		"id": 15,
+		"left": "She is",
+		"right": "from London."
+	},
+	{
+		"id": 16,
+		"left": "It is",
+		"right": "a sunny day."
+	},
+	{
+		"id": 17,
+		"left": "It is",
+		"right": "very cold today."
+	},
+	{
+		"id": 18,
+		"left": "It is",
+		"right": "the first question."
+	},
+	{
+		"id": 19,
+		"left": "We are",
+		"right": "at the bus stop."
+	},
+	{
+		"id": 20,
+		"left": "We are",
+		"right": "in the classroom."
+	},
+	{
+		"id": 21,
+		"left": "We are",
+		"right": "not ready yet."
+	},
+	{
+		"id": 22,
+		"left": "They are",
+		"right": "my neighbours."
+	},
+	{
+		"id": 23,
+		"left": "They are",
+		"right": "at the restaurant."
+	},
+	{
+		"id": 24,
+		"left": "They are",
+		"right": "very busy today."
+	},
+	{
+		"id": 25,
+		"left": "This is",
+		"right": "my favourite book."
+	},
+	{
+		"id": 26,
+		"left": "This is",
+		"right": "a good idea."
+	},
+	{
+		"id": 27,
+		"left": "This is",
+		"right": "the correct answer."
+	},
+	{
+		"id": 28,
+		"left": "That is",
+		"right": "my father."
+	},
+	{
+		"id": 29,
+		"left": "That is",
+		"right": "a difficult word."
+	},
+	{
+		"id": 30,
+		"left": "That is",
+		"right": "the new teacher."
+	},
+	{
+		"id": 31,
+		"left": "I have",
+		"right": "a new phone."
+	},
+	{
+		"id": 32,
+		"left": "I have",
+		"right": "two brothers."
+	},
+	{
+		"id": 33,
+		"left": "I have",
+		"right": "an English class today."
+	},
+	{
+		"id": 34,
+		"left": "I have",
+		"right": "a question for you."
+	},
+	{
+		"id": 35,
+		"left": "You have",
+		"right": "a nice car."
+	},
+	{
+		"id": 36,
+		"left": "You have",
+		"right": "three children."
+	},
+	{
+		"id": 37,
+		"left": "He has",
+		"right": "a small house."
+	},
+	{
+		"id": 38,
+		"left": "She has",
+		"right": "a big family."
+	},
+	{
+		"id": 39,
+		"left": "We have",
+		"right": "a problem now."
+	},
+	{
+		"id": 40,
+		"left": "They have",
+		"right": "an exam tomorrow."
+	},
+	{
+		"id": 41,
+		"left": "I want",
+		"right": "a cup of tea."
+	},
+	{
+		"id": 42,
+		"left": "I want",
+		"right": "the blue pen."
+	},
+	{
+		"id": 43,
+		"left": "I want",
+		"right": "to go home."
+	},
+	{
+		"id": 44,
+		"left": "I want",
+		"right": "to ask a question."
+	},
+	{
+		"id": 45,
+		"left": "Do you",
+		"right": "like coffee?"
+	},
+	{
+		"id": 46,
+		"left": "Do you",
+		"right": "understand this?"
+	},
+	{
+		"id": 47,
+		"left": "Do you",
+		"right": "have a car?"
+	},
+	{
+		"id": 48,
+		"left": "Do you",
+		"right": "want some water?"
+	},
+	{
+		"id": 49,
+		"left": "Does he",
+		"right": "work on Sunday?"
+	},
+	{
+		"id": 50,
+		"left": "Does she",
+		"right": "speak English?"
+	},
+	{
+		"id": 51,
+		"left": "Does it",
+		"right": "cost a lot?"
+	},
+	{
+		"id": 52,
+		"left": "Do they",
+		"right": "live near here?"
+	},
+	{
+		"id": 53,
+		"left": "I don’t",
+		"right": "like this food."
+	},
+	{
+		"id": 54,
+		"left": "I don’t",
+		"right": "understand the question."
+	},
+	{
+		"id": 55,
+		"left": "I don’t",
+		"right": "have any money."
+	},
+	{
+		"id": 56,
+		"left": "I don’t",
+		"right": "want to be late."
+	},
+	{
+		"id": 57,
+		"left": "He doesn’t",
+		"right": "go to school on Friday."
+	},
+	{
+		"id": 58,
+		"left": "She doesn’t",
+		"right": "like cold weather."
+	},
+	{
+		"id": 59,
+		"left": "We don’t",
+		"right": "eat meat."
+	},
+	{
+		"id": 60,
+		"left": "They don’t",
+		"right": "know the answer."
+	},
+	{
+		"id": 61,
+		"left": "There is",
+		"right": "a book on the table."
+	},
+	{
+		"id": 62,
+		"left": "There is",
+		"right": "a cat in the garden."
+	},
+	{
+		"id": 63,
+		"left": "There is",
+		"right": "no milk in the fridge."
+	},
+	{
+		"id": 64,
+		"left": "There are",
+		"right": "three chairs in the room."
+	},
+	{
+		"id": 65,
+		"left": "There are",
+		"right": "many people here."
+	},
+	{
+		"id": 66,
+		"left": "Is there",
+		"right": "a bank near here?"
+	},
+	{
+		"id": 67,
+		"left": "Are there",
+		"right": "any questions?"
+	},
+	{
+		"id": 68,
+		"left": "Can you",
+		"right": "help me, please?"
+	},
+	{
+		"id": 69,
+		"left": "Can you",
+		"right": "speak more slowly?"
+	},
+	{
+		"id": 70,
+		"left": "Can I",
+		"right": "ask a question?"
+	},
+	{
+		"id": 71,
+		"left": "Can I",
+		"right": "sit here?"
+	},
+	{
+		"id": 72,
+		"left": "I would like",
+		"right": "a glass of water."
+	},
+	{
+		"id": 73,
+		"left": "I would like",
+		"right": "to buy this."
+	},
+	{
+		"id": 74,
+		"left": "I would like",
+		"right": "to go now."
+	},
+	{
+		"id": 75,
+		"left": "I need",
+		"right": "a new bag."
+	},
+	{
+		"id": 76,
+		"left": "I need",
+		"right": "some help."
+	},
+	{
+		"id": 77,
+		"left": "I need",
+		"right": "to study English."
+	},
+	{
+		"id": 78,
+		"left": "I’m going",
+		"right": "to the shop."
+	},
+	{
+		"id": 79,
+		"left": "I’m going",
+		"right": "to visit my friend."
+	},
+	{
+		"id": 80,
+		"left": "I’m going",
+		"right": "to sleep now."
+	},
+	{
+		"id": 81,
+		"left": "We are going",
+		"right": "to the park."
+	},
+	{
+		"id": 82,
+		"left": "They are going",
+		"right": "to school."
+	},
+	{
+		"id": 83,
+		"left": "This book is",
+		"right": "on the table."
+	},
+	{
+		"id": 84,
+		"left": "This pen is",
+		"right": "in my bag."
+	},
+	{
+		"id": 85,
+		"left": "The bus is",
+		"right": "very late today."
+	},
+	{
+		"id": 86,
+		"left": "The teacher is",
+		"right": "in the classroom."
+	},
+	{
+		"id": 87,
+		"left": "My phone is",
+		"right": "on the bed."
+	},
+	{
+		"id": 88,
+		"left": "The shop is",
+		"right": "next to the bank."
+	},
+	{
+		"id": 89,
+		"left": "Your bag is",
+		"right": "under the chair."
+	},
+	{
+		"id": 90,
+		"left": "Our house is",
+		"right": "near the hospital."
+	},
+	{
+		"id": 91,
+		"left": "Her name is",
+		"right": "Sara."
+	},
+	{
+		"id": 92,
+		"left": "His name is",
+		"right": "Ali."
+	},
+	{
+		"id": 93,
+		"left": "What is",
+		"right": "your name?"
+	},
+	{
+		"id": 94,
+		"left": "Where is",
+		"right": "the toilet, please?"
+	},
+	{
+		"id": 95,
+		"left": "Where is",
+		"right": "my phone?"
+	},
+	{
+		"id": 96,
+		"left": "When is",
+		"right": "the exam?"
+	},
+	{
+		"id": 97,
+		"left": "How much is",
+		"right": "this book?"
+	},
+	{
+		"id": 98,
+		"left": "How much is",
+		"right": "the ticket?"
+	},
+	{
+		"id": 99,
+		"left": "How much is",
+		"right": "a cup of tea?"
+	},
+	{
+		"id": 100,
+		"left": "How many",
+		"right": "brothers do you have?"
+	},
+	{
+		"id": 101,
+		"left": "How many",
+		"right": "students are there?"
+	}
+]
