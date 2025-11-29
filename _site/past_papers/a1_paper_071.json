@@ -1,0 +1,140 @@
+{
+	"id": "a1_paper_071",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_071_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_071_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_071_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_071_pi_q_1"
+			},
+			{
+				"text": "What do you wear in summer?",
+				"id": "a1_paper_071_pi_q_2"
+			},
+			{
+				"text": "What is your favorite movie genre?",
+				"id": "a1_paper_071_pi_q_3"
+			},
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_071_pi_q_4"
+			},
+			{
+				"text": "Can you help at home?",
+				"id": "a1_paper_071_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "At a shop.",
+				"starter_line": "Do you want to buy something?",
+				"description": "The examiner asks if you want to buy an item in the shop.",
+				"id": "a1_paper_071_s_resp_1"
+			},
+			{
+				"role_context": "Bus driver",
+				"starter_line": "Next stop is the park.",
+				"description": "You are on the bus.",
+				"id": "a1_paper_071_s_resp_2"
+			},
+			{
+				"role_context": "Parent",
+				"starter_line": "Do you have any homework?",
+				"description": "You are at home.",
+				"id": "a1_paper_071_s_resp_3"
+			},
+			{
+				"role_context": "In a café.",
+				"starter_line": "What do you want to drink?",
+				"description": "The examiner asks about your drink choice at a café.",
+				"id": "a1_paper_071_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You want to ask your parent for help with homework. ..",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_071_s_ask_1"
+			},
+			{
+				"instruction": "You are shopping. Ask the shopkeeper for the price of a shirt.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_071_s_ask_2"
+			},
+			{
+				"instruction": "You are at school. Ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_071_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_071_ls",
+		"text": "I wake up at 7 AM. I brush my teeth. I eat breakfast. I drink tea. I go to work.",
+		"questions": [
+			{
+				"question": "What time do I wake up?",
+				"answer": "7 AM",
+				"id": "a1_paper_071_ls_q_1"
+			},
+			{
+				"question": "What do I eat?",
+				"answer": "breakfast",
+				"id": "a1_paper_071_ls_q_2"
+			},
+			{
+				"question": "Where do I go?",
+				"answer": "to work",
+				"id": "a1_paper_071_ls_q_3"
+			},
+			{
+				"question": "What do I drink?",
+				"answer": "tea",
+				"id": "a1_paper_071_ls_q_4"
+			},
+			{
+				"question": "What do I do after breakfast?",
+				"answer": "go to work",
+				"id": "a1_paper_071_ls_q_5"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_071_mono",
+		"topic": "Talk about a typical weekend day",
+		"follow_up_questions": [
+			{
+				"question": "What do you do on Saturday?",
+				"id": "a1_paper_071_mono_q_1"
+			},
+			{
+				"question": "When do you wake up on weekends?",
+				"id": "a1_paper_071_mono_q_2"
+			},
+			{
+				"question": "Where do you go with your friends?",
+				"id": "a1_paper_071_mono_q_3"
+			},
+			{
+				"question": "How do you feel on weekend days?",
+				"id": "a1_paper_071_mono_q_4"
+			}
+		]
+	},
+	"uuid": "d888fba4-08d3-4cba-89f0-71d9062f07d5"
+}

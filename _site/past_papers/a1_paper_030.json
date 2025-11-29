@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_030",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_030_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_030_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_030_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_030_pi_q_1"
+			},
+			{
+				"text": "What do you like to do on rainy days?",
+				"id": "a1_paper_030_pi_q_2"
+			},
+			{
+				"text": "What is your favorite memory?",
+				"id": "a1_paper_030_pi_q_3"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_030_pi_q_4"
+			},
+			{
+				"text": "When do you go to bed?",
+				"id": "a1_paper_030_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Friend",
+				"starter_line": "Do you want to watch a movie?",
+				"description": "You are at home together.",
+				"id": "a1_paper_030_s_resp_1"
+			},
+			{
+				"role_context": "At a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. Choose a drink.",
+				"id": "a1_paper_030_s_resp_2"
+			},
+			{
+				"role_context": "In a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You are in a clothing shop. Ask about the price.",
+				"id": "a1_paper_030_s_resp_3"
+			},
+			{
+				"role_context": "Library staff",
+				"starter_line": "Return your books here.",
+				"description": "You are in the library.",
+				"id": "a1_paper_030_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are at school. Ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_030_s_ask_1"
+			},
+			{
+				"instruction": "You want to ask your parent for help with homework. ..",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_030_s_ask_2"
+			},
+			{
+				"instruction": "You are shopping. Ask the shopkeeper for the price of a shirt.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_030_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_030_ls",
+		"text": "I have a computer class. We learn to use computers. The teacher is very nice. We play games and do work. I like my computer class.",
+		"questions": [
+			{
+				"question": "What do we learn?",
+				"answer": "To use computers",
+				"id": "a1_paper_030_ls_q_1"
+			},
+			{
+				"question": "When is the class?",
+				"answer": "Every week",
+				"id": "a1_paper_030_ls_q_2"
+			},
+			{
+				"question": "Who is the teacher?",
+				"answer": "The nice teacher",
+				"id": "a1_paper_030_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_030_mono",
+		"topic": "Talk about things you do with family",
+		"follow_up_questions": [
+			{
+				"question": "What do you like to do with your family?",
+				"id": "a1_paper_030_mono_q_1"
+			},
+			{
+				"question": "When do you spend time with your family?",
+				"id": "a1_paper_030_mono_q_2"
+			},
+			{
+				"question": "Where do you go with your family?",
+				"id": "a1_paper_030_mono_q_3"
+			},
+			{
+				"question": "Who is your favorite family member to be with?",
+				"id": "a1_paper_030_mono_q_4"
+			}
+		]
+	},
+	"uuid": "3e50975c-7ac4-49c6-8834-cfed756a6963"
+}

@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_002",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_002_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_002_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_002_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "Do you like animals?",
+				"id": "a1_paper_002_pi_q_1"
+			},
+			{
+				"text": "When is your birthday?",
+				"id": "a1_paper_002_pi_q_2"
+			},
+			{
+				"text": "What do you like to do with your family?",
+				"id": "a1_paper_002_pi_q_3"
+			},
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_002_pi_q_4"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_002_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Library staff",
+				"starter_line": "Return your books here.",
+				"description": "You are in the library.",
+				"id": "a1_paper_002_s_resp_1"
+			},
+			{
+				"role_context": "In a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. You see drinks on the menu.",
+				"id": "a1_paper_002_s_resp_2"
+			},
+			{
+				"role_context": "Stranger",
+				"starter_line": "Is this seat free?",
+				"description": "You are on a bus.",
+				"id": "a1_paper_002_s_resp_3"
+			},
+			{
+				"role_context": "In a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You are in a clothing store. You see a shirt you like.",
+				"id": "a1_paper_002_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are at school. Ask a friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_002_s_ask_1"
+			},
+			{
+				"instruction": "You are shopping. Ask the shopkeeper for the price of a shirt.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_002_s_ask_2"
+			},
+			{
+				"instruction": "You are at the library. You want to ask for a book. ..",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_002_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_002_ls",
+		"text": "We have a group project. We work in teams. Our project is about animals. We meet after school. We help each other.",
+		"questions": [
+			{
+				"question": "What is the project about?",
+				"answer": "Animals",
+				"id": "a1_paper_002_ls_q_1"
+			},
+			{
+				"question": "When do we meet?",
+				"answer": "After school",
+				"id": "a1_paper_002_ls_q_2"
+			},
+			{
+				"question": "Who do we work with?",
+				"answer": "Our team",
+				"id": "a1_paper_002_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_002_mono",
+		"topic": "Talk about a fun day out",
+		"follow_up_questions": [
+			{
+				"question": "What did you do on your fun day out?",
+				"id": "a1_paper_002_mono_q_1"
+			},
+			{
+				"question": "Where did you go for your fun day?",
+				"id": "a1_paper_002_mono_q_2"
+			},
+			{
+				"question": "Who did you go with on that day?",
+				"id": "a1_paper_002_mono_q_3"
+			},
+			{
+				"question": "Why was it a fun day for you?",
+				"id": "a1_paper_002_mono_q_4"
+			}
+		]
+	},
+	"uuid": "03a759b5-205e-4090-8b97-9747d89bbac4"
+}

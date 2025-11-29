@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_004",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_004_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_004_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_004_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_004_pi_q_1"
+			},
+			{
+				"text": "Can you help at home?",
+				"id": "a1_paper_004_pi_q_2"
+			},
+			{
+				"text": "Can you ride a bike?",
+				"id": "a1_paper_004_pi_q_3"
+			},
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_004_pi_q_4"
+			},
+			{
+				"text": "Do you like your neighborhood?",
+				"id": "a1_paper_004_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Shop assistant",
+				"starter_line": "Do you need help finding something?",
+				"description": "You are in a shop.",
+				"id": "a1_paper_004_s_resp_1"
+			},
+			{
+				"role_context": "at a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. You can choose a drink.",
+				"id": "a1_paper_004_s_resp_2"
+			},
+			{
+				"role_context": "in a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You are in a clothing shop. You see a shirt.",
+				"id": "a1_paper_004_s_resp_3"
+			},
+			{
+				"role_context": "Stranger",
+				"starter_line": "Do you speak English?",
+				"description": "You are meeting someone new.",
+				"id": "a1_paper_004_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You want to ask a classmate about the homework. ..",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_004_s_ask_1"
+			},
+			{
+				"instruction": "You are at school. Ask your friend for help with your homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_004_s_ask_2"
+			},
+			{
+				"instruction": "You are shopping. Ask the shopkeeper for the price of a shirt.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_004_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_004_ls",
+		"text": "I visit my grandparents on Friday. They live in a big house. I play with my cousins there. We eat lunch together. It is fun to visit them.",
+		"questions": [
+			{
+				"question": "What day do you visit?",
+				"answer": "Friday",
+				"id": "a1_paper_004_ls_q_1"
+			},
+			{
+				"question": "Where do they live?",
+				"answer": "In a big house",
+				"id": "a1_paper_004_ls_q_2"
+			},
+			{
+				"question": "Who do you play with?",
+				"answer": "My cousins",
+				"id": "a1_paper_004_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_004_mono",
+		"topic": "Talk about your favourite shop",
+		"follow_up_questions": [
+			{
+				"question": "What do you buy in your favorite shop?",
+				"id": "a1_paper_004_mono_q_1"
+			},
+			{
+				"question": "Where is your favorite shop?",
+				"id": "a1_paper_004_mono_q_2"
+			},
+			{
+				"question": "Why do you like this shop?",
+				"id": "a1_paper_004_mono_q_3"
+			},
+			{
+				"question": "Do you go to this shop often?",
+				"id": "a1_paper_004_mono_q_4"
+			}
+		]
+	},
+	"uuid": "6441d5f0-16f1-4219-a1e5-2303c3f0513e"
+}

@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_072",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_072_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_072_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_072_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What do you want to be when you grow up?",
+				"id": "a1_paper_072_pi_q_1"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_072_pi_q_2"
+			},
+			{
+				"text": "What do you like to do with your family?",
+				"id": "a1_paper_072_pi_q_3"
+			},
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_072_pi_q_4"
+			},
+			{
+				"text": "What do you like to watch on TV?",
+				"id": "a1_paper_072_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "in a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. You can choose tea or coffee.",
+				"id": "a1_paper_072_s_resp_1"
+			},
+			{
+				"role_context": "at a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You are in a shop. You see a shirt you like.",
+				"id": "a1_paper_072_s_resp_2"
+			},
+			{
+				"role_context": "Library staff",
+				"starter_line": "Do you need help?",
+				"description": "You are looking for a book.",
+				"id": "a1_paper_072_s_resp_3"
+			},
+			{
+				"role_context": "Waiter",
+				"starter_line": "What is your order?",
+				"description": "You are at a restaurant.",
+				"id": "a1_paper_072_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You need help with homework. Ask your teacher for help.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_072_s_ask_1"
+			},
+			{
+				"instruction": "You want to go to the park. Ask your friend for directions.",
+				"expected_function": "asking_for_directions",
+				"id": "a1_paper_072_s_ask_2"
+			},
+			{
+				"instruction": "You want to ask a friend about their favorite food. ..",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_072_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_072_ls",
+		"text": "I like drawing and painting. I use colors and pencils. My favorite picture is a sun. I draw in my free time. Painting is fun and relaxing.",
+		"questions": [
+			{
+				"question": "What do I like?",
+				"answer": "Drawing and painting",
+				"id": "a1_paper_072_ls_q_1"
+			},
+			{
+				"question": "When do I draw?",
+				"answer": "In my free time",
+				"id": "a1_paper_072_ls_q_2"
+			},
+			{
+				"question": "Why is painting fun?",
+				"answer": "It is relaxing",
+				"id": "a1_paper_072_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_072_mono",
+		"topic": "Talk about your breakfast",
+		"follow_up_questions": [
+			{
+				"question": "What do you eat for breakfast?",
+				"id": "a1_paper_072_mono_q_1"
+			},
+			{
+				"question": "When do you have breakfast?",
+				"id": "a1_paper_072_mono_q_2"
+			},
+			{
+				"question": "Where do you eat your breakfast?",
+				"id": "a1_paper_072_mono_q_3"
+			},
+			{
+				"question": "Do you like your breakfast? Why?",
+				"id": "a1_paper_072_mono_q_4"
+			}
+		]
+	},
+	"uuid": "ed624f3e-096d-4b9b-bdca-b04c63143646"
+}

@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_023",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_023_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_023_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_023_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_023_pi_q_1"
+			},
+			{
+				"text": "What is your favorite ice cream flavor?",
+				"id": "a1_paper_023_pi_q_2"
+			},
+			{
+				"text": "Who do you admire?",
+				"id": "a1_paper_023_pi_q_3"
+			},
+			{
+				"text": "What is your favorite sport?",
+				"id": "a1_paper_023_pi_q_4"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_023_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "In a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. Choose a drink.",
+				"id": "a1_paper_023_s_resp_1"
+			},
+			{
+				"role_context": "Waiter",
+				"starter_line": "What is your order?",
+				"description": "You are at a restaurant.",
+				"id": "a1_paper_023_s_resp_2"
+			},
+			{
+				"role_context": "Parent",
+				"starter_line": "Did you finish your homework?",
+				"description": "You are at home.",
+				"id": "a1_paper_023_s_resp_3"
+			},
+			{
+				"role_context": "At the park",
+				"starter_line": "Do you like this park?",
+				"description": "You are in a park. Talk about the park.",
+				"id": "a1_paper_023_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are at school. Ask a friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_023_s_ask_1"
+			},
+			{
+				"instruction": "You want to borrow a book from a classmate. ..",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_023_s_ask_2"
+			},
+			{
+				"instruction": "You are shopping. Ask the shopkeeper for the price of a shirt.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_023_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_023_ls",
+		"text": "I like watching cartoons. Cartoons are fun and colorful. I watch them in the morning. My favorite cartoon is Tom and Jerry. I laugh a lot when I watch it.",
+		"questions": [
+			{
+				"question": "What do you like?",
+				"answer": "Watching cartoons",
+				"id": "a1_paper_023_ls_q_1"
+			},
+			{
+				"question": "When do you watch cartoons?",
+				"answer": "In the morning",
+				"id": "a1_paper_023_ls_q_2"
+			},
+			{
+				"question": "Who is your favorite cartoon?",
+				"answer": "Tom and Jerry",
+				"id": "a1_paper_023_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_023_mono",
+		"topic": "Talk about a fun day out",
+		"follow_up_questions": [
+			{
+				"question": "What did you do on your fun day out?",
+				"id": "a1_paper_023_mono_q_1"
+			},
+			{
+				"question": "When did you have this fun day?",
+				"id": "a1_paper_023_mono_q_2"
+			},
+			{
+				"question": "Where did you go for your fun day?",
+				"id": "a1_paper_023_mono_q_3"
+			},
+			{
+				"question": "Who did you go with on this day?",
+				"id": "a1_paper_023_mono_q_4"
+			}
+		]
+	},
+	"uuid": "1948d23a-0fb6-4c81-ac6e-233a91402e63"
+}

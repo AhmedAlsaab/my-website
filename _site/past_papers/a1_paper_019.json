@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_019",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_019_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_019_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_019_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What is your favorite breakfast food?",
+				"id": "a1_paper_019_pi_q_1"
+			},
+			{
+				"text": "Can you help at home?",
+				"id": "a1_paper_019_pi_q_2"
+			},
+			{
+				"text": "Can you play a musical instrument?",
+				"id": "a1_paper_019_pi_q_3"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_019_pi_q_4"
+			},
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_019_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. The waiter asks you.",
+				"id": "a1_paper_019_s_resp_1"
+			},
+			{
+				"role_context": "Café staff",
+				"starter_line": "What do you want to eat?",
+				"description": "You are ordering food.",
+				"id": "a1_paper_019_s_resp_2"
+			},
+			{
+				"role_context": "shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You are at a clothing shop. A customer asks you.",
+				"id": "a1_paper_019_s_resp_3"
+			},
+			{
+				"role_context": "Friend",
+				"starter_line": "Do you want to go to the park?",
+				"description": "You are talking to a friend.",
+				"id": "a1_paper_019_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are at school. Ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_019_s_ask_1"
+			},
+			{
+				"instruction": "You want to find out about school activities. You ask a teacher. ..",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_019_s_ask_2"
+			},
+			{
+				"instruction": "You are shopping. Ask the shopkeeper for the price of a toy.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_019_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_019_ls",
+		"text": "I clean the house every Saturday. I dust the shelves. I vacuum the carpet. I wash the dishes. My family helps me.",
+		"questions": [
+			{
+				"question": "What do I do on Saturday?",
+				"answer": "I clean the house.",
+				"id": "a1_paper_019_ls_q_1"
+			},
+			{
+				"question": "When do I clean?",
+				"answer": "Every Saturday.",
+				"id": "a1_paper_019_ls_q_2"
+			},
+			{
+				"question": "Who helps me?",
+				"answer": "My family.",
+				"id": "a1_paper_019_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_019_mono",
+		"topic": "Talk about your weekend",
+		"follow_up_questions": [
+			{
+				"question": "What do you like to do on weekends?",
+				"id": "a1_paper_019_mono_q_1"
+			},
+			{
+				"question": "Where do you go on the weekend?",
+				"id": "a1_paper_019_mono_q_2"
+			},
+			{
+				"question": "Who do you spend your weekend with?",
+				"id": "a1_paper_019_mono_q_3"
+			},
+			{
+				"question": "How do you feel on the weekend?",
+				"id": "a1_paper_019_mono_q_4"
+			}
+		]
+	},
+	"uuid": "6e39bd62-af7e-4295-abc7-a0788d12a501"
+}

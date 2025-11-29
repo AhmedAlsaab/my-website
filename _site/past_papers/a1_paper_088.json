@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_088",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_088_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_088_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_088_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "Where do you want to go this year?",
+				"id": "a1_paper_088_pi_q_1"
+			},
+			{
+				"text": "Who is in your family?",
+				"id": "a1_paper_088_pi_q_2"
+			},
+			{
+				"text": "What is your favorite ice cream flavor?",
+				"id": "a1_paper_088_pi_q_3"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_088_pi_q_4"
+			},
+			{
+				"text": "What is your favorite thing about your parents?",
+				"id": "a1_paper_088_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Café staff",
+				"starter_line": "Would you like coffee or tea?",
+				"description": "You are ordering drinks.",
+				"id": "a1_paper_088_s_resp_1"
+			},
+			{
+				"role_context": "at a coffee shop",
+				"starter_line": "What do you want to drink?",
+				"description": "You are in a coffee shop. Choose a drink.",
+				"id": "a1_paper_088_s_resp_2"
+			},
+			{
+				"role_context": "Teacher",
+				"starter_line": "Can you write this down?",
+				"description": "You are in class.",
+				"id": "a1_paper_088_s_resp_3"
+			},
+			{
+				"role_context": "in a park",
+				"starter_line": "Do you like this park?",
+				"description": "You are in a park with trees and flowers.",
+				"id": "a1_paper_088_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are in a shop. Ask the shopkeeper for the price of a toy.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_088_s_ask_1"
+			},
+			{
+				"instruction": "You want to find out about school activities. You ask a teacher. ..",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_088_s_ask_2"
+			},
+			{
+				"instruction": "You are at school. Ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_088_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_088_ls",
+		"text": "I go to the store. I buy bread and milk. I see fruits and vegetables. I pay at the cash register. I take my bags home.",
+		"questions": [
+			{
+				"question": "What do I buy?",
+				"answer": "Bread and milk",
+				"id": "a1_paper_088_ls_q_1"
+			},
+			{
+				"question": "When do I go to the store?",
+				"answer": "I go to the store",
+				"id": "a1_paper_088_ls_q_2"
+			},
+			{
+				"question": "Where do I pay?",
+				"answer": "At the cash register",
+				"id": "a1_paper_088_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_088_mono",
+		"topic": "Talk about your favourite shop",
+		"follow_up_questions": [
+			{
+				"question": "What do you buy in your favourite shop?",
+				"id": "a1_paper_088_mono_q_1"
+			},
+			{
+				"question": "Where is your favourite shop?",
+				"id": "a1_paper_088_mono_q_2"
+			},
+			{
+				"question": "Why do you like this shop?",
+				"id": "a1_paper_088_mono_q_3"
+			},
+			{
+				"question": "How often do you go to this shop?",
+				"id": "a1_paper_088_mono_q_4"
+			}
+		]
+	},
+	"uuid": "3c10af9b-139b-4ca7-906b-1f3dc98b2dcd"
+}

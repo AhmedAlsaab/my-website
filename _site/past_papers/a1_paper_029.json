@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_029",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_029_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_029_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_029_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What is your favorite city to visit?",
+				"id": "a1_paper_029_pi_q_1"
+			},
+			{
+				"text": "Do you prefer tea or coffee?",
+				"id": "a1_paper_029_pi_q_2"
+			},
+			{
+				"text": "What is your favorite family recipe?",
+				"id": "a1_paper_029_pi_q_3"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_029_pi_q_4"
+			},
+			{
+				"text": "Where do you go to school?",
+				"id": "a1_paper_029_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You see a shirt in a store.",
+				"id": "a1_paper_029_s_resp_1"
+			},
+			{
+				"role_context": "Bus driver",
+				"starter_line": "Please show me your ticket.",
+				"description": "You are on a bus.",
+				"id": "a1_paper_029_s_resp_2"
+			},
+			{
+				"role_context": "café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café with a menu.",
+				"id": "a1_paper_029_s_resp_3"
+			},
+			{
+				"role_context": "Shop assistant",
+				"starter_line": "What do you want to buy?",
+				"description": "You are in a shop.",
+				"id": "a1_paper_029_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are at a store. Ask the clerk for the price of a toy.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_029_s_ask_1"
+			},
+			{
+				"instruction": "You want to ask a classmate for help. ..",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_029_s_ask_2"
+			},
+			{
+				"instruction": "You are at school. Ask a friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_029_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_029_ls",
+		"text": "I play with my toys. My toys are fun. I have a car and a doll. I play every day. I share toys with my friends.",
+		"questions": [
+			{
+				"question": "What do you play with?",
+				"answer": "My toys",
+				"id": "a1_paper_029_ls_q_1"
+			},
+			{
+				"question": "When do you play?",
+				"answer": "Every day",
+				"id": "a1_paper_029_ls_q_2"
+			},
+			{
+				"question": "Who do you share toys with?",
+				"answer": "My friends",
+				"id": "a1_paper_029_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_029_mono",
+		"topic": "Talk about your summer clothes",
+		"follow_up_questions": [
+			{
+				"question": "What do you wear in summer?",
+				"id": "a1_paper_029_mono_q_1"
+			},
+			{
+				"question": "When do you wear your summer clothes?",
+				"id": "a1_paper_029_mono_q_2"
+			},
+			{
+				"question": "Where do you buy your summer clothes?",
+				"id": "a1_paper_029_mono_q_3"
+			},
+			{
+				"question": "How do you feel in your summer clothes?",
+				"id": "a1_paper_029_mono_q_4"
+			}
+		]
+	},
+	"uuid": "1721f0e5-c217-4711-9a8f-3b4496801b57"
+}

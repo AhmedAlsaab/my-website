@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_005",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_005_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_005_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_005_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What is your favorite season?",
+				"id": "a1_paper_005_pi_q_1"
+			},
+			{
+				"text": "Who is in your family?",
+				"id": "a1_paper_005_pi_q_2"
+			},
+			{
+				"text": "When do you go to bed?",
+				"id": "a1_paper_005_pi_q_3"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_005_pi_q_4"
+			},
+			{
+				"text": "What is your favorite mobile app?",
+				"id": "a1_paper_005_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Teacher",
+				"starter_line": "Can you tell me your name?",
+				"description": "You are in class.",
+				"id": "a1_paper_005_s_resp_1"
+			},
+			{
+				"role_context": "A shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You see a shirt in a shop. You want to know the price.",
+				"id": "a1_paper_005_s_resp_2"
+			},
+			{
+				"role_context": "A café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. You want a drink.",
+				"id": "a1_paper_005_s_resp_3"
+			},
+			{
+				"role_context": "Waiter",
+				"starter_line": "What is your order?",
+				"description": "You are at a restaurant.",
+				"id": "a1_paper_005_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "At school, the candidate needs to ask a friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_005_s_ask_1"
+			},
+			{
+				"instruction": "You are at a restaurant. You want to ask for the menu. ..",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_005_s_ask_2"
+			},
+			{
+				"instruction": "At a shop, the candidate wants to ask for the price of an item.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_005_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_005_ls",
+		"text": "I brush my teeth every day. I use a toothbrush and toothpaste. I brush for two minutes. It is good for my teeth. I keep my teeth clean.",
+		"questions": [
+			{
+				"question": "What do I use?",
+				"answer": "Toothbrush and toothpaste.",
+				"id": "a1_paper_005_ls_q_1"
+			},
+			{
+				"question": "When do I brush?",
+				"answer": "Every day.",
+				"id": "a1_paper_005_ls_q_2"
+			},
+			{
+				"question": "Why is it good?",
+				"answer": "It keeps my teeth clean.",
+				"id": "a1_paper_005_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_005_mono",
+		"topic": "Talk about your mother or father",
+		"follow_up_questions": [
+			{
+				"question": "What does your mother do?",
+				"id": "a1_paper_005_mono_q_1"
+			},
+			{
+				"question": "When is your father's birthday?",
+				"id": "a1_paper_005_mono_q_2"
+			},
+			{
+				"question": "Where does your mother work?",
+				"id": "a1_paper_005_mono_q_3"
+			},
+			{
+				"question": "How do you help your father?",
+				"id": "a1_paper_005_mono_q_4"
+			}
+		]
+	},
+	"uuid": "9103817d-307f-48c4-af10-b85d75c1071c"
+}

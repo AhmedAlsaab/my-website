@@ -1,0 +1,27 @@
+title: A1 Language Certification Paper
+description: Practice papers for A1 language certification
+baseurl: ""
+url: ""
+
+# Navigation
+navigation:
+  - title: الامتحان
+    url: /
+  - title: أسئلة عشوائية
+    url: /about.html
+
+# Jekyll settings
+plugins:
+  - jekyll-feed
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Include JSON files and directories
+include:
+  - index.json
+  - past_papers
+  - simple_question_bank

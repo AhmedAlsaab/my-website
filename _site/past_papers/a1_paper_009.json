@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_009",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_009_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_009_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_009_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_009_pi_q_1"
+			},
+			{
+				"text": "What is your name?",
+				"id": "a1_paper_009_pi_q_2"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_009_pi_q_3"
+			},
+			{
+				"text": "Where do you live?",
+				"id": "a1_paper_009_pi_q_4"
+			},
+			{
+				"text": "What do you want to see in your country?",
+				"id": "a1_paper_009_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Friend",
+				"starter_line": "What do you like to do?",
+				"description": "You are having a conversation.",
+				"id": "a1_paper_009_s_resp_1"
+			},
+			{
+				"role_context": "at a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. Choose a drink.",
+				"id": "a1_paper_009_s_resp_2"
+			},
+			{
+				"role_context": "at a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You see a shirt in a shop. Ask the price.",
+				"id": "a1_paper_009_s_resp_3"
+			},
+			{
+				"role_context": "Café staff",
+				"starter_line": "Would you like coffee or tea?",
+				"description": "You are ordering drinks.",
+				"id": "a1_paper_009_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are at a café with a friend. You want to order food. ..",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_009_s_ask_1"
+			},
+			{
+				"instruction": "You are shopping. Ask the shopkeeper for the price of an item.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_009_s_ask_2"
+			},
+			{
+				"instruction": "You are at school. Ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_009_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_009_ls",
+		"text": "I visit my grandparents on weekends. They live in a small house. I like to play with my cousins. We eat dinner together. My grandparents tell stories.",
+		"questions": [
+			{
+				"question": "What do you do?",
+				"answer": "Play with my cousins",
+				"id": "a1_paper_009_ls_q_1"
+			},
+			{
+				"question": "When do you visit?",
+				"answer": "On weekends",
+				"id": "a1_paper_009_ls_q_2"
+			},
+			{
+				"question": "Where do they live?",
+				"answer": "In a small house",
+				"id": "a1_paper_009_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_009_mono",
+		"topic": "Talk about your classmates",
+		"follow_up_questions": [
+			{
+				"question": "Who is your best friend in class?",
+				"id": "a1_paper_009_mono_q_1"
+			},
+			{
+				"question": "What do you like to do with your classmates?",
+				"id": "a1_paper_009_mono_q_2"
+			},
+			{
+				"question": "When do you see your classmates?",
+				"id": "a1_paper_009_mono_q_3"
+			},
+			{
+				"question": "How many classmates do you have?",
+				"id": "a1_paper_009_mono_q_4"
+			}
+		]
+	},
+	"uuid": "ee0f5596-4d50-4add-ab93-fa05df0fbb4c"
+}

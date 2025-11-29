@@ -1,0 +1,135 @@
+{
+	"id": "a1_paper_059",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_059_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_059_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_059_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What do you like to eat?",
+				"id": "a1_paper_059_pi_q_1"
+			},
+			{
+				"text": "What is your favorite thing about your best friend?",
+				"id": "a1_paper_059_pi_q_2"
+			},
+			{
+				"text": "Where do you go to school?",
+				"id": "a1_paper_059_pi_q_3"
+			},
+			{
+				"text": "What is your favorite ice cream flavor?",
+				"id": "a1_paper_059_pi_q_4"
+			},
+			{
+				"text": "What is your favorite snack?",
+				"id": "a1_paper_059_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "in a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. You want to order a drink.",
+				"id": "a1_paper_059_s_resp_1"
+			},
+			{
+				"role_context": "Teacher",
+				"starter_line": "What is your favorite subject?",
+				"description": "You are in class.",
+				"id": "a1_paper_059_s_resp_2"
+			},
+			{
+				"role_context": "at a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You are in a shop. You see a shirt and want to ask the price.",
+				"id": "a1_paper_059_s_resp_3"
+			},
+			{
+				"role_context": "Stranger",
+				"starter_line": "Excuse me, where's the cinema?",
+				"description": "You are lost in the street.",
+				"id": "a1_paper_059_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are at a market. Ask the seller for the price of apples.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_059_s_ask_1"
+			},
+			{
+				"instruction": "You are at school. Ask a friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_059_s_ask_2"
+			},
+			{
+				"instruction": "You want to ask your sibling to play. ..",
+				"expected_function": "making_suggestion",
+				"id": "a1_paper_059_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_059_ls",
+		"text": "I comb my hair every day. It is good for my hair. I use a brush or a comb. Combing makes my hair neat. I like my hair to look nice.",
+		"questions": [
+			{
+				"question": "What do I do every day?",
+				"answer": "I comb my hair.",
+				"id": "a1_paper_059_ls_q_1"
+			},
+			{
+				"question": "Why is combing good?",
+				"answer": "It is good for my hair.",
+				"id": "a1_paper_059_ls_q_2"
+			},
+			{
+				"question": "What do I use to comb?",
+				"answer": "A brush or a comb.",
+				"id": "a1_paper_059_ls_q_3"
+			},
+			{
+				"question": "How does combing my hair look?",
+				"answer": "It makes it neat.",
+				"id": "a1_paper_059_ls_q_4"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_059_mono",
+		"topic": "Talk about your school",
+		"follow_up_questions": [
+			{
+				"question": "What is your school name?",
+				"id": "a1_paper_059_mono_q_1"
+			},
+			{
+				"question": "Where is your school located?",
+				"id": "a1_paper_059_mono_q_2"
+			},
+			{
+				"question": "Who is your favorite teacher?",
+				"id": "a1_paper_059_mono_q_3"
+			},
+			{
+				"question": "What do you study at school?",
+				"id": "a1_paper_059_mono_q_4"
+			}
+		]
+	},
+	"uuid": "f095403c-ebb7-4432-a1c8-fd732816af9e"
+}

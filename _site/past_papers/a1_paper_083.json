@@ -1,0 +1,140 @@
+{
+	"id": "a1_paper_083",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_083_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_083_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_083_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What do you like to do with your friends?",
+				"id": "a1_paper_083_pi_q_1"
+			},
+			{
+				"text": "Do you like to sing?",
+				"id": "a1_paper_083_pi_q_2"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_083_pi_q_3"
+			},
+			{
+				"text": "Where do you go to school?",
+				"id": "a1_paper_083_pi_q_4"
+			},
+			{
+				"text": "What do you do to stay healthy?",
+				"id": "a1_paper_083_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Parent",
+				"starter_line": "Did you finish your homework?",
+				"description": "You are at home.",
+				"id": "a1_paper_083_s_resp_1"
+			},
+			{
+				"role_context": "shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You are in a shop. The cashier asks about a shirt price.",
+				"id": "a1_paper_083_s_resp_2"
+			},
+			{
+				"role_context": "Friend",
+				"starter_line": "What is your favorite game?",
+				"description": "You are talking about games.",
+				"id": "a1_paper_083_s_resp_3"
+			},
+			{
+				"role_context": "café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. The waiter asks your drink.",
+				"id": "a1_paper_083_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are at school. Ask a friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_083_s_ask_1"
+			},
+			{
+				"instruction": "You are at a store. Ask the shopkeeper for the price of a shirt.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_083_s_ask_2"
+			},
+			{
+				"instruction": "You want to ask about a school trip. You ask your teacher. ..",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_083_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_083_ls",
+		"text": "I go to the cinema. I watch movies. I like action films. My friend comes too. We eat popcorn. It is fun.",
+		"questions": [
+			{
+				"question": "What do you watch?",
+				"answer": "movies",
+				"id": "a1_paper_083_ls_q_1"
+			},
+			{
+				"question": "When do you go?",
+				"answer": "to the cinema",
+				"id": "a1_paper_083_ls_q_2"
+			},
+			{
+				"question": "Where do you eat?",
+				"answer": "popcorn",
+				"id": "a1_paper_083_ls_q_3"
+			},
+			{
+				"question": "Who comes with you?",
+				"answer": "my friend",
+				"id": "a1_paper_083_ls_q_4"
+			},
+			{
+				"question": "Why is it fun?",
+				"answer": "it is fun",
+				"id": "a1_paper_083_ls_q_5"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_083_mono",
+		"topic": "Talk about your sports kit",
+		"follow_up_questions": [
+			{
+				"question": "What is in your sports kit?",
+				"id": "a1_paper_083_mono_q_1"
+			},
+			{
+				"question": "When do you use your sports kit?",
+				"id": "a1_paper_083_mono_q_2"
+			},
+			{
+				"question": "Where do you keep your sports kit?",
+				"id": "a1_paper_083_mono_q_3"
+			},
+			{
+				"question": "Do you like your sports kit? Why?",
+				"id": "a1_paper_083_mono_q_4"
+			}
+		]
+	},
+	"uuid": "4a17c403-7258-41f6-9493-57c7aede1323"
+}

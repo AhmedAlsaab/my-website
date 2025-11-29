@@ -1,0 +1,140 @@
+{
+	"id": "a1_paper_011",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_011_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_011_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_011_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What is your favorite thing to do at home?",
+				"id": "a1_paper_011_pi_q_1"
+			},
+			{
+				"text": "How many friends do you have?",
+				"id": "a1_paper_011_pi_q_2"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_011_pi_q_3"
+			},
+			{
+				"text": "What is your favorite thing about your best friend?",
+				"id": "a1_paper_011_pi_q_4"
+			},
+			{
+				"text": "Where do you go to school?",
+				"id": "a1_paper_011_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "in a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. The waiter asks you.",
+				"id": "a1_paper_011_s_resp_1"
+			},
+			{
+				"role_context": "Café staff",
+				"starter_line": "What do you want to eat?",
+				"description": "You are ordering food.",
+				"id": "a1_paper_011_s_resp_2"
+			},
+			{
+				"role_context": "in a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You are in a clothing shop. A customer asks you.",
+				"id": "a1_paper_011_s_resp_3"
+			},
+			{
+				"role_context": "Shop assistant",
+				"starter_line": "Is that all?",
+				"description": "You are paying for items.",
+				"id": "a1_paper_011_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are at a store. Ask the cashier for the price of a toy.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_011_s_ask_1"
+			},
+			{
+				"instruction": "You are at a friend's house. You want to ask for a snack. ..",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_011_s_ask_2"
+			},
+			{
+				"instruction": "You are with your friend. Ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_011_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_011_ls",
+		"text": "I go to the library. The library is big. I read books there. I borrow books too. It is quiet and nice.",
+		"questions": [
+			{
+				"question": "What do you do in the library?",
+				"answer": "Read books",
+				"id": "a1_paper_011_ls_q_1"
+			},
+			{
+				"question": "When do you go to the library?",
+				"answer": "Not specified",
+				"id": "a1_paper_011_ls_q_2"
+			},
+			{
+				"question": "Where is the library?",
+				"answer": "It is big",
+				"id": "a1_paper_011_ls_q_3"
+			},
+			{
+				"question": "Why go to the library?",
+				"answer": "To read and borrow",
+				"id": "a1_paper_011_ls_q_4"
+			},
+			{
+				"question": "Who goes to the library?",
+				"answer": "I",
+				"id": "a1_paper_011_ls_q_5"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_011_mono",
+		"topic": "Talk about your favourite drink",
+		"follow_up_questions": [
+			{
+				"question": "What is your favourite drink?",
+				"id": "a1_paper_011_mono_q_1"
+			},
+			{
+				"question": "When do you drink it?",
+				"id": "a1_paper_011_mono_q_2"
+			},
+			{
+				"question": "Where do you buy it?",
+				"id": "a1_paper_011_mono_q_3"
+			},
+			{
+				"question": "Why do you like it?",
+				"id": "a1_paper_011_mono_q_4"
+			}
+		]
+	},
+	"uuid": "18557bdb-1e4d-4a19-bca9-54a065965a60"
+}

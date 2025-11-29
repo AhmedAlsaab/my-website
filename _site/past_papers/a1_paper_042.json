@@ -1,0 +1,140 @@
+{
+	"id": "a1_paper_042",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_042_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_042_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_042_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "Where do you usually eat lunch?",
+				"id": "a1_paper_042_pi_q_1"
+			},
+			{
+				"text": "What do you like to do at the park?",
+				"id": "a1_paper_042_pi_q_2"
+			},
+			{
+				"text": "What is your name?",
+				"id": "a1_paper_042_pi_q_3"
+			},
+			{
+				"text": "Where do you live?",
+				"id": "a1_paper_042_pi_q_4"
+			},
+			{
+				"text": "What is your favorite family story?",
+				"id": "a1_paper_042_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "in a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. You need to order a drink.",
+				"id": "a1_paper_042_s_resp_1"
+			},
+			{
+				"role_context": "Teacher",
+				"starter_line": "What did you learn today?",
+				"description": "You are in class.",
+				"id": "a1_paper_042_s_resp_2"
+			},
+			{
+				"role_context": "Café staff",
+				"starter_line": "Would you like coffee or tea?",
+				"description": "You are ordering drinks.",
+				"id": "a1_paper_042_s_resp_3"
+			},
+			{
+				"role_context": "at a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You see a shirt in a shop. You want to know the price.",
+				"id": "a1_paper_042_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are at a store. Ask the clerk where the books are.",
+				"expected_function": "asking_for_directions",
+				"id": "a1_paper_042_s_ask_1"
+			},
+			{
+				"instruction": "You want to ask your sibling to play. ..",
+				"expected_function": "making_suggestion",
+				"id": "a1_paper_042_s_ask_2"
+			},
+			{
+				"instruction": "You are at school. Ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_042_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_042_ls",
+		"text": "I play in the garden. The sun is bright. I see flowers and trees. I feel happy. My friends come to play.",
+		"questions": [
+			{
+				"question": "What do I do?",
+				"answer": "I play in the garden.",
+				"id": "a1_paper_042_ls_q_1"
+			},
+			{
+				"question": "When is it bright?",
+				"answer": "When the sun is bright.",
+				"id": "a1_paper_042_ls_q_2"
+			},
+			{
+				"question": "Where do I see flowers?",
+				"answer": "In the garden.",
+				"id": "a1_paper_042_ls_q_3"
+			},
+			{
+				"question": "Why do I feel happy?",
+				"answer": "I play with friends.",
+				"id": "a1_paper_042_ls_q_4"
+			},
+			{
+				"question": "Who comes to play?",
+				"answer": "My friends.",
+				"id": "a1_paper_042_ls_q_5"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_042_mono",
+		"topic": "Talk about your books",
+		"follow_up_questions": [
+			{
+				"question": "What is your favorite book?",
+				"id": "a1_paper_042_mono_q_1"
+			},
+			{
+				"question": "When do you read your books?",
+				"id": "a1_paper_042_mono_q_2"
+			},
+			{
+				"question": "Where do you keep your books?",
+				"id": "a1_paper_042_mono_q_3"
+			},
+			{
+				"question": "Do you like to buy new books?",
+				"id": "a1_paper_042_mono_q_4"
+			}
+		]
+	},
+	"uuid": "24161283-3f6c-4c6a-890b-0a59404ef8aa"
+}

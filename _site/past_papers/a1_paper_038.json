@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_038",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_038_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_038_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_038_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_038_pi_q_1"
+			},
+			{
+				"text": "Who do you admire?",
+				"id": "a1_paper_038_pi_q_2"
+			},
+			{
+				"text": "Where do you go to school?",
+				"id": "a1_paper_038_pi_q_3"
+			},
+			{
+				"text": "What is your favorite subject?",
+				"id": "a1_paper_038_pi_q_4"
+			},
+			{
+				"text": "What is your favorite book genre?",
+				"id": "a1_paper_038_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "In a café",
+				"starter_line": "What do you want to drink?",
+				"description": "The examiner asks about your drink choice at a café.",
+				"id": "a1_paper_038_s_resp_1"
+			},
+			{
+				"role_context": "At a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "The examiner asks about the price of a shirt in a shop.",
+				"id": "a1_paper_038_s_resp_2"
+			},
+			{
+				"role_context": "Shop assistant",
+				"starter_line": "Can I help you?",
+				"description": "You are in a shop. You want to buy something.",
+				"id": "a1_paper_038_s_resp_3"
+			},
+			{
+				"role_context": "Waiter",
+				"starter_line": "How was your meal?",
+				"description": "You are at a restaurant.",
+				"id": "a1_paper_038_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are at school. Ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_038_s_ask_1"
+			},
+			{
+				"instruction": "You are shopping. Ask the shopkeeper for a price.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_038_s_ask_2"
+			},
+			{
+				"instruction": "You are at a park. You want to ask someone to take a photo. ..",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_038_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_038_ls",
+		"text": "Dancing is fun. People dance at parties. You can dance alone or with friends. Dancing makes you happy. It is good exercise.",
+		"questions": [
+			{
+				"question": "What is dancing?",
+				"answer": "Dancing is fun.",
+				"id": "a1_paper_038_ls_q_1"
+			},
+			{
+				"question": "When do people dance?",
+				"answer": "At parties.",
+				"id": "a1_paper_038_ls_q_2"
+			},
+			{
+				"question": "Who can dance?",
+				"answer": "You and friends.",
+				"id": "a1_paper_038_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_038_mono",
+		"topic": "Talk about your grandparents",
+		"follow_up_questions": [
+			{
+				"question": "What do your grandparents like to do?",
+				"id": "a1_paper_038_mono_q_1"
+			},
+			{
+				"question": "Where do your grandparents live?",
+				"id": "a1_paper_038_mono_q_2"
+			},
+			{
+				"question": "How old are your grandparents?",
+				"id": "a1_paper_038_mono_q_3"
+			},
+			{
+				"question": "Do you visit your grandparents often?",
+				"id": "a1_paper_038_mono_q_4"
+			}
+		]
+	},
+	"uuid": "c68b7652-fa17-45a9-bfe3-e2efe44dad3a"
+}

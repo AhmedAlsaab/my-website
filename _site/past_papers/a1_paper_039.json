@@ -1,0 +1,140 @@
+{
+	"id": "a1_paper_039",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_039_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_039_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_039_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_039_pi_q_1"
+			},
+			{
+				"text": "Who is in your family?",
+				"id": "a1_paper_039_pi_q_2"
+			},
+			{
+				"text": "What is your favorite outdoor activity?",
+				"id": "a1_paper_039_pi_q_3"
+			},
+			{
+				"text": "What is your favorite ice cream flavor?",
+				"id": "a1_paper_039_pi_q_4"
+			},
+			{
+				"text": "What is your favorite thing to wear?",
+				"id": "a1_paper_039_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "in a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You see a shirt in a shop. You want to know the price.",
+				"id": "a1_paper_039_s_resp_1"
+			},
+			{
+				"role_context": "in a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. You can choose a drink.",
+				"id": "a1_paper_039_s_resp_2"
+			},
+			{
+				"role_context": "Friend",
+				"starter_line": "What is your favorite game?",
+				"description": "You are talking about games.",
+				"id": "a1_paper_039_s_resp_3"
+			},
+			{
+				"role_context": "Teacher",
+				"starter_line": "What is your homework?",
+				"description": "You are in class.",
+				"id": "a1_paper_039_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are at a park. You want to ask someone to take a photo. ..",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_039_s_ask_1"
+			},
+			{
+				"instruction": "You are at school. Ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_039_s_ask_2"
+			},
+			{
+				"instruction": "You are shopping. Ask the shopkeeper about the price of a shirt.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_039_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_039_ls",
+		"text": "I play football with my friends. We play in the park. The game is fun and exciting. I kick the ball and run. We score goals together.",
+		"questions": [
+			{
+				"question": "What do I play?",
+				"answer": "Football",
+				"id": "a1_paper_039_ls_q_1"
+			},
+			{
+				"question": "When do we play?",
+				"answer": "In the park",
+				"id": "a1_paper_039_ls_q_2"
+			},
+			{
+				"question": "Where do we play?",
+				"answer": "With my friends",
+				"id": "a1_paper_039_ls_q_3"
+			},
+			{
+				"question": "Why is the game fun?",
+				"answer": "It is exciting",
+				"id": "a1_paper_039_ls_q_4"
+			},
+			{
+				"question": "Who scores goals?",
+				"answer": "We",
+				"id": "a1_paper_039_ls_q_5"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_039_mono",
+		"topic": "Talk about your friends at school",
+		"follow_up_questions": [
+			{
+				"question": "Who are your best friends at school?",
+				"id": "a1_paper_039_mono_q_1"
+			},
+			{
+				"question": "What do you like to do with your friends?",
+				"id": "a1_paper_039_mono_q_2"
+			},
+			{
+				"question": "When do you see your friends at school?",
+				"id": "a1_paper_039_mono_q_3"
+			},
+			{
+				"question": "Why do you like your friends?",
+				"id": "a1_paper_039_mono_q_4"
+			}
+		]
+	},
+	"uuid": "ceeff049-fefd-4cfd-bf07-c729ffd31dcc"
+}

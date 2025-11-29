@@ -1,0 +1,140 @@
+{
+	"id": "a1_paper_008",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_008_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_008_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_008_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_008_pi_q_1"
+			},
+			{
+				"text": "What is your favorite book?",
+				"id": "a1_paper_008_pi_q_2"
+			},
+			{
+				"text": "Who is in your family?",
+				"id": "a1_paper_008_pi_q_3"
+			},
+			{
+				"text": "What time do you wake up?",
+				"id": "a1_paper_008_pi_q_4"
+			},
+			{
+				"text": "What do you eat for breakfast?",
+				"id": "a1_paper_008_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "In a café",
+				"starter_line": "What do you want to drink?",
+				"description": "The examiner asks you about your drink choice.",
+				"id": "a1_paper_008_s_resp_1"
+			},
+			{
+				"role_context": "Friend",
+				"starter_line": "What is your favorite game?",
+				"description": "You are talking about games.",
+				"id": "a1_paper_008_s_resp_2"
+			},
+			{
+				"role_context": "Bus driver",
+				"starter_line": "Next stop is the park.",
+				"description": "You are on the bus.",
+				"id": "a1_paper_008_s_resp_3"
+			},
+			{
+				"role_context": "At a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "The examiner asks about the price of a shirt.",
+				"id": "a1_paper_008_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You want to ask a stranger for the time. ..",
+				"expected_function": "asking_for_information",
+				"id": "a1_paper_008_s_ask_1"
+			},
+			{
+				"instruction": "You want to play a game. Ask your friend to play.",
+				"expected_function": "asking_permission",
+				"id": "a1_paper_008_s_ask_2"
+			},
+			{
+				"instruction": "You need a pen for class. Ask your teacher for a pen.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_008_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_008_ls",
+		"text": "In summer, I go to the beach. I swim in the sea. I play with friends. We have picnics in the park. I like to ride my bike.",
+		"questions": [
+			{
+				"question": "What do you do in summer?",
+				"answer": "Go to the beach",
+				"id": "a1_paper_008_ls_q_1"
+			},
+			{
+				"question": "When do you swim?",
+				"answer": "In summer",
+				"id": "a1_paper_008_ls_q_2"
+			},
+			{
+				"question": "Where do you have picnics?",
+				"answer": "In the park",
+				"id": "a1_paper_008_ls_q_3"
+			},
+			{
+				"question": "Who do you play with?",
+				"answer": "Friends",
+				"id": "a1_paper_008_ls_q_4"
+			},
+			{
+				"question": "How do you travel?",
+				"answer": "Ride my bike",
+				"id": "a1_paper_008_ls_q_5"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_008_mono",
+		"topic": "Talk about your grandparents",
+		"follow_up_questions": [
+			{
+				"question": "What are your grandparents' names?",
+				"id": "a1_paper_008_mono_q_1"
+			},
+			{
+				"question": "Where do your grandparents live?",
+				"id": "a1_paper_008_mono_q_2"
+			},
+			{
+				"question": "When do you visit your grandparents?",
+				"id": "a1_paper_008_mono_q_3"
+			},
+			{
+				"question": "How many grandchildren do they have?",
+				"id": "a1_paper_008_mono_q_4"
+			}
+		]
+	},
+	"uuid": "87275384-f898-4a69-9094-efcf3de38ee7"
+}

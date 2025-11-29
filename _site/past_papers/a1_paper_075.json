@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_075",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_075_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_075_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_075_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "Can you play sports at school?",
+				"id": "a1_paper_075_pi_q_1"
+			},
+			{
+				"text": "Who are your friends?",
+				"id": "a1_paper_075_pi_q_2"
+			},
+			{
+				"text": "What is your favorite childhood game?",
+				"id": "a1_paper_075_pi_q_3"
+			},
+			{
+				"text": "What is your favorite thing to do in summer?",
+				"id": "a1_paper_075_pi_q_4"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_075_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "in a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You see a shirt in a shop and want to know the price.",
+				"id": "a1_paper_075_s_resp_1"
+			},
+			{
+				"role_context": "Friend",
+				"starter_line": "Do you want to play outside?",
+				"description": "You are talking to a friend.",
+				"id": "a1_paper_075_s_resp_2"
+			},
+			{
+				"role_context": "Café staff",
+				"starter_line": "What would you like to drink?",
+				"description": "You are at a café.",
+				"id": "a1_paper_075_s_resp_3"
+			},
+			{
+				"role_context": "at a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. You need to order a drink.",
+				"id": "a1_paper_075_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are at school. Ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_075_s_ask_1"
+			},
+			{
+				"instruction": "You are at a park. You want to ask someone to take a photo. ..",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_075_s_ask_2"
+			},
+			{
+				"instruction": "You are shopping. Ask the shopkeeper for the price of an item.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_075_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_075_ls",
+		"text": "I read a book every day. Books are fun. I like stories. They take me to new places. I read at home.",
+		"questions": [
+			{
+				"question": "What do I read?",
+				"answer": "A book",
+				"id": "a1_paper_075_ls_q_1"
+			},
+			{
+				"question": "When do I read?",
+				"answer": "Every day",
+				"id": "a1_paper_075_ls_q_2"
+			},
+			{
+				"question": "Where do I read?",
+				"answer": "At home",
+				"id": "a1_paper_075_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_075_mono",
+		"topic": "Talk about your dinner",
+		"follow_up_questions": [
+			{
+				"question": "What did you eat for dinner?",
+				"id": "a1_paper_075_mono_q_1"
+			},
+			{
+				"question": "When do you usually have dinner?",
+				"id": "a1_paper_075_mono_q_2"
+			},
+			{
+				"question": "Where do you eat dinner?",
+				"id": "a1_paper_075_mono_q_3"
+			},
+			{
+				"question": "Who cooks your dinner?",
+				"id": "a1_paper_075_mono_q_4"
+			}
+		]
+	},
+	"uuid": "c4ab03cd-3be6-439d-9858-e0b43eb7c139"
+}

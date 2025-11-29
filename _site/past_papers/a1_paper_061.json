@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_061",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_061_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_061_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_061_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What is your favorite app on your phone?",
+				"id": "a1_paper_061_pi_q_1"
+			},
+			{
+				"text": "What is your favorite way to celebrate?",
+				"id": "a1_paper_061_pi_q_2"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_061_pi_q_3"
+			},
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_061_pi_q_4"
+			},
+			{
+				"text": "What is your favorite youth activity?",
+				"id": "a1_paper_061_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "At a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You are in a shop. You want to know the price of a shirt.",
+				"id": "a1_paper_061_s_resp_1"
+			},
+			{
+				"role_context": "Parent",
+				"starter_line": "What do you want to do today?",
+				"description": "You are at home.",
+				"id": "a1_paper_061_s_resp_2"
+			},
+			{
+				"role_context": "At a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. You need to order a drink.",
+				"id": "a1_paper_061_s_resp_3"
+			},
+			{
+				"role_context": "Friend",
+				"starter_line": "What do you want to eat?",
+				"description": "You are at home.",
+				"id": "a1_paper_061_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are at school. Ask a friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_061_s_ask_1"
+			},
+			{
+				"instruction": "You want to ask a friend about their favorite food. ..",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_061_s_ask_2"
+			},
+			{
+				"instruction": "You are at a store. Ask the cashier for the price of an item.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_061_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_061_ls",
+		"text": "I feel tired today. I did not sleep well. I have a lot of work. I want to rest now. I drink coffee for energy.",
+		"questions": [
+			{
+				"question": "What do I feel?",
+				"answer": "tired",
+				"id": "a1_paper_061_ls_q_1"
+			},
+			{
+				"question": "When do I feel tired?",
+				"answer": "today",
+				"id": "a1_paper_061_ls_q_2"
+			},
+			{
+				"question": "Why do I feel tired?",
+				"answer": "I did not sleep well",
+				"id": "a1_paper_061_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_061_mono",
+		"topic": "Talk about your home",
+		"follow_up_questions": [
+			{
+				"question": "What is your home like?",
+				"id": "a1_paper_061_mono_q_1"
+			},
+			{
+				"question": "Where is your home located?",
+				"id": "a1_paper_061_mono_q_2"
+			},
+			{
+				"question": "Who lives with you in your home?",
+				"id": "a1_paper_061_mono_q_3"
+			},
+			{
+				"question": "Do you like your home? Why?",
+				"id": "a1_paper_061_mono_q_4"
+			}
+		]
+	},
+	"uuid": "0f860072-df62-40ef-9a9a-f3a83c20a844"
+}

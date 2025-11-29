@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_048",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_048_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_048_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_048_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "When do you go to bed?",
+				"id": "a1_paper_048_pi_q_1"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_048_pi_q_2"
+			},
+			{
+				"text": "How do you feel today?",
+				"id": "a1_paper_048_pi_q_3"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_048_pi_q_4"
+			},
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_048_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "shop",
+				"starter_line": "Do you like this shirt?",
+				"description": "You are in a clothing shop. You see a shirt.",
+				"id": "a1_paper_048_s_resp_1"
+			},
+			{
+				"role_context": "café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. You can choose a drink.",
+				"id": "a1_paper_048_s_resp_2"
+			},
+			{
+				"role_context": "Café staff",
+				"starter_line": "Would you like coffee or tea?",
+				"description": "You are ordering drinks.",
+				"id": "a1_paper_048_s_resp_3"
+			},
+			{
+				"role_context": "Stranger",
+				"starter_line": "Excuse me, where's the cinema?",
+				"description": "You are lost in the street.",
+				"id": "a1_paper_048_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are at school. Ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_048_s_ask_1"
+			},
+			{
+				"instruction": "You are shopping. Ask the shopkeeper for the price of an item.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_048_s_ask_2"
+			},
+			{
+				"instruction": "You want to ask about homework. You ask your teacher. ..",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_048_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_048_ls",
+		"text": "I wake up in the morning. I wear a shirt and pants. I put on my socks. I wear my shoes. I look in the mirror.",
+		"questions": [
+			{
+				"question": "What do I wear?",
+				"answer": "A shirt and pants",
+				"id": "a1_paper_048_ls_q_1"
+			},
+			{
+				"question": "When do I wake up?",
+				"answer": "In the morning",
+				"id": "a1_paper_048_ls_q_2"
+			},
+			{
+				"question": "Where do I look?",
+				"answer": "In the mirror",
+				"id": "a1_paper_048_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_048_mono",
+		"topic": "Talk about things you want to learn",
+		"follow_up_questions": [
+			{
+				"question": "What do you want to learn?",
+				"id": "a1_paper_048_mono_q_1"
+			},
+			{
+				"question": "Why do you want to learn this?",
+				"id": "a1_paper_048_mono_q_2"
+			},
+			{
+				"question": "When do you want to start learning?",
+				"id": "a1_paper_048_mono_q_3"
+			},
+			{
+				"question": "How will you learn it?",
+				"id": "a1_paper_048_mono_q_4"
+			}
+		]
+	},
+	"uuid": "cee253de-3486-4b55-a394-29e4247c9dd9"
+}

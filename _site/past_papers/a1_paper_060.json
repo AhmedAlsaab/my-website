@@ -1,0 +1,140 @@
+{
+	"id": "a1_paper_060",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_060_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_060_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_060_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What do you like about your city?",
+				"id": "a1_paper_060_pi_q_1"
+			},
+			{
+				"text": "Can you tell me about your family?",
+				"id": "a1_paper_060_pi_q_2"
+			},
+			{
+				"text": "What do you wear to school?",
+				"id": "a1_paper_060_pi_q_3"
+			},
+			{
+				"text": "What is your favorite game?",
+				"id": "a1_paper_060_pi_q_4"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_060_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Waiter",
+				"starter_line": "What is your order?",
+				"description": "You are at a restaurant.",
+				"id": "a1_paper_060_s_resp_1"
+			},
+			{
+				"role_context": "at a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You are at a clothing shop. You are asking about a shirt.",
+				"id": "a1_paper_060_s_resp_2"
+			},
+			{
+				"role_context": "Library staff",
+				"starter_line": "Return your books here.",
+				"description": "You are in the library.",
+				"id": "a1_paper_060_s_resp_3"
+			},
+			{
+				"role_context": "at a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. You can choose a drink.",
+				"id": "a1_paper_060_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You want to ask your parent if you can go out. ..",
+				"expected_function": "asking_permission",
+				"id": "a1_paper_060_s_ask_1"
+			},
+			{
+				"instruction": "You are shopping. Ask the shopkeeper where the bread is.",
+				"expected_function": "asking_for_directions",
+				"id": "a1_paper_060_s_ask_2"
+			},
+			{
+				"instruction": "You are at school. Ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_060_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_060_ls",
+		"text": "I need help with my homework. Can you help me? I do not understand. Please show me how. Thank you for your help.",
+		"questions": [
+			{
+				"question": "What do I need help with?",
+				"answer": "My homework",
+				"id": "a1_paper_060_ls_q_1"
+			},
+			{
+				"question": "What do I not understand?",
+				"answer": "My homework",
+				"id": "a1_paper_060_ls_q_2"
+			},
+			{
+				"question": "Why do I ask for help?",
+				"answer": "I do not understand",
+				"id": "a1_paper_060_ls_q_3"
+			},
+			{
+				"question": "Who can help me?",
+				"answer": "You",
+				"id": "a1_paper_060_ls_q_4"
+			},
+			{
+				"question": "How do I show thanks?",
+				"answer": "Thank you",
+				"id": "a1_paper_060_ls_q_5"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_060_mono",
+		"topic": "Talk about your favourite restaurant",
+		"follow_up_questions": [
+			{
+				"question": "What food do you like there?",
+				"id": "a1_paper_060_mono_q_1"
+			},
+			{
+				"question": "When do you go to this restaurant?",
+				"id": "a1_paper_060_mono_q_2"
+			},
+			{
+				"question": "Where is your favorite restaurant?",
+				"id": "a1_paper_060_mono_q_3"
+			},
+			{
+				"question": "Why do you like this restaurant?",
+				"id": "a1_paper_060_mono_q_4"
+			}
+		]
+	},
+	"uuid": "aa15c66f-1923-414a-a3e0-2a9adab41a1c"
+}

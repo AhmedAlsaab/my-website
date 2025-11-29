@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_074",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_074_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_074_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_074_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What do you wish to learn in school?",
+				"id": "a1_paper_074_pi_q_1"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_074_pi_q_2"
+			},
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_074_pi_q_3"
+			},
+			{
+				"text": "What is your favorite thing to wear?",
+				"id": "a1_paper_074_pi_q_4"
+			},
+			{
+				"text": "What do you do with your family?",
+				"id": "a1_paper_074_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. You need to order a drink.",
+				"id": "a1_paper_074_s_resp_1"
+			},
+			{
+				"role_context": "Café staff",
+				"starter_line": "Would you like coffee or tea?",
+				"description": "You are ordering drinks.",
+				"id": "a1_paper_074_s_resp_2"
+			},
+			{
+				"role_context": "shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You are in a clothing shop. You see a shirt and want to know the price.",
+				"id": "a1_paper_074_s_resp_3"
+			},
+			{
+				"role_context": "Shop assistant",
+				"starter_line": "What do you want to buy?",
+				"description": "You are in a shop.",
+				"id": "a1_paper_074_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are at school. Ask a friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_074_s_ask_1"
+			},
+			{
+				"instruction": "You want to help a friend with something. ..",
+				"expected_function": "offering_help",
+				"id": "a1_paper_074_s_ask_2"
+			},
+			{
+				"instruction": "You are shopping. Ask a shopkeeper for the price of a shirt.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_074_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_074_ls",
+		"text": "Saying goodbye is important. We say goodbye to friends. We wave and smile. Sometimes we say 'see you later'. It is a nice way to leave.",
+		"questions": [
+			{
+				"question": "What do we say to friends?",
+				"answer": "Goodbye",
+				"id": "a1_paper_074_ls_q_1"
+			},
+			{
+				"question": "When do we say goodbye?",
+				"answer": "When we leave",
+				"id": "a1_paper_074_ls_q_2"
+			},
+			{
+				"question": "Why is saying goodbye important?",
+				"answer": "It is nice to leave",
+				"id": "a1_paper_074_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_074_mono",
+		"topic": "Talk about your favourite movie",
+		"follow_up_questions": [
+			{
+				"question": "What is the name of your favorite movie?",
+				"id": "a1_paper_074_mono_q_1"
+			},
+			{
+				"question": "Who is the main actor in the movie?",
+				"id": "a1_paper_074_mono_q_2"
+			},
+			{
+				"question": "Where do you watch this movie?",
+				"id": "a1_paper_074_mono_q_3"
+			},
+			{
+				"question": "Why do you like this movie?",
+				"id": "a1_paper_074_mono_q_4"
+			}
+		]
+	},
+	"uuid": "aa4c4afb-ceeb-4695-983f-56e3b4374385"
+}

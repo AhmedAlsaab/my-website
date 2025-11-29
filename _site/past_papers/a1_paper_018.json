@@ -1,0 +1,140 @@
+{
+	"id": "a1_paper_018",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_018_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_018_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_018_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What do you wish you could do?",
+				"id": "a1_paper_018_pi_q_1"
+			},
+			{
+				"text": "What do you like to eat?",
+				"id": "a1_paper_018_pi_q_2"
+			},
+			{
+				"text": "What do you like to do with your friends?",
+				"id": "a1_paper_018_pi_q_3"
+			},
+			{
+				"text": "What do you like most about your home?",
+				"id": "a1_paper_018_pi_q_4"
+			},
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_018_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "at a café",
+				"starter_line": "Do you want tea or coffee?",
+				"description": "You are at a café. You need to choose a drink.",
+				"id": "a1_paper_018_s_resp_1"
+			},
+			{
+				"role_context": "Library staff",
+				"starter_line": "What book do you want?",
+				"description": "You are in a library.",
+				"id": "a1_paper_018_s_resp_2"
+			},
+			{
+				"role_context": "Friend",
+				"starter_line": "What do you like to do?",
+				"description": "You are having a conversation.",
+				"id": "a1_paper_018_s_resp_3"
+			},
+			{
+				"role_context": "in a shop",
+				"starter_line": "What do you want to buy?",
+				"description": "You are at a shop. You want to buy fruit.",
+				"id": "a1_paper_018_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You want to ask for a ride home. You ask your parent. ..",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_018_s_ask_1"
+			},
+			{
+				"instruction": "You are shopping. Ask the shopkeeper where the milk is.",
+				"expected_function": "asking_for_directions",
+				"id": "a1_paper_018_s_ask_2"
+			},
+			{
+				"instruction": "You are at school. Ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_018_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_018_ls",
+		"text": "I pack my school bag. I put in my books. I take my pencil case. I need my lunch box. I carry my water bottle.",
+		"questions": [
+			{
+				"question": "What do I pack?",
+				"answer": "My school bag",
+				"id": "a1_paper_018_ls_q_1"
+			},
+			{
+				"question": "When do I pack?",
+				"answer": "Before school",
+				"id": "a1_paper_018_ls_q_2"
+			},
+			{
+				"question": "Where do I put my lunch box?",
+				"answer": "In my bag",
+				"id": "a1_paper_018_ls_q_3"
+			},
+			{
+				"question": "Who packs the bag?",
+				"answer": "I",
+				"id": "a1_paper_018_ls_q_4"
+			},
+			{
+				"question": "Why do I carry water?",
+				"answer": "To drink",
+				"id": "a1_paper_018_ls_q_5"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_018_mono",
+		"topic": "Talk about your neighbourhood",
+		"follow_up_questions": [
+			{
+				"question": "What do you like about your neighbourhood?",
+				"id": "a1_paper_018_mono_q_1"
+			},
+			{
+				"question": "Where is your house in the neighbourhood?",
+				"id": "a1_paper_018_mono_q_2"
+			},
+			{
+				"question": "Who lives near you?",
+				"id": "a1_paper_018_mono_q_3"
+			},
+			{
+				"question": "How is the park in your neighbourhood?",
+				"id": "a1_paper_018_mono_q_4"
+			}
+		]
+	},
+	"uuid": "e18a7bac-dadf-43be-8cd3-ef076b8357a9"
+}

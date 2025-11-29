@@ -1,0 +1,140 @@
+{
+	"id": "a1_paper_053",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_053_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_053_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_053_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What is your favorite family recipe?",
+				"id": "a1_paper_053_pi_q_1"
+			},
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_053_pi_q_2"
+			},
+			{
+				"text": "What is your name?",
+				"id": "a1_paper_053_pi_q_3"
+			},
+			{
+				"text": "What do you like to watch on TV?",
+				"id": "a1_paper_053_pi_q_4"
+			},
+			{
+				"text": "What do you like to eat?",
+				"id": "a1_paper_053_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Parent",
+				"starter_line": "What do you want to do today?",
+				"description": "You are at home.",
+				"id": "a1_paper_053_s_resp_1"
+			},
+			{
+				"role_context": "In a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. Choose a drink.",
+				"id": "a1_paper_053_s_resp_2"
+			},
+			{
+				"role_context": "At a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You see a shirt in a shop. Ask about the price.",
+				"id": "a1_paper_053_s_resp_3"
+			},
+			{
+				"role_context": "Library staff",
+				"starter_line": "Do you need help?",
+				"description": "You are looking for a book.",
+				"id": "a1_paper_053_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are lost in the market. Ask a shopkeeper for directions.",
+				"expected_function": "asking_for_directions",
+				"id": "a1_paper_053_s_ask_1"
+			},
+			{
+				"instruction": "You want to play a game with your friends. Ask them to play.",
+				"expected_function": "asking_permission",
+				"id": "a1_paper_053_s_ask_2"
+			},
+			{
+				"instruction": "You want to ask your parent for help with homework. ..",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_053_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_053_ls",
+		"text": "I go to the store. I buy pencils and paper. I need a backpack. The backpack is blue. I like my school supplies.",
+		"questions": [
+			{
+				"question": "What do I buy?",
+				"answer": "Pencils and paper",
+				"id": "a1_paper_053_ls_q_1"
+			},
+			{
+				"question": "When do I go to the store?",
+				"answer": "I go to the store",
+				"id": "a1_paper_053_ls_q_2"
+			},
+			{
+				"question": "Where do I buy supplies?",
+				"answer": "At the store",
+				"id": "a1_paper_053_ls_q_3"
+			},
+			{
+				"question": "Why do I need a backpack?",
+				"answer": "For school",
+				"id": "a1_paper_053_ls_q_4"
+			},
+			{
+				"question": "Who likes the school supplies?",
+				"answer": "I",
+				"id": "a1_paper_053_ls_q_5"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_053_mono",
+		"topic": "Talk about your favourite month",
+		"follow_up_questions": [
+			{
+				"question": "What do you like about this month?",
+				"id": "a1_paper_053_mono_q_1"
+			},
+			{
+				"question": "When is your favourite month?",
+				"id": "a1_paper_053_mono_q_2"
+			},
+			{
+				"question": "Do you celebrate anything in this month?",
+				"id": "a1_paper_053_mono_q_3"
+			},
+			{
+				"question": "How is the weather in your favourite month?",
+				"id": "a1_paper_053_mono_q_4"
+			}
+		]
+	},
+	"uuid": "20e26503-7a32-45f0-b337-aecd47300c54"
+}

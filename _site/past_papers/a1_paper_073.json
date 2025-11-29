@@ -1,0 +1,140 @@
+{
+	"id": "a1_paper_073",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_073_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_073_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_073_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "Where do you want to go this year?",
+				"id": "a1_paper_073_pi_q_1"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_073_pi_q_2"
+			},
+			{
+				"text": "How often do you visit your grandparents?",
+				"id": "a1_paper_073_pi_q_3"
+			},
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_073_pi_q_4"
+			},
+			{
+				"text": "What is your favorite family activity?",
+				"id": "a1_paper_073_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Parent",
+				"starter_line": "How was your day?",
+				"description": "You are at home.",
+				"id": "a1_paper_073_s_resp_1"
+			},
+			{
+				"role_context": "Waiter",
+				"starter_line": "Do you want dessert?",
+				"description": "You are at a restaurant.",
+				"id": "a1_paper_073_s_resp_2"
+			},
+			{
+				"role_context": "In a park",
+				"starter_line": "Do you like this park?",
+				"description": "The examiner is in a park and asks you about your opinion.",
+				"id": "a1_paper_073_s_resp_3"
+			},
+			{
+				"role_context": "At a café",
+				"starter_line": "What do you want to drink?",
+				"description": "The examiner is at a café and asks you about your drink.",
+				"id": "a1_paper_073_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are shopping. Ask the shopkeeper for a price.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_073_s_ask_1"
+			},
+			{
+				"instruction": "You are at school. Ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_073_s_ask_2"
+			},
+			{
+				"instruction": "You are at a park. You want to ask someone to take a photo. ..",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_073_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_073_ls",
+		"text": "I am waiting in line. The line is long. People are talking. I see a man. He has a red shirt.",
+		"questions": [
+			{
+				"question": "What is the person doing?",
+				"answer": "Waiting in line",
+				"id": "a1_paper_073_ls_q_1"
+			},
+			{
+				"question": "When is the line long?",
+				"answer": "Now",
+				"id": "a1_paper_073_ls_q_2"
+			},
+			{
+				"question": "Who has a red shirt?",
+				"answer": "A man",
+				"id": "a1_paper_073_ls_q_3"
+			},
+			{
+				"question": "Why are people talking?",
+				"answer": "They are waiting",
+				"id": "a1_paper_073_ls_q_4"
+			},
+			{
+				"question": "Where are they waiting?",
+				"answer": "In line",
+				"id": "a1_paper_073_ls_q_5"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_073_mono",
+		"topic": "Talk about your next holiday",
+		"follow_up_questions": [
+			{
+				"question": "Where will you go for your holiday?",
+				"id": "a1_paper_073_mono_q_1"
+			},
+			{
+				"question": "When is your holiday?",
+				"id": "a1_paper_073_mono_q_2"
+			},
+			{
+				"question": "What do you want to do there?",
+				"id": "a1_paper_073_mono_q_3"
+			},
+			{
+				"question": "Who will go with you?",
+				"id": "a1_paper_073_mono_q_4"
+			}
+		]
+	},
+	"uuid": "66e54660-3889-44fe-87dd-f8864639ac5e"
+}

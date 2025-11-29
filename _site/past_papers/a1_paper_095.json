@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_095",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_095_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_095_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_095_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What is your favorite family story?",
+				"id": "a1_paper_095_pi_q_1"
+			},
+			{
+				"text": "What is your favorite book genre?",
+				"id": "a1_paper_095_pi_q_2"
+			},
+			{
+				"text": "Where do you want to travel?",
+				"id": "a1_paper_095_pi_q_3"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_095_pi_q_4"
+			},
+			{
+				"text": "Where do you live?",
+				"id": "a1_paper_095_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Friend",
+				"starter_line": "Happy birthday! Are you having a party?",
+				"description": "You meet your friend on their birthday.",
+				"id": "a1_paper_095_s_resp_1"
+			},
+			{
+				"role_context": "In a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. Choose a drink.",
+				"id": "a1_paper_095_s_resp_2"
+			},
+			{
+				"role_context": "At a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You see a shirt in a shop. Ask about the price.",
+				"id": "a1_paper_095_s_resp_3"
+			},
+			{
+				"role_context": "Shop assistant",
+				"starter_line": "What size do you need?",
+				"description": "You are trying on clothes.",
+				"id": "a1_paper_095_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are at school. Ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_095_s_ask_1"
+			},
+			{
+				"instruction": "You are with your friend. You want help with your bag. ..",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_095_s_ask_2"
+			},
+			{
+				"instruction": "You are shopping. Ask the shopkeeper for the price of a shirt.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_095_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_095_ls",
+		"text": "We do a science experiment. We mix water and salt. The salt dissolves in the water. This makes a solution. It is very interesting.",
+		"questions": [
+			{
+				"question": "What do we mix?",
+				"answer": "Water and salt",
+				"id": "a1_paper_095_ls_q_1"
+			},
+			{
+				"question": "When do we do the experiment?",
+				"answer": "In class",
+				"id": "a1_paper_095_ls_q_2"
+			},
+			{
+				"question": "Where does the salt go?",
+				"answer": "In the water",
+				"id": "a1_paper_095_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_095_mono",
+		"topic": "Talk about your classmates",
+		"follow_up_questions": [
+			{
+				"question": "Who is your best classmate?",
+				"id": "a1_paper_095_mono_q_1"
+			},
+			{
+				"question": "What do you like to do with your classmates?",
+				"id": "a1_paper_095_mono_q_2"
+			},
+			{
+				"question": "When do you see your classmates?",
+				"id": "a1_paper_095_mono_q_3"
+			},
+			{
+				"question": "How many classmates do you have?",
+				"id": "a1_paper_095_mono_q_4"
+			}
+		]
+	},
+	"uuid": "ff140169-2fb4-4f7d-9a26-469ca89c98d7"
+}

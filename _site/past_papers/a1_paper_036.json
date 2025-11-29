@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_036",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_036_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_036_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_036_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What is your favorite childhood toy?",
+				"id": "a1_paper_036_pi_q_1"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_036_pi_q_2"
+			},
+			{
+				"text": "Who is in your family?",
+				"id": "a1_paper_036_pi_q_3"
+			},
+			{
+				"text": "What is your favorite time of day?",
+				"id": "a1_paper_036_pi_q_4"
+			},
+			{
+				"text": "What is your favorite mobile app?",
+				"id": "a1_paper_036_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You see a shirt in a shop. You want to know the price.",
+				"id": "a1_paper_036_s_resp_1"
+			},
+			{
+				"role_context": "café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. You can choose a drink.",
+				"id": "a1_paper_036_s_resp_2"
+			},
+			{
+				"role_context": "Library staff",
+				"starter_line": "Do you need help?",
+				"description": "You are looking for a book.",
+				"id": "a1_paper_036_s_resp_3"
+			},
+			{
+				"role_context": "Friend",
+				"starter_line": "What is your favorite game?",
+				"description": "You are talking about games.",
+				"id": "a1_paper_036_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are shopping. Ask the shopkeeper for the price of a shirt.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_036_s_ask_1"
+			},
+			{
+				"instruction": "You want to borrow a game from your friend. ..",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_036_s_ask_2"
+			},
+			{
+				"instruction": "You are at school. Ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_036_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_036_ls",
+		"text": "I go to the supermarket. I buy food and drinks. I need milk and bread. The supermarket is near my house. I like shopping there.",
+		"questions": [
+			{
+				"question": "What do you buy?",
+				"answer": "Food and drinks",
+				"id": "a1_paper_036_ls_q_1"
+			},
+			{
+				"question": "When do you go?",
+				"answer": "I go to the supermarket",
+				"id": "a1_paper_036_ls_q_2"
+			},
+			{
+				"question": "Where is the supermarket?",
+				"answer": "Near my house",
+				"id": "a1_paper_036_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_036_mono",
+		"topic": "Talk about your English class",
+		"follow_up_questions": [
+			{
+				"question": "What do you like about your English class?",
+				"id": "a1_paper_036_mono_q_1"
+			},
+			{
+				"question": "When do you have English class?",
+				"id": "a1_paper_036_mono_q_2"
+			},
+			{
+				"question": "Who is your English teacher?",
+				"id": "a1_paper_036_mono_q_3"
+			},
+			{
+				"question": "How do you practice English at home?",
+				"id": "a1_paper_036_mono_q_4"
+			}
+		]
+	},
+	"uuid": "ee3dc38f-3c02-4c5b-985a-93b028b8b7b8"
+}

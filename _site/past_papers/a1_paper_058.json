@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_058",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_058_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_058_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_058_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_058_pi_q_1"
+			},
+			{
+				"text": "What do you do to relax?",
+				"id": "a1_paper_058_pi_q_2"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_058_pi_q_3"
+			},
+			{
+				"text": "Tell me about your family.",
+				"id": "a1_paper_058_pi_q_4"
+			},
+			{
+				"text": "What is your favorite book?",
+				"id": "a1_paper_058_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You are in a clothing shop. A friend asks about a shirt price.",
+				"id": "a1_paper_058_s_resp_1"
+			},
+			{
+				"role_context": "café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. The waiter asks for your drink.",
+				"id": "a1_paper_058_s_resp_2"
+			},
+			{
+				"role_context": "Stranger",
+				"starter_line": "Do you speak English?",
+				"description": "You are meeting someone new.",
+				"id": "a1_paper_058_s_resp_3"
+			},
+			{
+				"role_context": "Teacher",
+				"starter_line": "What did you learn today?",
+				"description": "You are in class.",
+				"id": "a1_paper_058_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are shopping. Ask the shopkeeper for the price of a shirt.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_058_s_ask_1"
+			},
+			{
+				"instruction": "You are at school. Ask a friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_058_s_ask_2"
+			},
+			{
+				"instruction": "You want to ask about homework. You ask your teacher. ..",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_058_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_058_ls",
+		"text": "Today is music lesson. We learn to play guitar. The teacher is Mr. Ali. He is very nice. We sing songs together.",
+		"questions": [
+			{
+				"question": "What do we learn?",
+				"answer": "To play guitar",
+				"id": "a1_paper_058_ls_q_1"
+			},
+			{
+				"question": "When is the music lesson?",
+				"answer": "Today",
+				"id": "a1_paper_058_ls_q_2"
+			},
+			{
+				"question": "Who is the teacher?",
+				"answer": "Mr. Ali",
+				"id": "a1_paper_058_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_058_mono",
+		"topic": "Talk about your evening routine",
+		"follow_up_questions": [
+			{
+				"question": "What do you do after dinner?",
+				"id": "a1_paper_058_mono_q_1"
+			},
+			{
+				"question": "When do you go to bed?",
+				"id": "a1_paper_058_mono_q_2"
+			},
+			{
+				"question": "Where do you relax in the evening?",
+				"id": "a1_paper_058_mono_q_3"
+			},
+			{
+				"question": "How do you feel at night?",
+				"id": "a1_paper_058_mono_q_4"
+			}
+		]
+	},
+	"uuid": "1d13c8c8-5170-4e7f-846c-5d21b08a14f4"
+}

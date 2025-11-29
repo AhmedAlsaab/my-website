@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_016",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_016_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_016_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_016_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_016_pi_q_1"
+			},
+			{
+				"text": "What is your favorite hobby?",
+				"id": "a1_paper_016_pi_q_2"
+			},
+			{
+				"text": "What do you want to learn?",
+				"id": "a1_paper_016_pi_q_3"
+			},
+			{
+				"text": "What is your favorite family activity?",
+				"id": "a1_paper_016_pi_q_4"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_016_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. You need to order a drink.",
+				"id": "a1_paper_016_s_resp_1"
+			},
+			{
+				"role_context": "Stranger",
+				"starter_line": "Excuse me, where's the cinema?",
+				"description": "You are lost in the street.",
+				"id": "a1_paper_016_s_resp_2"
+			},
+			{
+				"role_context": "Shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You are in a shop. You want to know the price of a shirt.",
+				"id": "a1_paper_016_s_resp_3"
+			},
+			{
+				"role_context": "Parent",
+				"starter_line": "Did you finish your homework?",
+				"description": "You are at home.",
+				"id": "a1_paper_016_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are shopping. Ask the shopkeeper for the price of a toy.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_016_s_ask_1"
+			},
+			{
+				"instruction": "You are at school. Ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_016_s_ask_2"
+			},
+			{
+				"instruction": "You want to ask a friend about their favorite food. ..",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_016_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_016_ls",
+		"text": "I watch TV in the evening. I like funny shows. My family watches with me. We eat snacks together. It is fun and relaxing.",
+		"questions": [
+			{
+				"question": "What do you watch?",
+				"answer": "Funny shows",
+				"id": "a1_paper_016_ls_q_1"
+			},
+			{
+				"question": "When do you watch TV?",
+				"answer": "In the evening",
+				"id": "a1_paper_016_ls_q_2"
+			},
+			{
+				"question": "Who watches with you?",
+				"answer": "My family",
+				"id": "a1_paper_016_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_016_mono",
+		"topic": "Talk about your dream job",
+		"follow_up_questions": [
+			{
+				"question": "What is your dream job?",
+				"id": "a1_paper_016_mono_q_1"
+			},
+			{
+				"question": "Why do you want this job?",
+				"id": "a1_paper_016_mono_q_2"
+			},
+			{
+				"question": "Where do you want to work?",
+				"id": "a1_paper_016_mono_q_3"
+			},
+			{
+				"question": "How can you get this job?",
+				"id": "a1_paper_016_mono_q_4"
+			}
+		]
+	},
+	"uuid": "a818ee03-0560-4336-97d4-76c04fa8a787"
+}

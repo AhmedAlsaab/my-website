@@ -1,0 +1,135 @@
+{
+	"id": "a1_paper_076",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_076_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_076_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_076_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_076_pi_q_1"
+			},
+			{
+				"text": "What do you do with your family?",
+				"id": "a1_paper_076_pi_q_2"
+			},
+			{
+				"text": "What is your favorite family story?",
+				"id": "a1_paper_076_pi_q_3"
+			},
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_076_pi_q_4"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_076_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Café staff",
+				"starter_line": "Would you like coffee or tea?",
+				"description": "You are ordering drinks.",
+				"id": "a1_paper_076_s_resp_1"
+			},
+			{
+				"role_context": "Friend",
+				"starter_line": "Are you free this weekend?",
+				"description": "You are planning something.",
+				"id": "a1_paper_076_s_resp_2"
+			},
+			{
+				"role_context": "in a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. The waiter asks you for your drink.",
+				"id": "a1_paper_076_s_resp_3"
+			},
+			{
+				"role_context": "at a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You see a shirt in a shop. You ask the price.",
+				"id": "a1_paper_076_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are at school. Ask a friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_076_s_ask_1"
+			},
+			{
+				"instruction": "You want to ask a stranger for directions. ..",
+				"expected_function": "asking_for_directions",
+				"id": "a1_paper_076_s_ask_2"
+			},
+			{
+				"instruction": "You are shopping. Ask the seller for the price of a shirt.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_076_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_076_ls",
+		"text": "I like to write stories. Stories are fun to read. I use my imagination. I write about friends and adventures. My stories have happy endings.",
+		"questions": [
+			{
+				"question": "What do I like to write?",
+				"answer": "Stories",
+				"id": "a1_paper_076_ls_q_1"
+			},
+			{
+				"question": "Why are stories fun?",
+				"answer": "To read",
+				"id": "a1_paper_076_ls_q_2"
+			},
+			{
+				"question": "What do I use?",
+				"answer": "My imagination",
+				"id": "a1_paper_076_ls_q_3"
+			},
+			{
+				"question": "What do my stories have?",
+				"answer": "Happy endings",
+				"id": "a1_paper_076_ls_q_4"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_076_mono",
+		"topic": "Talk about your school uniform",
+		"follow_up_questions": [
+			{
+				"question": "What color is your school uniform?",
+				"id": "a1_paper_076_mono_q_1"
+			},
+			{
+				"question": "When do you wear your uniform?",
+				"id": "a1_paper_076_mono_q_2"
+			},
+			{
+				"question": "Do you like your school uniform? Why?",
+				"id": "a1_paper_076_mono_q_3"
+			},
+			{
+				"question": "How does your uniform make you feel?",
+				"id": "a1_paper_076_mono_q_4"
+			}
+		]
+	},
+	"uuid": "6a98d710-8827-429d-b7ed-449acd62049c"
+}

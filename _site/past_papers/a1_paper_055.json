@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_055",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_055_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_055_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_055_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What is your favorite thing about your culture?",
+				"id": "a1_paper_055_pi_q_1"
+			},
+			{
+				"text": "What is your favorite treat?",
+				"id": "a1_paper_055_pi_q_2"
+			},
+			{
+				"text": "Where do you usually eat lunch?",
+				"id": "a1_paper_055_pi_q_3"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_055_pi_q_4"
+			},
+			{
+				"text": "Who is in your family?",
+				"id": "a1_paper_055_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Library staff",
+				"starter_line": "Return your books here.",
+				"description": "You are in the library.",
+				"id": "a1_paper_055_s_resp_1"
+			},
+			{
+				"role_context": "Waiter",
+				"starter_line": "What is your order?",
+				"description": "You are at a restaurant.",
+				"id": "a1_paper_055_s_resp_2"
+			},
+			{
+				"role_context": "at a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You are in a clothing shop. You see a shirt.",
+				"id": "a1_paper_055_s_resp_3"
+			},
+			{
+				"role_context": "in a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. You can choose a drink.",
+				"id": "a1_paper_055_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "At school, ask a friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_055_s_ask_1"
+			},
+			{
+				"instruction": "You want to ask about homework. You ask your teacher. ..",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_055_s_ask_2"
+			},
+			{
+				"instruction": "At the store, ask the clerk for the price of a toy.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_055_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_055_ls",
+		"text": "I go to the supermarket. I buy food and drinks. I need bread and milk. The supermarket is near my house. I like shopping there.",
+		"questions": [
+			{
+				"question": "What do I buy?",
+				"answer": "Food and drinks",
+				"id": "a1_paper_055_ls_q_1"
+			},
+			{
+				"question": "When do I go?",
+				"answer": "I go to the supermarket",
+				"id": "a1_paper_055_ls_q_2"
+			},
+			{
+				"question": "Where is the supermarket?",
+				"answer": "Near my house",
+				"id": "a1_paper_055_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_055_mono",
+		"topic": "Talk about your neighbourhood",
+		"follow_up_questions": [
+			{
+				"question": "What is your favourite place in your neighbourhood?",
+				"id": "a1_paper_055_mono_q_1"
+			},
+			{
+				"question": "Where do you go to play?",
+				"id": "a1_paper_055_mono_q_2"
+			},
+			{
+				"question": "Who lives near you?",
+				"id": "a1_paper_055_mono_q_3"
+			},
+			{
+				"question": "How do you get to school?",
+				"id": "a1_paper_055_mono_q_4"
+			}
+		]
+	},
+	"uuid": "5f82c56f-c5e1-40e1-b9cc-08d5c57acbd8"
+}

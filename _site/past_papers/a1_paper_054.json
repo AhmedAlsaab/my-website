@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_054",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_054_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_054_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_054_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What is your favorite snack?",
+				"id": "a1_paper_054_pi_q_1"
+			},
+			{
+				"text": "What do you enjoy doing on a sunny day?",
+				"id": "a1_paper_054_pi_q_2"
+			},
+			{
+				"text": "What do you do after school?",
+				"id": "a1_paper_054_pi_q_3"
+			},
+			{
+				"text": "Where do you go to school?",
+				"id": "a1_paper_054_pi_q_4"
+			},
+			{
+				"text": "What do you like to eat?",
+				"id": "a1_paper_054_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "at a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You see a shirt in a shop. You want to know the price.",
+				"id": "a1_paper_054_s_resp_1"
+			},
+			{
+				"role_context": "Parent",
+				"starter_line": "Do you have any homework?",
+				"description": "You are at home.",
+				"id": "a1_paper_054_s_resp_2"
+			},
+			{
+				"role_context": "in a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. You need to order a drink.",
+				"id": "a1_paper_054_s_resp_3"
+			},
+			{
+				"role_context": "Stranger",
+				"starter_line": "Do you speak English?",
+				"description": "You are meeting someone new.",
+				"id": "a1_paper_054_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are shopping. You want to buy a shirt. Ask the shopkeeper for the price.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_054_s_ask_1"
+			},
+			{
+				"instruction": "You want to ask your friend about a subject. ..",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_054_s_ask_2"
+			},
+			{
+				"instruction": "You are at school. You see a friend. Ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_054_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_054_ls",
+		"text": "We learn in the classroom. We read books and write. We listen to the teacher. We do group work. We play games sometimes.",
+		"questions": [
+			{
+				"question": "What do we read?",
+				"answer": "Books",
+				"id": "a1_paper_054_ls_q_1"
+			},
+			{
+				"question": "When do we learn?",
+				"answer": "In the classroom",
+				"id": "a1_paper_054_ls_q_2"
+			},
+			{
+				"question": "Where do we play games?",
+				"answer": "In the classroom",
+				"id": "a1_paper_054_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_054_mono",
+		"topic": "Talk about your favourite season",
+		"follow_up_questions": [
+			{
+				"question": "What is your favorite season?",
+				"id": "a1_paper_054_mono_q_1"
+			},
+			{
+				"question": "Why do you like this season?",
+				"id": "a1_paper_054_mono_q_2"
+			},
+			{
+				"question": "When does this season start?",
+				"id": "a1_paper_054_mono_q_3"
+			},
+			{
+				"question": "What do you do in this season?",
+				"id": "a1_paper_054_mono_q_4"
+			}
+		]
+	},
+	"uuid": "87ad8920-e627-4544-988a-f776c1279808"
+}

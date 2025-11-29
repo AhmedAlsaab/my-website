@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_089",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_089_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_089_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_089_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What is your favorite book?",
+				"id": "a1_paper_089_pi_q_1"
+			},
+			{
+				"text": "What do you do when you are bored?",
+				"id": "a1_paper_089_pi_q_2"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_089_pi_q_3"
+			},
+			{
+				"text": "Who is in your family?",
+				"id": "a1_paper_089_pi_q_4"
+			},
+			{
+				"text": "What is your favorite way to spend time with family?",
+				"id": "a1_paper_089_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "In a café",
+				"starter_line": "Hello! What do you want to drink?",
+				"description": "You are at a café. You want to order a drink.",
+				"id": "a1_paper_089_s_resp_1"
+			},
+			{
+				"role_context": "At a shop",
+				"starter_line": "Can I help you find something?",
+				"description": "You are in a shop. You are looking for a toy.",
+				"id": "a1_paper_089_s_resp_2"
+			},
+			{
+				"role_context": "Stranger",
+				"starter_line": "Do you speak English?",
+				"description": "You are meeting someone new.",
+				"id": "a1_paper_089_s_resp_3"
+			},
+			{
+				"role_context": "Waiter",
+				"starter_line": "How was your meal?",
+				"description": "You are at a restaurant.",
+				"id": "a1_paper_089_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are shopping. Ask the shopkeeper for the price of a shirt.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_089_s_ask_1"
+			},
+			{
+				"instruction": "You are at school. Ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_089_s_ask_2"
+			},
+			{
+				"instruction": "You want to borrow a game from your friend. ..",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_089_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_089_ls",
+		"text": "I watch cartoons in the morning. My favorite cartoon is fun. I like the characters and stories. My friend likes cartoons too. We watch together sometimes.",
+		"questions": [
+			{
+				"question": "What do you watch?",
+				"answer": "Cartoons",
+				"id": "a1_paper_089_ls_q_1"
+			},
+			{
+				"question": "When do you watch?",
+				"answer": "In the morning",
+				"id": "a1_paper_089_ls_q_2"
+			},
+			{
+				"question": "Who likes cartoons?",
+				"answer": "My friend",
+				"id": "a1_paper_089_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_089_mono",
+		"topic": "Talk about a typical day at school",
+		"follow_up_questions": [
+			{
+				"question": "What do you do in the morning?",
+				"id": "a1_paper_089_mono_q_1"
+			},
+			{
+				"question": "When do you have lunch at school?",
+				"id": "a1_paper_089_mono_q_2"
+			},
+			{
+				"question": "Where is your classroom?",
+				"id": "a1_paper_089_mono_q_3"
+			},
+			{
+				"question": "Who do you sit with in class?",
+				"id": "a1_paper_089_mono_q_4"
+			}
+		]
+	},
+	"uuid": "c9f042e5-d3c3-420a-b7e3-28f1d786b5e1"
+}

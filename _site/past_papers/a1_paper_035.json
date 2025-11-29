@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_035",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_035_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_035_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_035_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What is your favorite snack?",
+				"id": "a1_paper_035_pi_q_1"
+			},
+			{
+				"text": "Where do you play with your friends?",
+				"id": "a1_paper_035_pi_q_2"
+			},
+			{
+				"text": "What do you like to eat?",
+				"id": "a1_paper_035_pi_q_3"
+			},
+			{
+				"text": "Where do you like to go after school?",
+				"id": "a1_paper_035_pi_q_4"
+			},
+			{
+				"text": "Where do you go to school?",
+				"id": "a1_paper_035_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. You can choose a drink.",
+				"id": "a1_paper_035_s_resp_1"
+			},
+			{
+				"role_context": "Shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You are in a shop. You want to know the price.",
+				"id": "a1_paper_035_s_resp_2"
+			},
+			{
+				"role_context": "Shop assistant",
+				"starter_line": "Is that all?",
+				"description": "You are paying for items.",
+				"id": "a1_paper_035_s_resp_3"
+			},
+			{
+				"role_context": "Shop assistant",
+				"starter_line": "What size do you need?",
+				"description": "You are trying on clothes.",
+				"id": "a1_paper_035_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You want to borrow a book from a classmate. ..",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_035_s_ask_1"
+			},
+			{
+				"instruction": "You are at the store. Ask where the milk is.",
+				"expected_function": "asking_for_directions",
+				"id": "a1_paper_035_s_ask_2"
+			},
+			{
+				"instruction": "You see your friend with a book. Ask to borrow it.",
+				"expected_function": "asking_permission",
+				"id": "a1_paper_035_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_035_ls",
+		"text": "The children play in the garden. They run and laugh. They have a ball. The sun is bright. Flowers are beautiful.",
+		"questions": [
+			{
+				"question": "What do the children do?",
+				"answer": "Play in the garden",
+				"id": "a1_paper_035_ls_q_1"
+			},
+			{
+				"question": "When do they play?",
+				"answer": "In the garden",
+				"id": "a1_paper_035_ls_q_2"
+			},
+			{
+				"question": "Where do they play?",
+				"answer": "In the garden",
+				"id": "a1_paper_035_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_035_mono",
+		"topic": "Talk about a place you want to visit",
+		"follow_up_questions": [
+			{
+				"question": "What place do you want to visit?",
+				"id": "a1_paper_035_mono_q_1"
+			},
+			{
+				"question": "Why do you want to go there?",
+				"id": "a1_paper_035_mono_q_2"
+			},
+			{
+				"question": "When do you want to visit this place?",
+				"id": "a1_paper_035_mono_q_3"
+			},
+			{
+				"question": "Who do you want to go with?",
+				"id": "a1_paper_035_mono_q_4"
+			}
+		]
+	},
+	"uuid": "4444059c-01a8-4b3e-9052-eb74e293439d"
+}

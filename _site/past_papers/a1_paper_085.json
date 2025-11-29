@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_085",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_085_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_085_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_085_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What is your favorite restaurant food?",
+				"id": "a1_paper_085_pi_q_1"
+			},
+			{
+				"text": "What is your favorite outdoor activity?",
+				"id": "a1_paper_085_pi_q_2"
+			},
+			{
+				"text": "What is your favorite type of dessert?",
+				"id": "a1_paper_085_pi_q_3"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_085_pi_q_4"
+			},
+			{
+				"text": "Where do you go to school?",
+				"id": "a1_paper_085_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Friend",
+				"starter_line": "Are you free this weekend?",
+				"description": "You are planning something.",
+				"id": "a1_paper_085_s_resp_1"
+			},
+			{
+				"role_context": "Shop assistant",
+				"starter_line": "Can I help you?",
+				"description": "You are in a shop. You want to buy something.",
+				"id": "a1_paper_085_s_resp_2"
+			},
+			{
+				"role_context": "In a café",
+				"starter_line": "What would you like to drink?",
+				"description": "You are at a café. Choose a drink.",
+				"id": "a1_paper_085_s_resp_3"
+			},
+			{
+				"role_context": "At a school",
+				"starter_line": "How many books do you have?",
+				"description": "You are in class. Count your books.",
+				"id": "a1_paper_085_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are shopping. Ask the shopkeeper where the bread is.",
+				"expected_function": "asking_for_directions",
+				"id": "a1_paper_085_s_ask_1"
+			},
+			{
+				"instruction": "You are at school. Ask your friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_085_s_ask_2"
+			},
+			{
+				"instruction": "You are with your friend. You want help with your bag. ..",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_085_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_085_ls",
+		"text": "I call my friend. We talk on the phone. I say hello. We chat about our day. I ask about his family.",
+		"questions": [
+			{
+				"question": "What do I do?",
+				"answer": "I call my friend.",
+				"id": "a1_paper_085_ls_q_1"
+			},
+			{
+				"question": "When do we talk?",
+				"answer": "On the phone.",
+				"id": "a1_paper_085_ls_q_2"
+			},
+			{
+				"question": "Who do I call?",
+				"answer": "My friend.",
+				"id": "a1_paper_085_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_085_mono",
+		"topic": "Talk about your favourite vegetable",
+		"follow_up_questions": [
+			{
+				"question": "What is your favorite vegetable?",
+				"id": "a1_paper_085_mono_q_1"
+			},
+			{
+				"question": "Why do you like this vegetable?",
+				"id": "a1_paper_085_mono_q_2"
+			},
+			{
+				"question": "How do you eat it?",
+				"id": "a1_paper_085_mono_q_3"
+			},
+			{
+				"question": "Where can you buy this vegetable?",
+				"id": "a1_paper_085_mono_q_4"
+			}
+		]
+	},
+	"uuid": "7eb633af-11fd-4cb9-b83f-0e11de4a0986"
+}

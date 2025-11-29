@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_037",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_037_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_037_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_037_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "Where do you go to school?",
+				"id": "a1_paper_037_pi_q_1"
+			},
+			{
+				"text": "How do you feel about school?",
+				"id": "a1_paper_037_pi_q_2"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_037_pi_q_3"
+			},
+			{
+				"text": "What do you like most about your home?",
+				"id": "a1_paper_037_pi_q_4"
+			},
+			{
+				"text": "What is your favorite color?",
+				"id": "a1_paper_037_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "in a café",
+				"starter_line": "What do you want to drink?",
+				"description": "The examiner is a barista. You are a customer.",
+				"id": "a1_paper_037_s_resp_1"
+			},
+			{
+				"role_context": "at a school",
+				"starter_line": "What is your favorite subject?",
+				"description": "The examiner is a teacher. You are a student.",
+				"id": "a1_paper_037_s_resp_2"
+			},
+			{
+				"role_context": "Stranger",
+				"starter_line": "Excuse me, where is the bus stop?",
+				"description": "You are in the street.",
+				"id": "a1_paper_037_s_resp_3"
+			},
+			{
+				"role_context": "Café staff",
+				"starter_line": "What would you like to drink?",
+				"description": "You are at a café.",
+				"id": "a1_paper_037_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are at school. You see your friend. Ask them for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_037_s_ask_1"
+			},
+			{
+				"instruction": "You want to ask for a ride home. You ask your parent. ..",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_037_s_ask_2"
+			},
+			{
+				"instruction": "You are shopping. You want to buy a shirt. Ask the shopkeeper for the price.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_037_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_037_ls",
+		"text": "I call my friend. We talk on the phone. I say hello. We laugh together. I ask about his day.",
+		"questions": [
+			{
+				"question": "What do I do?",
+				"answer": "I call my friend.",
+				"id": "a1_paper_037_ls_q_1"
+			},
+			{
+				"question": "When do we talk?",
+				"answer": "On the phone.",
+				"id": "a1_paper_037_ls_q_2"
+			},
+			{
+				"question": "Who do I call?",
+				"answer": "My friend.",
+				"id": "a1_paper_037_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_037_mono",
+		"topic": "Talk about your bedroom",
+		"follow_up_questions": [
+			{
+				"question": "What color is your bedroom?",
+				"id": "a1_paper_037_mono_q_1"
+			},
+			{
+				"question": "Where is your bed?",
+				"id": "a1_paper_037_mono_q_2"
+			},
+			{
+				"question": "Do you have a desk in your room?",
+				"id": "a1_paper_037_mono_q_3"
+			},
+			{
+				"question": "How do you keep your room clean?",
+				"id": "a1_paper_037_mono_q_4"
+			}
+		]
+	},
+	"uuid": "e2330006-3d4e-4273-9e7e-5355a59fb917"
+}

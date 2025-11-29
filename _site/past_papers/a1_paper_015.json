@@ -1,0 +1,135 @@
+{
+	"id": "a1_paper_015",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_015_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_015_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_015_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_015_pi_q_1"
+			},
+			{
+				"text": "What is your favorite family story?",
+				"id": "a1_paper_015_pi_q_2"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_015_pi_q_3"
+			},
+			{
+				"text": "What time do you wake up?",
+				"id": "a1_paper_015_pi_q_4"
+			},
+			{
+				"text": "What is your favorite family activity?",
+				"id": "a1_paper_015_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Parent",
+				"starter_line": "What do you want to watch?",
+				"description": "You are at home.",
+				"id": "a1_paper_015_s_resp_1"
+			},
+			{
+				"role_context": "In a café",
+				"starter_line": "Hello! What would you like to drink?",
+				"description": "You are at a café. You can choose a drink.",
+				"id": "a1_paper_015_s_resp_2"
+			},
+			{
+				"role_context": "Parent",
+				"starter_line": "Do you have any homework?",
+				"description": "You are at home.",
+				"id": "a1_paper_015_s_resp_3"
+			},
+			{
+				"role_context": "In a shop",
+				"starter_line": "Do you need help with anything?",
+				"description": "You are in a shop. You can ask for help.",
+				"id": "a1_paper_015_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are at a store. Ask where the milk is.",
+				"expected_function": "asking_for_directions",
+				"id": "a1_paper_015_s_ask_1"
+			},
+			{
+				"instruction": "You see your friend. Ask for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_015_s_ask_2"
+			},
+			{
+				"instruction": "You want to ask your sibling to play. ..",
+				"expected_function": "making_suggestion",
+				"id": "a1_paper_015_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_015_ls",
+		"text": "I like playing football. It is fun to play. I play with my friends. We play in the park. We play on Saturday.",
+		"questions": [
+			{
+				"question": "What do you like?",
+				"answer": "Playing football",
+				"id": "a1_paper_015_ls_q_1"
+			},
+			{
+				"question": "When do you play?",
+				"answer": "On Saturday",
+				"id": "a1_paper_015_ls_q_2"
+			},
+			{
+				"question": "Where do you play?",
+				"answer": "In the park",
+				"id": "a1_paper_015_ls_q_3"
+			},
+			{
+				"question": "Who do you play with?",
+				"answer": "My friends",
+				"id": "a1_paper_015_ls_q_4"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_015_mono",
+		"topic": "Talk about your school",
+		"follow_up_questions": [
+			{
+				"question": "What is your school's name?",
+				"id": "a1_paper_015_mono_q_1"
+			},
+			{
+				"question": "Where is your school located?",
+				"id": "a1_paper_015_mono_q_2"
+			},
+			{
+				"question": "Who are your teachers?",
+				"id": "a1_paper_015_mono_q_3"
+			},
+			{
+				"question": "What do you like about your school?",
+				"id": "a1_paper_015_mono_q_4"
+			}
+		]
+	},
+	"uuid": "d9172217-776e-4f24-9099-3f743bb67370"
+}

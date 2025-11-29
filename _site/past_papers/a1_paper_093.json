@@ -1,0 +1,140 @@
+{
+	"id": "a1_paper_093",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_093_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_093_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_093_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "Do you like to play video games?",
+				"id": "a1_paper_093_pi_q_1"
+			},
+			{
+				"text": "What do you do to stay fit?",
+				"id": "a1_paper_093_pi_q_2"
+			},
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_093_pi_q_3"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_093_pi_q_4"
+			},
+			{
+				"text": "What is your favorite breakfast cereal?",
+				"id": "a1_paper_093_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Teacher",
+				"starter_line": "Can you write this down?",
+				"description": "You are in class.",
+				"id": "a1_paper_093_s_resp_1"
+			},
+			{
+				"role_context": "Parent",
+				"starter_line": "Do you have any homework?",
+				"description": "You are at home.",
+				"id": "a1_paper_093_s_resp_2"
+			},
+			{
+				"role_context": "shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You are in a clothing shop. You see a shirt.",
+				"id": "a1_paper_093_s_resp_3"
+			},
+			{
+				"role_context": "café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. You can choose a drink.",
+				"id": "a1_paper_093_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "Ask your friend for help with your homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_093_s_ask_1"
+			},
+			{
+				"instruction": "Ask a shopkeeper where the bread is.",
+				"expected_function": "asking_for_directions",
+				"id": "a1_paper_093_s_ask_2"
+			},
+			{
+				"instruction": "You are at a friend's house. You want to ask for a snack. ..",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_093_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_093_ls",
+		"text": "I call my friend. We talk on the phone. I say hello. We laugh together. I ask about his day.",
+		"questions": [
+			{
+				"question": "What do I do?",
+				"answer": "I call my friend.",
+				"id": "a1_paper_093_ls_q_1"
+			},
+			{
+				"question": "Who do I call?",
+				"answer": "My friend.",
+				"id": "a1_paper_093_ls_q_2"
+			},
+			{
+				"question": "What do we do?",
+				"answer": "We talk on the phone.",
+				"id": "a1_paper_093_ls_q_3"
+			},
+			{
+				"question": "Why do we laugh?",
+				"answer": "We laugh together.",
+				"id": "a1_paper_093_ls_q_4"
+			},
+			{
+				"question": "What do I ask?",
+				"answer": "About his day.",
+				"id": "a1_paper_093_ls_q_5"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_093_mono",
+		"topic": "Talk about your skills",
+		"follow_up_questions": [
+			{
+				"question": "What skills do you have?",
+				"id": "a1_paper_093_mono_q_1"
+			},
+			{
+				"question": "How did you learn your skills?",
+				"id": "a1_paper_093_mono_q_2"
+			},
+			{
+				"question": "Where do you use your skills?",
+				"id": "a1_paper_093_mono_q_3"
+			},
+			{
+				"question": "Why are your skills important to you?",
+				"id": "a1_paper_093_mono_q_4"
+			}
+		]
+	},
+	"uuid": "4f6de715-84de-440d-9800-369d806a8331"
+}

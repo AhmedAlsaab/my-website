@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_049",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_049_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_049_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_049_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_049_pi_q_1"
+			},
+			{
+				"text": "What do you do when it rains?",
+				"id": "a1_paper_049_pi_q_2"
+			},
+			{
+				"text": "Where do you go to school?",
+				"id": "a1_paper_049_pi_q_3"
+			},
+			{
+				"text": "Can you swim?",
+				"id": "a1_paper_049_pi_q_4"
+			},
+			{
+				"text": "What is your favorite part of the day?",
+				"id": "a1_paper_049_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Friend",
+				"starter_line": "What is your favorite game?",
+				"description": "You are talking about games.",
+				"id": "a1_paper_049_s_resp_1"
+			},
+			{
+				"role_context": "a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are in a café. The waiter asks you for your drink.",
+				"id": "a1_paper_049_s_resp_2"
+			},
+			{
+				"role_context": "Friend",
+				"starter_line": "Do you want to watch a movie?",
+				"description": "You are at home together.",
+				"id": "a1_paper_049_s_resp_3"
+			},
+			{
+				"role_context": "a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You see a shirt in a shop. You ask the price.",
+				"id": "a1_paper_049_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You are with a friend. Ask for their help with your homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_049_s_ask_1"
+			},
+			{
+				"instruction": "You are with your friend. You want help with your bag. ..",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_049_s_ask_2"
+			},
+			{
+				"instruction": "You are in a store. Ask the shopkeeper for the price of a shirt.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_049_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_049_ls",
+		"text": "I tidy my bedroom every day. I make my bed first. I put my toys away. I clean the floor. My room looks nice and neat.",
+		"questions": [
+			{
+				"question": "What do I tidy?",
+				"answer": "My bedroom",
+				"id": "a1_paper_049_ls_q_1"
+			},
+			{
+				"question": "When do I tidy my room?",
+				"answer": "Every day",
+				"id": "a1_paper_049_ls_q_2"
+			},
+			{
+				"question": "Why do I tidy my room?",
+				"answer": "To look nice",
+				"id": "a1_paper_049_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_049_mono",
+		"topic": "Talk about your favourite dessert",
+		"follow_up_questions": [
+			{
+				"question": "What is your favorite dessert?",
+				"id": "a1_paper_049_mono_q_1"
+			},
+			{
+				"question": "When do you eat this dessert?",
+				"id": "a1_paper_049_mono_q_2"
+			},
+			{
+				"question": "Where do you buy this dessert?",
+				"id": "a1_paper_049_mono_q_3"
+			},
+			{
+				"question": "Why do you like this dessert?",
+				"id": "a1_paper_049_mono_q_4"
+			}
+		]
+	},
+	"uuid": "e3606e55-a4b2-445e-8940-e2ba44d0b8f7"
+}

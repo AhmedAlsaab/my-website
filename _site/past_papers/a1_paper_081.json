@@ -1,0 +1,140 @@
+{
+	"id": "a1_paper_081",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_081_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_081_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_081_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What sport do you play?",
+				"id": "a1_paper_081_pi_q_1"
+			},
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_081_pi_q_2"
+			},
+			{
+				"text": "Do you like the beach?",
+				"id": "a1_paper_081_pi_q_3"
+			},
+			{
+				"text": "What is your favorite breakfast food?",
+				"id": "a1_paper_081_pi_q_4"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_081_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Shop assistant",
+				"starter_line": "Is that all?",
+				"description": "You are paying for items.",
+				"id": "a1_paper_081_s_resp_1"
+			},
+			{
+				"role_context": "In a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. You can choose a drink.",
+				"id": "a1_paper_081_s_resp_2"
+			},
+			{
+				"role_context": "At a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You see a shirt in a store. You want to know the price.",
+				"id": "a1_paper_081_s_resp_3"
+			},
+			{
+				"role_context": "Bus driver",
+				"starter_line": "Please show me your ticket.",
+				"description": "You are on a bus.",
+				"id": "a1_paper_081_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You want to invite your friends to a birthday party. ..",
+				"expected_function": "making_suggestion",
+				"id": "a1_paper_081_s_ask_1"
+			},
+			{
+				"instruction": "You are at school. Ask a friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_081_s_ask_2"
+			},
+			{
+				"instruction": "You are at a store. Ask the shopkeeper for the price of a toy.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_081_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_081_ls",
+		"text": "I wash my face at night. I brush my teeth. I put on pajamas. I read a book. I go to bed.",
+		"questions": [
+			{
+				"question": "What do I wash?",
+				"answer": "My face",
+				"id": "a1_paper_081_ls_q_1"
+			},
+			{
+				"question": "When do I brush my teeth?",
+				"answer": "At night",
+				"id": "a1_paper_081_ls_q_2"
+			},
+			{
+				"question": "What do I wear to bed?",
+				"answer": "Pajamas",
+				"id": "a1_paper_081_ls_q_3"
+			},
+			{
+				"question": "What do I read?",
+				"answer": "A book",
+				"id": "a1_paper_081_ls_q_4"
+			},
+			{
+				"question": "Where do I go after reading?",
+				"answer": "To bed",
+				"id": "a1_paper_081_ls_q_5"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_081_mono",
+		"topic": "Talk about someone you admire",
+		"follow_up_questions": [
+			{
+				"question": "Who do you admire?",
+				"id": "a1_paper_081_mono_q_1"
+			},
+			{
+				"question": "Why do you admire this person?",
+				"id": "a1_paper_081_mono_q_2"
+			},
+			{
+				"question": "What does this person do?",
+				"id": "a1_paper_081_mono_q_3"
+			},
+			{
+				"question": "How do you feel about this person?",
+				"id": "a1_paper_081_mono_q_4"
+			}
+		]
+	},
+	"uuid": "7449c1b3-283b-41b4-afd0-4a074950a5c1"
+}

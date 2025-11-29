@@ -1,0 +1,130 @@
+{
+	"id": "a1_paper_079",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_079_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_079_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_079_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What is your favorite way to spend time with family?",
+				"id": "a1_paper_079_pi_q_1"
+			},
+			{
+				"text": "What is your favorite sport team?",
+				"id": "a1_paper_079_pi_q_2"
+			},
+			{
+				"text": "Who is your best friend?",
+				"id": "a1_paper_079_pi_q_3"
+			},
+			{
+				"text": "What is your favorite thing to do in nature?",
+				"id": "a1_paper_079_pi_q_4"
+			},
+			{
+				"text": "What do you like to eat?",
+				"id": "a1_paper_079_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "Teacher",
+				"starter_line": "What is your favorite subject?",
+				"description": "You are in class.",
+				"id": "a1_paper_079_s_resp_1"
+			},
+			{
+				"role_context": "Friend",
+				"starter_line": "What is your favorite game?",
+				"description": "You are talking about games.",
+				"id": "a1_paper_079_s_resp_2"
+			},
+			{
+				"role_context": "At a shop",
+				"starter_line": "How much is this shirt?",
+				"description": "You are in a shop. You see a shirt and ask about the price.",
+				"id": "a1_paper_079_s_resp_3"
+			},
+			{
+				"role_context": "In a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are at a café. You need to order a drink.",
+				"id": "a1_paper_079_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "You want to ask your parent for a new toy. ..",
+				"expected_function": "asking_permission",
+				"id": "a1_paper_079_s_ask_1"
+			},
+			{
+				"instruction": "At school, ask a friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_079_s_ask_2"
+			},
+			{
+				"instruction": "At the store, ask the cashier for the price of an item.",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_079_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_079_ls",
+		"text": "I go to the doctor. I feel sick. The doctor is nice. He helps me. I say, 'Thank you.'",
+		"questions": [
+			{
+				"question": "What do I feel?",
+				"answer": "Sick",
+				"id": "a1_paper_079_ls_q_1"
+			},
+			{
+				"question": "When do I go?",
+				"answer": "When I feel sick",
+				"id": "a1_paper_079_ls_q_2"
+			},
+			{
+				"question": "Who helps me?",
+				"answer": "The doctor",
+				"id": "a1_paper_079_ls_q_3"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_079_mono",
+		"topic": "Talk about your weekend",
+		"follow_up_questions": [
+			{
+				"question": "What did you do on Saturday?",
+				"id": "a1_paper_079_mono_q_1"
+			},
+			{
+				"question": "Where did you go on Sunday?",
+				"id": "a1_paper_079_mono_q_2"
+			},
+			{
+				"question": "Who did you spend time with?",
+				"id": "a1_paper_079_mono_q_3"
+			},
+			{
+				"question": "How was your weekend?",
+				"id": "a1_paper_079_mono_q_4"
+			}
+		]
+	},
+	"uuid": "0a898b66-55b1-4327-93f1-5969b20e0183"
+}

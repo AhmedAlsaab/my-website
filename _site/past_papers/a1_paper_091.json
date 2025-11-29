@@ -1,0 +1,140 @@
+{
+	"id": "a1_paper_091",
+	"personal_information": {
+		"intro_questions": [
+			{
+				"text": "What is your full name?",
+				"id": "a1_paper_091_pi_intro_1"
+			},
+			{
+				"text": "Can you spell your family name, please?",
+				"id": "a1_paper_091_pi_intro_2"
+			},
+			{
+				"text": "Where are you from?",
+				"id": "a1_paper_091_pi_intro_3"
+			}
+		],
+		"main_questions": [
+			{
+				"text": "What is your favorite thing about your culture?",
+				"id": "a1_paper_091_pi_q_1"
+			},
+			{
+				"text": "What is your favorite snack?",
+				"id": "a1_paper_091_pi_q_2"
+			},
+			{
+				"text": "What do you do to help at home?",
+				"id": "a1_paper_091_pi_q_3"
+			},
+			{
+				"text": "What is your favorite food?",
+				"id": "a1_paper_091_pi_q_4"
+			},
+			{
+				"text": "Who do you live with?",
+				"id": "a1_paper_091_pi_q_5"
+			}
+		]
+	},
+	"situations": {
+		"respond_situations": [
+			{
+				"role_context": "a café",
+				"starter_line": "What do you want to drink?",
+				"description": "You are in a café. You can choose a drink.",
+				"id": "a1_paper_091_s_resp_1"
+			},
+			{
+				"role_context": "a shop",
+				"starter_line": "How much is this t-shirt?",
+				"description": "You see a t-shirt. You want to ask the price.",
+				"id": "a1_paper_091_s_resp_2"
+			},
+			{
+				"role_context": "Friend",
+				"starter_line": "Do you want to go to the park?",
+				"description": "You are talking to a friend.",
+				"id": "a1_paper_091_s_resp_3"
+			},
+			{
+				"role_context": "Bus driver",
+				"starter_line": "Please show me your ticket.",
+				"description": "You are on a bus.",
+				"id": "a1_paper_091_s_resp_4"
+			}
+		],
+		"ask_situations": [
+			{
+				"instruction": "At the store, ask the clerk where to find bread.",
+				"expected_function": "asking_for_directions",
+				"id": "a1_paper_091_s_ask_1"
+			},
+			{
+				"instruction": "At school, ask a friend for help with homework.",
+				"expected_function": "asking_for_help",
+				"id": "a1_paper_091_s_ask_2"
+			},
+			{
+				"instruction": "You want to ask about homework. You ask your teacher. ..",
+				"expected_function": "requesting_information",
+				"id": "a1_paper_091_s_ask_3"
+			}
+		]
+	},
+	"listening_script": {
+		"id": "a1_paper_091_ls",
+		"text": "I go to the zoo. I see many animals. There are lions and tigers. I like the monkeys. We see the birds too.",
+		"questions": [
+			{
+				"question": "What do you see at the zoo?",
+				"answer": "Many animals",
+				"id": "a1_paper_091_ls_q_1"
+			},
+			{
+				"question": "When do you go to the zoo?",
+				"answer": "I go to the zoo",
+				"id": "a1_paper_091_ls_q_2"
+			},
+			{
+				"question": "Where are the lions?",
+				"answer": "At the zoo",
+				"id": "a1_paper_091_ls_q_3"
+			},
+			{
+				"question": "Who likes the monkeys?",
+				"answer": "I",
+				"id": "a1_paper_091_ls_q_4"
+			},
+			{
+				"question": "Why do you visit the zoo?",
+				"answer": "To see animals",
+				"id": "a1_paper_091_ls_q_5"
+			}
+		]
+	},
+	"monologue": {
+		"id": "a1_paper_091_mono",
+		"topic": "Talk about autumn activities",
+		"follow_up_questions": [
+			{
+				"question": "What do you like to do in autumn?",
+				"id": "a1_paper_091_mono_q_1"
+			},
+			{
+				"question": "When do you see the leaves change color?",
+				"id": "a1_paper_091_mono_q_2"
+			},
+			{
+				"question": "Where do you go for autumn activities?",
+				"id": "a1_paper_091_mono_q_3"
+			},
+			{
+				"question": "Why do you like autumn?",
+				"id": "a1_paper_091_mono_q_4"
+			}
+		]
+	},
+	"uuid": "47c64ee3-a669-4fd8-8276-ed5156f4f27f"
+}
