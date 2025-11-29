@@ -1,0 +1,323 @@
+{
+	"cards": [
+		{
+			"id": "card_1",
+			"title_en": "I am / I have / I like (for yourself)",
+			"title_ar": "أنا / عندي / أحب (لنفسك فقط)",
+			"body_en": [
+				"Use I am + adjective when talking about yourself.",
+				"Use I have + things you own.",
+				"Use I like + hobbies or things you enjoy."
+			],
+			"body_ar": [
+				"استعمل أنا + صفة عندما تتكلم عن نفسك.",
+				"استعمل عندي + شيء تملكه.",
+				"استعمل أحب + شيء أو هواية تعجبك."
+			],
+			"examples_en": ["I am 30.", "I have a sister.", "I like swimming."],
+			"examples_ar": ["أنا عمري ٣٠.", "عندي أخت.", "أحب السباحة."]
+		},
+		{
+			"id": "card_2",
+			"title_en": "Short answers are OK (for simple facts)",
+			"title_ar": "الإجابات القصيرة مسموحة (للسؤال البسيط)",
+			"body_en": [
+				"You can give 1–3 word answers for simple questions about weather, places, times, or other people.",
+				"If the question is about you, use I."
+			],
+			"body_ar": [
+				"تقدر تجاوب كلمة إلى ثلاث كلمات للأسئلة البسيطة عن الطقس أو الأماكن أو الأشخاص.",
+				"إذا السؤال عنك، استعمل أنا."
+			],
+			"examples_en": [
+				"Q: What’s the weather? A: Warm.",
+				"Q: Where is the cinema? A: Near the bank.",
+				"Q: When do you study? A: Evening."
+			],
+			"examples_ar": [
+				"س: شنو الجو؟ ج: دافئ.",
+				"س: وين السينما؟ ج: يم البنك.",
+				"س: متى تدرس؟ ج: المساء."
+			]
+		},
+		{
+			"id": "card_3",
+			"title_en": "Use I when talking about yourself",
+			"title_ar": "استعمل أنا عندما تتكلم عن نفسك",
+			"body_en": [
+				"Start your answer with I only when the question is about you.",
+				"If the question is not about you, answer directly."
+			],
+			"body_ar": [
+				"ابدأ جوابك بـ أنا فقط إذا السؤال عنك.",
+				"إذا السؤال ليس عنك، جاوب مباشرة بدون أنا."
+			],
+			"examples_en": [
+				"Q: Where do you live? A: I live in Baghdad.",
+				"Q: What do you like? A: I like cooking.",
+				"Q: What’s the weather like? A: Sunny and warm. (No I)"
+			],
+			"examples_ar": [
+				"س: أين تسكن؟ ج: أسكن في بغداد.",
+				"س: ماذا تحب؟ ج: أحب الطبخ.",
+				"س: شنو الجو؟ ج: حار. (بدون أنا)"
+			]
+		},
+		{
+			"id": "card_4",
+			"title_en": "Time words",
+			"title_ar": "كلمات الزمن",
+			"body_en": [
+				"Use these words for time.",
+				"If the question is about you, use I.",
+				"If the question is simple (When? What time?), answer directly."
+			],
+			"body_ar": [
+				"استعمل هذه الكلمات للزمن.",
+				"إذا السؤال عنك، استعمل أنا.",
+				"إذا السؤال بسيط (متى؟ أي وقت؟) جاوب مباشرة."
+			],
+			"examples_en": ["Evening.", "Morning.", "I study in the evening."],
+			"examples_ar": ["المساء.", "الصباح.", "أدرس في المساء."]
+		},
+		{
+			"id": "card_5",
+			"title_en": "I like + thing / activity",
+			"title_ar": "أحب + شيء أو نشاط",
+			"body_en": ["Use I like + thing or activity to talk about hobbies or favourites."],
+			"body_ar": ["استعمل أحب + شيء أو نشاط للتعبير عن الهوايات أو الأشياء المفضلة."],
+			"examples_en": ["I like football.", "I like summer.", "I like cooking with my mother."],
+			"examples_ar": ["أحب كرة القدم.", "أحب الصيف.", "أحب الطبخ مع أمي."]
+		},
+		{
+			"id": "card_6",
+			"title_en": "I go to + place (for places only)",
+			"title_ar": "أذهب إلى + مكان (فقط للأماكن)",
+			"body_en": [
+				"Use I go to + place for places you visit.",
+				"Do NOT use go to for weather or people."
+			],
+			"body_ar": ["استعمل أذهب إلى + مكان للأماكن فقط.", "لا تستعمل أذهب إلى للطقس أو الأشخاص."],
+			"examples_en": ["I go to the park.", "I go to the supermarket.", "I go to school by bus."],
+			"examples_ar": ["أذهب إلى الحديقة.", "أذهب إلى السوبرماركت.", "أذهب إلى المدرسة بالحافلة."]
+		},
+		{
+			"id": "card_7",
+			"title_en": "I live in + city/area",
+			"title_ar": "أسكن في + مدينة / منطقة",
+			"body_en": ["Use I live in + city or area to say where you live."],
+			"body_ar": ["استعمل أسكن في + مدينة أو منطقة لتقول أين تسكن."],
+			"examples_en": ["I live in Baghdad.", "I live in London.", "I live in a small town."],
+			"examples_ar": ["أسكن في بغداد.", "أسكن في لندن.", "أسكن في مدينة صغيرة."]
+		},
+		{
+			"id": "card_8",
+			"title_en": "Daily routine verbs",
+			"title_ar": "أفعال الروتين اليومي",
+			"body_en": ["Important daily verbs:", "wake up, eat, drink, go, work, study, sleep"],
+			"body_ar": ["أفعال يومية مهمة:", "يستيقظ، يأكل، يشرب، يذهب، يعمل، يدرس، ينام"],
+			"examples_en": ["I wake up at 7.", "I eat breakfast at home.", "I sleep at 11."],
+			"examples_ar": ["أستيقظ الساعة ٧.", "آكل الفطور في البيت.", "أنام الساعة ١١."]
+		},
+		{
+			"id": "card_9",
+			"title_en": "I like / I don’t like",
+			"title_ar": "أحب / لا أحب",
+			"body_en": ["Use I like to talk about what you enjoy.", "Use I don’t like for dislikes."],
+			"body_ar": ["استعمل أحب للأشياء التي تعجبك.", "استعمل لا أحب للأشياء التي لا تعجبك."],
+			"examples_en": [
+				"I like hot weather.",
+				"I don’t like cold weather.",
+				"I don’t like spicy food."
+			],
+			"examples_ar": ["أحب الجو الحار.", "لا أحب الجو البارد.", "لا أحب الأكل الحار."]
+		},
+		{
+			"id": "card_10",
+			"title_en": "Because – giving a reason",
+			"title_ar": "لأنّ – إعطاء سبب",
+			"body_en": ["Use because + reason when answering why questions."],
+			"body_ar": ["استعمل لأنّ + السبب عندما تجيب على سؤال لماذا."],
+			"examples_en": [
+				"I like summer because it is warm.",
+				"I like my friend because he is kind.",
+				"I study English because I need it."
+			],
+			"examples_ar": [
+				"أحب الصيف لأنّه دافئ.",
+				"أحب صديقي لأنّه لطيف.",
+				"أدرس الإنجليزية لأنّي أحتاجها."
+			]
+		},
+		{
+			"id": "card_11",
+			"title_en": "Talking about people",
+			"title_ar": "التحدث عن الأشخاص",
+			"body_en": ["Use: my mother, my father, my brother, my sister, my friend."],
+			"body_ar": ["استعمل: أمي، أبي، أخي، أختي، صديقي / صديقتي."],
+			"examples_en": [
+				"My mother works at home.",
+				"My father drives a car.",
+				"My best friend lives near me."
+			],
+			"examples_ar": ["أمي تعمل في البيت.", "أبي يقود سيارة.", "أقرب صديق لي يسكن قريباً مني."]
+		},
+		{
+			"id": "card_12",
+			"title_en": "Common exam topics",
+			"title_ar": "مواضيع شائعة في الامتحان",
+			"body_en": [
+				"Be ready to talk about family, daily routine, friends, work, food, weather, free time, places, weekends.",
+				"If the topic is about you, use I."
+			],
+			"body_ar": [
+				"كن جاهزاً للحديث عن العائلة، الروتين اليومي، الأصدقاء، العمل، الطعام، الطقس، الأماكن، عطلة نهاية الأسبوع.",
+				"إذا الموضوع عنك، استعمل أنا."
+			],
+			"examples_en": [
+				"Talk about your family.",
+				"Talk about your weekend.",
+				"Talk about your favourite season."
+			],
+			"examples_ar": ["تحدث عن عائلتك.", "تحدث عن عطلة نهاية الأسبوع.", "تحدث عن فصلك المفضل."]
+		},
+		{
+			"id": "card_13",
+			"title_en": "Safe answer templates",
+			"title_ar": "قوالب إجابة جاهزة",
+			"body_en": [
+				"Useful patterns:",
+				"I usually …",
+				"I sometimes …",
+				"I like to …",
+				"I go to …",
+				"I live in …",
+				"I work in …",
+				"I study in …",
+				"I wake up at …"
+			],
+			"body_ar": [
+				"قوالب بسيطة:",
+				"عادةً أنا …",
+				"أحياناً أنا …",
+				"أحب أن …",
+				"أذهب إلى …",
+				"أسكن في …",
+				"أعمل في …",
+				"أدرس في …",
+				"أستيقظ الساعة …"
+			],
+			"examples_en": [
+				"I usually study in the evening.",
+				"I sometimes go to the park.",
+				"I wake up at 7."
+			],
+			"examples_ar": ["عادةً أدرس في المساء.", "أحياناً أذهب إلى الحديقة.", "أستيقظ الساعة ٧."]
+		},
+		{
+			"id": "card_14",
+			"title_en": "Talking about the future (very simple)",
+			"title_ar": "التحدث عن المستقبل (بشكل بسيط)",
+			"body_en": ["Use I’m going to + verb for simple future plans."],
+			"body_ar": ["استعمل راح + فعل أو سأ + فعل للمستقبل البسيط."],
+			"examples_en": [
+				"I’m going to visit my family.",
+				"I’m going to cook dinner.",
+				"I’m going to study English tonight."
+			],
+			"examples_ar": ["سأزور عائلتي.", "سأطبخ العشاء.", "سأدرس الإنجليزية الليلة."]
+		},
+		{
+			"id": "card_15",
+			"title_en": "Keep sentences short",
+			"title_ar": "اجعل الجمل قصيرة",
+			"body_en": [
+				"Good sentence = subject + verb + idea.",
+				"Do not try to make very long sentences."
+			],
+			"body_ar": ["الجملة الجيدة: فاعل + فعل + فكرة.", "لا تحاول أن تجعل الجملة طويلة جداً."],
+			"examples_en": ["I like swimming.", "I work in a shop.", "I eat dinner at 7."],
+			"examples_ar": ["أحب السباحة.", "أعمل في محل.", "آكل العشاء الساعة ٧."]
+		},
+		{
+			"id": "card_16",
+			"title_en": "If you don’t understand",
+			"title_ar": "إذا لم تفهم السؤال",
+			"body_en": [
+				"Useful phrases:",
+				"Can you repeat please?",
+				"Sorry, I don’t understand.",
+				"One more time, please."
+			],
+			"body_ar": [
+				"عبارات مفيدة:",
+				"هل يمكنك أن تعيد لو سمحت؟",
+				"آسف، لا أفهم.",
+				"مرة أخرى لو سمحت."
+			],
+			"examples_en": [
+				"Sorry, I don’t understand. Can you repeat, please?",
+				"One more time, please."
+			],
+			"examples_ar": ["آسف، لا أفهم. هل يمكنك أن تعيد لو سمحت؟", "مرة أخرى لو سمحت."]
+		},
+		{
+			"id": "card_17",
+			"title_en": "Using THE with places",
+			"title_ar": "استخدام THE مع الأماكن",
+			"body_en": [
+				"Use THE when the place is clear or known.",
+				"In Iraqi Arabic, THE = ال.",
+				"If you would say ال in Arabic, use THE in English.",
+				"Do NOT use THE for general ideas like school, work, home."
+			],
+			"body_ar": [
+				"استعمل THE لما المكان يكون معروف أو واضح.",
+				"THE معناها ال في العربي.",
+				"إذا تكول ال بالعربي، خلي THE بالإنجليزي.",
+				"لا تستعمل THE للأشياء العامة مثل: مدرسة، عمل، بيت."
+			],
+			"examples_en": [
+				"I am going to the shop.",
+				"I am at the bank.",
+				"I am going to the doctor.",
+				"I go to school. (general, no THE)",
+				"I am at home. (no THE)"
+			],
+			"examples_ar": [
+				"أذهب إلى الدكان.",
+				"أنا في البنك.",
+				"أذهب إلى الدكتور.",
+				"أذهب إلى المدرسة. (عام، بدون THE)",
+				"أنا في البيت. (بدون THE)"
+			]
+		},
+		{
+			"id": "card_18",
+			"title_en": "Talking about the past (simple)",
+			"title_ar": "التحدث عن الماضي (بشكل بسيط)",
+			"body_en": [
+				"Use past tense for yesterday or last week.",
+				"Important past verbs: went, ate, drank, visited, slept, worked, studied.",
+				"Keep it short: I + past verb."
+			],
+			"body_ar": [
+				"استعمل الماضي ل أمس أو الأسبوع الماضي.",
+				"أفعال مهمة بالماضي: ذهبْت، أكلْت، شربْت، زُرت، نِمْت، عملْت، درسْت.",
+				"خلي الجملة قصيرة: أنا + فعل بالماضي."
+			],
+			"examples_en": [
+				"I went to the park yesterday.",
+				"I ate dinner at home.",
+				"I visited my friend last week.",
+				"I slept early."
+			],
+			"examples_ar": [
+				"ذهبت إلى الحديقة أمس.",
+				"أكلت العشاء في البيت.",
+				"زرت صديقي الأسبوع الماضي.",
+				"نمت مبكراً."
+			]
+		}
+	]
+}

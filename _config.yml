@@ -9,6 +9,10 @@ navigation:
     url: /
   - title: أسئلة عشوائية
     url: /about.html
+  - title: كلمات مهمة
+    url: /keywords.html
+  - title: تذكيرات أساسية للامتحان
+    url: /reminders.html
 
 # Jekyll settings
 plugins:
@@ -25,3 +29,5 @@ include:
   - index.json
   - past_papers
   - simple_question_bank
+  - keywords_in_arabic
+  - key_reminders
