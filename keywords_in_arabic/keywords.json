@@ -1,110 +1,2171 @@
 {
+	"category_names": {
+		"actions": "الأفعال",
+		"daily_routine": "الروتين اليومي",
+		"directions": "الاتجاهات",
+		"house_objects": "أدوات المنزل",
+		"feelings": "المشاعر",
+		"food_drink": "الطعام والشراب",
+		"events": "الأحداث",
+		"places": "الأماكن",
+		"home": "المنزل",
+		"health": "الصحة",
+		"hobbies": "الهوايات",
+		"other": "أخرى",
+		"personal_info": "المعلومات الشخصية",
+		"transport": "المواصلات",
+		"people": "الأشخاص",
+		"school": "المدرسة",
+		"position_words": "كلمات المكان",
+		"shopping": "التسوق",
+		"time": "الوقت",
+		"weather": "الطقس"
+	},
 	"keywords": [
-		{ "english": "family", "arabic": "عائلة", "category": "people" },
-		{ "english": "mother", "arabic": "أم", "category": "people" },
-		{ "english": "father", "arabic": "أب", "category": "people" },
-		{ "english": "parents", "arabic": "والدان", "category": "people" },
-		{ "english": "brother", "arabic": "أخ", "category": "people" },
-		{ "english": "sister", "arabic": "أخت", "category": "people" },
-		{ "english": "friend", "arabic": "صديق", "category": "people" },
-		{ "english": "best friend", "arabic": "أقرب صديق", "category": "people" },
-		{ "english": "teacher", "arabic": "معلّم", "category": "school" },
-		{ "english": "student", "arabic": "طالب", "category": "school" },
-
-		{ "english": "house", "arabic": "بيت", "category": "home" },
-		{ "english": "flat", "arabic": "شقة", "category": "home" },
-		{ "english": "home", "arabic": "منزل", "category": "home" },
-		{ "english": "room", "arabic": "غرفة", "category": "home" },
-		{ "english": "bedroom", "arabic": "غرفة نوم", "category": "home" },
-		{ "english": "kitchen", "arabic": "مطبخ", "category": "home" },
-		{ "english": "living room", "arabic": "غرفة جلوس", "category": "home" },
-		{ "english": "bathroom", "arabic": "حمّام", "category": "home" },
-
-		{ "english": "school", "arabic": "مدرسة", "category": "places" },
-		{ "english": "shop", "arabic": "محل", "category": "places" },
-		{ "english": "supermarket", "arabic": "سوبرماركت", "category": "places" },
-		{ "english": "café", "arabic": "مقهى", "category": "places" },
-		{ "english": "restaurant", "arabic": "مطعم", "category": "places" },
-		{ "english": "bank", "arabic": "مصرف", "category": "places" },
-		{ "english": "post office", "arabic": "مكتب بريد", "category": "places" },
-		{ "english": "hotel", "arabic": "فندق", "category": "places" },
-		{ "english": "cinema", "arabic": "سينما", "category": "places" },
-		{ "english": "park", "arabic": "حديقة", "category": "places" },
-
-		{ "english": "bus", "arabic": "باص", "category": "transport" },
-		{ "english": "car", "arabic": "سيارة", "category": "transport" },
-		{ "english": "train", "arabic": "قطار", "category": "transport" },
-		{ "english": "street", "arabic": "شارع", "category": "places" },
-
-		{ "english": "morning", "arabic": "صباح", "category": "time" },
-		{ "english": "afternoon", "arabic": "ظهر", "category": "time" },
-		{ "english": "evening", "arabic": "مساء", "category": "time" },
-		{ "english": "night", "arabic": "ليل", "category": "time" },
-		{ "english": "day", "arabic": "يوم", "category": "time" },
-		{ "english": "week", "arabic": "أسبوع", "category": "time" },
-		{ "english": "weekend", "arabic": "نهاية الأسبوع", "category": "time" },
-		{ "english": "month", "arabic": "شهر", "category": "time" },
-		{ "english": "year", "arabic": "سنة", "category": "time" },
-		{ "english": "season", "arabic": "فصل", "category": "time" },
-
-		{ "english": "summer", "arabic": "الصيف", "category": "weather" },
-		{ "english": "winter", "arabic": "الشتاء", "category": "weather" },
-		{ "english": "spring", "arabic": "الربيع", "category": "weather" },
-		{ "english": "autumn", "arabic": "الخريف", "category": "weather" },
-		{ "english": "sunny", "arabic": "مشمس", "category": "weather" },
-		{ "english": "warm", "arabic": "دافئ", "category": "weather" },
-		{ "english": "cold", "arabic": "بارد", "category": "weather" },
-		{ "english": "rainy", "arabic": "ماطر", "category": "weather" },
-
-		{ "english": "food", "arabic": "طعام", "category": "food_drink" },
-		{ "english": "drink", "arabic": "شراب", "category": "food_drink" },
-		{ "english": "breakfast", "arabic": "فطور", "category": "food_drink" },
-		{ "english": "lunch", "arabic": "غداء", "category": "food_drink" },
-		{ "english": "dinner", "arabic": "عشاء", "category": "food_drink" },
-		{ "english": "water", "arabic": "ماء", "category": "food_drink" },
-		{ "english": "tea", "arabic": "شاي", "category": "food_drink" },
-		{ "english": "coffee", "arabic": "قهوة", "category": "food_drink" },
-		{ "english": "fruit", "arabic": "فاكهة", "category": "food_drink" },
-		{ "english": "vegetables", "arabic": "خضروات", "category": "food_drink" },
-
-		{ "english": "to wake up", "arabic": "يستيقظ", "category": "actions" },
-		{ "english": "to sleep", "arabic": "ينام", "category": "actions" },
-		{ "english": "to eat", "arabic": "يأكل", "category": "actions" },
-		{ "english": "to drink", "arabic": "يشرب", "category": "actions" },
-		{ "english": "to go", "arabic": "يذهب", "category": "actions" },
-		{ "english": "to come", "arabic": "يأتي", "category": "actions" },
-		{ "english": "to work", "arabic": "يعمل", "category": "actions" },
-		{ "english": "to study", "arabic": "يدرس", "category": "actions" },
-		{ "english": "to cook", "arabic": "يطبخ", "category": "actions" },
-		{ "english": "to clean", "arabic": "ينظّف", "category": "actions" },
-		{ "english": "to watch TV", "arabic": "يشاهد التلفاز", "category": "actions" },
-		{ "english": "to play", "arabic": "يلعب", "category": "actions" },
-		{ "english": "to walk", "arabic": "يمشي", "category": "actions" },
-		{ "english": "to swim", "arabic": "يسبح", "category": "actions" },
-		{ "english": "to read", "arabic": "يقرأ", "category": "actions" },
-		{ "english": "to write", "arabic": "يكتب", "category": "actions" },
-		{ "english": "to listen", "arabic": "يستمع", "category": "actions" },
-		{ "english": "to help", "arabic": "يساعد", "category": "actions" },
-		{ "english": "to visit", "arabic": "يزور", "category": "actions" },
-
-		{ "english": "happy", "arabic": "سعيد", "category": "feelings" },
-		{ "english": "tired", "arabic": "تعبان", "category": "feelings" },
-		{ "english": "sad", "arabic": "حزين", "category": "feelings" },
-		{ "english": "bored", "arabic": "شاعر بالملل", "category": "feelings" },
-
-		{ "english": "language", "arabic": "لغة", "category": "school" },
-		{ "english": "subject", "arabic": "مادة", "category": "school" },
-		{ "english": "homework", "arabic": "واجب", "category": "school" },
-		{ "english": "test", "arabic": "امتحان", "category": "school" },
-		{ "english": "lesson", "arabic": "درس", "category": "school" },
-
-		{ "english": "internet", "arabic": "إنترنت", "category": "other" },
-		{ "english": "TV", "arabic": "تلفاز", "category": "other" },
-		{ "english": "music", "arabic": "موسيقى", "category": "other" },
-		{ "english": "game", "arabic": "لعبة", "category": "other" },
-		{ "english": "sport", "arabic": "رياضة", "category": "other" },
-		{ "english": "holiday", "arabic": "عطلة", "category": "other" },
-		{ "english": "birthday", "arabic": "عيد ميلاد", "category": "other" },
-		{ "english": "party", "arabic": "حفلة", "category": "other" }
+		{
+			"english": "to clean",
+			"arabic": "ينظّف",
+			"category": "actions"
+		},
+		{
+			"english": "to come",
+			"arabic": "يأتي",
+			"category": "actions"
+		},
+		{
+			"english": "to cook",
+			"arabic": "يطبخ",
+			"category": "actions"
+		},
+		{
+			"english": "to drink",
+			"arabic": "يشرب",
+			"category": "actions"
+		},
+		{
+			"english": "to eat",
+			"arabic": "يأكل",
+			"category": "actions"
+		},
+		{
+			"english": "to go",
+			"arabic": "يذهب",
+			"category": "actions"
+		},
+		{
+			"english": "to help",
+			"arabic": "يساعد",
+			"category": "actions"
+		},
+		{
+			"english": "to listen",
+			"arabic": "يستمع",
+			"category": "actions"
+		},
+		{
+			"english": "to play",
+			"arabic": "يلعب",
+			"category": "actions"
+		},
+		{
+			"english": "to read",
+			"arabic": "يقرأ",
+			"category": "actions"
+		},
+		{
+			"english": "to sleep",
+			"arabic": "ينام",
+			"category": "actions"
+		},
+		{
+			"english": "to study",
+			"arabic": "يدرس",
+			"category": "actions"
+		},
+		{
+			"english": "to swim",
+			"arabic": "يسبح",
+			"category": "actions"
+		},
+		{
+			"english": "to visit",
+			"arabic": "يزور",
+			"category": "actions"
+		},
+		{
+			"english": "to wake up",
+			"arabic": "يستيقظ",
+			"category": "actions"
+		},
+		{
+			"english": "to walk",
+			"arabic": "يمشي",
+			"category": "actions"
+		},
+		{
+			"english": "to watch TV",
+			"arabic": "يشاهد التلفاز",
+			"category": "actions"
+		},
+		{
+			"english": "to work",
+			"arabic": "يعمل",
+			"category": "actions"
+		},
+		{
+			"english": "to write",
+			"arabic": "يكتب",
+			"category": "actions"
+		},
+		{
+			"english": "daily routine",
+			"arabic": "روتين اليوم",
+			"category": "daily_routine"
+		},
+		{
+			"english": "evening routine",
+			"arabic": "روتين المساء",
+			"category": "daily_routine"
+		},
+		{
+			"english": "free time",
+			"arabic": "وقت الفراغ",
+			"category": "daily_routine"
+		},
+		{
+			"english": "morning routine",
+			"arabic": "روتين الصباح",
+			"category": "daily_routine"
+		},
+		{
+			"english": "left",
+			"arabic": "يسار",
+			"category": "directions"
+		},
+		{
+			"english": "map",
+			"arabic": "خريطة",
+			"category": "directions"
+		},
+		{
+			"english": "right",
+			"arabic": "يمين",
+			"category": "directions"
+		},
+		{
+			"english": "straight",
+			"arabic": "إلى الأمام",
+			"category": "directions"
+		},
+		{
+			"english": "bed",
+			"arabic": "سرير",
+			"category": "house_objects"
+		},
+		{
+			"english": "chair",
+			"arabic": "كرسي",
+			"category": "house_objects"
+		},
+		{
+			"english": "table",
+			"arabic": "طاولة",
+			"category": "house_objects"
+		},
+		{
+			"english": "television",
+			"arabic": "تلفزيون",
+			"category": "house_objects"
+		},
+		{
+			"english": "bored",
+			"arabic": "شاعر بالملل",
+			"category": "feelings"
+		},
+		{
+			"english": "happy",
+			"arabic": "سعيد",
+			"category": "feelings"
+		},
+		{
+			"english": "sad",
+			"arabic": "حزين",
+			"category": "feelings"
+		},
+		{
+			"english": "tired",
+			"arabic": "تعبان",
+			"category": "feelings"
+		},
+		{
+			"english": "breakfast",
+			"arabic": "فطور",
+			"category": "food_drink"
+		},
+		{
+			"english": "coffee",
+			"arabic": "قهوة",
+			"category": "food_drink"
+		},
+		{
+			"english": "dinner",
+			"arabic": "عشاء",
+			"category": "food_drink"
+		},
+		{
+			"english": "drink",
+			"arabic": "شراب",
+			"category": "food_drink"
+		},
+		{
+			"english": "fruit",
+			"arabic": "فاكهة",
+			"category": "food_drink"
+		},
+		{
+			"english": "food",
+			"arabic": "طعام",
+			"category": "food_drink"
+		},
+		{
+			"english": "lunch",
+			"arabic": "غداء",
+			"category": "food_drink"
+		},
+		{
+			"english": "tea",
+			"arabic": "شاي",
+			"category": "food_drink"
+		},
+		{
+			"english": "vegetables",
+			"arabic": "خضروات",
+			"category": "food_drink"
+		},
+		{
+			"english": "water",
+			"arabic": "ماء",
+			"category": "food_drink"
+		},
+		{
+			"english": "meeting",
+			"arabic": "لقاء",
+			"category": "events"
+		},
+		{
+			"english": "cinema",
+			"arabic": "سينما",
+			"category": "places"
+		},
+		{
+			"english": "bank",
+			"arabic": "مصرف",
+			"category": "places"
+		},
+		{
+			"english": "café",
+			"arabic": "مقهى",
+			"category": "places"
+		},
+		{
+			"english": "hotel",
+			"arabic": "فندق",
+			"category": "places"
+		},
+		{
+			"english": "park",
+			"arabic": "حديقة",
+			"category": "places"
+		},
+		{
+			"english": "post office",
+			"arabic": "مكتب بريد",
+			"category": "places"
+		},
+		{
+			"english": "restaurant",
+			"arabic": "مطعم",
+			"category": "places"
+		},
+		{
+			"english": "school",
+			"arabic": "مدرسة",
+			"category": "places"
+		},
+		{
+			"english": "shop",
+			"arabic": "محل",
+			"category": "places"
+		},
+		{
+			"english": "street",
+			"arabic": "شارع",
+			"category": "places"
+		},
+		{
+			"english": "supermarket",
+			"arabic": "سوبرماركت",
+			"category": "places"
+		},
+		{
+			"english": "flat",
+			"arabic": "شقة",
+			"category": "home"
+		},
+		{
+			"english": "bathroom",
+			"arabic": "حمّام",
+			"category": "home"
+		},
+		{
+			"english": "bedroom",
+			"arabic": "غرفة نوم",
+			"category": "home"
+		},
+		{
+			"english": "home",
+			"arabic": "منزل",
+			"category": "home"
+		},
+		{
+			"english": "house",
+			"arabic": "بيت",
+			"category": "home"
+		},
+		{
+			"english": "kitchen",
+			"arabic": "مطبخ",
+			"category": "home"
+		},
+		{
+			"english": "living room",
+			"arabic": "غرفة جلوس",
+			"category": "home"
+		},
+		{
+			"english": "room",
+			"arabic": "غرفة",
+			"category": "home"
+		},
+		{
+			"english": "bored",
+			"arabic": "شاعر بالملل",
+			"category": "feelings"
+		},
+		{
+			"english": "doctor",
+			"arabic": "طبيب",
+			"category": "health"
+		},
+		{
+			"english": "pain",
+			"arabic": "ألم",
+			"category": "health"
+		},
+		{
+			"english": "sick",
+			"arabic": "مريض",
+			"category": "health"
+		},
+		{
+			"english": "cinema",
+			"arabic": "سينما",
+			"category": "places"
+		},
+		{
+			"english": "hobby",
+			"arabic": "هواية",
+			"category": "hobbies"
+		},
+		{
+			"english": "music",
+			"arabic": "موسيقى",
+			"category": "hobbies"
+		},
+		{
+			"english": "sport",
+			"arabic": "رياضة",
+			"category": "hobbies"
+		},
+		{
+			"english": "swimming",
+			"arabic": "سباحة",
+			"category": "hobbies"
+		},
+		{
+			"english": "internet",
+			"arabic": "إنترنت",
+			"category": "other"
+		},
+		{
+			"english": "game",
+			"arabic": "لعبة",
+			"category": "other"
+		},
+		{
+			"english": "holiday",
+			"arabic": "عطلة",
+			"category": "other"
+		},
+		{
+			"english": "party",
+			"arabic": "حفلة",
+			"category": "other"
+		},
+		{
+			"english": "TV",
+			"arabic": "تلفاز",
+			"category": "other"
+		},
+		{
+			"english": "age",
+			"arabic": "عمر",
+			"category": "personal_info"
+		},
+		{
+			"english": "birthday",
+			"arabic": "عيد ميلاد",
+			"category": "personal_info"
+		},
+		{
+			"english": "city",
+			"arabic": "مدينة",
+			"category": "personal_info"
+		},
+		{
+			"english": "country",
+			"arabic": "بلد",
+			"category": "personal_info"
+		},
+		{
+			"english": "from",
+			"arabic": "من",
+			"category": "personal_info"
+		},
+		{
+			"english": "job",
+			"arabic": "وظيفة",
+			"category": "personal_info"
+		},
+		{
+			"english": "language",
+			"arabic": "لغة",
+			"category": "personal_info"
+		},
+		{
+			"english": "name",
+			"arabic": "اسم",
+			"category": "personal_info"
+		},
+		{
+			"english": "bus",
+			"arabic": "باص",
+			"category": "transport"
+		},
+		{
+			"english": "bus stop",
+			"arabic": "موقف باص",
+			"category": "transport"
+		},
+		{
+			"english": "car",
+			"arabic": "سيارة",
+			"category": "transport"
+		},
+		{
+			"english": "train",
+			"arabic": "قطار",
+			"category": "transport"
+		},
+		{
+			"english": "train station",
+			"arabic": "محطة قطار",
+			"category": "transport"
+		},
+		{
+			"english": "brother",
+			"arabic": "أخ",
+			"category": "people"
+		},
+		{
+			"english": "best friend",
+			"arabic": "أقرب صديق",
+			"category": "people"
+		},
+		{
+			"english": "father",
+			"arabic": "أب",
+			"category": "people"
+		},
+		{
+			"english": "family",
+			"arabic": "عائلة",
+			"category": "people"
+		},
+		{
+			"english": "friend",
+			"arabic": "صديق",
+			"category": "people"
+		},
+		{
+			"english": "mother",
+			"arabic": "أم",
+			"category": "people"
+		},
+		{
+			"english": "parents",
+			"arabic": "والدان",
+			"category": "people"
+		},
+		{
+			"english": "sister",
+			"arabic": "أخت",
+			"category": "people"
+		},
+		{
+			"english": "student",
+			"arabic": "طالب",
+			"category": "school"
+		},
+		{
+			"english": "homework",
+			"arabic": "واجب",
+			"category": "school"
+		},
+		{
+			"english": "lesson",
+			"arabic": "درس",
+			"category": "school"
+		},
+		{
+			"english": "subject",
+			"arabic": "مادة",
+			"category": "school"
+		},
+		{
+			"english": "teacher",
+			"arabic": "معلّم",
+			"category": "school"
+		},
+		{
+			"english": "test",
+			"arabic": "امتحان",
+			"category": "school"
+		},
+		{
+			"english": "above",
+			"arabic": "فوق",
+			"category": "position_words"
+		},
+		{
+			"english": "behind",
+			"arabic": "خلف",
+			"category": "position_words"
+		},
+		{
+			"english": "between",
+			"arabic": "بين",
+			"category": "position_words"
+		},
+		{
+			"english": "far from",
+			"arabic": "بعيد عن",
+			"category": "position_words"
+		},
+		{
+			"english": "in",
+			"arabic": "في",
+			"category": "position_words"
+		},
+		{
+			"english": "in front of",
+			"arabic": "أمام",
+			"category": "position_words"
+		},
+		{
+			"english": "inside",
+			"arabic": "داخل",
+			"category": "position_words"
+		},
+		{
+			"english": "near",
+			"arabic": "قريب من",
+			"category": "position_words"
+		},
+		{
+			"english": "next to",
+			"arabic": "بجانب",
+			"category": "position_words"
+		},
+		{
+			"english": "on",
+			"arabic": "على",
+			"category": "position_words"
+		},
+		{
+			"english": "outside",
+			"arabic": "خارج",
+			"category": "position_words"
+		},
+		{
+			"english": "under",
+			"arabic": "تحت",
+			"category": "position_words"
+		},
+		{
+			"english": "cheap",
+			"arabic": "رخيص",
+			"category": "shopping"
+		},
+		{
+			"english": "expensive",
+			"arabic": "غالي",
+			"category": "shopping"
+		},
+		{
+			"english": "price",
+			"arabic": "السعر",
+			"category": "shopping"
+		},
+		{
+			"english": "size",
+			"arabic": "مقاس",
+			"category": "shopping"
+		},
+		{
+			"english": "afternoon",
+			"arabic": "ظهر",
+			"category": "time"
+		},
+		{
+			"english": "day",
+			"arabic": "يوم",
+			"category": "time"
+		},
+		{
+			"english": "evening",
+			"arabic": "مساء",
+			"category": "time"
+		},
+		{
+			"english": "month",
+			"arabic": "شهر",
+			"category": "time"
+		},
+		{
+			"english": "morning",
+			"arabic": "صباح",
+			"category": "time"
+		},
+		{
+			"english": "night",
+			"arabic": "ليل",
+			"category": "time"
+		},
+		{
+			"english": "season",
+			"arabic": "فصل",
+			"category": "time"
+		},
+		{
+			"english": "week",
+			"arabic": "أسبوع",
+			"category": "time"
+		},
+		{
+			"english": "weekend",
+			"arabic": "نهاية الأسبوع",
+			"category": "time"
+		},
+		{
+			"english": "year",
+			"arabic": "سنة",
+			"category": "time"
+		},
+		{
+			"english": "autumn",
+			"arabic": "الخريف",
+			"category": "weather"
+		},
+		{
+			"english": "cold",
+			"arabic": "بارد",
+			"category": "weather"
+		},
+		{
+			"english": "rainy",
+			"arabic": "ماطر",
+			"category": "weather"
+		},
+		{
+			"english": "spring",
+			"arabic": "الربيع",
+			"category": "weather"
+		},
+		{
+			"english": "summer",
+			"arabic": "الصيف",
+			"category": "weather"
+		},
+		{
+			"english": "sunny",
+			"arabic": "مشمس",
+			"category": "weather"
+		},
+		{
+			"english": "warm",
+			"arabic": "دافئ",
+			"category": "weather"
+		},
+		{
+			"english": "winter",
+			"arabic": "الشتاء",
+			"category": "weather"
+		},
+		{
+			"english": "to ask",
+			"arabic": "يسأل",
+			"category": "actions"
+		},
+		{
+			"english": "to answer",
+			"arabic": "يجيب",
+			"category": "actions"
+		},
+		{
+			"english": "to buy",
+			"arabic": "يشتري",
+			"category": "actions"
+		},
+		{
+			"english": "to call",
+			"arabic": "يتصل",
+			"category": "actions"
+		},
+		{
+			"english": "to dance",
+			"arabic": "يرقص",
+			"category": "actions"
+		},
+		{
+			"english": "to drive",
+			"arabic": "يقود",
+			"category": "actions"
+		},
+		{
+			"english": "to fall",
+			"arabic": "يسقط",
+			"category": "actions"
+		},
+		{
+			"english": "to find",
+			"arabic": "يجد",
+			"category": "actions"
+		},
+		{
+			"english": "to give",
+			"arabic": "يعطي",
+			"category": "actions"
+		},
+		{
+			"english": "to like",
+			"arabic": "يحب",
+			"category": "actions"
+		},
+		{
+			"english": "to open",
+			"arabic": "يفتح",
+			"category": "actions"
+		},
+		{
+			"english": "to run",
+			"arabic": "يركض",
+			"category": "actions"
+		},
+		{
+			"english": "to sing",
+			"arabic": "يغني",
+			"category": "actions"
+		},
+		{
+			"english": "to sit",
+			"arabic": "يجلس",
+			"category": "actions"
+		},
+		{
+			"english": "to talk",
+			"arabic": "يتحدث",
+			"category": "actions"
+		},
+		{
+			"english": "wake up",
+			"arabic": "يستيقظ",
+			"category": "daily_routine"
+		},
+		{
+			"english": "get up",
+			"arabic": "ينهض",
+			"category": "daily_routine"
+		},
+		{
+			"english": "brush teeth",
+			"arabic": "يغسل الأسنان",
+			"category": "daily_routine"
+		},
+		{
+			"english": "wash face",
+			"arabic": "يغسل الوجه",
+			"category": "daily_routine"
+		},
+		{
+			"english": "take a shower",
+			"arabic": "يأخذ حمام",
+			"category": "daily_routine"
+		},
+		{
+			"english": "get dressed",
+			"arabic": "يرتدي الملابس",
+			"category": "daily_routine"
+		},
+		{
+			"english": "eat breakfast",
+			"arabic": "يتناول الإفطار",
+			"category": "daily_routine"
+		},
+		{
+			"english": "go to work",
+			"arabic": "يذهب إلى العمل",
+			"category": "daily_routine"
+		},
+		{
+			"english": "go to school",
+			"arabic": "يذهب إلى المدرسة",
+			"category": "daily_routine"
+		},
+		{
+			"english": "have lunch",
+			"arabic": "يتناول الغداء",
+			"category": "daily_routine"
+		},
+		{
+			"english": "do homework",
+			"arabic": "يعمل الواجب",
+			"category": "daily_routine"
+		},
+		{
+			"english": "take a break",
+			"arabic": "يأخذ استراحة",
+			"category": "daily_routine"
+		},
+		{
+			"english": "have dinner",
+			"arabic": "يتناول العشاء",
+			"category": "daily_routine"
+		},
+		{
+			"english": "go to bed",
+			"arabic": "يذهب إلى السرير",
+			"category": "daily_routine"
+		},
+		{
+			"english": "sleep",
+			"arabic": "ينام",
+			"category": "daily_routine"
+		},
+		{
+			"english": "near",
+			"arabic": "قريب",
+			"category": "directions"
+		},
+		{
+			"english": "far",
+			"arabic": "بعيد",
+			"category": "directions"
+		},
+		{
+			"english": "behind",
+			"arabic": "خلف",
+			"category": "directions"
+		},
+		{
+			"english": "in front",
+			"arabic": "أمام",
+			"category": "directions"
+		},
+		{
+			"english": "next to",
+			"arabic": "بجانب",
+			"category": "directions"
+		},
+		{
+			"english": "between",
+			"arabic": "بين",
+			"category": "directions"
+		},
+		{
+			"english": "across",
+			"arabic": "عبر",
+			"category": "directions"
+		},
+		{
+			"english": "corner",
+			"arabic": "زاوية",
+			"category": "directions"
+		},
+		{
+			"english": "street",
+			"arabic": "شارع",
+			"category": "directions"
+		},
+		{
+			"english": "road",
+			"arabic": "طريق",
+			"category": "directions"
+		},
+		{
+			"english": "turn",
+			"arabic": "يدور",
+			"category": "directions"
+		},
+		{
+			"english": "cross",
+			"arabic": "يعبر",
+			"category": "directions"
+		},
+		{
+			"english": "up",
+			"arabic": "فوق",
+			"category": "directions"
+		},
+		{
+			"english": "down",
+			"arabic": "تحت",
+			"category": "directions"
+		},
+		{
+			"english": "stop",
+			"arabic": "قف",
+			"category": "directions"
+		},
+		{
+			"english": "door",
+			"arabic": "باب",
+			"category": "house_objects"
+		},
+		{
+			"english": "window",
+			"arabic": "نافذة",
+			"category": "house_objects"
+		},
+		{
+			"english": "lamp",
+			"arabic": "مصباح",
+			"category": "house_objects"
+		},
+		{
+			"english": "sofa",
+			"arabic": "أريكة",
+			"category": "house_objects"
+		},
+		{
+			"english": "cup",
+			"arabic": "كوب",
+			"category": "house_objects"
+		},
+		{
+			"english": "plate",
+			"arabic": "طبق",
+			"category": "house_objects"
+		},
+		{
+			"english": "fork",
+			"arabic": "شوكة",
+			"category": "house_objects"
+		},
+		{
+			"english": "knife",
+			"arabic": "سكين",
+			"category": "house_objects"
+		},
+		{
+			"english": "spoon",
+			"arabic": "ملعقة",
+			"category": "house_objects"
+		},
+		{
+			"english": "fridge",
+			"arabic": "ثلاجة",
+			"category": "house_objects"
+		},
+		{
+			"english": "clock",
+			"arabic": "ساعة",
+			"category": "house_objects"
+		},
+		{
+			"english": "mirror",
+			"arabic": "مرآة",
+			"category": "house_objects"
+		},
+		{
+			"english": "carpet",
+			"arabic": "سجادة",
+			"category": "house_objects"
+		},
+		{
+			"english": "curtain",
+			"arabic": "ستارة",
+			"category": "house_objects"
+		},
+		{
+			"english": "shelf",
+			"arabic": "رف",
+			"category": "house_objects"
+		},
+		{
+			"english": "angry",
+			"arabic": "غاضب",
+			"category": "feelings"
+		},
+		{
+			"english": "scared",
+			"arabic": "خائف",
+			"category": "feelings"
+		},
+		{
+			"english": "excited",
+			"arabic": "متحمس",
+			"category": "feelings"
+		},
+		{
+			"english": "worried",
+			"arabic": "قلق",
+			"category": "feelings"
+		},
+		{
+			"english": "surprised",
+			"arabic": "مندهش",
+			"category": "feelings"
+		},
+		{
+			"english": "calm",
+			"arabic": "هادئ",
+			"category": "feelings"
+		},
+		{
+			"english": "shy",
+			"arabic": "خجول",
+			"category": "feelings"
+		},
+		{
+			"english": "proud",
+			"arabic": "فخور",
+			"category": "feelings"
+		},
+		{
+			"english": "hungry",
+			"arabic": "جائع",
+			"category": "feelings"
+		},
+		{
+			"english": "thirsty",
+			"arabic": "عطشان",
+			"category": "feelings"
+		},
+		{
+			"english": "cold",
+			"arabic": "بردان",
+			"category": "feelings"
+		},
+		{
+			"english": "hot",
+			"arabic": "حار",
+			"category": "feelings"
+		},
+		{
+			"english": "sleepy",
+			"arabic": "نعسان",
+			"category": "feelings"
+		},
+		{
+			"english": "nervous",
+			"arabic": "متوتر",
+			"category": "feelings"
+		},
+		{
+			"english": "friendly",
+			"arabic": "ودود",
+			"category": "feelings"
+		},
+		{
+			"english": "apple",
+			"arabic": "تفاحة",
+			"category": "food_drink"
+		},
+		{
+			"english": "bread",
+			"arabic": "خبز",
+			"category": "food_drink"
+		},
+		{
+			"english": "cake",
+			"arabic": "كعكة",
+			"category": "food_drink"
+		},
+		{
+			"english": "cheese",
+			"arabic": "جبن",
+			"category": "food_drink"
+		},
+		{
+			"english": "egg",
+			"arabic": "بيضة",
+			"category": "food_drink"
+		},
+		{
+			"english": "fish",
+			"arabic": "سمك",
+			"category": "food_drink"
+		},
+		{
+			"english": "juice",
+			"arabic": "عصير",
+			"category": "food_drink"
+		},
+		{
+			"english": "milk",
+			"arabic": "حليب",
+			"category": "food_drink"
+		},
+		{
+			"english": "meat",
+			"arabic": "لحم",
+			"category": "food_drink"
+		},
+		{
+			"english": "orange",
+			"arabic": "برتقال",
+			"category": "food_drink"
+		},
+		{
+			"english": "rice",
+			"arabic": "أرز",
+			"category": "food_drink"
+		},
+		{
+			"english": "salt",
+			"arabic": "ملح",
+			"category": "food_drink"
+		},
+		{
+			"english": "sugar",
+			"arabic": "سكر",
+			"category": "food_drink"
+		},
+		{
+			"english": "tomato",
+			"arabic": "طماطم",
+			"category": "food_drink"
+		},
+		{
+			"english": "vegetable",
+			"arabic": "خضار",
+			"category": "food_drink"
+		},
+		{
+			"english": "party",
+			"arabic": "حفلة",
+			"category": "events"
+		},
+		{
+			"english": "wedding",
+			"arabic": "زفاف",
+			"category": "events"
+		},
+		{
+			"english": "birthday",
+			"arabic": "عيد ميلاد",
+			"category": "events"
+		},
+		{
+			"english": "festival",
+			"arabic": "مهرجان",
+			"category": "events"
+		},
+		{
+			"english": "concert",
+			"arabic": "حفلة موسيقية",
+			"category": "events"
+		},
+		{
+			"english": "holiday",
+			"arabic": "عطلة",
+			"category": "events"
+		},
+		{
+			"english": "game",
+			"arabic": "لعبة",
+			"category": "events"
+		},
+		{
+			"english": "show",
+			"arabic": "عرض",
+			"category": "events"
+		},
+		{
+			"english": "exhibition",
+			"arabic": "معرض",
+			"category": "events"
+		},
+		{
+			"english": "race",
+			"arabic": "سباق",
+			"category": "events"
+		},
+		{
+			"english": "ceremony",
+			"arabic": "مراسم",
+			"category": "events"
+		},
+		{
+			"english": "parade",
+			"arabic": "موكب",
+			"category": "events"
+		},
+		{
+			"english": "competition",
+			"arabic": "مسابقة",
+			"category": "events"
+		},
+		{
+			"english": "reunion",
+			"arabic": "لم شمل",
+			"category": "events"
+		},
+		{
+			"english": "library",
+			"arabic": "مكتبة",
+			"category": "places"
+		},
+		{
+			"english": "hospital",
+			"arabic": "مستشفى",
+			"category": "places"
+		},
+		{
+			"english": "market",
+			"arabic": "سوق",
+			"category": "places"
+		},
+		{
+			"english": "church",
+			"arabic": "كنيسة",
+			"category": "places"
+		},
+		{
+			"english": "mosque",
+			"arabic": "مسجد",
+			"category": "places"
+		},
+		{
+			"english": "bus stop",
+			"arabic": "موقف حافلات",
+			"category": "places"
+		},
+		{
+			"english": "train station",
+			"arabic": "محطة قطار",
+			"category": "places"
+		},
+		{
+			"english": "airport",
+			"arabic": "مطار",
+			"category": "places"
+		},
+		{
+			"english": "square",
+			"arabic": "ساحة",
+			"category": "places"
+		},
+		{
+			"english": "bridge",
+			"arabic": "جسر",
+			"category": "places"
+		},
+		{
+			"english": "police station",
+			"arabic": "مركز شرطة",
+			"category": "places"
+		},
+		{
+			"english": "fire station",
+			"arabic": "مركز إطفاء",
+			"category": "places"
+		},
+		{
+			"english": "door",
+			"arabic": "باب",
+			"category": "home"
+		},
+		{
+			"english": "window",
+			"arabic": "نافذة",
+			"category": "home"
+		},
+		{
+			"english": "table",
+			"arabic": "طاولة",
+			"category": "home"
+		},
+		{
+			"english": "chair",
+			"arabic": "كرسي",
+			"category": "home"
+		},
+		{
+			"english": "bed",
+			"arabic": "سرير",
+			"category": "home"
+		},
+		{
+			"english": "lamp",
+			"arabic": "مصباح",
+			"category": "home"
+		},
+		{
+			"english": "floor",
+			"arabic": "أرضية",
+			"category": "home"
+		},
+		{
+			"english": "ceiling",
+			"arabic": "سقف",
+			"category": "home"
+		},
+		{
+			"english": "wall",
+			"arabic": "حائط",
+			"category": "home"
+		},
+		{
+			"english": "garden",
+			"arabic": "حديقة",
+			"category": "home"
+		},
+		{
+			"english": "garage",
+			"arabic": "كراج",
+			"category": "home"
+		},
+		{
+			"english": "stairs",
+			"arabic": "سلم",
+			"category": "home"
+		},
+		{
+			"english": "fridge",
+			"arabic": "ثلاجة",
+			"category": "home"
+		},
+		{
+			"english": "sink",
+			"arabic": "حوض",
+			"category": "home"
+		},
+		{
+			"english": "hospital",
+			"arabic": "مستشفى",
+			"category": "health"
+		},
+		{
+			"english": "medicine",
+			"arabic": "دواء",
+			"category": "health"
+		},
+		{
+			"english": "nurse",
+			"arabic": "ممرضة",
+			"category": "health"
+		},
+		{
+			"english": "headache",
+			"arabic": "صداع",
+			"category": "health"
+		},
+		{
+			"english": "fever",
+			"arabic": "حمى",
+			"category": "health"
+		},
+		{
+			"english": "cold",
+			"arabic": "برد",
+			"category": "health"
+		},
+		{
+			"english": "cough",
+			"arabic": "سعال",
+			"category": "health"
+		},
+		{
+			"english": "healthy",
+			"arabic": "صحي",
+			"category": "health"
+		},
+		{
+			"english": "eye",
+			"arabic": "عين",
+			"category": "health"
+		},
+		{
+			"english": "ear",
+			"arabic": "أذن",
+			"category": "health"
+		},
+		{
+			"english": "mouth",
+			"arabic": "فم",
+			"category": "health"
+		},
+		{
+			"english": "arm",
+			"arabic": "ذراع",
+			"category": "health"
+		},
+		{
+			"english": "leg",
+			"arabic": "رجل",
+			"category": "health"
+		},
+		{
+			"english": "blood",
+			"arabic": "دم",
+			"category": "health"
+		},
+		{
+			"english": "clinic",
+			"arabic": "عيادة",
+			"category": "health"
+		},
+		{
+			"english": "dance",
+			"arabic": "رقص",
+			"category": "hobbies"
+		},
+		{
+			"english": "read",
+			"arabic": "يقرأ",
+			"category": "hobbies"
+		},
+		{
+			"english": "book",
+			"arabic": "كتاب",
+			"category": "hobbies"
+		},
+		{
+			"english": "game",
+			"arabic": "لعبة",
+			"category": "hobbies"
+		},
+		{
+			"english": "draw",
+			"arabic": "يرسم",
+			"category": "hobbies"
+		},
+		{
+			"english": "painting",
+			"arabic": "رسم",
+			"category": "hobbies"
+		},
+		{
+			"english": "cook",
+			"arabic": "يطبخ",
+			"category": "hobbies"
+		},
+		{
+			"english": "garden",
+			"arabic": "حديقة",
+			"category": "hobbies"
+		},
+		{
+			"english": "walk",
+			"arabic": "يمشي",
+			"category": "hobbies"
+		},
+		{
+			"english": "run",
+			"arabic": "يركض",
+			"category": "hobbies"
+		},
+		{
+			"english": "sing",
+			"arabic": "يغني",
+			"category": "hobbies"
+		},
+		{
+			"english": "photograph",
+			"arabic": "تصوير",
+			"category": "hobbies"
+		},
+		{
+			"english": "photo",
+			"arabic": "صورة",
+			"category": "hobbies"
+		},
+		{
+			"english": "travel",
+			"arabic": "يسافر",
+			"category": "hobbies"
+		},
+		{
+			"english": "music",
+			"arabic": "موسيقى",
+			"category": "other"
+		},
+		{
+			"english": "phone",
+			"arabic": "هاتف",
+			"category": "other"
+		},
+		{
+			"english": "photo",
+			"arabic": "صورة",
+			"category": "other"
+		},
+		{
+			"english": "book",
+			"arabic": "كتاب",
+			"category": "other"
+		},
+		{
+			"english": "movie",
+			"arabic": "فيلم",
+			"category": "other"
+		},
+		{
+			"english": "food",
+			"arabic": "طعام",
+			"category": "other"
+		},
+		{
+			"english": "drink",
+			"arabic": "شراب",
+			"category": "other"
+		},
+		{
+			"english": "school",
+			"arabic": "مدرسة",
+			"category": "other"
+		},
+		{
+			"english": "friend",
+			"arabic": "صديق",
+			"category": "other"
+		},
+		{
+			"english": "work",
+			"arabic": "عمل",
+			"category": "other"
+		},
+		{
+			"english": "car",
+			"arabic": "سيارة",
+			"category": "other"
+		},
+		{
+			"english": "bag",
+			"arabic": "حقيبة",
+			"category": "other"
+		},
+		{
+			"english": "water",
+			"arabic": "ماء",
+			"category": "other"
+		},
+		{
+			"english": "family",
+			"arabic": "عائلة",
+			"category": "other"
+		},
+		{
+			"english": "city",
+			"arabic": "مدينة",
+			"category": "other"
+		},
+		{
+			"english": "address",
+			"arabic": "عنوان",
+			"category": "personal_info"
+		},
+		{
+			"english": "phone",
+			"arabic": "هاتف",
+			"category": "personal_info"
+		},
+		{
+			"english": "email",
+			"arabic": "البريد الإلكتروني",
+			"category": "personal_info"
+		},
+		{
+			"english": "family",
+			"arabic": "عائلة",
+			"category": "personal_info"
+		},
+		{
+			"english": "friend",
+			"arabic": "صديق",
+			"category": "personal_info"
+		},
+		{
+			"english": "male",
+			"arabic": "ذكر",
+			"category": "personal_info"
+		},
+		{
+			"english": "female",
+			"arabic": "أنثى",
+			"category": "personal_info"
+		},
+		{
+			"english": "married",
+			"arabic": "متزوج",
+			"category": "personal_info"
+		},
+		{
+			"english": "single",
+			"arabic": "أعزب",
+			"category": "personal_info"
+		},
+		{
+			"english": "phone number",
+			"arabic": "رقم الهاتف",
+			"category": "personal_info"
+		},
+		{
+			"english": "street",
+			"arabic": "شارع",
+			"category": "personal_info"
+		},
+		{
+			"english": "postcode",
+			"arabic": "رمز بريدي",
+			"category": "personal_info"
+		},
+		{
+			"english": "nationality",
+			"arabic": "جنسية",
+			"category": "personal_info"
+		},
+		{
+			"english": "child",
+			"arabic": "طفل",
+			"category": "personal_info"
+		},
+		{
+			"english": "parent",
+			"arabic": "والد",
+			"category": "personal_info"
+		},
+		{
+			"english": "bike",
+			"arabic": "دراجة",
+			"category": "transport"
+		},
+		{
+			"english": "taxi",
+			"arabic": "تاكسي",
+			"category": "transport"
+		},
+		{
+			"english": "plane",
+			"arabic": "طائرة",
+			"category": "transport"
+		},
+		{
+			"english": "airport",
+			"arabic": "مطار",
+			"category": "transport"
+		},
+		{
+			"english": "boat",
+			"arabic": "قارب",
+			"category": "transport"
+		},
+		{
+			"english": "ship",
+			"arabic": "سفينة",
+			"category": "transport"
+		},
+		{
+			"english": "motorcycle",
+			"arabic": "دراجة نارية",
+			"category": "transport"
+		},
+		{
+			"english": "ticket",
+			"arabic": "تذكرة",
+			"category": "transport"
+		},
+		{
+			"english": "road",
+			"arabic": "طريق",
+			"category": "transport"
+		},
+		{
+			"english": "driver",
+			"arabic": "سائق",
+			"category": "transport"
+		},
+		{
+			"english": "traffic",
+			"arabic": "مرور",
+			"category": "transport"
+		},
+		{
+			"english": "stop",
+			"arabic": "توقف",
+			"category": "transport"
+		},
+		{
+			"english": "ride",
+			"arabic": "ركوب",
+			"category": "transport"
+		},
+		{
+			"english": "bus driver",
+			"arabic": "سائق باص",
+			"category": "transport"
+		},
+		{
+			"english": "passenger",
+			"arabic": "راكب",
+			"category": "transport"
+		},
+		{
+			"english": "child",
+			"arabic": "طفل",
+			"category": "people"
+		},
+		{
+			"english": "man",
+			"arabic": "رجل",
+			"category": "people"
+		},
+		{
+			"english": "woman",
+			"arabic": "امرأة",
+			"category": "people"
+		},
+		{
+			"english": "baby",
+			"arabic": "طفل رضيع",
+			"category": "people"
+		},
+		{
+			"english": "grandfather",
+			"arabic": "جد",
+			"category": "people"
+		},
+		{
+			"english": "grandmother",
+			"arabic": "جدة",
+			"category": "people"
+		},
+		{
+			"english": "uncle",
+			"arabic": "عم",
+			"category": "people"
+		},
+		{
+			"english": "aunt",
+			"arabic": "عمة",
+			"category": "people"
+		},
+		{
+			"english": "cousin",
+			"arabic": "ابن عم / ابنة عم",
+			"category": "people"
+		},
+		{
+			"english": "teacher",
+			"arabic": "معلم",
+			"category": "people"
+		},
+		{
+			"english": "student",
+			"arabic": "طالب",
+			"category": "people"
+		},
+		{
+			"english": "boy",
+			"arabic": "ولد",
+			"category": "people"
+		},
+		{
+			"english": "girl",
+			"arabic": "بنت",
+			"category": "people"
+		},
+		{
+			"english": "neighbor",
+			"arabic": "جار",
+			"category": "people"
+		},
+		{
+			"english": "doctor",
+			"arabic": "طبيب",
+			"category": "people"
+		},
+		{
+			"english": "class",
+			"arabic": "صف",
+			"category": "school"
+		},
+		{
+			"english": "book",
+			"arabic": "كتاب",
+			"category": "school"
+		},
+		{
+			"english": "pen",
+			"arabic": "قلم",
+			"category": "school"
+		},
+		{
+			"english": "pencil",
+			"arabic": "قلم رصاص",
+			"category": "school"
+		},
+		{
+			"english": "desk",
+			"arabic": "مكتب",
+			"category": "school"
+		},
+		{
+			"english": "chair",
+			"arabic": "كرسي",
+			"category": "school"
+		},
+		{
+			"english": "bag",
+			"arabic": "حقيبة",
+			"category": "school"
+		},
+		{
+			"english": "school",
+			"arabic": "مدرسة",
+			"category": "school"
+		},
+		{
+			"english": "classroom",
+			"arabic": "فصل",
+			"category": "school"
+		},
+		{
+			"english": "break",
+			"arabic": "استراحة",
+			"category": "school"
+		},
+		{
+			"english": "playground",
+			"arabic": "ملعب",
+			"category": "school"
+		},
+		{
+			"english": "notebook",
+			"arabic": "دفتر",
+			"category": "school"
+		},
+		{
+			"english": "ruler",
+			"arabic": "مسطرة",
+			"category": "school"
+		},
+		{
+			"english": "eraser",
+			"arabic": "ممحاة",
+			"category": "school"
+		},
+		{
+			"english": "chalk",
+			"arabic": "طبشورة",
+			"category": "school"
+		},
+		{
+			"english": "left",
+			"arabic": "يسار",
+			"category": "position_words"
+		},
+		{
+			"english": "right",
+			"arabic": "يمين",
+			"category": "position_words"
+		},
+		{
+			"english": "below",
+			"arabic": "أسفل",
+			"category": "position_words"
+		},
+		{
+			"english": "opposite",
+			"arabic": "مقابل",
+			"category": "position_words"
+		},
+		{
+			"english": "at",
+			"arabic": "عند",
+			"category": "position_words"
+		},
+		{
+			"english": "around",
+			"arabic": "حول",
+			"category": "position_words"
+		},
+		{
+			"english": "through",
+			"arabic": "عبر",
+			"category": "position_words"
+		},
+		{
+			"english": "onto",
+			"arabic": "إلى على",
+			"category": "position_words"
+		},
+		{
+			"english": "off",
+			"arabic": "عن",
+			"category": "position_words"
+		},
+		{
+			"english": "past",
+			"arabic": "ماضي",
+			"category": "position_words"
+		},
+		{
+			"english": "towards",
+			"arabic": "نحو",
+			"category": "position_words"
+		},
+		{
+			"english": "buy",
+			"arabic": "يشتري",
+			"category": "shopping"
+		},
+		{
+			"english": "sell",
+			"arabic": "يبيع",
+			"category": "shopping"
+		},
+		{
+			"english": "shop",
+			"arabic": "يتسوق",
+			"category": "shopping"
+		},
+		{
+			"english": "market",
+			"arabic": "سوق",
+			"category": "shopping"
+		},
+		{
+			"english": "money",
+			"arabic": "نقود",
+			"category": "shopping"
+		},
+		{
+			"english": "bag",
+			"arabic": "حقيبة",
+			"category": "shopping"
+		},
+		{
+			"english": "cash",
+			"arabic": "نقداً",
+			"category": "shopping"
+		},
+		{
+			"english": "change",
+			"arabic": "فكة",
+			"category": "shopping"
+		},
+		{
+			"english": "bill",
+			"arabic": "فاتورة",
+			"category": "shopping"
+		},
+		{
+			"english": "shop assistant",
+			"arabic": "مساعد المتجر",
+			"category": "shopping"
+		},
+		{
+			"english": "open",
+			"arabic": "مفتوح",
+			"category": "shopping"
+		},
+		{
+			"english": "close",
+			"arabic": "مغلق",
+			"category": "shopping"
+		},
+		{
+			"english": "customer",
+			"arabic": "زبون",
+			"category": "shopping"
+		},
+		{
+			"english": "offer",
+			"arabic": "عرض",
+			"category": "shopping"
+		},
+		{
+			"english": "hour",
+			"arabic": "ساعة",
+			"category": "time"
+		},
+		{
+			"english": "minute",
+			"arabic": "دقيقة",
+			"category": "time"
+		},
+		{
+			"english": "second",
+			"arabic": "ثانية",
+			"category": "time"
+		},
+		{
+			"english": "today",
+			"arabic": "اليوم",
+			"category": "time"
+		},
+		{
+			"english": "tomorrow",
+			"arabic": "غدًا",
+			"category": "time"
+		},
+		{
+			"english": "yesterday",
+			"arabic": "أمس",
+			"category": "time"
+		},
+		{
+			"english": "clock",
+			"arabic": "ساعة الحائط",
+			"category": "time"
+		},
+		{
+			"english": "calendar",
+			"arabic": "تقويم",
+			"category": "time"
+		},
+		{
+			"english": "midnight",
+			"arabic": "منتصف الليل",
+			"category": "time"
+		},
+		{
+			"english": "noon",
+			"arabic": "ظهر اليوم",
+			"category": "time"
+		},
+		{
+			"english": "early",
+			"arabic": "مبكر",
+			"category": "time"
+		},
+		{
+			"english": "late",
+			"arabic": "متأخر",
+			"category": "time"
+		},
+		{
+			"english": "now",
+			"arabic": "الآن",
+			"category": "time"
+		},
+		{
+			"english": "soon",
+			"arabic": "قريبًا",
+			"category": "time"
+		},
+		{
+			"english": "past",
+			"arabic": "الماضي",
+			"category": "time"
+		},
+		{
+			"english": "hot",
+			"arabic": "حار",
+			"category": "weather"
+		},
+		{
+			"english": "cloud",
+			"arabic": "سحابة",
+			"category": "weather"
+		},
+		{
+			"english": "cloudy",
+			"arabic": "غائم",
+			"category": "weather"
+		},
+		{
+			"english": "fog",
+			"arabic": "ضباب",
+			"category": "weather"
+		},
+		{
+			"english": "foggy",
+			"arabic": "ضبابي",
+			"category": "weather"
+		},
+		{
+			"english": "freeze",
+			"arabic": "يتجمد",
+			"category": "weather"
+		},
+		{
+			"english": "frost",
+			"arabic": "صقيع",
+			"category": "weather"
+		},
+		{
+			"english": "hail",
+			"arabic": "برد",
+			"category": "weather"
+		},
+		{
+			"english": "ice",
+			"arabic": "ثلج متجمد",
+			"category": "weather"
+		},
+		{
+			"english": "rain",
+			"arabic": "مطر",
+			"category": "weather"
+		},
+		{
+			"english": "snow",
+			"arabic": "ثلج",
+			"category": "weather"
+		},
+		{
+			"english": "storm",
+			"arabic": "عاصفة",
+			"category": "weather"
+		},
+		{
+			"english": "wind",
+			"arabic": "ريح",
+			"category": "weather"
+		},
+		{
+			"english": "windy",
+			"arabic": "عاصف",
+			"category": "weather"
+		},
+		{
+			"english": "weather",
+			"arabic": "الطقس",
+			"category": "weather"
+		}
 	]
 }

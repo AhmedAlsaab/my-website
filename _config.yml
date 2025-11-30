@@ -30,6 +30,7 @@ exclude:
 include:
   - index.json
   - past_papers
+  - past_papers_images
   - simple_question_bank
   - keywords_in_arabic
   - key_reminders

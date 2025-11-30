@@ -22,21 +22,7 @@ title: كلمات مهمة
 	const KEYWORDS_PATH = "keywords_in_arabic/keywords.json";
 	let keywordsData = null;
 	let keywordsByCategory = {};
-
-	// Category names in Arabic
-	const categoryNames = {
-		"people": "الأشخاص",
-		"school": "المدرسة",
-		"home": "المنزل",
-		"places": "الأماكن",
-		"transport": "المواصلات",
-		"time": "الوقت",
-		"weather": "الطقس",
-		"food_drink": "الطعام والشراب",
-		"actions": "الأفعال",
-		"feelings": "المشاعر",
-		"other": "أخرى"
-	};
+	let categoryNames = {};
 
 	// Load keywords data
 	async function loadKeywords() {
@@ -50,6 +36,9 @@ title: كلمات مهمة
 				throw new Error(`Failed to load ${KEYWORDS_PATH}`);
 			}
 			keywordsData = await response.json();
+
+			// Load category names from JSON
+			categoryNames = keywordsData.category_names || {};
 
 			// Group keywords by category
 			keywordsByCategory = {};

@@ -361,6 +361,26 @@
 		position: relative;
 	}
 
+	.exam-image-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 2rem 0;
+		padding: 1.5rem;
+		background: rgba(255, 255, 255, 0.95);
+		border-radius: 0.75rem;
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	}
+
+	.exam-image {
+		max-width: 100%;
+		height: auto;
+		border-radius: 0.5rem;
+		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+		display: block;
+		margin: 0 auto;
+	}
+
 	@media (max-width: 768px) {
 		:root {
 			--tts-padding: 3rem;
@@ -384,6 +404,16 @@
 			width: 1.75rem;
 			height: 1.75rem;
 			font-size: 0.8rem;
+		}
+
+		.exam-image-container {
+			padding: 1rem;
+			margin: 1.5rem 0;
+		}
+
+		.exam-image {
+			max-width: 100%;
+			width: 100%;
 		}
 	}
 </style>
@@ -700,7 +730,7 @@
 		<p class="current-paper" id="currentPaper"></p>
 		<p class="total-time">
 			<span class="clock-icon">⏱️</span>
-			<strong class="arabic-text">الوقت الإجمالي: 8–9 دقائق</strong>
+			<strong class="arabic-text">الوقت الإجمالي: 9–10 دقائق</strong>
 		</p>
 	</header>
 
@@ -798,10 +828,106 @@
 		return availablePapers[randomIndex];
 	}
 
+	// Cache for available images
+	let availableImages = [];
+
+	// Function to load images index
+	async function loadImagesIndex() {
+		if (availableImages.length > 0) {
+			return availableImages; // Already loaded
+		}
+
+		const IMAGES_DIR = "past_papers_images/";
+
+		try {
+			// Try to load index.json from images directory
+			const indexPath = `${IMAGES_DIR}index.json`;
+			const response = await fetch(indexPath);
+			if (response.ok) {
+				const index = await response.json();
+				if (Array.isArray(index)) {
+					availableImages = index.map((file) =>
+						file.endsWith(".png") ? `${IMAGES_DIR}${file}` : `${IMAGES_DIR}${file}.png`
+					);
+				} else if (index.images && Array.isArray(index.images)) {
+					availableImages = index.images.map((file) =>
+						file.endsWith(".png") ? `${IMAGES_DIR}${file}` : `${IMAGES_DIR}${file}.png`
+					);
+				}
+				console.log(`Loaded ${availableImages.length} images from index`);
+				return availableImages;
+			}
+		} catch (error) {
+			console.log("No images index.json found, will discover images");
+		}
+
+		// Fallback: discover images by trying common patterns
+		return await discoverImagesByPattern();
+	}
+
+	// Fallback: discover images by trying common patterns
+	async function discoverImagesByPattern() {
+		const IMAGES_DIR = "past_papers_images/";
+		const discovered = [];
+		const promises = [];
+
+		// Try common naming patterns
+		const patterns = [
+			// Try numbered patterns: image_01.png, image_1.png, img_01.png, etc.
+			...Array.from({ length: 20 }, (_, i) => {
+				const num = (i + 1).toString().padStart(2, "0");
+				return [
+					`${IMAGES_DIR}image_${num}.png`,
+					`${IMAGES_DIR}img_${num}.png`,
+					`${IMAGES_DIR}${num}.png`,
+				];
+			}).flat(),
+			// Try single digits
+			...Array.from({ length: 10 }, (_, i) => `${IMAGES_DIR}image_${i + 1}.png`),
+		];
+
+		// Remove duplicates
+		const uniquePatterns = [...new Set(patterns)];
+
+		for (const filename of uniquePatterns) {
+			promises.push(
+				fetch(filename, { method: "HEAD" })
+					.then((response) => {
+						if (response.ok) {
+							discovered.push(filename);
+						}
+					})
+					.catch(() => {})
+			);
+		}
+
+		await Promise.allSettled(promises);
+		availableImages = discovered.sort();
+		console.log(`Discovered ${availableImages.length} images by pattern`);
+		return availableImages;
+	}
+
+	// Function to get a random image from past_papers_images directory
+	async function getRandomImage() {
+		// Ensure images are loaded
+		if (availableImages.length === 0) {
+			await loadImagesIndex();
+		}
+
+		if (availableImages.length === 0) {
+			// No images found, return null to hide the image section
+			return null;
+		}
+
+		const randomIndex = Math.floor(Math.random() * availableImages.length);
+		return availableImages[randomIndex];
+	}
+
 	// Timer functionality (defined early so it can be used by loadPaper)
 	const timers = {
 		personal: { interval: null, remaining: 90, total: 90, running: false },
 		situations: { interval: null, remaining: 90, total: 90, running: false },
+		image: { interval: null, remaining: 90, total: 90, running: false },
 		listening: { interval: null, remaining: 120, total: 120, running: false },
 		monologue: { interval: null, remaining: 120, total: 120, running: false },
 	};
@@ -1023,7 +1149,24 @@
                 </section>
             `;
 
-		// Listening Script Section
+		// Image Section (Section 3)
+		html += `
+                <section class="section">
+                    <h2>
+                        <span class="arabic-text">الصورة</span>
+                        <span class="section-timestamp">
+                            <button class="timer-button" onclick="toggleTimer('image', 90)" id="timer-btn-image">▶</button>
+                            <span class="timer-display" id="timer-image">1:30</span>
+                        </span>
+                    </h2>
+                    <p class="section-subtitle arabic-text">سيطرح الممتحن أسئلة حول الصورة، ويمكن للمرشح أيضاً اقتراح أسئلة</p>
+                    <div class="exam-image-container">
+                        <img id="exam-image" src="" alt="Exam image" class="exam-image" />
+                    </div>
+                </section>
+            `;
+
+		// Listening Script Section (Section 4)
 		html += `
                 <section class="section">
                     <h2>
@@ -1061,7 +1204,7 @@
                 </section>
             `;
 
-		// Monologue Section
+		// Monologue Section (Section 5)
 		html += `
                 <section class="section">
                     <h2>
@@ -1102,6 +1245,40 @@
             `;
 
 		content.innerHTML = html;
+
+		// Load random image after content is rendered
+		getRandomImage()
+			.then((imagePath) => {
+				const imgElement = document.getElementById("exam-image");
+				if (imgElement && imagePath) {
+					imgElement.src = imagePath;
+					// Remove error handler to prevent infinite retry loop
+					// If image fails, it will just not display (better than spamming errors)
+					imgElement.onerror = function () {
+						// Hide the image container if image fails to load
+						const container = this.closest(".exam-image-container");
+						if (container) {
+							container.style.display = "none";
+						}
+					};
+				} else if (imgElement) {
+					// No images found, hide the image container
+					const container = imgElement.closest(".exam-image-container");
+					if (container) {
+						container.style.display = "none";
+					}
+				}
+			})
+			.catch((error) => {
+				console.error("Error loading image:", error);
+				const imgElement = document.getElementById("exam-image");
+				if (imgElement) {
+					const container = imgElement.closest(".exam-image-container");
+					if (container) {
+						container.style.display = "none";
+					}
+				}
+			});
 	}
 
 	// TTS functionality using Web Speech API

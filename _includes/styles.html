@@ -353,6 +353,26 @@
 		position: relative;
 	}
 
+	.exam-image-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 2rem 0;
+		padding: 1.5rem;
+		background: rgba(255, 255, 255, 0.95);
+		border-radius: 0.75rem;
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	}
+
+	.exam-image {
+		max-width: 100%;
+		height: auto;
+		border-radius: 0.5rem;
+		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+		display: block;
+		margin: 0 auto;
+	}
+
 	@media (max-width: 768px) {
 		:root {
 			--tts-padding: 3rem;
@@ -376,6 +396,16 @@
 			width: 1.75rem;
 			height: 1.75rem;
 			font-size: 0.8rem;
+		}
+
+		.exam-image-container {
+			padding: 1rem;
+			margin: 1.5rem 0;
+		}
+
+		.exam-image {
+			max-width: 100%;
+			width: 100%;
 		}
 	}
 </style>
