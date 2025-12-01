@@ -138,10 +138,12 @@ title: تمارين الجمل
 		if (feedbackDiv) {
 			if (isCorrect) {
 				feedbackDiv.innerHTML = '<p style="color: #4CAF50; font-size: 1.2rem; font-weight: 600; text-align: center; margin: 1rem 0;">✓ صحيح! ممتاز!</p>';
-				feedbackDiv.style.display = "block";
+				feedbackDiv.style.visibility = "visible";
+				feedbackDiv.style.opacity = "1";
 			} else {
 				feedbackDiv.innerHTML = '<p style="color: #ff6b6b; font-size: 1.2rem; font-weight: 600; text-align: center; margin: 1rem 0;">✗ غير صحيح. حاول مرة أخرى</p>';
-				feedbackDiv.style.display = "block";
+				feedbackDiv.style.visibility = "visible";
+				feedbackDiv.style.opacity = "1";
 			}
 		}
 	}
@@ -155,7 +157,9 @@ title: تمارين الجمل
 
 		const feedbackDiv = document.getElementById("feedback");
 		if (feedbackDiv) {
-			feedbackDiv.style.display = "none";
+			feedbackDiv.style.visibility = "hidden";
+			feedbackDiv.style.opacity = "0";
+			feedbackDiv.innerHTML = "";
 		}
 
 		updateDisplay();
@@ -172,7 +176,7 @@ title: تمارين الجمل
 					<h3 class="arabic-text" style="color: #1e3c72; font-size: 1.3rem; margin-bottom: 1rem; text-align: center;">
 						الكلمات المتاحة
 					</h3>
-					<div id="availableWords" class="words-container" style="display: flex; flex-wrap: wrap; gap: 0.75rem; justify-content: center; min-height: 60px;">
+					<div id="availableWords" class="words-container" style="display: flex; flex-wrap: wrap; gap: 0.75rem; justify-content: center; min-height: 80px; align-content: flex-start;">
 						${availableWords
 							.map((word, originalIndex) => ({ word, originalIndex }))
 							.filter(item => item.word !== null)
@@ -208,11 +212,12 @@ title: تمارين الجمل
 						background: rgba(255, 255, 255, 0.95);
 						padding: 2rem;
 						border-radius: 0.75rem;
-						min-height: 100px;
+						min-height: 180px;
 						display: flex;
 						flex-wrap: wrap;
 						gap: 0.5rem;
-						align-items: center;
+						align-items: flex-start;
+						align-content: flex-start;
 						justify-content: center;
 						border: 2px solid #4a90e2;
 					">
@@ -242,7 +247,13 @@ title: تمارين الجمل
 				</div>
 
 				<!-- Feedback -->
-				<div id="feedback" style="display: none;"></div>
+				<div id="feedback" style="
+					visibility: hidden;
+					opacity: 0;
+					min-height: 60px;
+					transition: opacity 0.3s ease;
+					margin: 1rem 0;
+				"></div>
 
 				<!-- Action Buttons -->
 				<div style="text-align: center; margin-top: 2rem; display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
@@ -306,7 +317,9 @@ title: تمارين الجمل
 		// Hide feedback
 		const feedbackDiv = document.getElementById("feedback");
 		if (feedbackDiv) {
-			feedbackDiv.style.display = "none";
+			feedbackDiv.style.visibility = "hidden";
+			feedbackDiv.style.opacity = "0";
+			feedbackDiv.innerHTML = "";
 		}
 
 		updateDisplay();
@@ -328,6 +341,15 @@ title: تمارين الجمل
 </script>
 
 <style>
+	.words-container {
+		position: relative;
+	}
+
+	.word-card {
+		height: auto;
+		box-sizing: border-box;
+	}
+
 	.available-word:hover {
 		background: rgba(74, 144, 226, 0.3) !important;
 		transform: translateY(-2px);
@@ -360,6 +382,37 @@ title: تمارين الجمل
 		transform: translateY(0);
 	}
 
+	#feedback {
+		display: block;
+	}
+
+	.sentence-container {
+		transition: min-height 0.2s ease;
+		overflow: visible;
+	}
+
+	/* Ensure smooth expansion without bouncing */
+	.sentence-container > * {
+		flex-shrink: 0;
+	}
+
+	/* Smooth word card animations */
+	.word-card {
+		transition: transform 0.2s ease, opacity 0.15s ease;
+		animation: fadeIn 0.2s ease;
+	}
+
+	@keyframes fadeIn {
+		from {
+			opacity: 0;
+			transform: scale(0.9);
+		}
+		to {
+			opacity: 1;
+			transform: scale(1);
+		}
+	}
+
 	@media (max-width: 768px) {
 		.words-container {
 			gap: 0.5rem !important;
@@ -372,6 +425,7 @@ title: تمارين الجمل
 
 		.sentence-container {
 			padding: 1.5rem !important;
+			min-height: 150px !important;
 		}
 	}
 </style>
