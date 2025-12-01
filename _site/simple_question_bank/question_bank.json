@@ -1,194 +1,764 @@
 {
 	"questions": [
-		"What is your favourite food?",
-		"What do you do in the morning?",
-		"What time do you wake up?",
-		"What is your favourite colour?",
-		"What do you like to do at the weekend?",
-		"What is your favourite season?",
-		"What do you drink for breakfast?",
-		"What music do you like?",
-		"What sport do you play?",
-		"What do you do after school or work?",
-		"What is your favourite TV programme?",
-		"What do you like doing with your friends?",
-		"What is your favourite place in your town?",
-		"What clothes do you wear in winter?",
-		"What subject do you like at school?",
-		"What do you do in your free time?",
-		"What pets do you have at home?",
-		"What do you want to buy today?",
-		"What fruit do you like?",
-		"What do you do before you go to bed?",
-		"What languages do you speak?",
-		"What do you eat for lunch?",
-		"What do you do on your birthday?",
-		"What do you do when you are tired?",
-		"What is your favourite animal?",
-		"What do you do when it is hot?",
-		"What do you do on Sunday?",
-		"What food do you cook at home?",
-		"What do you wear in summer?",
-		"What drinks do you like?",
-		"What do you need to buy this week?",
-		"What games do you play?",
-		"What do you do on your day off?",
-		"What do you take with you when you travel?",
-		"What do you usually eat for dinner?",
-		"What things make you happy?",
-		"What do you do when it is cold?",
-		"What work do you do at home?",
-		"What do you talk about with your friends?",
-		"What do you buy when you go to the market?",
-		"What do you do to relax?",
-		"What is your favourite drink?",
-		"What do you do on special days?",
-		"What do you do when you feel sick?",
-		"What do you take to work or school?",
-		"What do you do when you have free time at home?",
-		"When do you eat breakfast?",
-		"When do you go to bed?",
-		"When do you visit your family?",
-		"When do you watch TV?",
-		"When do you go shopping?",
-		"When is your birthday?",
-		"When do you meet your friends?",
-		"When do you clean your room?",
-		"When do you study English?",
-		"When do you go to the supermarket?",
-		"When do you take the bus?",
-		"When do you start work or school?",
-		"When do you play sports?",
-		"When do you cook dinner?",
-		"When do you travel to your hometown?",
-		"When do you eat lunch on weekdays?",
-		"When do you wake up on weekends?",
-		"When do you go for a walk?",
-		"When do you use the internet?",
-		"When do you help at home?",
-		"When do you finish work or school?",
-		"When do you brush your teeth?",
-		"When do you exercise?",
-		"When do you call your family?",
-		"When do you do your homework?",
-		"When do you have dinner?",
-		"When do you check your phone?",
-		"When do you listen to music?",
-		"When do you read books?",
-		"When do you take a shower?",
-		"When do you visit your friends?",
-		"When do you wash your clothes?",
-		"When do you go to the gym?",
-		"When do you check your email?",
-		"When do you call your friends?",
-		"When do you eat dinner on weekends?",
-		"When do you relax?",
-		"When do you go to the market?",
-		"When do you take a break at work?",
-		"When do you cook breakfast?",
-		"When do you clean your kitchen?",
-		"When do you go for a run?",
-		"When do you drink tea or coffee?",
-		"When do you usually rest?",
-		"When do you visit your hometown?",
-		"When do you buy groceries?",
-		"When do you plan your day?",
-		"When do you take time for yourself?",
-		"When do you watch videos online?",
-		"When do you tidy your room?",
-		"Where do you live?",
-		"Where do you eat lunch at school or work?",
-		"Where do you buy your clothes?",
-		"Where do you meet your friends?",
-		"Where do you keep your phone?",
-		"Where do you study at home?",
-		"Where does your family usually sit together?",
-		"Where do you go at the weekend?",
-		"Where do you keep your shoes?",
-		"Where do you buy food?",
-		"Where do you like to walk?",
-		"Where is your favourite place to relax?",
-		"Where do you go when it rains?",
-		"Where do you keep your clothes?",
-		"Where do you like to drink coffee or tea?",
-		"Where do you wait for the bus?",
-		"Where do you watch films?",
-		"Where do you go on holiday?",
-		"Where do you keep your books?",
-		"Where do you work or study?",
-		"Where do you exercise?",
-		"Where do you buy medicine?",
-		"Where do you go to see a doctor?",
-		"Where do you park your car or bike?",
-		"Where do you eat dinner?",
-		"Where do you learn English?",
-		"Where do you buy gifts?",
-		"Where is your family from?",
-		"Where do you meet your family?",
-		"Where do you keep your important things?",
-		"Where do you drink coffee?",
-		"Where do you study English?",
-		"Where do you go to relax?",
-		"Where do you usually shop?",
-		"Where do you celebrate your birthday?",
-		"Where do you talk with your friends?",
-		"Where do you keep your money?",
-		"Where do you go when you want some fresh air?",
-		"Where do you wait for your friends?",
-		"Where do you get your haircut?",
-		"Where do you go when you want to read?",
-		"Where do you keep your documents?",
-		"Where do you buy bread?",
-		"Where do you like to sit at home?",
-		"Where do you take photos?",
-		"Where do you go when you feel tired?",
-		"Where do you go to meet new people?",
-		"Where do you spend most of your day?",
-		"Why do you learn English?",
-		"What do you like about your favourite TV show?",
-		"Why do you wake up early?",
-		"Why do you go to the park?",
-		"What do you like about your best friend?",
-		"Why do you use the internet?",
-		"Why do you enjoy weekends?",
-		"What do you like about your favourite food?",
-		"Why do you help at home?",
-		"Why do you go shopping on weekends?",
-		"Why do you play sports?",
-		"Why do you drink tea or coffee?",
-		"Why do you enjoy travelling?",
-		"Why do you go for walks?",
-		"Why do you eat fruit?",
-		"Why do you visit your grandparents?",
-		"Why do you stay at home on rainy days?",
-		"Why is English important to you?",
-		"Why do you like your job or school?",
-		"Why do you exercise?",
-		"Why do you read books?",
-		"Why do you listen to music?",
-		"Why do you use social media?",
-		"Why do you like weekends?",
-		"Why do you save money?",
-		"Why do you call your family?",
-		"Why do you like your home?",
-		"Why do you go to the gym?",
-		"Why do you visit your friends?",
-		"Why do you drink water often?",
-		"Why do you like walking?",
-		"Why do you clean your house?",
-		"Why do you enjoy holidays?",
-		"Why do you talk to your family often?",
-		"Why do you use your phone every day?",
-		"Why do you take photos?",
-		"Why do you rest on weekends?",
-		"Why do you work or study?",
-		"Why do you want to learn new things?",
-		"Why do you like going outside?",
-		"Why do you take the bus or taxi?",
-		"Why do you keep your home tidy?",
-		"Why do you eat healthy food?",
-		"Why do you sleep early?",
-		"Why do you save your pictures?",
-		"Why do you visit the doctor?"
+		{
+			"english": "What is your favourite food?",
+			"arabic": "ما هو طعامك المفضل؟"
+		},
+		{
+			"english": "What do you do in the morning?",
+			"arabic": "ماذا تفعل في الصباح؟"
+		},
+		{
+			"english": "What time do you wake up?",
+			"arabic": "في أي وقت تستيقظ؟"
+		},
+		{
+			"english": "What is your favourite colour?",
+			"arabic": "ما هو لونك المفضل؟"
+		},
+		{
+			"english": "What do you like to do at the weekend?",
+			"arabic": "ماذا تحب أن تفعل في عطلة نهاية الأسبوع؟"
+		},
+		{
+			"english": "What is your favourite season?",
+			"arabic": "ما هو فصل السنة المفضل لديك؟"
+		},
+		{
+			"english": "What do you drink for breakfast?",
+			"arabic": "ماذا تشرب على الإفطار؟"
+		},
+		{
+			"english": "What music do you like?",
+			"arabic": "ما نوع الموسيقى التي تحبها؟"
+		},
+		{
+			"english": "What sport do you play?",
+			"arabic": "ما الرياضة التي تمارسها؟"
+		},
+		{
+			"english": "What do you do after school or work?",
+			"arabic": "ماذا تفعل بعد المدرسة أو العمل؟"
+		},
+		{
+			"english": "What is your favourite TV programme?",
+			"arabic": "ما هو برنامجك التلفزيوني المفضل؟"
+		},
+		{
+			"english": "What do you like doing with your friends?",
+			"arabic": "ماذا تحب أن تفعل مع أصدقائك؟"
+		},
+		{
+			"english": "What is your favourite place in your town?",
+			"arabic": "ما هو مكانك المفضل في مدينتك؟"
+		},
+		{
+			"english": "What clothes do you wear in winter?",
+			"arabic": "ما الملابس التي ترتديها في الشتاء؟"
+		},
+		{
+			"english": "What subject do you like at school?",
+			"arabic": "ما المادة التي تحبها في المدرسة؟"
+		},
+		{
+			"english": "What do you do in your free time?",
+			"arabic": "ماذا تفعل في وقت فراغك؟"
+		},
+		{
+			"english": "What pets do you have at home?",
+			"arabic": "ما الحيوانات الأليفة التي لديك في المنزل؟"
+		},
+		{
+			"english": "What do you want to buy today?",
+			"arabic": "ماذا تريد أن تشتري اليوم؟"
+		},
+		{
+			"english": "What fruit do you like?",
+			"arabic": "ما الفاكهة التي تحبها؟"
+		},
+		{
+			"english": "What do you do before you go to bed?",
+			"arabic": "ماذا تفعل قبل أن تذهب إلى السرير؟"
+		},
+		{
+			"english": "What languages do you speak?",
+			"arabic": "ما هي اللغات التي تتحدثها؟"
+		},
+		{
+			"english": "What do you eat for lunch?",
+			"arabic": "ماذا تأكل في الغداء؟"
+		},
+		{
+			"english": "What do you do on your birthday?",
+			"arabic": "ماذا تفعل في عيد ميلادك؟"
+		},
+		{
+			"english": "What do you do when you are tired?",
+			"arabic": "ماذا تفعل عندما تكون متعبًا؟"
+		},
+		{
+			"english": "What is your favourite animal?",
+			"arabic": "ما هو حيوانك المفضل؟"
+		},
+		{
+			"english": "What do you do when it is hot?",
+			"arabic": "ماذا تفعل عندما يكون الجو حارًا؟"
+		},
+		{
+			"english": "What do you do on Sunday?",
+			"arabic": "ماذا تفعل يوم الأحد؟"
+		},
+		{
+			"english": "What food do you cook at home?",
+			"arabic": "ما الطعام الذي تطبخه في المنزل؟"
+		},
+		{
+			"english": "What do you wear in summer?",
+			"arabic": "ماذا ترتدي في الصيف؟"
+		},
+		{
+			"english": "What drinks do you like?",
+			"arabic": "ما المشروبات التي تحبها؟"
+		},
+		{
+			"english": "What do you need to buy this week?",
+			"arabic": "ماذا تحتاج لشراءه هذا الأسبوع؟"
+		},
+		{
+			"english": "What games do you play?",
+			"arabic": "ما الألعاب التي تلعبها؟"
+		},
+		{
+			"english": "What do you do on your day off?",
+			"arabic": "ماذا تفعل في يوم عطلتك؟"
+		},
+		{
+			"english": "What do you take with you when you travel?",
+			"arabic": "ماذا تأخذ معك عندما تسافر؟"
+		},
+		{
+			"english": "What do you usually eat for dinner?",
+			"arabic": "ماذا تأكل عادةً على العشاء؟"
+		},
+		{
+			"english": "What things make you happy?",
+			"arabic": "ما الأشياء التي تجعلك سعيدًا؟"
+		},
+		{
+			"english": "What do you do when it is cold?",
+			"arabic": "ماذا تفعل عندما يكون الجو باردًا؟"
+		},
+		{
+			"english": "What work do you do at home?",
+			"arabic": "ما العمل الذي تقوم به في المنزل؟"
+		},
+		{
+			"english": "What do you talk about with your friends?",
+			"arabic": "ماذا تتحدث مع أصدقائك؟"
+		},
+		{
+			"english": "What do you buy when you go to the market?",
+			"arabic": "ماذا تشتري عندما تذهب إلى السوق؟"
+		},
+		{
+			"english": "What do you do to relax?",
+			"arabic": "ماذا تفعل للاسترخاء؟"
+		},
+		{
+			"english": "What is your favourite drink?",
+			"arabic": "ما هو مشروبك المفضل؟"
+		},
+		{
+			"english": "What do you do on special days?",
+			"arabic": "ماذا تفعل في الأيام الخاصة؟"
+		},
+		{
+			"english": "What do you do when you feel sick?",
+			"arabic": "ماذا تفعل عندما تشعر بالمرض؟"
+		},
+		{
+			"english": "What do you take to work or school?",
+			"arabic": "ماذا تأخذ معك إلى العمل أو المدرسة؟"
+		},
+		{
+			"english": "What do you do when you have free time at home?",
+			"arabic": "ماذا تفعل عندما يكون لديك وقت فراغ في المنزل؟"
+		},
+		{
+			"english": "When do you eat breakfast?",
+			"arabic": "متى تتناول الإفطار؟"
+		},
+		{
+			"english": "When do you go to bed?",
+			"arabic": "متى تذهب إلى السرير؟"
+		},
+		{
+			"english": "When do you visit your family?",
+			"arabic": "متى تزور عائلتك؟"
+		},
+		{
+			"english": "When do you watch TV?",
+			"arabic": "متى تشاهد التلفاز؟"
+		},
+		{
+			"english": "When do you go shopping?",
+			"arabic": "متى تذهب للتسوق؟"
+		},
+		{
+			"english": "When is your birthday?",
+			"arabic": "متى عيد ميلادك؟"
+		},
+		{
+			"english": "When do you meet your friends?",
+			"arabic": "متى تلتقي بأصدقائك؟"
+		},
+		{
+			"english": "When do you clean your room?",
+			"arabic": "متى تنظف غرفتك؟"
+		},
+		{
+			"english": "When do you study English?",
+			"arabic": "متى تدرس اللغة الإنجليزية؟"
+		},
+		{
+			"english": "When do you go to the supermarket?",
+			"arabic": "متى تذهب إلى السوبرماركت؟"
+		},
+		{
+			"english": "When do you take the bus?",
+			"arabic": "متى تأخذ الحافلة؟"
+		},
+		{
+			"english": "When do you start work or school?",
+			"arabic": "متى تبدأ العمل أو المدرسة؟"
+		},
+		{
+			"english": "When do you play sports?",
+			"arabic": "متى تمارس الرياضة؟"
+		},
+		{
+			"english": "When do you cook dinner?",
+			"arabic": "متى تطبخ العشاء؟"
+		},
+		{
+			"english": "When do you travel to your hometown?",
+			"arabic": "متى تسافر إلى مسقط رأسك؟"
+		},
+		{
+			"english": "When do you eat lunch on weekdays?",
+			"arabic": "متى تتناول الغداء في أيام الأسبوع؟"
+		},
+		{
+			"english": "When do you wake up on weekends?",
+			"arabic": "متى تستيقظ في عطلة نهاية الأسبوع؟"
+		},
+		{
+			"english": "When do you go for a walk?",
+			"arabic": "متى تذهب للتنزه؟"
+		},
+		{
+			"english": "When do you use the internet?",
+			"arabic": "متى تستخدم الإنترنت؟"
+		},
+		{
+			"english": "When do you help at home?",
+			"arabic": "متى تساعد في المنزل؟"
+		},
+		{
+			"english": "When do you finish work or school?",
+			"arabic": "متى تنتهي من العمل أو المدرسة؟"
+		},
+		{
+			"english": "When do you brush your teeth?",
+			"arabic": "متى تنظف أسنانك؟"
+		},
+		{
+			"english": "When do you exercise?",
+			"arabic": "متى تمارس الرياضة؟"
+		},
+		{
+			"english": "When do you call your family?",
+			"arabic": "متى تتصل بعائلتك؟"
+		},
+		{
+			"english": "When do you do your homework?",
+			"arabic": "متى تقوم بواجبك المنزلي؟"
+		},
+		{
+			"english": "When do you have dinner?",
+			"arabic": "متى تتناول العشاء؟"
+		},
+		{
+			"english": "When do you check your phone?",
+			"arabic": "متى تتحقق من هاتفك؟"
+		},
+		{
+			"english": "When do you listen to music?",
+			"arabic": "متى تستمع إلى الموسيقى؟"
+		},
+		{
+			"english": "When do you read books?",
+			"arabic": "متى تقرأ الكتب؟"
+		},
+		{
+			"english": "When do you take a shower?",
+			"arabic": "متى تأخذ دشاً؟"
+		},
+		{
+			"english": "When do you visit your friends?",
+			"arabic": "متى تزور أصدقائك؟"
+		},
+		{
+			"english": "When do you wash your clothes?",
+			"arabic": "متى تغسل ملابسك؟"
+		},
+		{
+			"english": "When do you go to the gym?",
+			"arabic": "متى تذهب إلى الصالة الرياضية؟"
+		},
+		{
+			"english": "When do you check your email?",
+			"arabic": "متى تتحقق من بريدك الإلكتروني؟"
+		},
+		{
+			"english": "When do you call your friends?",
+			"arabic": "متى تتصل بأصدقائك؟"
+		},
+		{
+			"english": "When do you eat dinner on weekends?",
+			"arabic": "متى تتناول العشاء في عطلة نهاية الأسبوع؟"
+		},
+		{
+			"english": "When do you relax?",
+			"arabic": "متى تسترخي؟"
+		},
+		{
+			"english": "When do you go to the market?",
+			"arabic": "متى تذهب إلى السوق؟"
+		},
+		{
+			"english": "When do you take a break at work?",
+			"arabic": "متى تأخذ استراحة في العمل؟"
+		},
+		{
+			"english": "When do you cook breakfast?",
+			"arabic": "متى تطبخ الإفطار؟"
+		},
+		{
+			"english": "When do you clean your kitchen?",
+			"arabic": "متى تنظف مطبخك؟"
+		},
+		{
+			"english": "When do you go for a run?",
+			"arabic": "متى تذهب للجري؟"
+		},
+		{
+			"english": "When do you drink tea or coffee?",
+			"arabic": "متى تشرب الشاي أو القهوة؟"
+		},
+		{
+			"english": "When do you usually rest?",
+			"arabic": "متى ترتاح عادة؟"
+		},
+		{
+			"english": "When do you visit your hometown?",
+			"arabic": "متى تزور مسقط رأسك؟"
+		},
+		{
+			"english": "When do you buy groceries?",
+			"arabic": "متى تشتري البقالة؟"
+		},
+		{
+			"english": "When do you plan your day?",
+			"arabic": "متى تخطط ليومك؟"
+		},
+		{
+			"english": "When do you take time for yourself?",
+			"arabic": "متى تأخذ وقتاً لنفسك؟"
+		},
+		{
+			"english": "When do you watch videos online?",
+			"arabic": "متى تشاهد الفيديوهات على الإنترنت؟"
+		},
+		{
+			"english": "When do you tidy your room?",
+			"arabic": "متى ترتب غرفتك؟"
+		},
+		{
+			"english": "Where do you live?",
+			"arabic": "أين تعيش؟"
+		},
+		{
+			"english": "Where do you eat lunch at school or work?",
+			"arabic": "أين تتناول الغداء في المدرسة أو العمل؟"
+		},
+		{
+			"english": "Where do you buy your clothes?",
+			"arabic": "أين تشتري ملابسك؟"
+		},
+		{
+			"english": "Where do you meet your friends?",
+			"arabic": "أين تلتقي بأصدقائك؟"
+		},
+		{
+			"english": "Where do you keep your phone?",
+			"arabic": "أين تحتفظ بهاتفك؟"
+		},
+		{
+			"english": "Where do you study at home?",
+			"arabic": "أين تدرس في المنزل؟"
+		},
+		{
+			"english": "Where does your family usually sit together?",
+			"arabic": "أين تجلس عائلتك عادةً معًا؟"
+		},
+		{
+			"english": "Where do you go at the weekend?",
+			"arabic": "أين تذهب في عطلة نهاية الأسبوع؟"
+		},
+		{
+			"english": "Where do you keep your shoes?",
+			"arabic": "أين تحتفظ بأحذيتك؟"
+		},
+		{
+			"english": "Where do you buy food?",
+			"arabic": "أين تشتري الطعام؟"
+		},
+		{
+			"english": "Where do you like to walk?",
+			"arabic": "أين تحب أن تمشي؟"
+		},
+		{
+			"english": "Where is your favourite place to relax?",
+			"arabic": "أين هو مكانك المفضل للاسترخاء؟"
+		},
+		{
+			"english": "Where do you go when it rains?",
+			"arabic": "أين تذهب عندما تمطر؟"
+		},
+		{
+			"english": "Where do you keep your clothes?",
+			"arabic": "أين تحتفظ بملابسك؟"
+		},
+		{
+			"english": "Where do you like to drink coffee or tea?",
+			"arabic": "أين تحب أن تشرب القهوة أو الشاي؟"
+		},
+		{
+			"english": "Where do you wait for the bus?",
+			"arabic": "أين تنتظر الحافلة؟"
+		},
+		{
+			"english": "Where do you watch films?",
+			"arabic": "أين تشاهد الأفلام؟"
+		},
+		{
+			"english": "Where do you go on holiday?",
+			"arabic": "أين تذهب في العطلة؟"
+		},
+		{
+			"english": "Where do you keep your books?",
+			"arabic": "أين تحتفظ بكتبك؟"
+		},
+		{
+			"english": "Where do you work or study?",
+			"arabic": "أين تعمل أو تدرس؟"
+		},
+		{
+			"english": "Where do you exercise?",
+			"arabic": "أين تمارس الرياضة؟"
+		},
+		{
+			"english": "Where do you buy medicine?",
+			"arabic": "أين تشتري الأدوية؟"
+		},
+		{
+			"english": "Where do you go to see a doctor?",
+			"arabic": "أين تذهب لرؤية طبيب؟"
+		},
+		{
+			"english": "Where do you park your car or bike?",
+			"arabic": "أين تركن سيارتك أو دراجتك؟"
+		},
+		{
+			"english": "Where do you eat dinner?",
+			"arabic": "أين تتناول العشاء؟"
+		},
+		{
+			"english": "Where do you learn English?",
+			"arabic": "أين تتعلم الإنجليزية؟"
+		},
+		{
+			"english": "Where do you buy gifts?",
+			"arabic": "أين تشتري الهدايا؟"
+		},
+		{
+			"english": "Where is your family from?",
+			"arabic": "من أين عائلتك؟"
+		},
+		{
+			"english": "Where do you meet your family?",
+			"arabic": "أين تلتقي بعائلتك؟"
+		},
+		{
+			"english": "Where do you keep your important things?",
+			"arabic": "أين تحتفظ بأشيائك المهمة؟"
+		},
+		{
+			"english": "Where do you drink coffee?",
+			"arabic": "أين تشرب القهوة؟"
+		},
+		{
+			"english": "Where do you study English?",
+			"arabic": "أين تدرس الإنجليزية؟"
+		},
+		{
+			"english": "Where do you go to relax?",
+			"arabic": "أين تذهب للاسترخاء؟"
+		},
+		{
+			"english": "Where do you usually shop?",
+			"arabic": "أين تتسوق عادة؟"
+		},
+		{
+			"english": "Where do you celebrate your birthday?",
+			"arabic": "أين تحتفل بعيد ميلادك؟"
+		},
+		{
+			"english": "Where do you talk with your friends?",
+			"arabic": "أين تتحدث مع أصدقائك؟"
+		},
+		{
+			"english": "Where do you keep your money?",
+			"arabic": "أين تحتفظ بأموالك؟"
+		},
+		{
+			"english": "Where do you go when you want some fresh air?",
+			"arabic": "أين تذهب عندما تريد بعض الهواء النقي؟"
+		},
+		{
+			"english": "Where do you wait for your friends?",
+			"arabic": "أين تنتظر أصدقائك؟"
+		},
+		{
+			"english": "Where do you get your haircut?",
+			"arabic": "أين تقص شعرك؟"
+		},
+		{
+			"english": "Where do you go when you want to read?",
+			"arabic": "أين تذهب عندما تريد أن تقرأ؟"
+		},
+		{
+			"english": "Where do you keep your documents?",
+			"arabic": "أين تحتفظ بمستنداتك؟"
+		},
+		{
+			"english": "Where do you buy bread?",
+			"arabic": "أين تشتري الخبز؟"
+		},
+		{
+			"english": "Where do you like to sit at home?",
+			"arabic": "أين تحب أن تجلس في المنزل؟"
+		},
+		{
+			"english": "Where do you take photos?",
+			"arabic": "أين تأخذ الصور؟"
+		},
+		{
+			"english": "Where do you go when you feel tired?",
+			"arabic": "أين تذهب عندما تشعر بالتعب؟"
+		},
+		{
+			"english": "Where do you go to meet new people?",
+			"arabic": "أين تذهب لمقابلة أشخاص جدد؟"
+		},
+		{
+			"english": "Where do you spend most of your day?",
+			"arabic": "أين تقضي معظم يومك؟"
+		},
+		{
+			"english": "Why do you learn English?",
+			"arabic": "لماذا تتعلم الإنجليزية؟"
+		},
+		{
+			"english": "What do you like about your favourite TV show?",
+			"arabic": "ماذا تحب في برنامجك التلفزيوني المفضل؟"
+		},
+		{
+			"english": "Why do you wake up early?",
+			"arabic": "لماذا تستيقظ مبكرًا؟"
+		},
+		{
+			"english": "Why do you go to the park?",
+			"arabic": "لماذا تذهب إلى الحديقة؟"
+		},
+		{
+			"english": "What do you like about your best friend?",
+			"arabic": "ماذا تحب في أفضل أصدقائك؟"
+		},
+		{
+			"english": "Why do you use the internet?",
+			"arabic": "لماذا تستخدم الإنترنت؟"
+		},
+		{
+			"english": "Why do you enjoy weekends?",
+			"arabic": "لماذا تستمتع بعطلة نهاية الأسبوع؟"
+		},
+		{
+			"english": "What do you like about your favourite food?",
+			"arabic": "ماذا تحب في طعامك المفضل؟"
+		},
+		{
+			"english": "Why do you help at home?",
+			"arabic": "لماذا تساعد في المنزل؟"
+		},
+		{
+			"english": "Why do you go shopping on weekends?",
+			"arabic": "لماذا تذهب للتسوق في عطلة نهاية الأسبوع؟"
+		},
+		{
+			"english": "Why do you play sports?",
+			"arabic": "لماذا تمارس الرياضة؟"
+		},
+		{
+			"english": "Why do you drink tea or coffee?",
+			"arabic": "لماذا تشرب الشاي أو القهوة؟"
+		},
+		{
+			"english": "Why do you enjoy travelling?",
+			"arabic": "لماذا تستمتع بالسفر؟"
+		},
+		{
+			"english": "Why do you go for walks?",
+			"arabic": "لماذا تذهب للمشي؟"
+		},
+		{
+			"english": "Why do you eat fruit?",
+			"arabic": "لماذا تأكل الفواكه؟"
+		},
+		{
+			"english": "Why do you visit your grandparents?",
+			"arabic": "لماذا تزور جدك وجدتك؟"
+		},
+		{
+			"english": "Why do you stay at home on rainy days?",
+			"arabic": "لماذا تبقى في المنزل في الأيام الممطرة؟"
+		},
+		{
+			"english": "Why is English important to you?",
+			"arabic": "لماذا تعتبر اللغة الإنجليزية مهمة بالنسبة لك؟"
+		},
+		{
+			"english": "Why do you like your job or school?",
+			"arabic": "لماذا تحب عملك أو مدرستك؟"
+		},
+		{
+			"english": "Why do you exercise?",
+			"arabic": "لماذا تمارس الرياضة؟"
+		},
+		{
+			"english": "Why do you read books?",
+			"arabic": "لماذا تقرأ الكتب؟"
+		},
+		{
+			"english": "Why do you listen to music?",
+			"arabic": "لماذا تستمع إلى الموسيقى؟"
+		},
+		{
+			"english": "Why do you use social media?",
+			"arabic": "لماذا تستخدم وسائل التواصل الاجتماعي؟"
+		},
+		{
+			"english": "Why do you like weekends?",
+			"arabic": "لماذا تحب عطلة نهاية الأسبوع؟"
+		},
+		{
+			"english": "Why do you save money?",
+			"arabic": "لماذا تدخر المال؟"
+		},
+		{
+			"english": "Why do you call your family?",
+			"arabic": "لماذا تتصل بعائلتك؟"
+		},
+		{
+			"english": "Why do you like your home?",
+			"arabic": "لماذا تحب منزلك؟"
+		},
+		{
+			"english": "Why do you go to the gym?",
+			"arabic": "لماذا تذهب إلى صالة الألعاب الرياضية؟"
+		},
+		{
+			"english": "Why do you visit your friends?",
+			"arabic": "لماذا تزور أصدقائك؟"
+		},
+		{
+			"english": "Why do you drink water often?",
+			"arabic": "لماذا تشرب الماء كثيرًا؟"
+		},
+		{
+			"english": "Why do you like walking?",
+			"arabic": "لماذا تحب المشي؟"
+		},
+		{
+			"english": "Why do you clean your house?",
+			"arabic": "لماذا تنظف منزلك؟"
+		},
+		{
+			"english": "Why do you enjoy holidays?",
+			"arabic": "لماذا تستمتع بالعطلات؟"
+		},
+		{
+			"english": "Why do you talk to your family often?",
+			"arabic": "لماذا تتحدث مع عائلتك كثيرًا؟"
+		},
+		{
+			"english": "Why do you use your phone every day?",
+			"arabic": "لماذا تستخدم هاتفك كل يوم؟"
+		},
+		{
+			"english": "Why do you take photos?",
+			"arabic": "لماذا تلتقط الصور؟"
+		},
+		{
+			"english": "Why do you rest on weekends?",
+			"arabic": "لماذا ترتاح في عطلة نهاية الأسبوع؟"
+		},
+		{
+			"english": "Why do you work or study?",
+			"arabic": "لماذا تعمل أو تدرس؟"
+		},
+		{
+			"english": "Why do you want to learn new things?",
+			"arabic": "لماذا تريد تعلم أشياء جديدة؟"
+		},
+		{
+			"english": "Why do you like going outside?",
+			"arabic": "لماذا تحب الخروج إلى الخارج؟"
+		},
+		{
+			"english": "Why do you take the bus or taxi?",
+			"arabic": "لماذا تأخذ الحافلة أو التاكسي؟"
+		},
+		{
+			"english": "Why do you keep your home tidy?",
+			"arabic": "لماذا تحافظ على منزلك مرتباً؟"
+		},
+		{
+			"english": "Why do you eat healthy food?",
+			"arabic": "لماذا تأكل طعاماً صحياً؟"
+		},
+		{
+			"english": "Why do you sleep early?",
+			"arabic": "لماذا تنام مبكراً؟"
+		},
+		{
+			"english": "Why do you save your pictures?",
+			"arabic": "لماذا تحتفظ بصورك؟"
+		},
+		{
+			"english": "Why do you visit the doctor?",
+			"arabic": "لماذا تزور الطبيب؟"
+		}
 	]
 }

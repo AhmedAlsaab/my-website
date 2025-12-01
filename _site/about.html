@@ -778,16 +778,47 @@
 		return allQuestions[randomIndex];
 	}
 
+	// Toggle Arabic translation display
+	function toggleArabicTranslation() {
+		const arabicDiv = document.getElementById('question-arabic');
+		const infoButton = document.getElementById('info-button');
+		if (arabicDiv && infoButton) {
+			if (arabicDiv.style.maxHeight && arabicDiv.style.maxHeight !== '0px') {
+				// Collapse
+				arabicDiv.style.maxHeight = '0px';
+				arabicDiv.style.opacity = '0';
+				infoButton.classList.remove('active');
+			} else {
+				// Expand - temporarily set to auto to get the actual height
+				arabicDiv.style.maxHeight = 'none';
+				const height = arabicDiv.scrollHeight;
+				arabicDiv.style.maxHeight = '0px';
+				// Force reflow
+				void arabicDiv.offsetHeight;
+				// Now animate to the actual height
+				arabicDiv.style.maxHeight = height + 'px';
+				arabicDiv.style.opacity = '1';
+				infoButton.classList.add('active');
+			}
+		}
+	}
+
 	// Display a random question
 	function displayQuestion(question) {
 		const content = document.getElementById("questionContent");
 		const html = `
 			<section class="section">
-				<div class="question-item" style="text-align: center; padding: 3rem 2rem;">
-					<button class="tts-button" onclick="speakText('${question.replace(/'/g, "\\'")}', this)" title="Read aloud" style="position: absolute; top: 1rem; right: 1rem;">🔊</button>
+				<div class="question-item" style="text-align: center; padding: 3rem 2rem; position: relative;">
+					<button class="tts-button" onclick="speakText('${question.english.replace(/'/g, "\\'")}', this)" title="Read aloud" style="position: absolute; top: 1rem; right: 1rem;">🔊</button>
+					<button id="info-button" class="info-button" onclick="toggleArabicTranslation()" title="Show Arabic translation" style="position: absolute; top: 1rem; left: 1rem;">ℹ️</button>
 					<p class="question-text" style="font-size: clamp(1.5rem, 3vw, 2.5rem); margin: 0; color: #1e3c72; font-weight: 600;">
-						${question}
+						${question.english}
 					</p>
+					<div id="question-arabic" class="arabic-translation" style="max-height: 0; opacity: 0; overflow: hidden; transition: max-height 0.3s ease, opacity 0.3s ease; margin-top: 1.5rem;">
+						<p class="arabic-text" style="font-size: clamp(1.2rem, 2.5vw, 1.8rem); margin: 0; color: #2a5298; font-weight: 600; direction: rtl; text-align: center;">
+							${question.arabic.replace(/'/g, "\\'")}
+						</p>
+					</div>
 				</div>
 			</section>
 			<div style="text-align: center; margin-top: 2rem;">
@@ -798,6 +829,9 @@
 		`;
 		content.innerHTML = html;
 	}
+
+	// Make function globally accessible
+	window.toggleArabicTranslation = toggleArabicTranslation;
 
 	// Load and display a random question
 	async function loadRandomQuestion() {
@@ -893,6 +927,47 @@
 		};
 	}
 </script>
+
+<style>
+	.info-button {
+		background: rgba(74, 144, 226, 0.2);
+		border: 2px solid #4a90e2;
+		border-radius: 50%;
+		width: 2.5rem;
+		height: 2.5rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+		font-size: 1.2rem;
+		transition: all 0.3s ease;
+		padding: 0;
+	}
+
+	.info-button:hover {
+		background: rgba(74, 144, 226, 0.3);
+		transform: scale(1.1);
+		box-shadow: 0 4px 12px rgba(74, 144, 226, 0.3);
+	}
+
+	.info-button.active {
+		background: rgba(74, 144, 226, 0.4);
+		border-color: #357abd;
+	}
+
+	.arabic-translation {
+		border-top: 2px solid rgba(74, 144, 226, 0.2);
+		padding-top: 1.5rem;
+	}
+
+	@media (max-width: 768px) {
+		.info-button {
+			width: 2rem;
+			height: 2rem;
+			font-size: 1rem;
+		}
+	}
+</style>
 
  <script>
 	// Cache for available papers
