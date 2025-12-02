@@ -1,0 +1,207 @@
+{
+  "exam_id": "languagecert_preliminary_a1_pp1",
+  "level": "CEFR A1",
+  "board": "LanguageCert",
+  "mode": "Speaking & Listening",
+  "practice_paper_number": 1,
+  "test_time_minutes": "8-9",
+  "roles": {
+    "I": "Interlocutor",
+    "C": "Candidate"
+  },
+  "parts": {
+    "part1": {
+      "name": "Part 1 – Interview",
+      "duration": "1 minute 30 seconds",
+      "instructions_interlocutor": [
+        "Hello"
+      ],
+      "fixed_intro_questions": [
+        {
+          "id": "p1_fixed_1",
+          "speaker": "I",
+          "type": "identity",
+          "text": "Hello. My name’s (give full name). And you are (give candidate’s full name), right?"
+        },
+        {
+          "id": "p1_fixed_2",
+          "speaker": "I",
+          "type": "spelling_family_name",
+          "text": "Can you spell your family name for me, please?"
+        },
+        {
+          "id": "p1_fixed_3",
+          "speaker": "I",
+          "type": "origin",
+          "text": "Where are you from?"
+        }
+      ],
+      "personal_questions": [
+        {
+          "id": "p1_q1",
+          "text": "What do you do in the morning?"
+        },
+        {
+          "id": "p1_q2",
+          "text": "Do you like to drink coffee or tea?"
+        },
+        {
+          "id": "p1_q3",
+          "text": "How often do you go to bed early?"
+        }
+      ],
+      "notes": {
+        "interlocutor_comment": "(Interlocutor responds and/or comments briefly.)",
+        "closing": "Thank you."
+      }
+    },
+    "part2": {
+      "name": "Part 2 – Role-play",
+      "duration": "1 minute 30 seconds",
+      "instructions_interlocutor": [
+        "Now, Part Two. I’m going to read some situations. I want you to start or answer. First situation (choose one situation from A).",
+        "(Role-play the situation with the candidate – approximately two turns each.)",
+        "Second situation (choose one situation from B).",
+        "(Role-play the situation with the candidate – approximately two turns each.)",
+        "Thank you."
+      ],
+      "situations_A": [
+        {
+          "id": "p2_A1",
+          "context": "We are friends. I start.",
+          "interlocutor_opening": "Can we go to the café today?",
+          "candidate_role": "friend",
+          "notes": "Discuss plans to meet at a café."
+        },
+        {
+          "id": "p2_A2",
+          "context": "We are colleagues. I start.",
+          "interlocutor_opening": "Can you help me with this project?",
+          "candidate_role": "colleague",
+          "notes": "Ask for help with work."
+        },
+        {
+          "id": "p2_A3",
+          "context": "We are neighbours. I start.",
+          "interlocutor_opening": "Do you know where the bus stop is?",
+          "candidate_role": "neighbour",
+          "notes": "Ask for directions to the bus stop."
+        },
+        {
+          "id": "p2_A4",
+          "context": "We are classmates. I start.",
+          "interlocutor_opening": "Do you want to study together this weekend?",
+          "candidate_role": "classmate",
+          "notes": "Discuss studying plans."
+        }
+      ],
+      "situations_B": [
+        {
+          "id": "p2_B1",
+          "context": "We are friends. You start.",
+          "candidate_prompt": "Ask me about my weekend plans.",
+          "interlocutor_role": "friend"
+        },
+        {
+          "id": "p2_B2",
+          "context": "We are shopkeeper and customer. You start.",
+          "candidate_prompt": "Ask me about the prices of the items.",
+          "interlocutor_role": "shopkeeper"
+        },
+        {
+          "id": "p2_B3",
+          "context": "We are neighbours. You start.",
+          "candidate_prompt": "Ask me for help with your garden.",
+          "interlocutor_role": "neighbour"
+        },
+        {
+          "id": "p2_B4",
+          "context": "We are classmates. You start.",
+          "candidate_prompt": "Ask me about the homework.",
+          "interlocutor_role": "classmate"
+        }
+      ]
+    },
+    "part3": {
+      "name": "Part 3 – Comparing pictures (hotel)",
+      "duration": "1 minute – 1 minute 30 seconds",
+      "instructions_interlocutor": [
+        "Now, Part Three. Here’s a picture of a hotel. I have a different picture of a hotel. Let’s ask and answer questions about the two pictures. I start.",
+        "Thank you."
+      ],
+      "image_handling": {
+        "note": "Pictures and on-screen rendering handled elsewhere in the app.",
+        "candidate_task_sheet_ref": "Task Sheet for Part 3 – Candidate’s copy"
+      }
+    },
+    "part4": {
+      "name": "Part 4 – Listening and long turn",
+      "subparts": {
+        "part4A": {
+          "name": "Part 4A – Listening task",
+          "duration": "2 minutes – 2 minutes 30 seconds",
+          "instructions_interlocutor": [
+            "In Part Four I’m going to read something. I’m going to tell you about ______’s best friend. I’ll read it two times. Listen and take notes on your paper. I’ll then ask you these questions.",
+            "(Allow 10 seconds for the candidate to read the questions.)",
+            "(Read script at an appropriate pace.)",
+            "Now I’ll read it again. (Read the script again.)",
+            "Questions. (Ask the following questions, allowing time for the candidate to respond orally.)",
+            "Thank you."
+          ],
+          "listening_script": "My name is Lisa and my best friend is Mark. Mark is 25 years old and he is a teacher. We meet every Saturday at 10 AM. We go to the park and play soccer. Sometimes, we go to the cinema to watch a movie. We like to eat pizza together after the game. I like Mark because he is funny and kind. We have a lot of fun together.",
+          "questions": [
+            {
+              "id": "p4A_q1",
+              "text": "What is Mark's job?",
+              "expected_answer": "He is a teacher."
+            },
+            {
+              "id": "p4A_q2",
+              "text": "When do they meet?",
+              "expected_answer": "Every Saturday at 10 AM."
+            },
+            {
+              "id": "p4A_q3",
+              "text": "Where do they go together?",
+              "expected_answer": "They go to the park."
+            }
+          ],
+          "candidate_question_sheet_ref": "Question Sheet for Part 4A – Candidate’s copy"
+        },
+        "part4B": {
+          "name": "Part 4B – Long turn and follow-up",
+          "duration": "2 minutes including follow-up questions",
+          "instructions_interlocutor": [
+            "Now you’re going to talk on your own for half a minute. Your topic is ______. You now have thirty seconds to write some notes to help you. You’re going to talk about your topic.",
+            "(Candidate’s name), please start.",
+            "(When candidate has talked for a maximum of half a minute, say, ‘Thank you’, and then ask follow-up questions, as time allows.)",
+            "Thank you, (give candidate’s name). That is the end of the exam."
+          ],
+          "topic": {
+            "id": "p4B_topic",
+            "title": "Your morning routine",
+            "prompt_for_candidate": "Talk about your morning routine."
+          },
+          "follow_up_questions": [
+            {
+              "id": "p4B_fq1",
+              "text": "What time do you wake up in the morning?"
+            },
+            {
+              "id": "p4B_fq2",
+              "text": "Do you eat breakfast every day?"
+            },
+            {
+              "id": "p4B_fq3",
+              "text": "Who helps you in the morning?"
+            },
+            {
+              "id": "p4B_fq4",
+              "text": "How do you get to school or work?"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
