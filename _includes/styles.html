@@ -7,49 +7,17 @@
 	}
 
 	html {
-		background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #7e22ce 100%);
+		background: #ffffff;
 		background-attachment: fixed;
 		min-height: 100%;
 	}
 
 	body {
-		background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #7e22ce 100%);
+		background: #ffffff;
 		background-attachment: fixed;
 		position: relative;
 		overflow-x: hidden;
 		min-height: 100vh;
-	}
-
-	/* Sparkly effect */
-	body::before {
-		content: "";
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background-image: radial-gradient(circle, rgba(255, 255, 255, 0.8) 1px, transparent 1px),
-			radial-gradient(circle, rgba(255, 255, 255, 0.6) 1px, transparent 1px),
-			radial-gradient(circle, rgba(255, 255, 255, 0.4) 2px, transparent 2px);
-		background-size: 300px 300px, 200px 200px, 400px 400px;
-		background-position: 0 0, 50px 50px, 100px 100px;
-		animation: sparkle 20s linear infinite;
-		pointer-events: none;
-		z-index: 0;
-	}
-
-	@keyframes sparkle {
-		0% {
-			opacity: 0.3;
-			transform: translateY(0);
-		}
-		50% {
-			opacity: 0.6;
-		}
-		100% {
-			opacity: 0.3;
-			transform: translateY(-100px);
-		}
 	}
 
 	.container {
@@ -69,12 +37,12 @@
 
 	.total-time {
 		margin-top: 1rem;
-		color: rgba(255, 255, 255, 0.9);
+		color: #333333;
 		font-size: clamp(1rem, 2vw, 1.2rem);
 		display: inline-flex;
 		align-items: center;
 		gap: 0.5rem;
-		background: rgba(255, 255, 255, 0.1);
+		background: rgba(0, 0, 0, 0.05);
 		padding: 0.5rem 1.5rem;
 		border-radius: 0.5rem;
 	}
@@ -85,11 +53,12 @@
 		margin-top: 0;
 		padding-bottom: 0.5rem;
 		line-height: 1.2;
-		background: linear-gradient(135deg, #ffffff 0%, #a0c4ff 100%);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-clip: text;
-		font-weight: 700;
+		color: #000000;
+		background: none;
+		-webkit-background-clip: unset;
+		-webkit-text-fill-color: #000000;
+		background-clip: unset;
+		font-weight: 900;
 		overflow: visible;
 		display: block;
 	}
@@ -98,9 +67,9 @@
 		margin-top: 1.5rem;
 		font-size: clamp(1rem, 2vw, 1.2rem);
 		padding: 0.75rem 2rem;
-		background: #ffffff;
-		border: 2px solid #ffffff;
-		color: #1e3c72;
+		background: #4a90e2;
+		border: 2px solid #4a90e2;
+		color: #ffffff;
 		border-radius: 0.5rem;
 		cursor: pointer;
 		transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
@@ -109,8 +78,9 @@
 
 	.random-button:hover {
 		transform: translateY(-2px);
-		box-shadow: 0 5px 20px rgba(255, 255, 255, 0.5);
-		background: #f0f7ff;
+		box-shadow: 0 4px 12px rgba(74, 144, 226, 0.4);
+		background: #357abd;
+		border-color: #357abd;
 	}
 
 	.random-button:active {
@@ -118,18 +88,18 @@
 	}
 
 	.current-paper {
-		color: rgba(255, 255, 255, 0.9);
+		color: #333333;
 		font-size: clamp(0.9rem, 1.5vw, 1.1rem);
 		margin-top: 0.5rem;
 	}
 
 	.section {
-		background: rgba(255, 255, 255, 0.95);
+		background: #ffffff;
 		border-radius: 1rem;
 		padding: 2.5rem;
 		margin-bottom: 2rem;
-		box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
-		backdrop-filter: blur(10px);
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+		border: 1px solid rgba(0, 0, 0, 0.1);
 	}
 
 	.section h2 {
@@ -185,7 +155,7 @@
 	}
 
 	.section-subtitle {
-		color: #555;
+		color: #333333;
 		font-size: clamp(1rem, 2vw, 1.2rem);
 		margin-bottom: 2rem;
 		font-style: italic;

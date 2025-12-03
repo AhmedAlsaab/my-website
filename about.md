@@ -6,7 +6,7 @@ title: أسئلة عشوائية
 <div class="container">
 	<header>
 		<h1 class="arabic-text">أسئلة عشوائية</h1>
-		<p class="section-subtitle arabic-text" style="color: rgba(255, 255, 255, 0.9); margin-top: 1rem;">
+		<p class="section-subtitle arabic-text" style="color: #333333; margin-top: 1rem;">
 			تدرب على أسئلة عشوائية لتحسين مهاراتك في اللغة الإنجليزية
 		</p>
 	</header>

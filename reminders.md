@@ -6,13 +6,13 @@ title: تذكيرات أساسية للامتحان
 <div class="container">
 	<header>
 		<h1 class="arabic-text">تذكيرات أساسية للامتحان</h1>
-		<p class="section-subtitle arabic-text" style="color: rgba(255, 255, 255, 0.9); margin-top: 1rem;">
+		<p class="section-subtitle arabic-text" style="color: #333333; margin-top: 1rem;">
 			مراجعة سريعة للنقاط المهمة قبل الامتحان
 		</p>
 	</header>
 
 	<main id="remindersContent">
-		<p style="text-align: center; color: rgba(255, 255, 255, 0.9); font-size: 1.2rem; padding: 2rem;">
+		<p style="text-align: center; color: #333333; font-size: 1.2rem; padding: 2rem;">
 			<span class="arabic-text">جاري التحميل...</span>
 		</p>
 	</main>
