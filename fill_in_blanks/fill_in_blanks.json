@@ -1,0 +1,147 @@
+{
+	"exercise_name": "A1_Fill_in_the_Blanks_Function_Words_Adverbs",
+	"description": "Fill in the blanks with function words and adverbs. Focus on articles, prepositions, pronouns, and adverb placement.",
+	"total_items": 20,
+	"items": [
+		{
+			"id": 1,
+			"sentence": "I go ___ school every day.",
+			"correct_answer": "to",
+			"blank_type": "preposition",
+			"hint": "Use a preposition that shows direction or destination."
+		},
+		{
+			"id": 2,
+			"sentence": "She is ___ teacher.",
+			"correct_answer": "a",
+			"blank_type": "article",
+			"hint": "Use an article before a singular noun."
+		},
+		{
+			"id": 3,
+			"sentence": "I ___ usually have breakfast at 8 o'clock.",
+			"correct_answer": "usually",
+			"blank_type": "adverb",
+			"hint": "Use an adverb that shows how often something happens."
+		},
+		{
+			"id": 4,
+			"sentence": "We live ___ London.",
+			"correct_answer": "in",
+			"blank_type": "preposition",
+			"hint": "Use a preposition that shows location in a city."
+		},
+		{
+			"id": 5,
+			"sentence": "He speaks English ___ well.",
+			"correct_answer": "very",
+			"blank_type": "adverb",
+			"hint": "Use an adverb that makes 'well' stronger."
+		},
+		{
+			"id": 6,
+			"sentence": "I want ___ buy a new phone.",
+			"correct_answer": "to",
+			"blank_type": "preposition",
+			"hint": "Use a preposition that comes after 'want'."
+		},
+		{
+			"id": 7,
+			"sentence": "The book is ___ the table.",
+			"correct_answer": "on",
+			"blank_type": "preposition",
+			"hint": "Use a preposition that shows position on top of something."
+		},
+		{
+			"id": 8,
+			"sentence": "I ___ never late for school.",
+			"correct_answer": "am",
+			"blank_type": "auxiliary_verb",
+			"hint": "Use the correct form of 'be' for 'I'."
+		},
+		{
+			"id": 9,
+			"sentence": "She works ___ a hospital.",
+			"correct_answer": "in",
+			"blank_type": "preposition",
+			"hint": "Use a preposition that shows location inside a building."
+		},
+		{
+			"id": 10,
+			"sentence": "I ___ sometimes play football on weekends.",
+			"correct_answer": "sometimes",
+			"blank_type": "adverb",
+			"hint": "Use an adverb that shows something happens occasionally."
+		},
+		{
+			"id": 11,
+			"sentence": "Can you help ___ with my homework?",
+			"correct_answer": "me",
+			"blank_type": "pronoun",
+			"hint": "Use the object form of 'I'."
+		},
+		{
+			"id": 12,
+			"sentence": "They are ___ the park now.",
+			"correct_answer": "at",
+			"blank_type": "preposition",
+			"hint": "Use a preposition that shows location at a specific place."
+		},
+		{
+			"id": 13,
+			"sentence": "I ___ always happy on Fridays.",
+			"correct_answer": "am",
+			"blank_type": "auxiliary_verb",
+			"hint": "Use the correct form of 'be' for 'I'."
+		},
+		{
+			"id": 14,
+			"sentence": "She goes to work ___ bus.",
+			"correct_answer": "by",
+			"blank_type": "preposition",
+			"hint": "Use a preposition that shows how you travel."
+		},
+		{
+			"id": 15,
+			"sentence": "I like ___ read books in the evening.",
+			"correct_answer": "to",
+			"blank_type": "preposition",
+			"hint": "Use a preposition that comes after 'like'."
+		},
+		{
+			"id": 16,
+			"sentence": "He is ___ English teacher.",
+			"correct_answer": "an",
+			"blank_type": "article",
+			"hint": "Use an article before a word that starts with a vowel sound."
+		},
+		{
+			"id": 17,
+			"sentence": "We ___ often go shopping together.",
+			"correct_answer": "often",
+			"blank_type": "adverb",
+			"hint": "Use an adverb that shows something happens many times."
+		},
+		{
+			"id": 18,
+			"sentence": "I live ___ my family.",
+			"correct_answer": "with",
+			"blank_type": "preposition",
+			"hint": "Use a preposition that shows being together."
+		},
+		{
+			"id": 19,
+			"sentence": "She ___ always on time for meetings.",
+			"correct_answer": "is",
+			"blank_type": "auxiliary_verb",
+			"hint": "Use the correct form of 'be' for 'she'."
+		},
+		{
+			"id": 20,
+			"sentence": "I need ___ go to the supermarket.",
+			"correct_answer": "to",
+			"blank_type": "preposition",
+			"hint": "Use a preposition that comes after 'need'."
+		}
+	]
+}

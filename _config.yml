@@ -15,6 +15,8 @@ navigation:
     url: /reminders.html
   - title: تمارين الجمل
     url: /drills.html
+  - title: املأ الفراغات
+    url: /fill_blanks.html
 
 # Jekyll settings
 plugins:
@@ -37,3 +39,4 @@ include:
   - crossword
   - drills
   - new_exams
+  - fill_blanks
