@@ -113,12 +113,12 @@ title: تمارين الامتحان
 				</div>
 
 				<!-- Current Sentence Card -->
-				<div style="background: rgba(255, 255, 255, 0.98); padding: 2.5rem; border-radius: 1rem; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2); min-height: 200px; display: flex; flex-direction: column; justify-content: center; align-items: center; margin-bottom: 1.5rem;">
+				<div style="background: rgba(255, 255, 255, 0.98); padding: 2.5rem; border-radius: 1rem; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2); min-height: 450px; display: flex; flex-direction: column; justify-content: flex-start; align-items: center; margin-bottom: 1.5rem;">
 					<p style="font-size: 1.5rem; color: #1e3c72; line-height: 1.8; margin: 0 0 1.5rem 0; text-align: center; font-weight: 500;">
 						${currentSentence}
 					</p>
-					${isSolutionRevealed && currentSolution ? `
-						<div style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 2px solid rgba(74, 144, 226, 0.3); width: 100%;">
+					${currentSolution ? `
+						<div id="solution-${drillKey}-${currentIndex}" style="width: 100%; margin-top: 1.5rem; padding-top: 1.5rem; border-top: 2px solid rgba(74, 144, 226, 0.3); visibility: ${isSolutionRevealed ? 'visible' : 'hidden'}; opacity: ${isSolutionRevealed ? '1' : '0'}; transition: opacity 0.3s ease, visibility 0.3s ease;">
 							<p class="arabic-text" style="color: #1e3c72; font-weight: 700; margin-bottom: 0.75rem; font-size: 1rem; direction: rtl; text-align: right;">
 								الإجابة الصحيحة:
 							</p>
@@ -210,7 +210,21 @@ title: تمارين الامتحان
 	function toggleSolution(drillKey) {
 		const currentIndex = shuffledDrills[drillKey].currentIndex;
 		revealedSolutions[drillKey][currentIndex] = !revealedSolutions[drillKey][currentIndex];
-		displayAllDrills();
+		
+		// Smoothly toggle the solution visibility without re-rendering everything
+		const solutionElement = document.getElementById(`solution-${drillKey}-${currentIndex}`);
+		if (solutionElement) {
+			if (revealedSolutions[drillKey][currentIndex]) {
+				solutionElement.style.visibility = 'visible';
+				solutionElement.style.opacity = '1';
+			} else {
+				solutionElement.style.visibility = 'hidden';
+				solutionElement.style.opacity = '0';
+			}
+		} else {
+			// Fallback: re-render if element not found
+			displayAllDrills();
+		}
 	}
 
 	// Make functions globally accessible
