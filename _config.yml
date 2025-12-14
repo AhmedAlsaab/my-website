@@ -5,18 +5,12 @@ url: ""
 
 # Navigation
 navigation:
-  - title: الامتحان
-    url: /
-  - title: أسئلة عشوائية
-    url: /about.html
-  - title: كلمات مهمة
-    url: /keywords.html
-  - title: تذكيرات أساسية للامتحان
-    url: /reminders.html
   - title: تمارين الجمل
     url: /drills.html
   - title: املأ الفراغات
     url: /fill_blanks.html
+  - title: تمارين الامتحان
+    url: /exam_drills.html
 
 # Jekyll settings
 plugins:
@@ -40,3 +34,4 @@ include:
   - drills
   - new_exams
   - fill_blanks
+  - exam_drills

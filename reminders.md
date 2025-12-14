@@ -62,29 +62,22 @@ title: تذكيرات أساسية للامتحان
 			bodyHtml = card.body_ar.map(line => `<p style="margin-bottom: 0.75rem; line-height: 1.8; color: #1a1a1a;">${line}</p>`).join("");
 		}
 
-		// Build examples HTML with both English and Arabic
+		// Build examples HTML with Arabic only
 		let examplesHtml = "";
-		const hasExamples = (card.examples_en && card.examples_en.length > 0) || (card.examples_ar && card.examples_ar.length > 0);
+		const hasExamples = card.examples_ar && card.examples_ar.length > 0;
 		
 		if (hasExamples) {
-			const examplesEn = card.examples_en || [];
 			const examplesAr = card.examples_ar || [];
-			const maxExamples = Math.max(examplesEn.length, examplesAr.length);
 			
 			examplesHtml = `
 				<div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 2px solid rgba(74, 144, 226, 0.3);">
 					<p class="arabic-text" style="color: #1e3c72; font-weight: 700; margin-bottom: 1rem; font-size: 1.2rem; direction: rtl; text-align: right;">أمثلة:</p>
 					<div style="display: flex; flex-direction: column; gap: 1rem;">
-						${Array.from({ length: maxExamples }, (_, i) => {
-							const enExample = examplesEn[i] || "";
-							const arExample = examplesAr[i] || "";
-							return `
-								<div style="background: rgba(74, 144, 226, 0.08); padding: 1rem 1.25rem; border-radius: 0.5rem; border-left: 3px solid #4a90e2;">
-									<p style="color: #1e3c72; font-weight: 600; margin: 0 0 0.5rem 0; font-size: 1.05rem;">${enExample}</p>
-									${arExample ? `<p class="arabic-text" style="color: #2a5298; margin: 0; direction: rtl; text-align: right; font-size: 1rem;">${arExample}</p>` : ""}
-								</div>
-							`;
-						}).join("")}
+						${examplesAr.map(arExample => `
+							<div style="background: rgba(74, 144, 226, 0.08); padding: 1rem 1.25rem; border-radius: 0.5rem; border-left: 3px solid #4a90e2;">
+								<p class="arabic-text" style="color: #2a5298; margin: 0; direction: rtl; text-align: right; font-size: 1rem;">${arExample}</p>
+							</div>
+						`).join("")}
 					</div>
 				</div>
 			`;

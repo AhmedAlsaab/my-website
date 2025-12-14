@@ -1,0 +1,170 @@
+{
+	"ing_drills": {
+		"key_reminder_en": [
+			"NOW = am / is / are + verb-ing.",
+			"If you can point and say ‘happening now’, use -ing.",
+			"If you use am/is/are, the verb MUST end with -ing."
+		],
+		"key_reminder_ar": [
+			"هسه / الآن = am / is / are + الفعل مع ing.",
+			"إذا تگدر تشير وتكول دا يصير هسه → نستخدم ing.",
+			"إذا استخدمنا am / is / are لازم الفعل ينتهي بـ ing."
+		],
+		"instructions_en": "Fix the sentence.",
+		"instructions_ar": "صحّح الجملة.",
+		"sentences": [
+			{
+				"sentence": "I am eat breakfast now.",
+				"solution": "I am eating breakfast now.",
+				"explanation": "كلمة now تعني الفعل دا يصير هسه، وبما أنه استخدم am فلازم الفعل يكون مع ing."
+			},
+			{
+				"sentence": "She is cook dinner at the moment.",
+				"solution": "She is cooking dinner at the moment.",
+				"explanation": "at the moment تعني الآن، ومع is لازم نضيف ing للفعل."
+			},
+			{
+				"sentence": "He is watch TV right now.",
+				"solution": "He is watching TV right now.",
+				"explanation": "right now تدل على الحاضر، ووجود is يفرض استخدام الفعل مع ing."
+			},
+			{
+				"sentence": "We are go to school now.",
+				"solution": "We are going to school now.",
+				"explanation": "now = وقت حاضر، ومع are يجب تحويل الفعل إلى ing."
+			},
+			{
+				"sentence": "They are play football now.",
+				"solution": "They are playing football now.",
+				"explanation": "الفعل يحدث الآن، وبعد are لازم يكون play → playing."
+			},
+			{
+				"sentence": "I am read a book now.",
+				"solution": "I am reading a book now.",
+				"explanation": "وجود am + now يعني الفعل مستمر، لذلك نضيف ing."
+			},
+			{
+				"sentence": "She is drink coffee now.",
+				"solution": "She is drinking coffee now.",
+				"explanation": "drink فعل يحدث الآن، ومع is لازم يكون drinking."
+			},
+			{
+				"sentence": "We are wait for the bus now.",
+				"solution": "We are waiting for the bus now.",
+				"explanation": "wait فعل مستمر الآن، وبعد are نضيف ing."
+			}
+		]
+	},
+	"present_drills": {
+		"key_reminder_en": [
+			"EVERY DAY / usually / always = present simple (no -ing).",
+			"Present simple is for routine.",
+			"He/She/It = add (s)."
+		],
+		"key_reminder_ar": [
+			"كل يوم / عادةً / دائماً = حاضر بسيط بدون ing.",
+			"الحاضر البسيط نستخدمه للروتين.",
+			"ويّا he / she / it نضيف s."
+		],
+		"instructions_en": "Fix the sentence.",
+		"instructions_ar": "صحّح الجملة.",
+		"sentences": [
+			{
+				"sentence": "Ahmed eating apple every day.",
+				"solution": "Ahmed eats an apple every day.",
+				"explanation": "every day تعني عادة، لذلك نستخدم الحاضر البسيط، ومع Ahmed (he) نضيف s."
+			},
+			{
+				"sentence": "She is go to work every morning.",
+				"solution": "She goes to work every morning.",
+				"explanation": "كل صباح = روتين، لا نستخدم is أو ing، ومع she نضيف s."
+			},
+			{
+				"sentence": "They are play football on Sundays.",
+				"solution": "They play football on Sundays.",
+				"explanation": "on Sundays تدل على عادة، لذلك نستخدم الفعل بدون ing أو are."
+			},
+			{
+				"sentence": "He eat breakfast at 7 am.",
+				"solution": "He eats breakfast at 7 am.",
+				"explanation": "وقت ثابت يومي، ومع he لازم نضيف s للفعل."
+			},
+			{
+				"sentence": "We are live in Cardiff.",
+				"solution": "We live in Cardiff.",
+				"explanation": "هذا وصف دائم، نستخدم الحاضر البسيط بدون are."
+			},
+			{
+				"sentence": "My mother is cook food every day.",
+				"solution": "My mother cooks food every day.",
+				"explanation": "every day = عادة، ومع my mother (she) نضيف s ونحذف is."
+			},
+			{
+				"sentence": "He is speak English.",
+				"solution": "He speaks English.",
+				"explanation": "قدرة عامة، نستخدم الحاضر البسيط، ومع he نضيف s."
+			},
+			{
+				"sentence": "They are watch TV every night.",
+				"solution": "They watch TV every night.",
+				"explanation": "every night تعني روتين، لذلك نستخدم الفعل بدون are و ing."
+			}
+		]
+	},
+	"past_drills": {
+		"key_reminder_en": [
+			"YESTERDAY / last night = past simple.",
+			"Past simple = finished action.",
+			"Some verbs change form (eat → ate, go → went)."
+		],
+		"key_reminder_ar": [
+			"أمس / البارحة = ماضي بسيط.",
+			"الماضي يعني الفعل خلص.",
+			"بعض الأفعال تتغير بالماضي مثل eat → ate."
+		],
+		"instructions_en": "Fix the sentence.",
+		"instructions_ar": "صحّح الجملة.",
+		"sentences": [
+			{
+				"sentence": "Yesterday, Ahmed eat the apple.",
+				"solution": "Yesterday, Ahmed ate the apple.",
+				"explanation": "كلمة yesterday تدل على الماضي، وفعل eat يتحول إلى ate."
+			},
+			{
+				"sentence": "Last night, she eat dinner.",
+				"solution": "Last night, she ate dinner.",
+				"explanation": "last night زمن ماضي، لذلك نستخدم ate بدل eat."
+			},
+			{
+				"sentence": "Yesterday, they play football.",
+				"solution": "Yesterday, they played football.",
+				"explanation": "play فعل منتظم، وفي الماضي نضيف ed."
+			},
+			{
+				"sentence": "This morning, he go to school.",
+				"solution": "This morning, he went to school.",
+				"explanation": "الفعل صار وانتهى، وgo في الماضي تصبح went."
+			},
+			{
+				"sentence": "Yesterday, I watch TV.",
+				"solution": "Yesterday, I watched TV.",
+				"explanation": "watch فعل منتظم، نضيف ed لأنه ماضي."
+			},
+			{
+				"sentence": "Last week, we visit my family.",
+				"solution": "Last week, we visited my family.",
+				"explanation": "last week زمن ماضي، وvisit فعل منتظم نضيف له ed."
+			},
+			{
+				"sentence": "Yesterday, he buy food.",
+				"solution": "Yesterday, he bought food.",
+				"explanation": "buy فعل غير منتظم، وفي الماضي يصبح bought."
+			},
+			{
+				"sentence": "Last night, I see my friend.",
+				"solution": "Last night, I saw my friend.",
+				"explanation": "see فعل غير منتظم، وصيغته في الماضي saw."
+			}
+		]
+	}
+}
