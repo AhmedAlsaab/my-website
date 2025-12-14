@@ -26,6 +26,16 @@ title: املأ الفراغات
 	let currentAnswers = {};
 	let revealedExplanations = {};
 
+	// Shuffle array function
+	function shuffleArray(array) {
+		const shuffled = [...array];
+		for (let i = shuffled.length - 1; i > 0; i--) {
+			const j = Math.floor(Math.random() * (i + 1));
+			[shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+		}
+		return shuffled;
+	}
+
 	// Load exercises data
 	async function loadExercises() {
 		if (allExercises.length > 0) {
@@ -37,7 +47,9 @@ title: املأ الفراغات
 			if (!response.ok) {
 				throw new Error(`Failed to load ${EXERCISES_PATH}`);
 			}
-			allExercises = await response.json();
+			const exercises = await response.json();
+			// Shuffle all exercises when loaded
+			allExercises = shuffleArray(exercises);
 			console.log(`Loaded ${allExercises.length} exercises`);
 			loadPage();
 		} catch (error) {
@@ -64,7 +76,8 @@ title: املأ الفراغات
 			shownExercises.push(exercise.id);
 		}
 
-		return selected;
+		// Shuffle the selected exercises before returning
+		return shuffleArray(selected);
 	}
 
 	// Load a page with 10 exercises

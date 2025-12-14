@@ -1,611 +1,602 @@
 [
 	{
 		"id": 1,
-		"sentence": "I go to ___ school every day.",
-		"correct": ["the", "my"],
-		"explanation_ar": "نستخدم (the) إذا نقصد مدرسة معروفة، ونستخدم (my) إذا نقصد مدرستي. لازم يجي شي قبل كلمة school."
+		"sentence": "My name ___ Ahmed.",
+		"correct": ["is"],
+		"explanation_ar": "بالإنجليزي ما نكدر نترك الجملة بدون فعل. كلمة name تحتاج فعل يربطها بالاسم. لذلك نستخدم is حتى تكون الجملة كاملة وصحيحة."
 	},
 	{
 		"id": 2,
-		"sentence": "We ___ play football on weekends.",
-		"correct": ["usually", "often", "sometimes", "always", "never"],
-		"explanation_ar": "هذه كلمات تبين كم مرة نلعب. تجي قبل الفعل play، مو بعده."
+		"sentence": "I ___ from Iraq.",
+		"correct": ["am"],
+		"explanation_ar": "ويّا I نستخدم am دائماً. الجملة بدون am تكون ناقصة. هذا الفعل يربط الشخص بالمكان."
 	},
 	{
 		"id": 3,
-		"sentence": "Can you help me ___ my homework?",
-		"correct": ["with"],
-		"explanation_ar": "help يحتاج شي بعده، لذلك نستخدم (with). ما نكول help me my homework."
+		"sentence": "They ___ my neighbours.",
+		"correct": ["are"],
+		"explanation_ar": "ويّا they نستخدم are مو is. هذا الفعل يبين علاقة أو وصف. بدونه الجملة ما تكون مفهومة."
 	},
 	{
 		"id": 4,
-		"sentence": "He lives ___ a small apartment.",
-		"correct": ["in"],
-		"explanation_ar": "نستخدم (in) لأن الشقة مكان مغلق. ما نستخدم on أو at هنا."
+		"sentence": "She ___ a teacher.",
+		"correct": ["is"],
+		"explanation_ar": "لما نحچي عن مهنة نحتاج فعل ربط. ويّا she نستخدم is. بدون is الجملة تكون عربية مو إنجليزية."
 	},
 	{
 		"id": 5,
-		"sentence": "They ___ go to the park on Sunday.",
-		"correct": ["often", "sometimes"],
-		"explanation_ar": "كلمات تكرار، تجي قبل الفعل go حتى تبين كم مرة يروحون."
+		"sentence": "I have ___ job.",
+		"correct": ["a"],
+		"explanation_ar": "job اسم مفرد، لذلك لازم شي قبله. نستخدم a لأن هذا أول ذكر للوظيفة. بدون a الجملة تكون غلط."
 	},
 	{
 		"id": 6,
-		"sentence": "This is ___ book I bought yesterday.",
-		"correct": ["the"],
-		"explanation_ar": "نستخدم (the) لأن الكتاب معروف، مو أي كتاب."
+		"sentence": "The shop is ___ the city.",
+		"correct": ["in"],
+		"explanation_ar": "نستخدم in ويا المدن. هذا يبين المكان داخل شي أكبر. بدون in ما نعرف مكان المحل."
 	},
 	{
 		"id": 7,
-		"sentence": "She speaks English ___ well.",
-		"correct": ["very"],
-		"explanation_ar": "نستخدم (very) حتى نقوي كلمة well. ما نكول speaks English good."
+		"sentence": "I go ___ work every day.",
+		"correct": ["to"],
+		"explanation_ar": "go دائماً تحتاج اتجاه. to تبين وين رايح. بدون to الجملة تكون ناقصة."
 	},
 	{
 		"id": 8,
-		"sentence": "I want ___ apple, please.",
-		"correct": ["an"],
-		"explanation_ar": "نستخدم (an) لأن apple تبدي بصوت حرف علّة."
+		"sentence": "I live ___ Cardiff.",
+		"correct": ["in"],
+		"explanation_ar": "نستخدم in ويا المدن. هذا من أكثر الأخطاء الشائعة. ما نكدر نحذف in."
 	},
 	{
 		"id": 9,
-		"sentence": "The cat is sitting ___ the table.",
-		"correct": ["under", "on", "next to", "near"],
-		"explanation_ar": "نختار حسب مكان القطة: فوق، تحت، قريب، أو جنب."
+		"sentence": "I live ___ my family.",
+		"correct": ["with"],
+		"explanation_ar": "with تبين العيش ويا أشخاص. بدونها ما نعرف ويا من يعيش. الكلمة مهمة للمعنى."
 	},
 	{
 		"id": 10,
-		"sentence": "Can you give this ___ my friend?",
-		"correct": ["to"],
-		"explanation_ar": "give يحتاج شخص يوصل له الشي، لذلك نستخدم (to)."
+		"sentence": "I like tea ___ coffee.",
+		"correct": ["and"],
+		"explanation_ar": "and تربط شيين سوا. بدونها الجملة تنقطع. نستخدمها حتى نكملp ط بين الأفكار."
 	},
-
 	{
 		"id": 11,
-		"sentence": "I don't like coffee ___ all.",
-		"correct": ["at"],
-		"explanation_ar": "نستخدم (at all) حتى نقوي النفي. بدون at الجملة غلط."
+		"sentence": "___ you like reading?",
+		"correct": ["Do"],
+		"explanation_ar": "أسئلة الحاضر تحتاج do بالبداية. بدون do السؤال يكون غلط. هذه قاعدة أساسية بالإنجليزي."
 	},
 	{
 		"id": 12,
-		"sentence": "I'm going ___ the shop to buy some milk.",
-		"correct": ["to"],
-		"explanation_ar": "نستخدم (to) لأن أكو حركة واتجاه لمكان."
+		"sentence": "What ___ you do at the weekend?",
+		"correct": ["do"],
+		"explanation_ar": "أسئلة مثل what تحتاج do ويا you. هذا يساعد نعرف إن السؤال بالحاضر. بدون do الجملة عربية."
 	},
 	{
 		"id": 13,
-		"sentence": "I walk ___ work every morning.",
-		"correct": ["to"],
-		"explanation_ar": "work هنا مكان نروح له، لذلك نستخدم (to)."
+		"sentence": "___ she work in a shop?",
+		"correct": ["Does"],
+		"explanation_ar": "ويّا she بالسؤال نستخدم does. هذا يفرق بين he/she و I/you. بدون does السؤال غلط."
 	},
 	{
 		"id": 14,
 		"sentence": "She works ___ a hospital.",
-		"correct": ["in", "at"],
-		"explanation_ar": "(in) داخل المستشفى، (at) مكان العمل بشكل عام. الاثنين صح."
+		"correct": ["in"],
+		"explanation_ar": "hospital مكان، لذلك نستخدم in. هذا يبين داخل المكان. بدونها الجملة ناقصة."
 	},
 	{
 		"id": 15,
-		"sentence": "I go shopping ___ Saturdays.",
-		"correct": ["on"],
-		"explanation_ar": "نستخدم (on) ويا أيام الأسبوع."
+		"sentence": "I talk ___ my neighbours.",
+		"correct": ["to"],
+		"explanation_ar": "talk يحتاج شخص نحچي وياه. to تبين الاتجاه بالكلام. حذفها يغير المعنى."
 	},
 	{
 		"id": 16,
-		"sentence": "We travel ___ bus to the city center.",
-		"correct": ["by"],
-		"explanation_ar": "نستخدم (by) ويا وسيلة النقل. ما نكول on bus."
+		"sentence": "They are ___ the house.",
+		"correct": ["in"],
+		"explanation_ar": "are + in تبين مكان الأشخاص. بدون in ما نعرف وين هم. هذا تركيب شائع بالامتحان."
 	},
 	{
 		"id": 17,
-		"sentence": "I like ___ read books in the evening.",
-		"correct": ["to"],
-		"explanation_ar": "بعد like نستخدم (to + فعل). بدون to الجملة غلط."
+		"sentence": "She is ___ engineer.",
+		"correct": ["an"],
+		"explanation_ar": "engineer تبدي بصوت علّة. نستخدم a/an قبل المهن. بدونها الجملة غير صحيحة."
 	},
 	{
 		"id": 18,
-		"sentence": "He is ___ English teacher.",
-		"correct": ["an"],
-		"explanation_ar": "English تبدي بصوت حرف علّة، لذلك نستخدم (an)."
+		"sentence": "I go ___ the market.",
+		"correct": ["to"],
+		"explanation_ar": "go دائماً تحتاج to حتى تبين المكان. هذا من أكثر التراكيب استخداماً. حذفها خطأ واضح."
 	},
 	{
 		"id": 19,
-		"sentence": "I live ___ my family in a big house.",
+		"sentence": "He lives ___ his parents.",
 		"correct": ["with"],
-		"explanation_ar": "نستخدم (with) لأن نعيش ويا أشخاص."
+		"explanation_ar": "with تبين العلاقة بين الأشخاص. بدونها ما نعرف ويا من يعيش. الكلمة أساسية."
 	},
 	{
 		"id": 20,
-		"sentence": "The weather is ___ cold today.",
-		"correct": ["very"],
-		"explanation_ar": "نستخدم (very) حتى نقوي الصفة cold."
+		"sentence": "The school is ___ the city.",
+		"correct": ["in"],
+		"explanation_ar": "in تبين الموقع داخل المدينة. نستخدم the لأن المدرسة معروفة. الجملة كاملة فقط بهالشكل."
 	},
-
 	{
 		"id": 21,
-		"sentence": "She ___ a shower every morning.",
-		"correct": ["takes", "has"],
-		"explanation_ar": "ويّا shower نستخدم takes أو has، الاثنين صح."
+		"sentence": "He ___ a student.",
+		"correct": ["is"],
+		"explanation_ar": "كل جملة بالإنجليزي تحتاج فعل. مع he نستخدم is لربط الشخص بالوصف. بدون is الجملة ناقصة وغير صحيحة. هذا من أهم القواعد الأساسية."
 	},
 	{
 		"id": 22,
-		"sentence": "They are ___ the classroom.",
-		"correct": ["in", "inside"],
-		"explanation_ar": "الاثنين معناهم داخل الصف."
+		"sentence": "We ___ friends.",
+		"correct": ["are"],
+		"explanation_ar": "مع we نستخدم are دائماً. الفعل are يربط الأشخاص ببعض. بدون are الجملة ما تكون مفهومة. هذه قاعدة ثابتة بالإنجليزي."
 	},
 	{
 		"id": 23,
-		"sentence": "I eat breakfast ___ 7 o'clock.",
-		"correct": ["at"],
-		"explanation_ar": "نستخدم (at) ويا الساعة والوقت."
+		"sentence": "I need ___ book.",
+		"correct": ["a"],
+		"explanation_ar": "book اسم مفرد غير محدد، لذلك لازم نستخدم a قبله. بدون a الجملة تكون غلط. هذه قاعدة مهمة جداً بالإنجليزي."
 	},
 	{
 		"id": 24,
-		"sentence": "We go to the gym ___ Monday.",
-		"correct": ["on"],
-		"explanation_ar": "نستخدم (on) ويا أيام الأسبوع."
+		"sentence": "She goes ___ school every morning.",
+		"correct": ["to"],
+		"explanation_ar": "goes تحتاج to لتبين المكان. بدون to ما نعرف وين رايحة. هذا حرف جر أساسي مع الأفعال التي تعني الحركة."
 	},
 	{
 		"id": 25,
-		"sentence": "He ___ like spicy food.",
-		"correct": ["doesn't", "does not"],
-		"explanation_ar": "ويّا he بالنفي نستخدم does not، مو do not."
+		"sentence": "The cat is ___ the box.",
+		"correct": ["in"],
+		"explanation_ar": "in تبين إن القطة داخل الصندوق. بدون in ما نعرف موقع القطة. هذا حرف جر مهم جداً للمكان."
 	},
 	{
 		"id": 26,
-		"sentence": "There is ___ dog in the garden.",
-		"correct": ["a"],
-		"explanation_ar": "نستخدم (a) لأن dog مفرد وغير معروف."
+		"sentence": "I like apples ___ oranges.",
+		"correct": ["and"],
+		"explanation_ar": "and تربط التفاح والبرتقال مع بعض. بدونها الجملة تنقطع. هذه كلمة ربط أساسية تربط شيئين أو أكثر."
 	},
 	{
 		"id": 27,
-		"sentence": "She ___ TV after dinner.",
-		"correct": ["watches"],
-		"explanation_ar": "ويّا she نضيف (s) للفعل."
+		"sentence": "He works ___ his brother.",
+		"correct": ["with"],
+		"explanation_ar": "with تبين إنه يشتغل ويا أخوه. بدونها ما نعرف ويا من يشتغل. هذه كلمة مهمة لتبين العلاقة بين الأشخاص."
 	},
 	{
 		"id": 28,
-		"sentence": "I am ___ student.",
-		"correct": ["a"],
-		"explanation_ar": "student اسم مفرد، نحتاج (a) قبله."
+		"sentence": "I wake up ___ 7 o'clock.",
+		"correct": ["at"],
+		"explanation_ar": "at نستخدمها مع الوقت المحدد. بدون at الجملة تكون ناقصة. هذا حرف جر ثابت مع الأوقات."
 	},
 	{
 		"id": 29,
-		"sentence": "We ___ from Iraq.",
-		"correct": ["are"],
-		"explanation_ar": "ويّا we نستخدم are، مو is."
+		"sentence": "I wait ___ the bus.",
+		"correct": ["for"],
+		"explanation_ar": "wait دائماً معها for. بدون for ما نعرف إيش ننتظر. هذه كلمة مهمة مع الأفعال التي تعني الانتظار."
 	},
 	{
 		"id": 30,
-		"sentence": "He ___ 30 years old.",
-		"correct": ["is"],
-		"explanation_ar": "ويّا he نستخدم is لوصف العمر."
+		"sentence": "I drink tea ___ I am tired.",
+		"correct": ["when"],
+		"explanation_ar": "when تربط شرب الشاي بالوقت. بدون when الجملة ما تكون واضحة. هذه كلمة مهمة لربط الأحداث بالوقت."
 	},
-
 	{
 		"id": 31,
-		"sentence": "The keys are ___ the table, not on the chair.",
-		"correct": ["on"],
-		"explanation_ar": "نستخدم (on) لأن المفاتيح فوق سطح الطاولة."
+		"sentence": "You ___ my friend.",
+		"correct": ["are"],
+		"explanation_ar": "مع you نستخدم are دائماً. الفعل are يربط الشخص بالعلاقة. بدون are الجملة ناقصة. هذه قاعدة أساسية."
 	},
 	{
 		"id": 32,
-		"sentence": "She goes to bed ___ 10 pm.",
-		"correct": ["at", "around"],
-		"explanation_ar": "(at) وقت دقيق، (around) وقت تقريبي."
+		"sentence": "She ___ happy today.",
+		"correct": ["is"],
+		"explanation_ar": "is يربط she بالحالة. بدون is الجملة ما تكون صحيحة. هذا فعل ربط أساسي مع he/she/it."
 	},
 	{
 		"id": 33,
-		"sentence": "I ___ coffee in the morning.",
-		"correct": ["drink"],
-		"explanation_ar": "coffee نشربه، لذلك نستخدم drink."
+		"sentence": "I want ___ apple.",
+		"correct": ["an"],
+		"explanation_ar": "apple تبدي بحرف صوتي، لذلك نستخدم an. بدون an الجملة غلط. هذه قاعدة مهمة مع الأسماء التي تبدي بأصوات علّة."
 	},
 	{
 		"id": 34,
-		"sentence": "They ___ at home now.",
-		"correct": ["are"],
-		"explanation_ar": "ويّا they نستخدم are لوصف الحالة الآن."
+		"sentence": "They go ___ the park.",
+		"correct": ["to"],
+		"explanation_ar": "go تحتاج to لتبين المكان. بدون to ما نعرف وين رايحين. هذا حرف جر أساسي مع الأفعال التي تعني الذهاب."
 	},
 	{
 		"id": 35,
-		"sentence": "He ___ a car.",
-		"correct": ["has", "has got"],
-		"explanation_ar": "الاثنين يستخدمون للملكية."
+		"sentence": "The book is ___ the drawer.",
+		"correct": ["in"],
+		"explanation_ar": "in تبين إن الكتاب داخل الدرج. بدون in ما نعرف موقع الكتاب. هذا حرف جر مهم جداً للمكان."
 	},
 	{
 		"id": 36,
-		"sentence": "We ___ dinner at 7.",
-		"correct": ["eat", "have"],
-		"explanation_ar": "ويّا dinner نكدر نستخدم eat أو have."
+		"sentence": "I eat bread ___ butter.",
+		"correct": ["and"],
+		"explanation_ar": "and تربط الخبز والزبدة. بدونها الجملة تنقطع. هذه كلمة ربط أساسية تربط شيئين مع بعض."
 	},
 	{
 		"id": 37,
-		"sentence": "She is ___ the phone.",
-		"correct": ["on"],
-		"explanation_ar": "نقول on the phone لما نحچي بالتلفون."
+		"sentence": "She studies ___ her friend.",
+		"correct": ["with"],
+		"explanation_ar": "with تبين إنها تدرس ويا صديقتها. بدونها ما نعرف ويا من تدرس. هذه كلمة مهمة لتبين الشراكة."
 	},
 	{
 		"id": 38,
-		"sentence": "I go to work ___ foot.",
-		"correct": ["on"],
-		"explanation_ar": "on foot تعني نمشي، مو بسيارة. ما نكول by foot."
+		"sentence": "We meet ___ 3 o'clock.",
+		"correct": ["at"],
+		"explanation_ar": "at نستخدمها مع الوقت المحدد. بدون at الجملة ناقصة. هذا حرف جر ثابت مع الأوقات بالضبط."
 	},
 	{
 		"id": 39,
-		"sentence": "The baby is sleeping ___ the crib.",
-		"correct": ["in"],
-		"explanation_ar": "نستخدم (in) لأن الطفل داخل السرير."
+		"sentence": "I look ___ my keys.",
+		"correct": ["for"],
+		"explanation_ar": "look for تعني البحث عن. بدون for المعنى يختلف. هذه كلمة مهمة مع الأفعال التي تعني البحث."
 	},
 	{
 		"id": 40,
-		"sentence": "He works ___ a shop in town.",
-		"correct": ["in", "at"],
-		"explanation_ar": "(in) داخل المحل، (at) مكان العمل بشكل عام."
+		"sentence": "I call you ___ I arrive.",
+		"correct": ["when"],
+		"explanation_ar": "when تربط الاتصال بالوقت. بدون when الجملة ما تكون واضحة. هذه كلمة مهمة لربط الأحداث بالوقت."
 	},
-
 	{
 		"id": 41,
-		"sentence": "I listen ___ music every day.",
-		"correct": ["to"],
-		"explanation_ar": "listen يحتاج شي نسمعه، لذلك نستخدم (to)."
+		"sentence": "It ___ a nice day.",
+		"correct": ["is"],
+		"explanation_ar": "مع it نستخدم is دائماً. الفعل is يربط الشيء بالوصف. بدون is الجملة ناقصة. هذه قاعدة أساسية."
 	},
 	{
 		"id": 42,
-		"sentence": "She is ___ engineer.",
-		"correct": ["an"],
-		"explanation_ar": "engineer تبدي بصوت حرف علّة، فنستخدم (an)."
+		"sentence": "We ___ students.",
+		"correct": ["are"],
+		"explanation_ar": "مع we نستخدم are دائماً. الفعل are يربط الأشخاص بالوصف. بدون are الجملة ما تكون صحيحة. هذه قاعدة ثابتة."
 	},
 	{
 		"id": 43,
-		"sentence": "We meet ___ the evening.",
-		"correct": ["in"],
-		"explanation_ar": "نستخدم (in) ويا أجزاء اليوم."
+		"sentence": "I see ___ dog in the street.",
+		"correct": ["a"],
+		"explanation_ar": "dog اسم مفرد غير محدد، لذلك لازم نستخدم a. بدون a الجملة تكون غلط. هذه قاعدة مهمة جداً."
 	},
 	{
 		"id": 44,
-		"sentence": "He plays football ___ his friends.",
-		"correct": ["with"],
-		"explanation_ar": "with تعني ويا أشخاص."
+		"sentence": "He walks ___ work.",
+		"correct": ["to"],
+		"explanation_ar": "walks تحتاج to لتبين المكان. بدون to ما نعرف وين رايح. هذا حرف جر أساسي مع الأفعال التي تعني الحركة."
 	},
 	{
 		"id": 45,
-		"sentence": "They live ___ London.",
-		"correct": ["in", "near", "outside", "around"],
-		"explanation_ar": "نختار حسب مكان السكن بالنسبة للمدينة."
+		"sentence": "The pen is ___ my bag.",
+		"correct": ["in"],
+		"explanation_ar": "in تبين إن القلم داخل الحقيبة. بدون in ما نعرف موقع القلم. هذا حرف جر مهم جداً للمكان."
 	},
 	{
 		"id": 46,
-		"sentence": "I go ___ sleep at 11.",
-		"correct": ["to"],
-		"explanation_ar": "نقول go to sleep، مو go sleep."
+		"sentence": "I buy milk ___ eggs.",
+		"correct": ["and"],
+		"explanation_ar": "and تربط الحليب والبيض. بدونها الجملة تنقطع. هذه كلمة ربط أساسية تربط شيئين مع بعض."
 	},
 	{
 		"id": 47,
-		"sentence": "She is ___ tired today.",
-		"correct": ["very", "really"],
-		"explanation_ar": "كلمات تقوي الصفة tired."
+		"sentence": "They play ___ their friends.",
+		"correct": ["with"],
+		"explanation_ar": "with تبين إنهم يلعبون ويا أصدقائهم. بدونها ما نعرف ويا من يلعبون. هذه كلمة مهمة لتبين العلاقة."
 	},
 	{
 		"id": 48,
-		"sentence": "We wait ___ the bus every morning.",
-		"correct": ["for"],
-		"explanation_ar": "wait يحتاج شي ننتظره، لذلك نستخدم for."
+		"sentence": "She arrives ___ 9 am.",
+		"correct": ["at"],
+		"explanation_ar": "at نستخدمها مع الوقت المحدد. بدون at الجملة ناقصة. هذا حرف جر ثابت مع الأوقات بالضبط."
 	},
 	{
 		"id": 49,
-		"sentence": "He comes ___ work by bus.",
-		"correct": ["to"],
-		"explanation_ar": "work هنا مكان يروح له، لذلك نستخدم (to)."
+		"sentence": "I ask ___ help.",
+		"correct": ["for"],
+		"explanation_ar": "ask for تعني طلب شيء. بدون for المعنى يختلف. هذه كلمة مهمة مع الأفعال التي تعني الطلب."
 	},
 	{
 		"id": 50,
-		"sentence": "The school is ___ the mosque.",
-		"correct": ["near", "next to", "opposite", "in front of"],
-		"explanation_ar": "كل كلمة تبين مكان المدرسة بالنسبة للمسجد."
+		"sentence": "I sleep ___ I am tired.",
+		"correct": ["when"],
+		"explanation_ar": "when تربط النوم بالوقت. بدون when الجملة ما تكون واضحة. هذه كلمة مهمة لربط الأحداث بالوقت."
 	},
-
 	{
 		"id": 51,
-		"sentence": "I like to ___ tea in the morning.",
-		"correct": ["drink"],
-		"explanation_ar": "tea نشربه، لذلك الفعل drink."
+		"sentence": "The teacher ___ kind.",
+		"correct": ["is"],
+		"explanation_ar": "is يربط المعلم بالصفة. بدون is الجملة ما تكون صحيحة. هذا فعل ربط أساسي مع he/she/it."
 	},
 	{
 		"id": 52,
-		"sentence": "They ___ not at home today.",
+		"sentence": "You ___ very smart.",
 		"correct": ["are"],
-		"explanation_ar": "ويّا they بالنفي نستخدم are not."
+		"explanation_ar": "مع you نستخدم are دائماً. الفعل are يربط الشخص بالصفة. بدون are الجملة ناقصة. هذه قاعدة أساسية."
 	},
 	{
 		"id": 53,
-		"sentence": "She walks ___ school every day.",
-		"correct": ["to"],
-		"explanation_ar": "school مكان نروح له، لذلك نستخدم (to)."
+		"sentence": "I have ___ idea.",
+		"correct": ["an"],
+		"explanation_ar": "idea تبدي بحرف صوتي، لذلك نستخدم an. بدون an الجملة غلط. هذه قاعدة مهمة مع الأسماء التي تبدي بأصوات علّة."
 	},
 	{
 		"id": 54,
-		"sentence": "I have ___ brother and two sisters.",
-		"correct": ["a", "one"],
-		"explanation_ar": "كلاهما يبين العدد."
+		"sentence": "We travel ___ London.",
+		"correct": ["to"],
+		"explanation_ar": "travel تحتاج to لتبين المكان. بدون to ما نعرف وين مسافرين. هذا حرف جر أساسي مع الأفعال التي تعني السفر."
 	},
 	{
 		"id": 55,
-		"sentence": "We play games ___ night.",
-		"correct": ["at"],
-		"explanation_ar": "التعبير الصحيح at night."
+		"sentence": "The keys are ___ the drawer.",
+		"correct": ["in"],
+		"explanation_ar": "in تبين إن المفاتيح داخل الدرج. بدون in ما نعرف موقع المفاتيح. هذا حرف جر مهم جداً للمكان."
 	},
 	{
 		"id": 56,
-		"sentence": "He is ___ doctor at the hospital.",
-		"correct": ["a"],
-		"explanation_ar": "doctor اسم مفرد، فنستخدم (a)."
+		"sentence": "I like pizza ___ pasta.",
+		"correct": ["and"],
+		"explanation_ar": "and تربط البيتزا والمعكرونة. بدونها الجملة تنقطع. هذه كلمة ربط أساسية تربط شيئين مع بعض."
 	},
 	{
 		"id": 57,
-		"sentence": "She lives ___ her parents in a small house.",
+		"sentence": "He eats ___ his family.",
 		"correct": ["with"],
-		"explanation_ar": "with تعني تعيش ويا أشخاص."
+		"explanation_ar": "with تبين إنه يأكل ويا عائلته. بدونها ما نعرف ويا من يأكل. هذه كلمة مهمة لتبين العلاقة بين الأشخاص."
 	},
 	{
 		"id": 58,
-		"sentence": "The bus stops ___ the school gate.",
-		"correct": ["at", "near"],
-		"explanation_ar": "(at) عند المكان، (near) قريب منه."
+		"sentence": "I finish work ___ 5 pm.",
+		"correct": ["at"],
+		"explanation_ar": "at نستخدمها مع الوقت المحدد. بدون at الجملة ناقصة. هذا حرف جر ثابت مع الأوقات بالضبط."
 	},
 	{
 		"id": 59,
-		"sentence": "I am good ___ English and maths.",
-		"correct": ["at"],
-		"explanation_ar": "نقول good at، مو good in."
+		"sentence": "I search ___ my phone.",
+		"correct": ["for"],
+		"explanation_ar": "search for تعني البحث عن. بدون for المعنى يختلف. هذه كلمة مهمة مع الأفعال التي تعني البحث."
 	},
 	{
 		"id": 60,
-		"sentence": "They go ___ holiday in August.",
-		"correct": ["on"],
-		"explanation_ar": "التعبير الصحيح go on holiday."
+		"sentence": "I smile ___ I see you.",
+		"correct": ["when"],
+		"explanation_ar": "when تربط الابتسامة بالوقت. بدون when الجملة ما تكون واضحة. هذه كلمة مهمة لربط الأحداث بالوقت."
 	},
-
 	{
 		"id": 61,
-		"sentence": "We sit ___ the back of the class.",
-		"correct": ["at", "in"],
-		"explanation_ar": "(in) داخل المكان، (at) نقطة محددة."
+		"sentence": "The car ___ red.",
+		"correct": ["is"],
+		"explanation_ar": "is يربط السيارة باللون. بدون is الجملة ما تكون صحيحة. هذا فعل ربط أساسي مع he/she/it."
 	},
 	{
 		"id": 62,
-		"sentence": "The shop is ___ the corner.",
-		"correct": ["on", "at"],
-		"explanation_ar": "(on) على الزاوية، (at) عند الزاوية."
+		"sentence": "They ___ good people.",
+		"correct": ["are"],
+		"explanation_ar": "مع they نستخدم are دائماً. الفعل are يربط الأشخاص بالوصف. بدون are الجملة ما تكون صحيحة. هذه قاعدة ثابتة."
 	},
 	{
 		"id": 63,
-		"sentence": "I am afraid ___ dogs.",
-		"correct": ["of"],
-		"explanation_ar": "afraid يحتاج (of) حتى يبين الشي المخوف."
+		"sentence": "I need ___ umbrella.",
+		"correct": ["an"],
+		"explanation_ar": "umbrella تبدي بحرف صوتي، لذلك نستخدم an. بدون an الجملة غلط. هذه قاعدة مهمة مع الأسماء التي تبدي بأصوات علّة."
 	},
 	{
 		"id": 64,
-		"sentence": "She is interested ___ music.",
-		"correct": ["in"],
-		"explanation_ar": "interested دائماً وياها (in)."
+		"sentence": "She runs ___ the shop.",
+		"correct": ["to"],
+		"explanation_ar": "runs تحتاج to لتبين المكان. بدون to ما نعرف وين رايحة. هذا حرف جر أساسي مع الأفعال التي تعني الحركة."
 	},
 	{
 		"id": 65,
-		"sentence": "We usually have lunch ___ home.",
-		"correct": ["at"],
-		"explanation_ar": "نقول at home، مو in home."
+		"sentence": "The money is ___ the wallet.",
+		"correct": ["in"],
+		"explanation_ar": "in تبين إن المال داخل المحفظة. بدون in ما نعرف موقع المال. هذا حرف جر مهم جداً للمكان."
 	},
 	{
 		"id": 66,
-		"sentence": "He is ___ work now.",
-		"correct": ["at"],
-		"explanation_ar": "work هنا مكان، لذلك نستخدم at، مو in."
+		"sentence": "I drink water ___ juice.",
+		"correct": ["and"],
+		"explanation_ar": "and تربط الماء والعصير. بدونها الجملة تنقطع. هذه كلمة ربط أساسية تربط شيئين مع بعض."
 	},
 	{
 		"id": 67,
-		"sentence": "The book is ___ the bag.",
-		"correct": ["in", "inside"],
-		"explanation_ar": "الكتاب داخل الحقيبة، لذلك نستخدم in أو inside."
+		"sentence": "We study ___ our teacher.",
+		"correct": ["with"],
+		"explanation_ar": "with تبين إننا ندرس ويا معلمنا. بدونها ما نعرف ويا من ندرس. هذه كلمة مهمة لتبين الشراكة."
 	},
 	{
 		"id": 68,
-		"sentence": "I was born ___ 1995.",
-		"correct": ["in"],
-		"explanation_ar": "نستخدم in ويا السنوات."
+		"sentence": "He starts ___ 8 o'clock.",
+		"correct": ["at"],
+		"explanation_ar": "at نستخدمها مع الوقت المحدد. بدون at الجملة ناقصة. هذا حرف جر ثابت مع الأوقات بالضبط."
 	},
 	{
 		"id": 69,
-		"sentence": "My birthday is ___ June.",
-		"correct": ["in"],
-		"explanation_ar": "نستخدم in ويا الأشهر."
+		"sentence": "I pay ___ the food.",
+		"correct": ["for"],
+		"explanation_ar": "pay for تعني الدفع مقابل شيء. بدون for المعنى يختلف. هذه كلمة مهمة مع الأفعال التي تعني الدفع."
 	},
 	{
 		"id": 70,
-		"sentence": "The lesson starts ___ 9 o’clock.",
-		"correct": ["at"],
-		"explanation_ar": "at تُستخدم ويا الوقت."
+		"sentence": "I laugh ___ I watch comedy.",
+		"correct": ["when"],
+		"explanation_ar": "when تربط الضحك بالوقت. بدون when الجملة ما تكون واضحة. هذه كلمة مهمة لربط الأحداث بالوقت."
 	},
-
 	{
 		"id": 71,
-		"sentence": "I go to the market ___ car.",
-		"correct": ["by"],
-		"explanation_ar": "by تُستخدم ويا وسيلة النقل."
+		"sentence": "The door ___ open.",
+		"correct": ["is"],
+		"explanation_ar": "is يربط الباب بالحالة. بدون is الجملة ما تكون صحيحة. هذا فعل ربط أساسي مع he/she/it."
 	},
 	{
 		"id": 72,
-		"sentence": "She goes to school ___ train.",
-		"correct": ["by"],
-		"explanation_ar": "نستخدم by ويا القطار."
+		"sentence": "You ___ right.",
+		"correct": ["are"],
+		"explanation_ar": "مع you نستخدم are دائماً. الفعل are يربط الشخص بالحالة. بدون are الجملة ناقصة. هذه قاعدة أساسية."
 	},
 	{
 		"id": 73,
-		"sentence": "We arrived ___ the airport early.",
-		"correct": ["at"],
-		"explanation_ar": "arrive at تُستخدم ويا الأماكن."
+		"sentence": "I see ___ elephant.",
+		"correct": ["an"],
+		"explanation_ar": "elephant تبدي بحرف صوتي، لذلك نستخدم an. بدون an الجملة غلط. هذه قاعدة مهمة مع الأسماء التي تبدي بأصوات علّة."
 	},
 	{
 		"id": 74,
-		"sentence": "He got home ___ 6 pm.",
-		"correct": ["at", "around"],
-		"explanation_ar": "(at) وقت دقيق، (around) وقت تقريبي."
+		"sentence": "They move ___ a new house.",
+		"correct": ["to"],
+		"explanation_ar": "move تحتاج to لتبين المكان. بدون to ما نعرف وين ينتقلون. هذا حرف جر أساسي مع الأفعال التي تعني الانتقال."
 	},
 	{
 		"id": 75,
-		"sentence": "They moved here ___ 2020.",
+		"sentence": "The shoes are ___ the box.",
 		"correct": ["in"],
-		"explanation_ar": "in تُستخدم ويا السنة."
+		"explanation_ar": "in تبين إن الأحذية داخل الصندوق. بدون in ما نعرف موقع الأحذية. هذا حرف جر مهم جداً للمكان."
 	},
 	{
 		"id": 76,
-		"sentence": "I was at home ___ the weekend.",
-		"correct": ["at"],
-		"explanation_ar": "نستخدم at ويا weekend."
+		"sentence": "I want coffee ___ tea.",
+		"correct": ["and"],
+		"explanation_ar": "and تربط القهوة والشاي. بدونها الجملة تنقطع. هذه كلمة ربط أساسية تربط شيئين مع بعض."
 	},
 	{
 		"id": 77,
-		"sentence": "She studies English ___ the evening.",
-		"correct": ["in"],
-		"explanation_ar": "in تُستخدم ويا أجزاء اليوم."
+		"sentence": "She cooks ___ her mother.",
+		"correct": ["with"],
+		"explanation_ar": "with تبين إنها تطبخ ويا أمها. بدونها ما نعرف ويا من تطبخ. هذه كلمة مهمة لتبين الشراكة."
 	},
 	{
 		"id": 78,
-		"sentence": "We clean the house ___ Fridays.",
-		"correct": ["on"],
-		"explanation_ar": "on تُستخدم ويا الأيام."
+		"sentence": "I leave ___ 6 pm.",
+		"correct": ["at"],
+		"explanation_ar": "at نستخدمها مع الوقت المحدد. بدون at الجملة ناقصة. هذا حرف جر ثابت مع الأوقات بالضبط."
 	},
 	{
 		"id": 79,
-		"sentence": "He finishes work ___ 5 o’clock.",
-		"correct": ["at"],
-		"explanation_ar": "at تُستخدم ويا الوقت."
+		"sentence": "I thank you ___ your help.",
+		"correct": ["for"],
+		"explanation_ar": "thank for تعني الشكر على شيء. بدون for المعنى يختلف. هذه كلمة مهمة مع الأفعال التي تعني الشكر."
 	},
 	{
 		"id": 80,
-		"sentence": "I have English class ___ Tuesday and Thursday.",
-		"correct": ["on"],
-		"explanation_ar": "on تُستخدم ويا الأيام."
+		"sentence": "I cry ___ I am sad.",
+		"correct": ["when"],
+		"explanation_ar": "when تربط البكاء بالوقت. بدون when الجملة ما تكون واضحة. هذه كلمة مهمة لربط الأحداث بالوقت."
 	},
-
 	{
 		"id": 81,
-		"sentence": "There is ___ water in the glass.",
-		"correct": ["some", "a little"],
-		"explanation_ar": "water شي غير معدود، لذلك نستخدم some أو a little."
+		"sentence": "The window ___ closed.",
+		"correct": ["is"],
+		"explanation_ar": "is يربط النافذة بالحالة. بدون is الجملة ما تكون صحيحة. هذا فعل ربط أساسي مع he/she/it."
 	},
 	{
 		"id": 82,
-		"sentence": "I don’t have ___ money today.",
-		"correct": ["any"],
-		"explanation_ar": "any تُستخدم ويا النفي."
+		"sentence": "We ___ ready.",
+		"correct": ["are"],
+		"explanation_ar": "مع we نستخدم are دائماً. الفعل are يربط الأشخاص بالحالة. بدون are الجملة ما تكون صحيحة. هذه قاعدة ثابتة."
 	},
 	{
 		"id": 83,
-		"sentence": "She has ___ brother.",
-		"correct": ["a", "one"],
-		"explanation_ar": "كلاهما يوضح العدد."
+		"sentence": "I have ___ orange.",
+		"correct": ["an"],
+		"explanation_ar": "orange تبدي بحرف صوتي، لذلك نستخدم an. بدون an الجملة غلط. هذه قاعدة مهمة مع الأسماء التي تبدي بأصوات علّة."
 	},
 	{
 		"id": 84,
-		"sentence": "Do you have ___ questions?",
-		"correct": ["any"],
-		"explanation_ar": "any تُستخدم ويا السؤال."
+		"sentence": "He drives ___ the office.",
+		"correct": ["to"],
+		"explanation_ar": "drives تحتاج to لتبين المكان. بدون to ما نعرف وين رايح. هذا حرف جر أساسي مع الأفعال التي تعني القيادة."
 	},
 	{
 		"id": 85,
-		"sentence": "I would like ___ tea, please.",
-		"correct": ["some", "a little"],
-		"explanation_ar": "نستخدمهم لأن tea غير معدود."
+		"sentence": "The flowers are ___ the vase.",
+		"correct": ["in"],
+		"explanation_ar": "in تبين إن الأزهار داخل المزهرية. بدون in ما نعرف موقع الأزهار. هذا حرف جر مهم جداً للمكان."
 	},
 	{
 		"id": 86,
-		"sentence": "There aren’t ___ cars on the road.",
-		"correct": ["many", "any"],
-		"explanation_ar": "cars معدود، لذلك many أو any."
+		"sentence": "I eat rice ___ chicken.",
+		"correct": ["and"],
+		"explanation_ar": "and تربط الأرز والدجاج. بدونها الجملة تنقطع. هذه كلمة ربط أساسية تربط شيئين مع بعض."
 	},
 	{
 		"id": 87,
-		"sentence": "I can see ___ people in the park.",
-		"correct": ["some", "many"],
-		"explanation_ar": "نستخدمها حسب عدد الناس."
+		"sentence": "They dance ___ their friends.",
+		"correct": ["with"],
+		"explanation_ar": "with تبين إنهم يرقصون ويا أصدقائهم. بدونها ما نعرف ويا من يرقصون. هذه كلمة مهمة لتبين العلاقة."
 	},
 	{
 		"id": 88,
-		"sentence": "Is there ___ milk in the fridge?",
-		"correct": ["any"],
-		"explanation_ar": "any تُستخدم ويا السؤال."
+		"sentence": "She sleeps ___ 10 pm.",
+		"correct": ["at"],
+		"explanation_ar": "at نستخدمها مع الوقت المحدد. بدون at الجملة ناقصة. هذا حرف جر ثابت مع الأوقات بالضبط."
 	},
 	{
 		"id": 89,
-		"sentence": "We have ___ apples in the kitchen.",
-		"correct": ["some", "many", "a few"],
-		"explanation_ar": "apples معدود، فنستخدم هالكلمات."
+		"sentence": "I prepare ___ the exam.",
+		"correct": ["for"],
+		"explanation_ar": "prepare for تعني التحضير لشيء. بدون for المعنى يختلف. هذه كلمة مهمة مع الأفعال التي تعني التحضير."
 	},
 	{
 		"id": 90,
-		"sentence": "He doesn’t have ___ time now.",
-		"correct": ["any", "much"],
-		"explanation_ar": "time غير معدود، لذلك any أو much."
+		"sentence": "I sing ___ I am happy.",
+		"correct": ["when"],
+		"explanation_ar": "when تربط الغناء بالوقت. بدون when الجملة ما تكون واضحة. هذه كلمة مهمة لربط الأحداث بالوقت."
 	},
-
 	{
 		"id": 91,
-		"sentence": "I go to bed ___ I finish my homework.",
-		"correct": ["after"],
-		"explanation_ar": "after تعني شي يصير بعد شي."
+		"sentence": "The phone ___ broken.",
+		"correct": ["is"],
+		"explanation_ar": "is يربط الهاتف بالحالة. بدون is الجملة ما تكون صحيحة. هذا فعل ربط أساسي مع he/she/it."
 	},
 	{
 		"id": 92,
-		"sentence": "She reads a book ___ she goes to sleep.",
-		"correct": ["before"],
-		"explanation_ar": "before تعني شي يصير قبل شي."
+		"sentence": "You ___ wrong.",
+		"correct": ["are"],
+		"explanation_ar": "مع you نستخدم are دائماً. الفعل are يربط الشخص بالحالة. بدون are الجملة ناقصة. هذه قاعدة أساسية."
 	},
 	{
 		"id": 93,
-		"sentence": "I stay at home ___ it rains.",
-		"correct": ["when"],
-		"explanation_ar": "when تربط الفعل بالوقت."
+		"sentence": "I need ___ hour.",
+		"correct": ["an"],
+		"explanation_ar": "hour تبدي بحرف صوتي، لذلك نستخدم an. بدون an الجملة غلط. هذه قاعدة مهمة مع الأسماء التي تبدي بأصوات علّة."
 	},
 	{
 		"id": 94,
-		"sentence": "We don’t go out ___ it is very cold.",
-		"correct": ["when"],
-		"explanation_ar": "when تبين متى ما نطلع."
+		"sentence": "We fly ___ Paris.",
+		"correct": ["to"],
+		"explanation_ar": "fly تحتاج to لتبين المكان. بدون to ما نعرف وين مسافرين. هذا حرف جر أساسي مع الأفعال التي تعني الطيران."
 	},
 	{
 		"id": 95,
-		"sentence": "He goes to the park ___ he has free time.",
-		"correct": ["when"],
-		"explanation_ar": "when تربط الفعل بالوقت."
+		"sentence": "The papers are ___ the folder.",
+		"correct": ["in"],
+		"explanation_ar": "in تبين إن الأوراق داخل المجلد. بدون in ما نعرف موقع الأوراق. هذا حرف جر مهم جداً للمكان."
 	},
 	{
 		"id": 96,
-		"sentence": "I drink tea ___ I am tired.",
-		"correct": ["when"],
-		"explanation_ar": "when تبين وقت الفعل."
+		"sentence": "I buy fish ___ chips.",
+		"correct": ["and"],
+		"explanation_ar": "and تربط السمك والبطاطا. بدونها الجملة تنقطع. هذه كلمة ربط أساسية تربط شيئين مع بعض."
 	},
 	{
 		"id": 97,
-		"sentence": "She is happy ___ she talks to her friends.",
-		"correct": ["when"],
-		"explanation_ar": "when تربط الشعور بالوقت."
+		"sentence": "He works ___ his team.",
+		"correct": ["with"],
+		"explanation_ar": "with تبين إنه يشتغل ويا فريقه. بدونها ما نعرف ويا من يشتغل. هذه كلمة مهمة لتبين الشراكة."
 	},
 	{
 		"id": 98,
-		"sentence": "They watch TV ___ dinner.",
-		"correct": ["after"],
-		"explanation_ar": "after تعني بعد الأكل."
+		"sentence": "I arrive ___ 12 noon.",
+		"correct": ["at"],
+		"explanation_ar": "at نستخدمها مع الوقت المحدد. بدون at الجملة ناقصة. هذا حرف جر ثابت مع الأوقات بالضبط."
 	},
 	{
 		"id": 99,
-		"sentence": "I wash my hands ___ I eat.",
-		"correct": ["before"],
-		"explanation_ar": "before تعني قبل الأكل."
+		"sentence": "I care ___ you.",
+		"correct": ["for"],
+		"explanation_ar": "care for تعني الاهتمام بشخص. بدون for المعنى يختلف. هذه كلمة مهمة مع الأفعال التي تعني الاهتمام."
 	},
 	{
 		"id": 100,
-		"sentence": "We listen to music ___ we clean the house.",
+		"sentence": "I stop ___ I see red light.",
 		"correct": ["when"],
-		"explanation_ar": "when تبين وقت الفعلين."
+		"explanation_ar": "when تربط التوقف بالوقت. بدون when الجملة ما تكون واضحة. هذه كلمة مهمة لربط الأحداث بالوقت."
 	}
 ]
