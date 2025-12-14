@@ -1,135 +1,611 @@
 [
-	{ "id": 1, "sentence": "I go to ___ school every day.", "correct": ["the", "my"] },
+	{
+		"id": 1,
+		"sentence": "I go to ___ school every day.",
+		"correct": ["the", "my"],
+		"explanation_ar": "نستخدم (the) إذا نقصد مدرسة معروفة، ونستخدم (my) إذا نقصد مدرستي. لازم يجي شي قبل كلمة school."
+	},
 	{
 		"id": 2,
 		"sentence": "We ___ play football on weekends.",
-		"correct": ["usually", "often", "sometimes", "always", "never"]
+		"correct": ["usually", "often", "sometimes", "always", "never"],
+		"explanation_ar": "هذه كلمات تبين كم مرة نلعب. تجي قبل الفعل play، مو بعده."
 	},
-	{ "id": 3, "sentence": "Can you help me ___ my homework?", "correct": ["with"] },
-	{ "id": 4, "sentence": "He lives ___ a small apartment.", "correct": ["in"] },
-	{ "id": 5, "sentence": "They ___ go to the park on Sunday.", "correct": ["often", "sometimes"] },
-	{ "id": 6, "sentence": "This is ___ book I bought yesterday.", "correct": ["the"] },
-	{ "id": 7, "sentence": "She speaks English ___ well.", "correct": ["very"] },
-	{ "id": 8, "sentence": "I want ___ apple, please.", "correct": ["an"] },
+	{
+		"id": 3,
+		"sentence": "Can you help me ___ my homework?",
+		"correct": ["with"],
+		"explanation_ar": "help يحتاج شي بعده، لذلك نستخدم (with). ما نكول help me my homework."
+	},
+	{
+		"id": 4,
+		"sentence": "He lives ___ a small apartment.",
+		"correct": ["in"],
+		"explanation_ar": "نستخدم (in) لأن الشقة مكان مغلق. ما نستخدم on أو at هنا."
+	},
+	{
+		"id": 5,
+		"sentence": "They ___ go to the park on Sunday.",
+		"correct": ["often", "sometimes"],
+		"explanation_ar": "كلمات تكرار، تجي قبل الفعل go حتى تبين كم مرة يروحون."
+	},
+	{
+		"id": 6,
+		"sentence": "This is ___ book I bought yesterday.",
+		"correct": ["the"],
+		"explanation_ar": "نستخدم (the) لأن الكتاب معروف، مو أي كتاب."
+	},
+	{
+		"id": 7,
+		"sentence": "She speaks English ___ well.",
+		"correct": ["very"],
+		"explanation_ar": "نستخدم (very) حتى نقوي كلمة well. ما نكول speaks English good."
+	},
+	{
+		"id": 8,
+		"sentence": "I want ___ apple, please.",
+		"correct": ["an"],
+		"explanation_ar": "نستخدم (an) لأن apple تبدي بصوت حرف علّة."
+	},
 	{
 		"id": 9,
 		"sentence": "The cat is sitting ___ the table.",
-		"correct": ["under", "on", "next to", "near"]
+		"correct": ["under", "on", "next to", "near"],
+		"explanation_ar": "نختار حسب مكان القطة: فوق، تحت، قريب، أو جنب."
 	},
-	{ "id": 10, "sentence": "Can you give this ___ my friend?", "correct": ["to"] },
+	{
+		"id": 10,
+		"sentence": "Can you give this ___ my friend?",
+		"correct": ["to"],
+		"explanation_ar": "give يحتاج شخص يوصل له الشي، لذلك نستخدم (to)."
+	},
 
-	{ "id": 11, "sentence": "I don't like coffee ___ all.", "correct": ["at"] },
-	{ "id": 12, "sentence": "I'm going ___ the shop to buy some milk.", "correct": ["to"] },
-	{ "id": 13, "sentence": "I walk ___ work every morning.", "correct": ["to"] },
-	{ "id": 14, "sentence": "She works ___ a hospital.", "correct": ["in", "at"] },
-	{ "id": 15, "sentence": "I go shopping ___ Saturdays.", "correct": ["on"] },
-	{ "id": 16, "sentence": "We travel ___ bus to the city center.", "correct": ["by"] },
-	{ "id": 17, "sentence": "I like ___ read books in the evening.", "correct": ["to"] },
-	{ "id": 18, "sentence": "He is ___ English teacher.", "correct": ["an"] },
-	{ "id": 19, "sentence": "I live ___ my family in a big house.", "correct": ["with"] },
-	{ "id": 20, "sentence": "The weather is ___ cold today.", "correct": ["very"] },
+	{
+		"id": 11,
+		"sentence": "I don't like coffee ___ all.",
+		"correct": ["at"],
+		"explanation_ar": "نستخدم (at all) حتى نقوي النفي. بدون at الجملة غلط."
+	},
+	{
+		"id": 12,
+		"sentence": "I'm going ___ the shop to buy some milk.",
+		"correct": ["to"],
+		"explanation_ar": "نستخدم (to) لأن أكو حركة واتجاه لمكان."
+	},
+	{
+		"id": 13,
+		"sentence": "I walk ___ work every morning.",
+		"correct": ["to"],
+		"explanation_ar": "work هنا مكان نروح له، لذلك نستخدم (to)."
+	},
+	{
+		"id": 14,
+		"sentence": "She works ___ a hospital.",
+		"correct": ["in", "at"],
+		"explanation_ar": "(in) داخل المستشفى، (at) مكان العمل بشكل عام. الاثنين صح."
+	},
+	{
+		"id": 15,
+		"sentence": "I go shopping ___ Saturdays.",
+		"correct": ["on"],
+		"explanation_ar": "نستخدم (on) ويا أيام الأسبوع."
+	},
+	{
+		"id": 16,
+		"sentence": "We travel ___ bus to the city center.",
+		"correct": ["by"],
+		"explanation_ar": "نستخدم (by) ويا وسيلة النقل. ما نكول on bus."
+	},
+	{
+		"id": 17,
+		"sentence": "I like ___ read books in the evening.",
+		"correct": ["to"],
+		"explanation_ar": "بعد like نستخدم (to + فعل). بدون to الجملة غلط."
+	},
+	{
+		"id": 18,
+		"sentence": "He is ___ English teacher.",
+		"correct": ["an"],
+		"explanation_ar": "English تبدي بصوت حرف علّة، لذلك نستخدم (an)."
+	},
+	{
+		"id": 19,
+		"sentence": "I live ___ my family in a big house.",
+		"correct": ["with"],
+		"explanation_ar": "نستخدم (with) لأن نعيش ويا أشخاص."
+	},
+	{
+		"id": 20,
+		"sentence": "The weather is ___ cold today.",
+		"correct": ["very"],
+		"explanation_ar": "نستخدم (very) حتى نقوي الصفة cold."
+	},
 
-	{ "id": 21, "sentence": "She ___ a shower every morning.", "correct": ["takes", "has"] },
-	{ "id": 22, "sentence": "They are ___ the classroom.", "correct": ["in", "inside"] },
-	{ "id": 23, "sentence": "I eat breakfast ___ 7 o'clock.", "correct": ["at"] },
-	{ "id": 24, "sentence": "We go to the gym ___ Monday.", "correct": ["on"] },
-	{ "id": 25, "sentence": "He ___ like spicy food.", "correct": ["doesn't", "does not"] },
-	{ "id": 26, "sentence": "There is ___ dog in the garden.", "correct": ["a"] },
-	{ "id": 27, "sentence": "She ___ TV after dinner.", "correct": ["watches"] },
-	{ "id": 28, "sentence": "I am ___ student.", "correct": ["a"] },
-	{ "id": 29, "sentence": "We ___ from Iraq.", "correct": ["are"] },
-	{ "id": 30, "sentence": "He ___ 30 years old.", "correct": ["is"] },
+	{
+		"id": 21,
+		"sentence": "She ___ a shower every morning.",
+		"correct": ["takes", "has"],
+		"explanation_ar": "ويّا shower نستخدم takes أو has، الاثنين صح."
+	},
+	{
+		"id": 22,
+		"sentence": "They are ___ the classroom.",
+		"correct": ["in", "inside"],
+		"explanation_ar": "الاثنين معناهم داخل الصف."
+	},
+	{
+		"id": 23,
+		"sentence": "I eat breakfast ___ 7 o'clock.",
+		"correct": ["at"],
+		"explanation_ar": "نستخدم (at) ويا الساعة والوقت."
+	},
+	{
+		"id": 24,
+		"sentence": "We go to the gym ___ Monday.",
+		"correct": ["on"],
+		"explanation_ar": "نستخدم (on) ويا أيام الأسبوع."
+	},
+	{
+		"id": 25,
+		"sentence": "He ___ like spicy food.",
+		"correct": ["doesn't", "does not"],
+		"explanation_ar": "ويّا he بالنفي نستخدم does not، مو do not."
+	},
+	{
+		"id": 26,
+		"sentence": "There is ___ dog in the garden.",
+		"correct": ["a"],
+		"explanation_ar": "نستخدم (a) لأن dog مفرد وغير معروف."
+	},
+	{
+		"id": 27,
+		"sentence": "She ___ TV after dinner.",
+		"correct": ["watches"],
+		"explanation_ar": "ويّا she نضيف (s) للفعل."
+	},
+	{
+		"id": 28,
+		"sentence": "I am ___ student.",
+		"correct": ["a"],
+		"explanation_ar": "student اسم مفرد، نحتاج (a) قبله."
+	},
+	{
+		"id": 29,
+		"sentence": "We ___ from Iraq.",
+		"correct": ["are"],
+		"explanation_ar": "ويّا we نستخدم are، مو is."
+	},
+	{
+		"id": 30,
+		"sentence": "He ___ 30 years old.",
+		"correct": ["is"],
+		"explanation_ar": "ويّا he نستخدم is لوصف العمر."
+	},
 
-	{ "id": 31, "sentence": "The keys are ___ the table, not on the chair.", "correct": ["on"] },
-	{ "id": 32, "sentence": "She goes to bed ___ 10 pm.", "correct": ["at", "around"] },
-	{ "id": 33, "sentence": "I ___ coffee in the morning.", "correct": ["drink"] },
-	{ "id": 34, "sentence": "They ___ at home now.", "correct": ["are"] },
-	{ "id": 35, "sentence": "He ___ a car.", "correct": ["has", "has got"] },
-	{ "id": 36, "sentence": "We ___ dinner at 7.", "correct": ["eat", "have"] },
-	{ "id": 37, "sentence": "She is ___ the phone.", "correct": ["on"] },
-	{ "id": 38, "sentence": "I go to work ___ foot.", "correct": ["on"] },
-	{ "id": 39, "sentence": "The baby is sleeping ___ the crib.", "correct": ["in"] },
-	{ "id": 40, "sentence": "He works ___ a shop in town.", "correct": ["in", "at"] },
+	{
+		"id": 31,
+		"sentence": "The keys are ___ the table, not on the chair.",
+		"correct": ["on"],
+		"explanation_ar": "نستخدم (on) لأن المفاتيح فوق سطح الطاولة."
+	},
+	{
+		"id": 32,
+		"sentence": "She goes to bed ___ 10 pm.",
+		"correct": ["at", "around"],
+		"explanation_ar": "(at) وقت دقيق، (around) وقت تقريبي."
+	},
+	{
+		"id": 33,
+		"sentence": "I ___ coffee in the morning.",
+		"correct": ["drink"],
+		"explanation_ar": "coffee نشربه، لذلك نستخدم drink."
+	},
+	{
+		"id": 34,
+		"sentence": "They ___ at home now.",
+		"correct": ["are"],
+		"explanation_ar": "ويّا they نستخدم are لوصف الحالة الآن."
+	},
+	{
+		"id": 35,
+		"sentence": "He ___ a car.",
+		"correct": ["has", "has got"],
+		"explanation_ar": "الاثنين يستخدمون للملكية."
+	},
+	{
+		"id": 36,
+		"sentence": "We ___ dinner at 7.",
+		"correct": ["eat", "have"],
+		"explanation_ar": "ويّا dinner نكدر نستخدم eat أو have."
+	},
+	{
+		"id": 37,
+		"sentence": "She is ___ the phone.",
+		"correct": ["on"],
+		"explanation_ar": "نقول on the phone لما نحچي بالتلفون."
+	},
+	{
+		"id": 38,
+		"sentence": "I go to work ___ foot.",
+		"correct": ["on"],
+		"explanation_ar": "on foot تعني نمشي، مو بسيارة. ما نكول by foot."
+	},
+	{
+		"id": 39,
+		"sentence": "The baby is sleeping ___ the crib.",
+		"correct": ["in"],
+		"explanation_ar": "نستخدم (in) لأن الطفل داخل السرير."
+	},
+	{
+		"id": 40,
+		"sentence": "He works ___ a shop in town.",
+		"correct": ["in", "at"],
+		"explanation_ar": "(in) داخل المحل، (at) مكان العمل بشكل عام."
+	},
 
-	{ "id": 41, "sentence": "I listen ___ music every day.", "correct": ["to"] },
-	{ "id": 42, "sentence": "She is ___ engineer.", "correct": ["an"] },
-	{ "id": 43, "sentence": "We meet ___ the evening.", "correct": ["in"] },
-	{ "id": 44, "sentence": "He plays football ___ his friends.", "correct": ["with"] },
-	{ "id": 45, "sentence": "They live ___ London.", "correct": ["in", "near", "outside", "around"] },
-	{ "id": 46, "sentence": "I go ___ sleep at 11.", "correct": ["to"] },
-	{ "id": 47, "sentence": "She is ___ tired today.", "correct": ["very", "really"] },
-	{ "id": 48, "sentence": "We wait ___ the bus every morning.", "correct": ["for"] },
-	{ "id": 49, "sentence": "He comes ___ work by bus.", "correct": ["to"] },
+	{
+		"id": 41,
+		"sentence": "I listen ___ music every day.",
+		"correct": ["to"],
+		"explanation_ar": "listen يحتاج شي نسمعه، لذلك نستخدم (to)."
+	},
+	{
+		"id": 42,
+		"sentence": "She is ___ engineer.",
+		"correct": ["an"],
+		"explanation_ar": "engineer تبدي بصوت حرف علّة، فنستخدم (an)."
+	},
+	{
+		"id": 43,
+		"sentence": "We meet ___ the evening.",
+		"correct": ["in"],
+		"explanation_ar": "نستخدم (in) ويا أجزاء اليوم."
+	},
+	{
+		"id": 44,
+		"sentence": "He plays football ___ his friends.",
+		"correct": ["with"],
+		"explanation_ar": "with تعني ويا أشخاص."
+	},
+	{
+		"id": 45,
+		"sentence": "They live ___ London.",
+		"correct": ["in", "near", "outside", "around"],
+		"explanation_ar": "نختار حسب مكان السكن بالنسبة للمدينة."
+	},
+	{
+		"id": 46,
+		"sentence": "I go ___ sleep at 11.",
+		"correct": ["to"],
+		"explanation_ar": "نقول go to sleep، مو go sleep."
+	},
+	{
+		"id": 47,
+		"sentence": "She is ___ tired today.",
+		"correct": ["very", "really"],
+		"explanation_ar": "كلمات تقوي الصفة tired."
+	},
+	{
+		"id": 48,
+		"sentence": "We wait ___ the bus every morning.",
+		"correct": ["for"],
+		"explanation_ar": "wait يحتاج شي ننتظره، لذلك نستخدم for."
+	},
+	{
+		"id": 49,
+		"sentence": "He comes ___ work by bus.",
+		"correct": ["to"],
+		"explanation_ar": "work هنا مكان يروح له، لذلك نستخدم (to)."
+	},
 	{
 		"id": 50,
 		"sentence": "The school is ___ the mosque.",
-		"correct": ["near", "next to", "opposite", "in front of"]
+		"correct": ["near", "next to", "opposite", "in front of"],
+		"explanation_ar": "كل كلمة تبين مكان المدرسة بالنسبة للمسجد."
 	},
 
-	{ "id": 51, "sentence": "I like to ___ tea in the morning.", "correct": ["drink"] },
-	{ "id": 52, "sentence": "They ___ not at home today.", "correct": ["are"] },
-	{ "id": 53, "sentence": "She walks ___ school every day.", "correct": ["to"] },
-	{ "id": 54, "sentence": "I have ___ brother and two sisters.", "correct": ["a", "one"] },
-	{ "id": 55, "sentence": "We play games ___ night.", "correct": ["at"] },
-	{ "id": 56, "sentence": "He is ___ doctor at the hospital.", "correct": ["a"] },
-	{ "id": 57, "sentence": "She lives ___ her parents in a small house.", "correct": ["with"] },
-	{ "id": 58, "sentence": "The bus stops ___ the school gate.", "correct": ["at", "near"] },
-	{ "id": 59, "sentence": "I am good ___ English and maths.", "correct": ["at"] },
-	{ "id": 60, "sentence": "They go ___ holiday in August.", "correct": ["on"] },
+	{
+		"id": 51,
+		"sentence": "I like to ___ tea in the morning.",
+		"correct": ["drink"],
+		"explanation_ar": "tea نشربه، لذلك الفعل drink."
+	},
+	{
+		"id": 52,
+		"sentence": "They ___ not at home today.",
+		"correct": ["are"],
+		"explanation_ar": "ويّا they بالنفي نستخدم are not."
+	},
+	{
+		"id": 53,
+		"sentence": "She walks ___ school every day.",
+		"correct": ["to"],
+		"explanation_ar": "school مكان نروح له، لذلك نستخدم (to)."
+	},
+	{
+		"id": 54,
+		"sentence": "I have ___ brother and two sisters.",
+		"correct": ["a", "one"],
+		"explanation_ar": "كلاهما يبين العدد."
+	},
+	{
+		"id": 55,
+		"sentence": "We play games ___ night.",
+		"correct": ["at"],
+		"explanation_ar": "التعبير الصحيح at night."
+	},
+	{
+		"id": 56,
+		"sentence": "He is ___ doctor at the hospital.",
+		"correct": ["a"],
+		"explanation_ar": "doctor اسم مفرد، فنستخدم (a)."
+	},
+	{
+		"id": 57,
+		"sentence": "She lives ___ her parents in a small house.",
+		"correct": ["with"],
+		"explanation_ar": "with تعني تعيش ويا أشخاص."
+	},
+	{
+		"id": 58,
+		"sentence": "The bus stops ___ the school gate.",
+		"correct": ["at", "near"],
+		"explanation_ar": "(at) عند المكان، (near) قريب منه."
+	},
+	{
+		"id": 59,
+		"sentence": "I am good ___ English and maths.",
+		"correct": ["at"],
+		"explanation_ar": "نقول good at، مو good in."
+	},
+	{
+		"id": 60,
+		"sentence": "They go ___ holiday in August.",
+		"correct": ["on"],
+		"explanation_ar": "التعبير الصحيح go on holiday."
+	},
 
-	{ "id": 61, "sentence": "We sit ___ the back of the class.", "correct": ["at", "in"] },
-	{ "id": 62, "sentence": "The shop is ___ the corner.", "correct": ["on", "at"] },
-	{ "id": 63, "sentence": "I am afraid ___ dogs.", "correct": ["of"] },
-	{ "id": 64, "sentence": "She is interested ___ music.", "correct": ["in"] },
-	{ "id": 65, "sentence": "We usually have lunch ___ home.", "correct": ["at"] },
-	{ "id": 66, "sentence": "He is ___ work now.", "correct": ["at"] },
-	{ "id": 67, "sentence": "The book is ___ the bag.", "correct": ["in", "inside"] },
-	{ "id": 68, "sentence": "I was born ___ 1995.", "correct": ["in"] },
-	{ "id": 69, "sentence": "My birthday is ___ June.", "correct": ["in"] },
-	{ "id": 70, "sentence": "The lesson starts ___ 9 o’clock.", "correct": ["at"] },
+	{
+		"id": 61,
+		"sentence": "We sit ___ the back of the class.",
+		"correct": ["at", "in"],
+		"explanation_ar": "(in) داخل المكان، (at) نقطة محددة."
+	},
+	{
+		"id": 62,
+		"sentence": "The shop is ___ the corner.",
+		"correct": ["on", "at"],
+		"explanation_ar": "(on) على الزاوية، (at) عند الزاوية."
+	},
+	{
+		"id": 63,
+		"sentence": "I am afraid ___ dogs.",
+		"correct": ["of"],
+		"explanation_ar": "afraid يحتاج (of) حتى يبين الشي المخوف."
+	},
+	{
+		"id": 64,
+		"sentence": "She is interested ___ music.",
+		"correct": ["in"],
+		"explanation_ar": "interested دائماً وياها (in)."
+	},
+	{
+		"id": 65,
+		"sentence": "We usually have lunch ___ home.",
+		"correct": ["at"],
+		"explanation_ar": "نقول at home، مو in home."
+	},
+	{
+		"id": 66,
+		"sentence": "He is ___ work now.",
+		"correct": ["at"],
+		"explanation_ar": "work هنا مكان، لذلك نستخدم at، مو in."
+	},
+	{
+		"id": 67,
+		"sentence": "The book is ___ the bag.",
+		"correct": ["in", "inside"],
+		"explanation_ar": "الكتاب داخل الحقيبة، لذلك نستخدم in أو inside."
+	},
+	{
+		"id": 68,
+		"sentence": "I was born ___ 1995.",
+		"correct": ["in"],
+		"explanation_ar": "نستخدم in ويا السنوات."
+	},
+	{
+		"id": 69,
+		"sentence": "My birthday is ___ June.",
+		"correct": ["in"],
+		"explanation_ar": "نستخدم in ويا الأشهر."
+	},
+	{
+		"id": 70,
+		"sentence": "The lesson starts ___ 9 o’clock.",
+		"correct": ["at"],
+		"explanation_ar": "at تُستخدم ويا الوقت."
+	},
 
-	{ "id": 71, "sentence": "I go to the market ___ car.", "correct": ["by"] },
-	{ "id": 72, "sentence": "She goes to school ___ train.", "correct": ["by"] },
-	{ "id": 73, "sentence": "We arrived ___ the airport early.", "correct": ["at"] },
-	{ "id": 74, "sentence": "He got home ___ 6 pm.", "correct": ["at", "around"] },
-	{ "id": 75, "sentence": "They moved here ___ 2020.", "correct": ["in"] },
-	{ "id": 76, "sentence": "I was at home ___ the weekend.", "correct": ["at", "over", "during"] },
-	{ "id": 77, "sentence": "She studies English ___ the evening.", "correct": ["in"] },
-	{ "id": 78, "sentence": "We clean the house ___ Fridays.", "correct": ["on"] },
-	{ "id": 79, "sentence": "He finishes work ___ 5 o’clock.", "correct": ["at"] },
-	{ "id": 80, "sentence": "I have English class ___ Tuesday and Thursday.", "correct": ["on"] },
+	{
+		"id": 71,
+		"sentence": "I go to the market ___ car.",
+		"correct": ["by"],
+		"explanation_ar": "by تُستخدم ويا وسيلة النقل."
+	},
+	{
+		"id": 72,
+		"sentence": "She goes to school ___ train.",
+		"correct": ["by"],
+		"explanation_ar": "نستخدم by ويا القطار."
+	},
+	{
+		"id": 73,
+		"sentence": "We arrived ___ the airport early.",
+		"correct": ["at"],
+		"explanation_ar": "arrive at تُستخدم ويا الأماكن."
+	},
+	{
+		"id": 74,
+		"sentence": "He got home ___ 6 pm.",
+		"correct": ["at", "around"],
+		"explanation_ar": "(at) وقت دقيق، (around) وقت تقريبي."
+	},
+	{
+		"id": 75,
+		"sentence": "They moved here ___ 2020.",
+		"correct": ["in"],
+		"explanation_ar": "in تُستخدم ويا السنة."
+	},
+	{
+		"id": 76,
+		"sentence": "I was at home ___ the weekend.",
+		"correct": ["at"],
+		"explanation_ar": "نستخدم at ويا weekend."
+	},
+	{
+		"id": 77,
+		"sentence": "She studies English ___ the evening.",
+		"correct": ["in"],
+		"explanation_ar": "in تُستخدم ويا أجزاء اليوم."
+	},
+	{
+		"id": 78,
+		"sentence": "We clean the house ___ Fridays.",
+		"correct": ["on"],
+		"explanation_ar": "on تُستخدم ويا الأيام."
+	},
+	{
+		"id": 79,
+		"sentence": "He finishes work ___ 5 o’clock.",
+		"correct": ["at"],
+		"explanation_ar": "at تُستخدم ويا الوقت."
+	},
+	{
+		"id": 80,
+		"sentence": "I have English class ___ Tuesday and Thursday.",
+		"correct": ["on"],
+		"explanation_ar": "on تُستخدم ويا الأيام."
+	},
 
-	{ "id": 81, "sentence": "There is ___ water in the glass.", "correct": ["some", "a little"] },
-	{ "id": 82, "sentence": "I don’t have ___ money today.", "correct": ["any"] },
-	{ "id": 83, "sentence": "She has ___ brother.", "correct": ["a", "one"] },
-	{ "id": 84, "sentence": "Do you have ___ questions?", "correct": ["any"] },
-	{ "id": 85, "sentence": "I would like ___ tea, please.", "correct": ["some", "a little"] },
-	{ "id": 86, "sentence": "There aren’t ___ cars on the road.", "correct": ["many", "any"] },
-	{ "id": 87, "sentence": "I can see ___ people in the park.", "correct": ["some", "many"] },
-	{ "id": 88, "sentence": "Is there ___ milk in the fridge?", "correct": ["any"] },
+	{
+		"id": 81,
+		"sentence": "There is ___ water in the glass.",
+		"correct": ["some", "a little"],
+		"explanation_ar": "water شي غير معدود، لذلك نستخدم some أو a little."
+	},
+	{
+		"id": 82,
+		"sentence": "I don’t have ___ money today.",
+		"correct": ["any"],
+		"explanation_ar": "any تُستخدم ويا النفي."
+	},
+	{
+		"id": 83,
+		"sentence": "She has ___ brother.",
+		"correct": ["a", "one"],
+		"explanation_ar": "كلاهما يوضح العدد."
+	},
+	{
+		"id": 84,
+		"sentence": "Do you have ___ questions?",
+		"correct": ["any"],
+		"explanation_ar": "any تُستخدم ويا السؤال."
+	},
+	{
+		"id": 85,
+		"sentence": "I would like ___ tea, please.",
+		"correct": ["some", "a little"],
+		"explanation_ar": "نستخدمهم لأن tea غير معدود."
+	},
+	{
+		"id": 86,
+		"sentence": "There aren’t ___ cars on the road.",
+		"correct": ["many", "any"],
+		"explanation_ar": "cars معدود، لذلك many أو any."
+	},
+	{
+		"id": 87,
+		"sentence": "I can see ___ people in the park.",
+		"correct": ["some", "many"],
+		"explanation_ar": "نستخدمها حسب عدد الناس."
+	},
+	{
+		"id": 88,
+		"sentence": "Is there ___ milk in the fridge?",
+		"correct": ["any"],
+		"explanation_ar": "any تُستخدم ويا السؤال."
+	},
 	{
 		"id": 89,
 		"sentence": "We have ___ apples in the kitchen.",
-		"correct": ["some", "many", "a few"]
+		"correct": ["some", "many", "a few"],
+		"explanation_ar": "apples معدود، فنستخدم هالكلمات."
 	},
-	{ "id": 90, "sentence": "He doesn’t have ___ time now.", "correct": ["any", "much"] },
+	{
+		"id": 90,
+		"sentence": "He doesn’t have ___ time now.",
+		"correct": ["any", "much"],
+		"explanation_ar": "time غير معدود، لذلك any أو much."
+	},
 
-	{ "id": 91, "sentence": "I go to bed ___ I finish my homework.", "correct": ["after", "when"] },
+	{
+		"id": 91,
+		"sentence": "I go to bed ___ I finish my homework.",
+		"correct": ["after"],
+		"explanation_ar": "after تعني شي يصير بعد شي."
+	},
 	{
 		"id": 92,
 		"sentence": "She reads a book ___ she goes to sleep.",
-		"correct": ["before", "when"]
+		"correct": ["before"],
+		"explanation_ar": "before تعني شي يصير قبل شي."
 	},
-	{ "id": 93, "sentence": "I stay at home ___ it rains.", "correct": ["when"] },
-	{ "id": 94, "sentence": "We don’t go out ___ it is very cold.", "correct": ["when", "if"] },
-	{ "id": 95, "sentence": "He goes to the park ___ he has free time.", "correct": ["when"] },
-	{ "id": 96, "sentence": "I drink tea ___ I am tired.", "correct": ["when"] },
-	{ "id": 97, "sentence": "She is happy ___ she talks to her friends.", "correct": ["when"] },
-	{ "id": 98, "sentence": "They watch TV ___ dinner.", "correct": ["after"] },
-	{ "id": 99, "sentence": "I wash my hands ___ I eat.", "correct": ["before"] },
+	{
+		"id": 93,
+		"sentence": "I stay at home ___ it rains.",
+		"correct": ["when"],
+		"explanation_ar": "when تربط الفعل بالوقت."
+	},
+	{
+		"id": 94,
+		"sentence": "We don’t go out ___ it is very cold.",
+		"correct": ["when"],
+		"explanation_ar": "when تبين متى ما نطلع."
+	},
+	{
+		"id": 95,
+		"sentence": "He goes to the park ___ he has free time.",
+		"correct": ["when"],
+		"explanation_ar": "when تربط الفعل بالوقت."
+	},
+	{
+		"id": 96,
+		"sentence": "I drink tea ___ I am tired.",
+		"correct": ["when"],
+		"explanation_ar": "when تبين وقت الفعل."
+	},
+	{
+		"id": 97,
+		"sentence": "She is happy ___ she talks to her friends.",
+		"correct": ["when"],
+		"explanation_ar": "when تربط الشعور بالوقت."
+	},
+	{
+		"id": 98,
+		"sentence": "They watch TV ___ dinner.",
+		"correct": ["after"],
+		"explanation_ar": "after تعني بعد الأكل."
+	},
+	{
+		"id": 99,
+		"sentence": "I wash my hands ___ I eat.",
+		"correct": ["before"],
+		"explanation_ar": "before تعني قبل الأكل."
+	},
 	{
 		"id": 100,
 		"sentence": "We listen to music ___ we clean the house.",
-		"correct": ["while", "when"]
+		"correct": ["when"],
+		"explanation_ar": "when تبين وقت الفعلين."
 	}
 ]

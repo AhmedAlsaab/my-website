@@ -24,6 +24,7 @@ title: املأ الفراغات
 	let shownExercises = [];
 	let currentPageExercises = [];
 	let currentAnswers = {};
+	let revealedExplanations = {};
 
 	// Load exercises data
 	async function loadExercises() {
@@ -70,6 +71,7 @@ title: املأ الفراغات
 	function loadPage() {
 		currentPageExercises = getRandomExercises();
 		currentAnswers = {};
+		revealedExplanations = {};
 		
 		if (currentPageExercises.length === 0) {
 			displayMessage("تم عرض جميع التمارين!");
@@ -87,14 +89,27 @@ title: املأ الفراغات
 		currentPageExercises.forEach((exercise, index) => {
 			const exerciseId = `exercise-${exercise.id}`;
 			const blankId = `blank-${exercise.id}`;
+			const explanationId = `explanation-${exercise.id}`;
 			const revealedAnswer = currentAnswers[exercise.id] || '';
+			const isExplanationRevealed = revealedExplanations[exercise.id] || false;
+			const hasAnswer = !!revealedAnswer;
 			
 			html += `
 				<section class="section fill-blank-exercise" id="${exerciseId}">
 					<div class="exercise-number">${index + 1}</div>
 					<div class="exercise-content">
 						<p class="exercise-sentence">${exercise.sentence.replace('___', `<span id="${blankId}" class="blank-span">${revealedAnswer || '______'}</span>`)}</p>
-						<button class="reveal-button" onclick="revealAnswer(${exercise.id})">
+						<div id="${explanationId}" class="explanation-box" style="display: ${isExplanationRevealed ? 'block' : 'none'}; margin-top: 1rem; padding: 1rem; background: rgba(74, 144, 226, 0.1); border-left: 4px solid #4a90e2; border-radius: 0.25rem;">
+							${exercise.explanation_ar ? `
+								<p class="arabic-text" style="color: #1e3c72; font-weight: 700; margin-bottom: 0.5rem; font-size: 0.95rem; direction: rtl; text-align: right;">
+									الشرح:
+								</p>
+								<p class="arabic-text" style="color: #2a5298; line-height: 1.8; margin: 0; direction: rtl; text-align: right; font-size: 1rem;">
+									${exercise.explanation_ar}
+								</p>
+							` : ''}
+						</div>
+						<button class="reveal-button" onclick="revealAnswer(${exercise.id})" style="display: ${hasAnswer ? 'none' : 'inline-block'};">
 							<span class="arabic-text">إظهار الإجابة</span>
 						</button>
 					</div>
@@ -128,21 +143,38 @@ title: املأ الفراغات
 	}
 
 
-	// Reveal answer - randomly picks one correct answer
+	// Reveal answer - randomly picks one correct answer and shows explanation
 	function revealAnswer(exerciseId) {
 		const exercise = currentPageExercises.find(ex => ex.id === exerciseId);
 		if (!exercise) return;
 
 		const blankEl = document.getElementById(`blank-${exerciseId}`);
+		const explanationEl = document.getElementById(`explanation-${exerciseId}`);
+		const exerciseSection = blankEl.closest('.fill-blank-exercise');
+		const buttonEl = exerciseSection.querySelector('.reveal-button');
 		
-		// Pick a random correct answer
-		const randomIndex = Math.floor(Math.random() * exercise.correct.length);
-		const randomAnswer = exercise.correct[randomIndex];
-		
-		// Fill in the answer
-		blankEl.textContent = randomAnswer;
-		blankEl.classList.add('revealed');
-		currentAnswers[exerciseId] = randomAnswer;
+		// If answer not revealed yet, reveal both answer and explanation
+		if (!currentAnswers[exerciseId]) {
+			// Pick a random correct answer
+			const randomIndex = Math.floor(Math.random() * exercise.correct.length);
+			const randomAnswer = exercise.correct[randomIndex];
+			
+			// Fill in the answer
+			blankEl.textContent = randomAnswer;
+			blankEl.classList.add('revealed');
+			currentAnswers[exerciseId] = randomAnswer;
+			
+			// Show explanation if it exists
+			if (exercise.explanation_ar && explanationEl) {
+				revealedExplanations[exerciseId] = true;
+				explanationEl.style.display = 'block';
+			}
+			
+			// Hide button after revealing
+			if (buttonEl) {
+				buttonEl.style.display = 'none';
+			}
+		}
 	}
 
 	// Load next page

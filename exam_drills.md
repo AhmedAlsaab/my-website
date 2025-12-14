@@ -20,9 +20,14 @@ title: تمارين الامتحان
 
 <script>
 	const EXAM_DRILLS_PATH = "exam_drills/final_exam_drills.json";
+	const QUESTIONS_PATH = "exam_drills/questions_archtype_drills.json";
 	let examDrillsData = null;
+	let questionsData = null;
 	let shuffledDrills = {};
 	let revealedSolutions = {};
+	let shuffledTopics = [];
+	let currentTopicIndex = 0;
+	let revealedPrompts = {};
 
 	// Shuffle array function
 	function shuffleArray(array) {
@@ -65,6 +70,34 @@ title: تمارين الامتحان
 			console.error("Error loading exam drills:", error);
 			document.getElementById("examDrillsContent").innerHTML =
 				'<section class="section"><p style="color: #ff6b6b; text-align: center;">Error loading exam drills. Please ensure the file exists.</p></section>';
+			return null;
+		}
+	}
+
+	// Load questions data
+	async function loadQuestions() {
+		if (questionsData) {
+			return questionsData;
+		}
+
+		try {
+			const response = await fetch(QUESTIONS_PATH);
+			if (!response.ok) {
+				throw new Error(`Failed to load ${QUESTIONS_PATH}`);
+			}
+			questionsData = await response.json();
+
+			// Shuffle topics
+			if (questionsData.question_archetype_drill && questionsData.question_archetype_drill.topics) {
+				shuffledTopics = shuffleArray(questionsData.question_archetype_drill.topics);
+				currentTopicIndex = 0;
+				revealedPrompts = {};
+			}
+
+			console.log("Loaded questions data");
+			return questionsData;
+		} catch (error) {
+			console.error("Error loading questions:", error);
 			return null;
 		}
 	}
@@ -177,14 +210,136 @@ title: تمارين الامتحان
 		`;
 	}
 
+	// Display questions section
+	function displayQuestionsSection() {
+		if (!questionsData || !questionsData.question_archetype_drill) {
+			return "";
+		}
+
+		const drillData = questionsData.question_archetype_drill;
+		const currentTopic = shuffledTopics[currentTopicIndex];
+		const totalTopics = shuffledTopics.length;
+
+		if (!currentTopic) {
+			return "";
+		}
+
+		const promptKeys = Object.keys(currentTopic.prompts);
+		const topicId = `topic-${currentTopicIndex}`;
+
+		let promptsHtml = "";
+		promptKeys.forEach((promptKey, index) => {
+			const isRevealed = revealedPrompts[topicId] && revealedPrompts[topicId][promptKey] || false;
+			const question = currentTopic.prompts[promptKey];
+			const promptId = `prompt-${topicId}-${index}`;
+			
+			promptsHtml += `
+				<div style="background: rgba(255, 255, 255, 0.95); padding: 1.5rem; border-radius: 0.75rem; margin-bottom: 1rem; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-left: 4px solid #4a90e2;">
+					<div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+						<div style="flex: 1;">
+							<p style="font-size: 1.2rem; color: #1e3c72; font-weight: 600; margin: 0;">
+								${promptKey}
+							</p>
+						</div>
+						<button 
+							class="reveal-prompt-button" 
+							data-topic-id="${topicId}"
+							data-prompt-index="${index}"
+							onclick="togglePromptByIndex('${topicId}', ${index})"
+							style="padding: 0.5rem 1.5rem; background: ${isRevealed ? '#666' : '#4a90e2'}; color: white; border: none; border-radius: 0.5rem; cursor: pointer; font-weight: 600; font-size: 0.9rem; transition: all 0.2s;">
+							<span class="arabic-text">${isRevealed ? 'إخفاء' : 'إظهار'}</span>
+						</button>
+					</div>
+					<div id="${promptId}" style="margin-top: 1rem; padding-top: 1rem; border-top: 1px solid rgba(74, 144, 226, 0.2); visibility: ${isRevealed ? 'visible' : 'hidden'}; opacity: ${isRevealed ? '1' : '0'}; transition: opacity 0.3s ease, visibility 0.3s ease; max-height: ${isRevealed ? '200px' : '0'}; overflow: hidden;">
+						<p style="font-size: 1.1rem; color: #28a745; line-height: 1.6; margin: 0; font-weight: 500;">
+							${question}
+						</p>
+					</div>
+				</div>
+			`;
+		});
+
+		return `
+			<section class="section drill-section" style="max-width: 900px; margin: 0 auto 3rem;">
+				<h2 class="arabic-text" style="color: #1e3c72; font-size: clamp(1.5rem, 3vw, 2rem); margin-bottom: 1.5rem; border-bottom: 3px solid #4a90e2; padding-bottom: 0.75rem;">
+					تمارين الأسئلة
+				</h2>
+
+				<!-- Key Reminders -->
+				<div style="background: rgba(74, 144, 226, 0.1); padding: 1.5rem; border-radius: 0.5rem; margin-bottom: 2rem; border-left: 4px solid #4a90e2;">
+					<p class="arabic-text" style="color: #1e3c72; font-weight: 700; margin-bottom: 1rem; font-size: 1.1rem; direction: rtl; text-align: right;">
+						تذكيرات مهمة:
+					</p>
+					<ul class="arabic-text" style="direction: rtl; text-align: right; color: #1a1a1a; font-size: 1rem; line-height: 1.8; margin: 0; padding-right: 1.5rem;">
+						${drillData.key_reminder_ar.map(reminder => `<li style="margin-bottom: 0.5rem;">${reminder}</li>`).join("")}
+					</ul>
+				</div>
+
+				<!-- Instructions -->
+				<div style="margin-bottom: 2rem;">
+					<ul class="arabic-text" style="direction: rtl; text-align: right; color: #1e3c72; font-weight: 600; font-size: 1rem; line-height: 2; margin: 0; padding-right: 1.5rem;">
+						${drillData.instructions_ar.map(instruction => `<li style="margin-bottom: 0.5rem;">${instruction}</li>`).join("")}
+					</ul>
+				</div>
+
+				<!-- Topic Card -->
+				<div style="background: rgba(255, 255, 255, 0.98); padding: 2.5rem; border-radius: 1rem; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2); margin-bottom: 2rem;">
+					<h3 style="color: #1e3c72; font-size: 1.5rem; margin-bottom: 0.5rem; text-align: center; font-weight: 700;">
+						${currentTopic.topic_en}
+					</h3>
+					<p class="arabic-text" style="color: #666; font-size: 1.2rem; margin-bottom: 2rem; text-align: center; font-weight: 500; direction: rtl;">
+						${currentTopic.topic_ar}
+					</p>
+					${promptsHtml}
+				</div>
+
+				<!-- Navigation -->
+				<div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+					<button 
+						class="nav-drill-button" 
+						onclick="goToPreviousTopic()" 
+						${currentTopicIndex === 0 ? 'disabled style="opacity: 0.5; cursor: not-allowed;"' : ''}
+						style="padding: 0.75rem 1.5rem; background: #4a90e2; color: white; border: none; border-radius: 0.5rem; cursor: pointer; font-weight: 600; font-size: 1rem; transition: all 0.2s;">
+						<span class="arabic-text">السابق</span>
+					</button>
+					<div style="text-align: center; flex: 1;">
+						<p style="color: #1e3c72; background: rgba(255, 255, 255, 0.95); padding: 0.5rem 1rem; border-radius: 0.5rem; font-size: 0.95rem; margin: 0; font-weight: 600; display: inline-block; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">
+							<span class="arabic-text">الموضوع</span> ${currentTopicIndex + 1} / ${totalTopics}
+						</p>
+					</div>
+					<button 
+						class="nav-drill-button" 
+						onclick="goToNextTopic()" 
+						${currentTopicIndex === totalTopics - 1 ? 'disabled style="opacity: 0.5; cursor: not-allowed;"' : ''}
+						style="padding: 0.75rem 1.5rem; background: #4a90e2; color: white; border: none; border-radius: 0.5rem; cursor: pointer; font-weight: 600; font-size: 1rem; transition: all 0.2s;">
+						<span class="arabic-text">التالي</span>
+					</button>
+				</div>
+			</section>
+		`;
+	}
+
 	// Display all drill sections
 	function displayAllDrills() {
 		const content = document.getElementById("examDrillsContent");
 		let html = "";
 
+		// Add sentence drill sections first
 		Object.keys(shuffledDrills).forEach(drillKey => {
 			html += displayDrillSection(drillKey, shuffledDrills[drillKey]);
 		});
+
+		// Add divider before questions section
+		html += `
+			<div style="max-width: 900px; margin: 4rem auto 3rem; border-top: 4px solid #4a90e2; position: relative;">
+				<div style="position: absolute; top: -15px; left: 50%; transform: translateX(-50%); background: white; padding: 0 1.5rem;">
+					<span style="color: #4a90e2; font-size: 1.2rem; font-weight: 700;">━━━</span>
+				</div>
+			</div>
+		`;
+
+		// Add questions section at the bottom
+		html += displayQuestionsSection();
 
 		content.innerHTML = html;
 	}
@@ -227,14 +382,74 @@ title: تمارين الامتحان
 		}
 	}
 
+	// Navigate to previous topic
+	function goToPreviousTopic() {
+		if (currentTopicIndex > 0) {
+			currentTopicIndex--;
+			displayAllDrills();
+		}
+	}
+
+	// Navigate to next topic
+	function goToNextTopic() {
+		if (currentTopicIndex < shuffledTopics.length - 1) {
+			currentTopicIndex++;
+			displayAllDrills();
+		}
+	}
+
+	// Toggle prompt visibility by index
+	function togglePromptByIndex(topicId, promptIndex) {
+		const currentTopic = shuffledTopics[currentTopicIndex];
+		if (!currentTopic) return;
+		
+		const promptKeys = Object.keys(currentTopic.prompts);
+		const promptKey = promptKeys[promptIndex];
+		
+		if (!promptKey) return;
+		
+		if (!revealedPrompts[topicId]) {
+			revealedPrompts[topicId] = {};
+		}
+		revealedPrompts[topicId][promptKey] = !revealedPrompts[topicId][promptKey];
+		
+		const promptElement = document.getElementById(`prompt-${topicId}-${promptIndex}`);
+		const button = document.querySelector(`[data-topic-id="${topicId}"][data-prompt-index="${promptIndex}"]`);
+		
+		if (promptElement) {
+			if (revealedPrompts[topicId][promptKey]) {
+				promptElement.style.visibility = 'visible';
+				promptElement.style.opacity = '1';
+				promptElement.style.maxHeight = '200px';
+				if (button) {
+					button.style.background = '#666';
+					button.querySelector('.arabic-text').textContent = 'إخفاء';
+				}
+			} else {
+				promptElement.style.visibility = 'hidden';
+				promptElement.style.opacity = '0';
+				promptElement.style.maxHeight = '0';
+				if (button) {
+					button.style.background = '#4a90e2';
+					button.querySelector('.arabic-text').textContent = 'إظهار';
+				}
+			}
+		} else {
+			displayAllDrills();
+		}
+	}
+
 	// Make functions globally accessible
 	window.goToPreviousSentence = goToPreviousSentence;
 	window.goToNextSentence = goToNextSentence;
 	window.toggleSolution = toggleSolution;
+	window.goToPreviousTopic = goToPreviousTopic;
+	window.goToNextTopic = goToNextTopic;
+	window.togglePromptByIndex = togglePromptByIndex;
 
 	// Load and display drills on page load
 	(async function() {
-		await loadExamDrills();
+		await Promise.all([loadExamDrills(), loadQuestions()]);
 		if (examDrillsData) {
 			displayAllDrills();
 		}
@@ -259,6 +474,16 @@ title: تمارين الامتحان
 	}
 
 	.reveal-solution-button:active {
+		transform: translateY(0);
+	}
+
+	.reveal-prompt-button:hover {
+		background: #357abd !important;
+		transform: translateY(-2px);
+		box-shadow: 0 4px 12px rgba(74, 144, 226, 0.3);
+	}
+
+	.reveal-prompt-button:active {
 		transform: translateY(0);
 	}
 

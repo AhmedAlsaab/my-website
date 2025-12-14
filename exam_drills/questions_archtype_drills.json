@@ -1,0 +1,83 @@
+{
+	"question_archetype_drill": {
+		"key_reminder_en": [
+			"Use the same safe question frames every time.",
+			"Memorise these frames: What do you…? / Do you like…? / Where do you…? / Who do you… with? / When do you…? / How do you…?",
+			"Ask 3–5 questions only. One follow-up is enough."
+		],
+		"key_reminder_ar": [
+			"استخدم نفس قوالب الأسئلة دائماً.",
+			"احفظ القوالب: What do you…? / Do you like…? / Where do you…? / Who do you… with? / When do you…? / How do you…?",
+			"اسأل 3–5 أسئلة فقط. سؤال متابعة واحد يكفي."
+		],
+		"instructions_en": [
+			"Pick ONE topic.",
+			"Use the prompts to build questions.",
+			"Say the questions out loud.",
+			"Stop after 3–5 questions."
+		],
+		"instructions_ar": [
+			"اختار موضوع واحد فقط.",
+			"استخدم الكلمات حتى تكوّن أسئلة.",
+			"اقرأ الأسئلة بصوت عالي.",
+			"وقف بعد 3–5 أسئلة."
+		],
+		"topics": [
+			{
+				"topic_en": "Neighbours",
+				"topic_ar": "الجيران",
+				"prompts": {
+					"WHAT": "What do your neighbours do?",
+					"DO YOU LIKE": "Do you like your neighbours?",
+					"WHERE": "Where do your neighbours live?",
+					"WHO (with)": "Who do you talk to in your neighbourhood?",
+					"WHEN": "When do you see your neighbours?"
+				}
+			},
+			{
+				"topic_en": "Reading",
+				"topic_ar": "القراءة",
+				"prompts": {
+					"WHAT": "What do you read?",
+					"DO YOU LIKE": "Do you like reading?",
+					"WHERE": "Where do you read?",
+					"WHEN": "When do you read?",
+					"HOW": "How do you read (book or phone)?"
+				}
+			},
+			{
+				"topic_en": "Learning English",
+				"topic_ar": "تعلم الإنكليزي",
+				"prompts": {
+					"HOW": "How do you learn English?",
+					"WHEN": "When do you study English?",
+					"WHERE": "Where do you study English?",
+					"WHAT": "What do you do to learn English?",
+					"DO YOU LIKE": "Do you like learning English?"
+				}
+			},
+			{
+				"topic_en": "Weekend plans",
+				"topic_ar": "عطلة نهاية الأسبوع",
+				"prompts": {
+					"WHAT": "What do you do at the weekend?",
+					"WHERE": "Where do you go at the weekend?",
+					"WHO (with)": "Who do you go with?",
+					"DO YOU LIKE": "Do you like the weekend?",
+					"WHEN": "When do you go out?"
+				}
+			},
+			{
+				"topic_en": "Parties and festivals",
+				"topic_ar": "الحفلات والمهرجانات",
+				"prompts": {
+					"DO YOU LIKE": "Do you like parties?",
+					"WHAT": "What do you do at a party?",
+					"WHERE": "Where do you go for festivals?",
+					"WHO (with)": "Who do you go with?",
+					"WHEN": "When is an important festival in your country?"
+				}
+			}
+		]
+	}
+}
