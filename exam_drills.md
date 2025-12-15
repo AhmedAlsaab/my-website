@@ -224,13 +224,17 @@ title: تمارين الامتحان
 			return "";
 		}
 
-		const promptKeys = Object.keys(currentTopic.prompts);
+		// Standard prompt order
+		const standardOrder = ["WHAT", "DO YOU LIKE", "WHERE", "WHO (with)", "WHEN", "HOW"];
+		const promptKeys = standardOrder.filter(key => currentTopic.prompts[key]);
 		const topicId = `topic-${currentTopicIndex}`;
 
 		let promptsHtml = "";
 		promptKeys.forEach((promptKey, index) => {
 			const isRevealed = revealedPrompts[topicId] && revealedPrompts[topicId][promptKey] || false;
-			const question = currentTopic.prompts[promptKey];
+			const promptData = currentTopic.prompts[promptKey];
+			const questionEn = typeof promptData === 'string' ? promptData : promptData.en;
+			const questionAr = typeof promptData === 'object' && promptData.ar ? promptData.ar : '';
 			const promptId = `prompt-${topicId}-${index}`;
 			
 			promptsHtml += `
@@ -250,10 +254,15 @@ title: تمارين الامتحان
 							<span class="arabic-text">${isRevealed ? 'إخفاء' : 'إظهار'}</span>
 						</button>
 					</div>
-					<div id="${promptId}" style="margin-top: 1rem; padding-top: 1rem; border-top: 1px solid rgba(74, 144, 226, 0.2); visibility: ${isRevealed ? 'visible' : 'hidden'}; opacity: ${isRevealed ? '1' : '0'}; transition: opacity 0.3s ease, visibility 0.3s ease; max-height: ${isRevealed ? '200px' : '0'}; overflow: hidden;">
-						<p style="font-size: 1.1rem; color: #28a745; line-height: 1.6; margin: 0; font-weight: 500;">
-							${question}
+					<div id="${promptId}" style="margin-top: 1rem; padding-top: 1rem; border-top: 1px solid rgba(74, 144, 226, 0.2); visibility: ${isRevealed ? 'visible' : 'hidden'}; opacity: ${isRevealed ? '1' : '0'}; transition: opacity 0.3s ease, visibility 0.3s ease; max-height: ${isRevealed ? '300px' : '0'}; overflow: hidden;">
+						<p style="font-size: 1.1rem; color: #28a745; line-height: 1.6; margin: 0 0 ${questionAr ? '0.75rem' : '0'} 0; font-weight: 500;">
+							${questionEn}
 						</p>
+						${questionAr ? `
+							<p class="arabic-text" style="font-size: 1rem; color: #2a5298; line-height: 1.6; margin: 0; direction: rtl; text-align: right;">
+								${questionAr}
+							</p>
+						` : ''}
 					</div>
 				</div>
 			`;
@@ -324,9 +333,11 @@ title: تمارين الامتحان
 		const content = document.getElementById("examDrillsContent");
 		let html = "";
 
-		// Add sentence drill sections first
+		// Add sentence drill sections first (excluding present_drills)
 		Object.keys(shuffledDrills).forEach(drillKey => {
-			html += displayDrillSection(drillKey, shuffledDrills[drillKey]);
+			if (drillKey !== 'present_drills') {
+				html += displayDrillSection(drillKey, shuffledDrills[drillKey]);
+			}
 		});
 
 		// Add divider before questions section
@@ -403,7 +414,9 @@ title: تمارين الامتحان
 		const currentTopic = shuffledTopics[currentTopicIndex];
 		if (!currentTopic) return;
 		
-		const promptKeys = Object.keys(currentTopic.prompts);
+		// Standard prompt order
+		const standardOrder = ["WHAT", "DO YOU LIKE", "WHERE", "WHO (with)", "WHEN", "HOW"];
+		const promptKeys = standardOrder.filter(key => currentTopic.prompts[key]);
 		const promptKey = promptKeys[promptIndex];
 		
 		if (!promptKey) return;
@@ -420,7 +433,7 @@ title: تمارين الامتحان
 			if (revealedPrompts[topicId][promptKey]) {
 				promptElement.style.visibility = 'visible';
 				promptElement.style.opacity = '1';
-				promptElement.style.maxHeight = '200px';
+				promptElement.style.maxHeight = '300px';
 				if (button) {
 					button.style.background = '#666';
 					button.querySelector('.arabic-text').textContent = 'إخفاء';

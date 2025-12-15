@@ -27,55 +27,338 @@
 				"topic_en": "Neighbours",
 				"topic_ar": "الجيران",
 				"prompts": {
-					"WHAT": "What do your neighbours do?",
-					"DO YOU LIKE": "Do you like your neighbours?",
-					"WHERE": "Where do your neighbours live?",
-					"WHO (with)": "Who do you talk to in your neighbourhood?",
-					"WHEN": "When do you see your neighbours?"
+					"WHAT": {
+						"en": "What do your neighbours do?",
+						"ar": "شنو يسوون جيرانك؟"
+					},
+					"DO YOU LIKE": {
+						"en": "Do you like your neighbours?",
+						"ar": "تحب جيرانك؟"
+					},
+					"WHERE": {
+						"en": "Where do your neighbours live?",
+						"ar": "وين يسكنون جيرانك؟"
+					},
+					"WHO (with)": {
+						"en": "Who do you talk to in your neighbourhood?",
+						"ar": "ويا من تحچي بالحي؟"
+					},
+					"WHEN": {
+						"en": "When do you see your neighbours?",
+						"ar": "متى تشوف جيرانك؟"
+					}
 				}
 			},
 			{
 				"topic_en": "Reading",
 				"topic_ar": "القراءة",
 				"prompts": {
-					"WHAT": "What do you read?",
-					"DO YOU LIKE": "Do you like reading?",
-					"WHERE": "Where do you read?",
-					"WHEN": "When do you read?",
-					"HOW": "How do you read (book or phone)?"
+					"WHAT": {
+						"en": "What do you read?",
+						"ar": "شنو تقرأ؟"
+					},
+					"DO YOU LIKE": {
+						"en": "Do you like reading?",
+						"ar": "تحب القراءة؟"
+					},
+					"WHERE": {
+						"en": "Where do you read?",
+						"ar": "وين تقرأ؟"
+					},
+					"WHO (with)": {
+						"en": "Who do you read with?",
+						"ar": "ويا من تقرأ؟"
+					},
+					"WHEN": {
+						"en": "When do you read?",
+						"ar": "متى تقرأ؟"
+					}
 				}
 			},
 			{
 				"topic_en": "Learning English",
 				"topic_ar": "تعلم الإنكليزي",
 				"prompts": {
-					"HOW": "How do you learn English?",
-					"WHEN": "When do you study English?",
-					"WHERE": "Where do you study English?",
-					"WHAT": "What do you do to learn English?",
-					"DO YOU LIKE": "Do you like learning English?"
+					"WHAT": {
+						"en": "What do you do to learn English?",
+						"ar": "شنو تسوي عشان تتعلم إنكليزي؟"
+					},
+					"DO YOU LIKE": {
+						"en": "Do you like learning English?",
+						"ar": "تحب تتعلم إنكليزي؟"
+					},
+					"WHERE": {
+						"en": "Where do you study English?",
+						"ar": "وين تدرس إنكليزي؟"
+					},
+					"WHO (with)": {
+						"en": "Who do you study English with?",
+						"ar": "ويا من تدرس إنكليزي؟"
+					},
+					"WHEN": {
+						"en": "When do you study English?",
+						"ar": "متى تدرس إنكليزي؟"
+					}
 				}
 			},
 			{
 				"topic_en": "Weekend plans",
 				"topic_ar": "عطلة نهاية الأسبوع",
 				"prompts": {
-					"WHAT": "What do you do at the weekend?",
-					"WHERE": "Where do you go at the weekend?",
-					"WHO (with)": "Who do you go with?",
-					"DO YOU LIKE": "Do you like the weekend?",
-					"WHEN": "When do you go out?"
+					"WHAT": {
+						"en": "What do you do at the weekend?",
+						"ar": "شنو تسوي بعطلة نهاية الأسبوع؟"
+					},
+					"DO YOU LIKE": {
+						"en": "Do you like the weekend?",
+						"ar": "تحب عطلة نهاية الأسبوع؟"
+					},
+					"WHERE": {
+						"en": "Where do you go at the weekend?",
+						"ar": "وين تروح بعطلة نهاية الأسبوع؟"
+					},
+					"WHO (with)": {
+						"en": "Who do you go with?",
+						"ar": "ويا من تروح؟"
+					},
+					"WHEN": {
+						"en": "When do you go out?",
+						"ar": "متى تطلع؟"
+					}
 				}
 			},
 			{
 				"topic_en": "Parties and festivals",
 				"topic_ar": "الحفلات والمهرجانات",
 				"prompts": {
-					"DO YOU LIKE": "Do you like parties?",
-					"WHAT": "What do you do at a party?",
-					"WHERE": "Where do you go for festivals?",
-					"WHO (with)": "Who do you go with?",
-					"WHEN": "When is an important festival in your country?"
+					"WHAT": {
+						"en": "What do you do at a party?",
+						"ar": "شنو تسوي بالحفلة؟"
+					},
+					"DO YOU LIKE": {
+						"en": "Do you like parties?",
+						"ar": "تحب الحفلات؟"
+					},
+					"WHERE": {
+						"en": "Where do you go for parties?",
+						"ar": "وين تروح للحفلات؟"
+					},
+					"WHO (with)": {
+						"en": "Who do you go with?",
+						"ar": "ويا من تروح؟"
+					},
+					"WHEN": {
+						"en": "When is an important party in your country?",
+						"ar": "متى يكون حفلة مهمة ببلدك؟"
+					}
+				}
+			},
+			{
+				"topic_en": "Food and meals",
+				"topic_ar": "الطعام والوجبات",
+				"prompts": {
+					"WHAT": {
+						"en": "What do you eat for breakfast?",
+						"ar": "شنو تاكل على الفطور؟"
+					},
+					"DO YOU LIKE": {
+						"en": "Do you like breakfast?",
+						"ar": "تحب الفطور؟"
+					},
+					"WHERE": {
+						"en": "Where do you eat breakfast?",
+						"ar": "وين تاكل الفطور؟"
+					},
+					"WHO (with)": {
+						"en": "Who do you eat breakfast with?",
+						"ar": "ويا من تاكل الفطور؟"
+					},
+					"WHEN": {
+						"en": "When do you have breakfast?",
+						"ar": "متى تاكل الفطور؟"
+					}
+				}
+			},
+			{
+				"topic_en": "Family",
+				"topic_ar": "العائلة",
+				"prompts": {
+					"WHAT": {
+						"en": "What do your family members do?",
+						"ar": "شنو يسوون أفراد عائلتك؟"
+					},
+					"DO YOU LIKE": {
+						"en": "Do you like your family?",
+						"ar": "تحب عائلتك؟"
+					},
+					"WHERE": {
+						"en": "Where does your family live?",
+						"ar": "وين تسكن عائلتك؟"
+					},
+					"WHO (with)": {
+						"en": "Who do you live with?",
+						"ar": "ويا من تسكن؟"
+					},
+					"WHEN": {
+						"en": "When do you see your family?",
+						"ar": "متى تشوف عائلتك؟"
+					}
+				}
+			},
+			{
+				"topic_en": "Shopping",
+				"topic_ar": "التسوق",
+				"prompts": {
+					"WHAT": {
+						"en": "What do you buy?",
+						"ar": "شنو تشتري؟"
+					},
+					"DO YOU LIKE": {
+						"en": "Do you like shopping?",
+						"ar": "تحب التسوق؟"
+					},
+					"WHERE": {
+						"en": "Where do you go shopping?",
+						"ar": "وين تروح للتسوق؟"
+					},
+					"WHO (with)": {
+						"en": "Who do you go shopping with?",
+						"ar": "ويا من تروح للتسوق؟"
+					},
+					"WHEN": {
+						"en": "When do you go shopping?",
+						"ar": "متى تروح للتسوق؟"
+					}
+				}
+			},
+			{
+				"topic_en": "Weather",
+				"topic_ar": "الطقس",
+				"prompts": {
+					"WHAT": {
+						"en": "What is the weather like today?",
+						"ar": "شلون الطقس اليوم؟"
+					},
+					"DO YOU LIKE": {
+						"en": "Do you like cold weather?",
+						"ar": "تحب الطقس البارد؟"
+					},
+					"WHERE": {
+						"en": "Where do you go when it's hot?",
+						"ar": "وين تروح لما يكون حار؟"
+					},
+					"WHO (with)": {
+						"en": "Who do you go with when it's cold?",
+						"ar": "ويا من تروح لما يكون بارد؟"
+					},
+					"WHEN": {
+						"en": "When is it cold?",
+						"ar": "متى يكون بارد؟"
+					}
+				}
+			},
+			{
+				"topic_en": "Sports",
+				"topic_ar": "الرياضة",
+				"prompts": {
+					"WHAT": {
+						"en": "What sports do you play?",
+						"ar": "شنو رياضة تلعب؟"
+					},
+					"DO YOU LIKE": {
+						"en": "Do you like sports?",
+						"ar": "تحب الرياضة؟"
+					},
+					"WHERE": {
+						"en": "Where do you play sports?",
+						"ar": "وين تلعب رياضة؟"
+					},
+					"WHO (with)": {
+						"en": "Who do you play sports with?",
+						"ar": "ويا من تلعب رياضة؟"
+					},
+					"WHEN": {
+						"en": "When do you play sports?",
+						"ar": "متى تلعب رياضة؟"
+					}
+				}
+			},
+			{
+				"topic_en": "Driving",
+				"topic_ar": "القيادة",
+				"prompts": {
+					"WHAT": {
+						"en": "What do you drive?",
+						"ar": "شنو تسوق؟"
+					},
+					"DO YOU LIKE": {
+						"en": "Do you like driving?",
+						"ar": "تحب القيادة؟"
+					},
+					"WHERE": {
+						"en": "Where do you drive?",
+						"ar": "وين تسوق؟"
+					},
+					"WHO (with)": {
+						"en": "Who do you drive with?",
+						"ar": "ويا من تسوق؟"
+					},
+					"WHEN": {
+						"en": "When do you drive?",
+						"ar": "متى تسوق؟"
+					}
+				}
+			},
+			{
+				"topic_en": "School",
+				"topic_ar": "المدرسة",
+				"prompts": {
+					"WHAT": {
+						"en": "What do you do at school?",
+						"ar": "شنو تسوي بالمدرسة؟"
+					},
+					"DO YOU LIKE": {
+						"en": "Do you like school?",
+						"ar": "تحب المدرسة؟"
+					},
+					"WHERE": {
+						"en": "Where do you go to school?",
+						"ar": "وين تروح للمدرسة؟"
+					},
+					"WHO (with)": {
+						"en": "Who do you go to school with?",
+						"ar": "ويا من تروح للمدرسة؟"
+					},
+					"WHEN": {
+						"en": "When do you go to school?",
+						"ar": "متى تروح للمدرسة؟"
+					}
+				}
+			},
+			{
+				"topic_en": "Free time",
+				"topic_ar": "وقت الفراغ",
+				"prompts": {
+					"WHAT": {
+						"en": "What do you do in your free time?",
+						"ar": "شنو تسوي بوقت فراغك؟"
+					},
+					"DO YOU LIKE": {
+						"en": "Do you like having free time?",
+						"ar": "تحب وقت الفراغ؟"
+					},
+					"WHERE": {
+						"en": "Where do you spend your free time?",
+						"ar": "وين تقضي وقت فراغك؟"
+					},
+					"WHO (with)": {
+						"en": "Who do you spend your free time with?",
+						"ar": "ويا من تقضي وقت فراغك؟"
+					},
+					"WHEN": {
+						"en": "When do you have free time?",
+						"ar": "متى يكون عندك وقت فراغ؟"
+					}
 				}
 			}
 		]
